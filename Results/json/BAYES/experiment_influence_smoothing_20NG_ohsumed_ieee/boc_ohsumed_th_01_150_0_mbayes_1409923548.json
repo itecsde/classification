@@ -1,0 +1,1 @@
+{"f1_score": 0.43699187305271531, "weighting": "milne", "train": 150, "expansion_relatedness": null, "threshold": 0.01, "expanded_weighting": null, "tfidf": false, "smoothing": 0.05, "expansion_threshold": null, "stemming": "porter", "classify_method": "mbayes", "test": 0, "representation": "BoC", "corpus": "ohsumed"}

@@ -1,0 +1,1 @@
+{"f1_score": 0.59923246540149866, "weighting": "milne", "train": 150, "expansion_relatedness": null, "threshold": 0.01, "expanded_weighting": null, "tfidf": false, "smoothing": 0.1, "expansion_threshold": null, "stemming": "porter", "classify_method": "mbayes", "test": 0, "representation": "BoC", "corpus": "20_newsgroup"}

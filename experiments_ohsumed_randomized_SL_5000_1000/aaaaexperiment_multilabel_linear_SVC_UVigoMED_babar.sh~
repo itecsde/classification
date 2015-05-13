@@ -1,0 +1,10 @@
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 5 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 10 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 20 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 50 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 100 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 200 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 500 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 1000 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 2000 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC
+python classify.py -corpus boc_uvigomed_multilabel -method multilabel -train 5000 -test 1000 -metric cosine -destination_folder linear_multilabel_SVC_uvigomed_multilabel -algorithm linear_SVC

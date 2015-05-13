@@ -1,0 +1,1 @@
+{"f1_score": 0.26025018259629545, "weighting": "milne", "train": 10000, "expansion_relatedness": null, "threshold": 0.5, "expanded_weighting": null, "tfidf": false, "smoothing": 0.001, "expansion_threshold": null, "stemming": "porter", "classify_method": "mbayes", "KBest": 3000, "test": 0, "representation": "BoC", "corpus": "reuters_21578"}

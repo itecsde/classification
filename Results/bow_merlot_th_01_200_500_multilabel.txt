@@ -1,0 +1,60 @@
+---- EXPERIMENT DETAILS ----
+CORPUS: merlot
+REPRESENTATION: BoW
+THRESHOLD: 0.01
+CLASSIFY METHOD: multilabel
+METRIC: cosine
+TFIDF: no
+STEMMING: porter
+SMOOTHING: 0.001
+WEIGHTING: milne
+ALGORITHM: linear_SVC
+#TRAIN: 200
+#TEST: 500
+
+Obteniendo documents de training y de testing...
+--- METODO: get_documents_from_multilabel_database_bow() ---
+Obteniendo documents de training de una parte del corpus bow_merlot
+Obteniendo documents de test de una parte del corpus bow_merlot
+--- METODO: get_unique_words_bow() ---
+----- ALGORITMO Multilabel ------
+Creando Vectores de training...
+Creando Vectores features de training...
+Entrenando clasificador Multilabel
+Clasificando en categorias los documentos de test (Prediccion)
+Metricas:
+----------------
+Hamming Loss:
+0.134666666667
+
+Accuracy:
+0.226
+
+Precision:
+0.474480585096
+
+Recall:
+0.294612794613
+
+Classification Report:
+                            precision    recall  f1-score   support
+
+                      Arts       0.25      0.06      0.10        16
+ Academic Support Services       0.44      0.18      0.26        60
+                  Business       0.19      0.07      0.11        54
+                Humanities       0.36      0.19      0.25        84
+Mathematics and Statistics       0.62      0.17      0.27        46
+    Science and Technology       0.65      0.47      0.54       200
+     Workforce Development       0.75      0.36      0.49        25
+                 Education       0.37      0.38      0.37        80
+           Social Sciences       0.18      0.10      0.13        29
+
+               avg / total       0.47      0.29      0.35       594
+
+F1-score
+0.279407327849
+----------------
+F1_SCORE (Macro): 0.279407327849
+Precision: 0.474480585096
+Recall: 0.294612794613
+---- Fin ejecucion ----

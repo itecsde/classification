@@ -1,0 +1,2 @@
+python classify.py -corpus bow_ohsumed_multilabel -method multilabel -train 0 -test 0 -metric cosine -destination_folder linear_multilabel_SVC_ohsumed_multilabel_23_cats_personal -algorithm linear_SVC
+python classify.py -corpus boc_ohsumed_multilabel -method multilabel -train 0 -test 0 -metric cosine -destination_folder linear_multilabel_SVC_ohsumed_multilabel_23_cats_personal -algorithm linear_SVC

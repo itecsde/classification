@@ -1,0 +1,1 @@
+{"f1_score": 0.26970915772548903, "tfidf": false, "n_neighbors": 100, "test": 0, "metric": "cosine", "smoothing": 0.001, "expansion_threshold": 0.8, "weighting": "milne", "train": 500, "stemming": "porter", "classify_method": "kneighbors", "KBest": 0, "expansion_relatedness": 0.8, "threshold": 0.01, "representation": "BoC", "corpus": "ohsumed_expanded", "expanded_weighting": 0.1}

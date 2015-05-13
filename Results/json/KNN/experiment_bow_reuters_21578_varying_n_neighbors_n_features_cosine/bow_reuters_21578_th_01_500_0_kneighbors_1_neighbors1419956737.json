@@ -1,0 +1,1 @@
+{"f1_score": 0.23686983642095702, "tfidf": false, "n_neighbors": 1, "test": 0, "metric": "cosine", "smoothing": 0.001, "expansion_threshold": null, "weighting": "milne", "train": 500, "stemming": "porter", "classify_method": "kneighbors", "KBest": 50, "expansion_relatedness": null, "threshold": 0.01, "representation": "BoW", "corpus": "reuters_21578", "expanded_weighting": null}
