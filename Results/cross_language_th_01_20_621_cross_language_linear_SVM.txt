@@ -1,0 +1,37 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: wikipedia_english
+CORPUS TEST: wikipedia_english
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 20
+#TEST: 621
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_wikipedia_english
+Obtaining test documents from a part of corpus boc_wikipedia_english
+(2429L, 'Mathematics and logic', [('X-ray computed tomography', 0.861234), ('Sternum', 0.832941), ('Thorax', 0.754651), ('Human', 0.722947), ('Spinal vertebra', 0.551693), ('Rib cage', 0.533837), ('In vivo', 0.532491), ('Transverse plane', 0.309929), ('Diagnosis', 0.242407), ('Anatomical terms of location', 0.220476), ('Pectus excavatum', 0.198912), ('Thoracic cavity', 0.149429), ('Ellipse', 0.131186), ('Mathematics', 0.0370044), ('Ratio', 0.0370044), ('Magnetic resonance imaging', 0.029746), ('99 Cent II Diptychon', 0.0168623), ('Binary relation', 0.0147415), ('Normal distribution', 0.0147415), ('Wall', 0.0147415), ('Horizontal plane', 0.0147415), ('Cosmo Kramer', 0.0147415), ('Deformity', 0.0147415), ('Diameter', 0.0136738)])
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                       precision    recall  f1-score   support
+
+ Culture and the arts       0.65      0.55      0.59       194
+ Geography and places       0.69      0.60      0.64       179
+Mathematics and logic       0.65      0.79      0.72       248
+
+          avg / total       0.66      0.66      0.66       621
+
+F1_SCORE (Macro): 0.651541126171
+Precision: 0.66284317743
+Recall: 0.661835748792
+---- Execution End ----
