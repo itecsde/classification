@@ -12,49 +12,13 @@ ALGORITHM: linear_SVC
 #TRAIN: 5000
 #TEST: 500
 
-Obteniendo documents de training y de testing...
---- METODO: get_documents_from_multilabel_database_bow() ---
-Obteniendo documents de training de una parte del corpus bow_merlot
-Obteniendo documents de test de una parte del corpus bow_merlot
---- METODO: get_unique_words_bow() ---
------ ALGORITMO Multilabel ------
-Creando Vectores de training...
-Creando Vectores features de training...
-Entrenando clasificador Multilabel
-Clasificando en categorias los documentos de test (Prediccion)
-Metricas:
-----------------
-Hamming Loss:
-0.103333333333
-
-Accuracy:
-0.432
-
-Precision:
-0.615031094775
-
-Recall:
-0.621212121212
-
-Classification Report:
-                            precision    recall  f1-score   support
-
-                      Arts       0.18      0.25      0.21        16
- Academic Support Services       0.53      0.53      0.53        60
-                  Business       0.61      0.63      0.62        54
-                Humanities       0.62      0.60      0.61        84
-Mathematics and Statistics       0.66      0.54      0.60        46
-    Science and Technology       0.77      0.78      0.77       200
-     Workforce Development       0.52      0.56      0.54        25
-                 Education       0.50      0.54      0.52        80
-           Social Sciences       0.31      0.38      0.34        29
-
-               avg / total       0.62      0.62      0.62       594
-
-F1-score
-0.525836564786
-----------------
-F1_SCORE (Macro): 0.525836564786
-Precision: 0.615031094775
-Recall: 0.621212121212
----- Fin ejecucion ----
+Getting train and test documents...
+--- METHOD: get_documents_from_multilabel_database_bow() ---
+metadata: yes
+freq: 21
+Obtaining training documents from a part of the corpus bow_merlot
+Obtaining test documents from complete corpus bow_merlot
+--- METHOD: get_unique_words_bow() ---
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...

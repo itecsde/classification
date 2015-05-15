@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 cd ..
 
 python classify.py -corpus bow_merlot -method multilabel -train 5 -test 500 -metric cosine -destination_folder linear_multilabel_SVC_merlot_multilabel_bow_metadata -algorithm linear_SVC

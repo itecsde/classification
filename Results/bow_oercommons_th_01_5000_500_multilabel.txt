@@ -15,7 +15,7 @@ ALGORITHM: linear_SVC
 Getting train and test documents...
 --- METHOD: get_documents_from_multilabel_database_bow() ---
 metadata: yes
-freq: 25
+freq: 30
 Obtaining training documents from a part of the corpus bow_oercommons
 Obtaining test documents from complete corpus bow_oercommons
 --- METHOD: get_unique_words_bow() ---

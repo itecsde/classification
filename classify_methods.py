@@ -20,7 +20,20 @@ WordFeatures = None
 DBSession = sessionmaker()
 Session = DBSession()
 
+
 def kneighbors(corpus,documents_training, documents_test, words_features, n_neighbors, metric, kbest):
+    """
+    KNeighbors Algorithm
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param n_neighbors:
+    :param metric:
+    :param kbest:
+    :return:
+    """
+
     print
     print "----- KNeighbours Algorithm ------"
     print "Creating Training Vectors..."
@@ -93,10 +106,19 @@ def kneighbors(corpus,documents_training, documents_test, words_features, n_neig
     return original_categories, estimated_categories
 
 
-    # Multinomial Naive Bayes
-    # Using  wrapper NLTK SklearnClassifier
-    # Memory problems can occur if very large dataset
 def multinomial_bayes_nltk_wrapper(corpus, documents_training, documents_test, words_features, smoothing, kbest):
+    """
+    Multinomial Naive Bayes Algorithm using wrapper NLTK SklearnClassifier
+    Memory problems can occur if very large dataset
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param smoothing:
+    :param kbest:
+    :return:
+    """
+
     print
     print "----- Multinomial Bayes with wrapper nltk Algorithm------"
     print "Creating Training Feature Vectors..."
@@ -128,10 +150,18 @@ def multinomial_bayes_nltk_wrapper(corpus, documents_training, documents_test, w
     return original_categories, estimated_categories
 
 
-# Multinomial Naive Bayes
-# Using only MultinomialNB sklearn library
-# Training in parts to avoid memory problems
 def multinomial_bayes_sklearn(corpus, documents_training, documents_test, words_features, smoothing):
+    """
+    Multinomial Naive Bayes sing only MultinomialNB sklearn library
+    Training in parts to avoid memory problems
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param smoothing:
+    :return:
+    """
+
     print "-----Multinomial Bayes sklearn pure algorithm------"
     categories = util_classify.get_categories(corpus)    
     classifier = MultinomialNB(alpha=smoothing)
@@ -169,8 +199,17 @@ def multinomial_bayes_sklearn(corpus, documents_training, documents_test, words_
     return original_categories, estimated_categories
 
 
-# Multilabel algorithm
 def multilabel(corpus, documents_training, documents_test, words_features,smoothing,algorithm):
+    """
+    Multilabel algorithm
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param smoothing:
+    :param algorithm:
+    :return:
+    """
 
     print "----- Multilabel Algorithm------"
     print "Creating Training Vectors..."
@@ -192,7 +231,7 @@ def multilabel(corpus, documents_training, documents_test, words_features,smooth
         # OERCOMMONS corpus -> 21 categories
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
-        vector_categories = np.zeros(21)
+        vector_categories = np.zeros(9)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
         vector_categories = np.array(vector_categories)
@@ -243,7 +282,7 @@ def multilabel(corpus, documents_training, documents_test, words_features,smooth
         # OERCOMMONS corpus -> 21 categories
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
-        vector_categories = np.zeros(21)
+        vector_categories = np.zeros(9)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
         vector_categories = np.array(vector_categories)
@@ -257,8 +296,18 @@ def multilabel(corpus, documents_training, documents_test, words_features,smooth
         
     return ground_truth_vector_categories, prediction
 
-# Support Vector Machines Algorithm
+
 def support_vector_machines(corpus, documents_training, documents_test, words_features, kernel):
+    """
+    Support Vector Machines Algorithm
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param kernel:
+    :return:
+    """
+
     print
     print "----- Support Vector Machines Algorithm------"
     print "Creating Training Vectors..."
@@ -292,8 +341,17 @@ def support_vector_machines(corpus, documents_training, documents_test, words_fe
         original_categories.append(categories.index(cat_original))
     return original_categories, estimated_categories
 
-# Linear Support Vector Machines Algorithm
-def linear_support_vector_machines(corpus, documents_training, documents_test, words_features):             
+
+def linear_support_vector_machines(corpus, documents_training, documents_test, words_features):
+    """
+    Linear Support Vector Machines Algorithm. The Support Vector Machines algorithm with a linear kernel
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :return:
+    """
+
     print
     print "----- Linear Support Vector Machines Algorithm------"
     print "Creating Training Vectors..."
@@ -328,7 +386,18 @@ def linear_support_vector_machines(corpus, documents_training, documents_test, w
     return original_categories, estimated_categories
 
 # Cross-Language Linear Support Vector Machines Algorithm
-def linear_support_vector_machines_cross_language(corpus_training, corpus_test, documents_training, documents_test, words_features):             
+def linear_support_vector_machines_cross_language(corpus_training, corpus_test, documents_training, documents_test, words_features):
+    """
+    Cross Language linear Support Vector Machines algorithm. The Support Vector Machines algorithm with a linear kernel.
+    An implementation of linear SVM to conduct cross-language experiments.
+    :param corpus_training:
+    :param corpus_test:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :return:
+    """
+
     print
     print "----- Cross-Language Support Vector Machines algorithm------"
     print "Creating Training Vectors..."
@@ -388,8 +457,18 @@ def linear_support_vector_machines_cross_language(corpus_training, corpus_test, 
 
     return original_categories, estimated_categories    
 
-# TF/IDF Linear Support Vector Machines Algorithm
+
 def linear_support_vector_machines_tf_idf(corpus, documents_training, documents_test, words_features, kbest):
+    """
+    Linear Support Vector Machines Algorithm. The Support Vector Machines algorithm with a linear kernel and using TF/IDF
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param kbest:
+    :return:
+    """
+
     print
     print "----- Linear Support Vector Machines with tfidf algorithm ------"
     print "Creating Features Training Vectors..."
@@ -424,8 +503,19 @@ def linear_support_vector_machines_tf_idf(corpus, documents_training, documents_
         original_categories.append(categories.index(cat_original))
     return original_categories, estimated_categories    
 
-# nu-Support Vector Machines Algorithm
+
 def nu_support_vector_machines(corpus, documents_training, documents_test, words_features, kernel, nu):
+    """
+    Another implementation of Support Vector Machines algorithm.
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param kernel:
+    :param nu:
+    :return:
+    """
+
     print
     print "----- nu-Support Vector Machines algorithm ------"
     print "Creating Training Vectors..."

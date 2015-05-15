@@ -13,6 +13,11 @@ DBSession = sessionmaker()
 Session = DBSession()
 
 def set_database_session(corpus):
+    """
+    Sets a database session
+    :param corpus:
+    :return: An opened session with the database associate to the input :param corpus:
+    """
     global Sesionmaker, EngineDB, DBSession, Session
     
     if corpus == "boc_reuters_27000" or corpus == "bow_reuters_27000":
@@ -85,31 +90,85 @@ def set_database_session(corpus):
     Session = DBSession()
 
 def cosine_measure(v1,v2):
+    """
+    Calculates the cosine distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     return spatial.distance.cosine(v1,v2)
 
 def jaccard_measure(v1,v2):
+    """
+    Calculates the Jaccard distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     return spatial.distance.jaccard(v1,v2)
 
 def braycurtis_measure(v1,v2):
+    """
+    Calculates the Bray-Curtis distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     return spatial.distance.braycurtis(v1,v2)
 
 def euclidean_measure(v1,v2):
+    """
+    Calculates the euclidean distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     return spatial.distance.euclidean(v1,v2)
 
 def manhattan_measure(v1,v2):
+    """
+    Calculates the Manhattan distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     return spatial.distance.cityblock(v1,v2)
 
 def chebyshev_measure(v1,v2):
+    """
+    Calculates the Chebyshev distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     return spatial.distance.chebyshev(v1,v2)
 
 def seuclidean_measure(v1,v2):
+    """
+    Calculates the squared euclidean distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     V = np.var(v2)
     return spatial.distance.seuclidean(v1,v2,V)
 
 def minkowski_measure(v1,v2):
+    """
+    Calculates the Minkowski distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     return spatial.distance.minkowski(v1,v2,2)
 
 def mahalanobis_measure(v1,v2):
+    """
+    Calculates the Mahalanobis distance between two vectors v1 and v2).
+    :param v1:
+    :param v2:
+    :return:
+    """
     if (v1==v2).all() == True:
         return 0
     else:
@@ -118,10 +177,20 @@ def mahalanobis_measure(v1,v2):
         inverse_cov_matrix = pinv(cov_matrix) #pinv avoid errors when matrix are singular
         return spatial.distance.mahalanobis(v1,v2,inverse_cov_matrix)
 
-def get_categories(corpus): 
+def get_categories(corpus):
+    """
+    Returns an array with the categories of a single-labeled corpus.
+    :param corpus:
+    :return:
+    """
     return [category[0] for category in Session.query(Document.original_category).distinct()]              
 
 def get_multiple_categories(corpus):
+    """
+    Return an array of unique categories of a multi-labeled corpus.
+    :param corpus:
+    :return:
+    """
     categories = []
     for category in Session.query(Document.original_category).distinct():
         tokens = [x.strip() for x in category[0].split(',')]
@@ -131,6 +200,17 @@ def get_multiple_categories(corpus):
     return categories
 
 def get_document_annotations(annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting):
+    """
+    Returns the annotations of a document and its weight.
+    :param annotations:
+    :param weighting:
+    :param threshold:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param expanded_weighting:
+    :return:
+    """
+
     if expansion_threshold < 1:
         expansion = True
     else:
@@ -151,6 +231,20 @@ def get_document_annotations(annotations, weighting, threshold, expansion_thresh
     return aux_document_annotations
 
 def get_documents_from_database_boc(corpus, threshold, weighting, expansion_threshold, expansion_relatedness, num_documents_per_category_for_training ,expanded_weighting, num_documents_per_category_for_testing = 0):
+    """
+    Obtain the first BoC :param num_documents_per_category_for_training: training documents per category
+    and the first BoC :param num_documents_per_category_for_testing: test documents from the :param corpus: corpus.
+    :param corpus:
+    :param threshold:
+    :param weighting:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param num_documents_per_category_for_training:
+    :param expanded_weighting:
+    :param num_documents_per_category_for_testing:
+    :return:
+    """
+
     print "--- METHOD: get_documents_from_database_boc() ---"
     documents_train = []
     documents_test = []
@@ -177,12 +271,12 @@ def get_documents_from_database_boc(corpus, threshold, weighting, expansion_thre
         categories = get_categories(corpus)     
         # Training
         if num_documents_per_category_for_training == 0:
-            print "Obteniendo documents de training de todo el corpus " + corpus
+            print "Obtaining training documents from complete corpus " + corpus
             for document in Session.query(Document).filter(Document.cgisplit == "train"):
                 documents_train.append((document.id, document.original_category, get_document_annotations(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness)))                 
                 # documents_train.append((document.id, document.original_category, [(annotation.name,annotation.weight) for annotation in document.annotations if annotation.weight >= threshold]))
         else:
-            print "Obteniendo documents de training de una parte del corpus " + corpus
+            print "Obtaining training documents from a part of corpus " + corpus
             num_train = 0 
             for category in categories:
                 for document in Session.query(Document).filter(Document.original_category == category).filter(Document.cgisplit == "train"):
@@ -218,6 +312,21 @@ def get_documents_from_database_boc(corpus, threshold, weighting, expansion_thre
         return documents_train, documents_test
 
 def get_documents_from_cross_language_database_boc(corpus_training, corpus_test,threshold, weighting, expansion_threshold, expansion_relatedness, num_documents_for_training, expanded_weighting, num_documents_for_test):
+    """
+    Obtain :param num_documents_for_training: BoC random training documents from :param corpus_training: training corpus
+    and :param num_documents_for_test: BoC random test documents from :param corpus_test: test corpus
+    :param corpus_training:
+    :param corpus_test:
+    :param threshold:
+    :param weighting:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param num_documents_for_training:
+    :param expanded_weighting:
+    :param num_documents_for_test:
+    :return:
+    """
+
     print "--- Method: get_documents_from_cross_language_database_boc() ---"
 
     documents_train = []
@@ -265,6 +374,21 @@ def get_documents_from_cross_language_database_boc(corpus_training, corpus_test,
     return documents_train, documents_test
 
 def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,threshold, weighting, expansion_threshold, expansion_relatedness, num_documents_for_training, expanded_weighting, num_documents_for_test):
+    """
+    Obtain :param num_documents_for_training: BoW random training documents from :param corpus_training: training corpus
+    and :param num_documents_for_test: BoW random test documents from :param corpus_test: test corpus
+    :param corpus_training:
+    :param corpus_test:
+    :param threshold:
+    :param weighting:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param num_documents_for_training:
+    :param expanded_weighting:
+    :param num_documents_for_test:
+    :return:
+    """
+
     print "--- METHOD: get_documents_from_cross_language_database_bow() ---"
     
     stemmer = PorterStemmer()
@@ -307,6 +431,15 @@ def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,
     return documents_training, documents_test
 
 def get_documents_from_database_bow(corpus, num_documents_per_category_for_training,num_documents_per_category_for_test = 0):
+    """
+    Obtain the first BoW :param num_documents_per_category_for_training: training documents per category
+    and the first BoW :param num_documents_per_category_for_testing: test documents from the :param corpus: corpus.
+    :param corpus:
+    :param num_documents_per_category_for_training:
+    :param num_documents_per_category_for_test:
+    :return:
+    """
+
     print "--- METHOD: get_documents_from_database_bow() ---"
     
     stemmer = PorterStemmer()
@@ -378,6 +511,19 @@ def get_documents_from_database_bow(corpus, num_documents_per_category_for_train
         return documents_training, documents_test
 
 def get_documents_from_multilabel_database_boc(corpus,threshold, weighting, expansion_threshold, expansion_relatedness, num_documents_for_training, expanded_weighting, num_documents_for_test = 0):
+    """
+    Obtain :param num_documents_for_training: BoC random training documents from :param corpus: corpus
+    and :param num_documents_for_test: BoC random test documents from :param corpus: corpus
+    :param corpus:
+    :param threshold:
+    :param weighting:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param num_documents_for_training:
+    :param expanded_weighting:
+    :param num_documents_for_test:
+    :return:
+    """
     print "--- METHOD: get_documents_from_multilabel_database_boc() ---"
     documents_train = []
     documents_test = []
@@ -428,6 +574,16 @@ def add_metadata_to_document(document, metadata_freq):
     return document
 
 def get_documents_from_multilabel_database_bow(corpus, num_documents_for_training, metadata, metadata_freq, num_documents_for_test = 0):
+    """
+    Obtain :param num_documents_for_training: BoW random training documents from :param corpus: corpus
+    and :param num_documents_for_test: BoW random test documents from :param corpus: corpus
+    :param corpus:
+    :param num_documents_for_training:
+    :param metadata:
+    :param metadata_freq:
+    :param num_documents_for_test:
+    :return:
+    """
     print "--- METHOD: get_documents_from_multilabel_database_bow() ---"
     
     stemmer = PorterStemmer()
@@ -479,8 +635,12 @@ def get_documents_from_multilabel_database_bow(corpus, num_documents_for_trainin
     return documents_training, documents_test
 
 
-# Returns a list of unique words of all documents and the total weight of each
 def get_unique_words_boc(documents):
+    """
+    Returns a list of unique words of all documents and the total weight of each
+    :param documents:
+    :return:
+    """
     print "--- METHOD: get_unique_words_boc() ---"
     words_with_duplicates = []
     words_features = {}
@@ -502,8 +662,12 @@ def get_unique_words_boc(documents):
    
     return words_features
 
-# Returns a list of unique words of all documents and the number of appearances in total in all documents
 def get_unique_words_bow(documents):
+    """
+     Returns a list of unique words of all documents and the number of appearances in total in all documents
+    :param documents:
+    :return:
+    """
     print "--- METHOD: get_unique_words_bow() ---"
     words_with_duplicates = []
     words_features = {}    
@@ -518,8 +682,14 @@ def get_unique_words_bow(documents):
     return words_features
     
 
-# Transform the document into a weighted list of features
 def transform_document_in_vector(annotations, words_features,corpus):
+    """
+    Transform the document into a weighted list of features
+    :param annotations:
+    :param words_features:
+    :param corpus:
+    :return:
+    """
     document_vector = []    
     for annotation_name,total_weight in words_features.iteritems():
         if "boc" in corpus:        
@@ -528,8 +698,14 @@ def transform_document_in_vector(annotations, words_features,corpus):
             document_vector.append(annotations.count(annotation_name)) #/float(total_weight)
     return document_vector
 
-# Transform the document in a dictionary composed by the couples: word that refers and weight in the particular document.
 def transform_document_in_dict(annotations, words_features,corpus):
+    """
+    Transform the document in a dictionary composed by the couples: word that refers and weight in the particular document.
+    :param annotations:
+    :param words_features:
+    :param corpus:
+    :return:
+    """
     document_features = {}    
     for annotation_name,total_weight in words_features.iteritems():
         if "boc" in corpus:
@@ -539,12 +715,41 @@ def transform_document_in_dict(annotations, words_features,corpus):
     return document_features
 
 def get_annotation_weight(annotation_name, annotations):
+    """
+    Return the weight of an annotation.
+    :param annotation_name:
+    :param annotations:
+    :return:
+    """
     for (name, weight) in annotations:
         if name == annotation_name:
             return weight
     return 0
 
 def print_experiment_details(corpus, corpus_training, corpus_test, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf, stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, expanded_weighting, neighbors, metric, algorithm, kernel, nu):
+    """
+    Print the details of an experiment.
+    :param corpus:
+    :param corpus_training:
+    :param corpus_test:
+    :param threshold:
+    :param number_of_documents_for_training:
+    :param number_of_documents_for_testing:
+    :param classify_method:
+    :param tfidf:
+    :param stemming:
+    :param smoothing:
+    :param weighting:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param expanded_weighting:
+    :param neighbors:
+    :param metric:
+    :param algorithm:
+    :param kernel:
+    :param nu:
+    :return:
+    """
     print "---- EXPERIMENT DETAILS ----"
     if corpus == "cross_language":
         print "CORPUS TRAINING: " + corpus_training.replace("bow_", "").replace("boc_", "")
@@ -603,6 +808,30 @@ def print_experiment_details(corpus, corpus_training, corpus_test, threshold,num
     print
 
 def get_experiment_results(corpus, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf, stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score, expanded_weighting, kbest, n_neighbors, metric, kernel, nu, precision, recall):
+    """
+    Get the results of an experiment and write them into a .json file.
+    :param corpus:
+    :param threshold:
+    :param number_of_documents_for_training:
+    :param number_of_documents_for_testing:
+    :param classify_method:
+    :param tfidf:
+    :param stemming:
+    :param smoothing:
+    :param weighting:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param f1_score:
+    :param expanded_weighting:
+    :param kbest:
+    :param n_neighbors:
+    :param metric:
+    :param kernel:
+    :param nu:
+    :param precision:
+    :param recall:
+    :return:
+    """
     c_corpus = corpus.replace("bow_","").replace("boc_", "")
     if "bow" in corpus:
         c_representation = "BoW"
@@ -634,6 +863,31 @@ def get_experiment_results(corpus, threshold,number_of_documents_for_training, n
     return content
     
 def get_experiment_multilabel_results(corpus, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf ,stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score, expanded_weighting, kbest, n_neighbors, metric, hamming_loss, accuracy, precision, recall, algorithm):
+    """
+    Get the results of an multilabel experiment and write them into a .json file.
+    :param corpus:
+    :param threshold:
+    :param number_of_documents_for_training:
+    :param number_of_documents_for_testing:
+    :param classify_method:
+    :param tfidf:
+    :param stemming:
+    :param smoothing:
+    :param weighting:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param f1_score:
+    :param expanded_weighting:
+    :param kbest:
+    :param n_neighbors:
+    :param metric:
+    :param hamming_loss:
+    :param accuracy:
+    :param precision:
+    :param recall:
+    :param algorithm:
+    :return:
+    """
     c_corpus = corpus.replace("bow_","").replace("boc_","")
     if "bow" in corpus:
         c_representation = "BoW"
@@ -656,6 +910,32 @@ def get_experiment_multilabel_results(corpus, threshold,number_of_documents_for_
     
 
 def get_experiment_cross_language_results(corpus, corpus_training, corpus_test, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf, stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score, expanded_weighting, kbest, n_neighbors, metric, kernel, nu, precision, recall):
+    """
+    Get the results of an cross-language experiment and write them into a .json file.
+    :param corpus:
+    :param corpus_training:
+    :param corpus_test:
+    :param threshold:
+    :param number_of_documents_for_training:
+    :param number_of_documents_for_testing:
+    :param classify_method:
+    :param tfidf:
+    :param stemming:
+    :param smoothing:
+    :param weighting:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param f1_score:
+    :param expanded_weighting:
+    :param kbest:
+    :param n_neighbors:
+    :param metric:
+    :param kernel:
+    :param nu:
+    :param precision:
+    :param recall:
+    :return:
+    """
     c_corpus = corpus.replace("bow_","").replace("boc_","")
     c_corpus_training = corpus_training.replace("bow_","").replace("boc_","")
     c_corpus_test = corpus_test.replace("bow_","").replace("boc_","")
