@@ -862,7 +862,7 @@ def get_experiment_results(corpus, threshold,number_of_documents_for_training, n
     
     return content
     
-def get_experiment_multilabel_results(corpus, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf ,stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score, expanded_weighting, kbest, n_neighbors, metric, hamming_loss, accuracy, precision, recall, algorithm):
+def get_experiment_multilabel_results(corpus, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf ,stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score, expanded_weighting, kbest, n_neighbors, metric, hamming_loss, accuracy, precision, recall, algorithm, metadata_weight):
     """
     Get the results of an multilabel experiment and write them into a .json file.
     :param corpus:
@@ -904,7 +904,14 @@ def get_experiment_multilabel_results(corpus, threshold,number_of_documents_for_
         c_expansion_relatedness = None
         c_expanded_weighting = None
            
-    content = {'corpus': c_corpus, 'representation': c_representation, 'threshold': threshold, 'expansion_threshold': c_expansion_threshold, 'expansion_relatedness': c_expansion_relatedness,'classify_method': classify_method, 'tfidf': tfidf, 'stemming': stemming, 'smoothing': smoothing, 'weighting': weighting, 'train': number_of_documents_for_training, 'test': number_of_documents_for_testing, 'f1_score': f1_score, 'expanded_weighting': c_expanded_weighting , 'KBest': kbest, 'n_neighbors': n_neighbors, 'metric': metric, 'hamming_loss': hamming_loss, 'accuracy': accuracy, 'precision': precision, 'recall': recall, 'algorithm': algorithm}
+    content = {'corpus': c_corpus, 'representation': c_representation, 'threshold': threshold,
+               'expansion_threshold': c_expansion_threshold, 'expansion_relatedness': c_expansion_relatedness,
+               'classify_method': classify_method, 'tfidf': tfidf, 'stemming': stemming, 'smoothing': smoothing,
+               'weighting': weighting, 'train': number_of_documents_for_training,
+               'test': number_of_documents_for_testing, 'f1_score': f1_score,
+               'expanded_weighting': c_expanded_weighting , 'KBest': kbest, 'n_neighbors': n_neighbors,
+               'metric': metric, 'hamming_loss': hamming_loss, 'accuracy': accuracy, 'precision': precision,
+               'recall': recall, 'algorithm': algorithm, 'metadata_weight': metadata_weight}
     
     return content
     

@@ -12,49 +12,50 @@ ALGORITHM: linear_SVC
 #TRAIN: 500
 #TEST: 500
 
-Obteniendo documents de training y de testing...
---- METODO: get_documents_from_multilabel_database_bow() ---
-Obteniendo documents de training de una parte del corpus bow_merlot
-Obteniendo documents de test de una parte del corpus bow_merlot
---- METODO: get_unique_words_bow() ---
------ ALGORITMO Multilabel ------
-Creando Vectores de training...
-Creando Vectores features de training...
-Entrenando clasificador Multilabel
-Clasificando en categorias los documentos de test (Prediccion)
-Metricas:
+Getting train and test documents...
+--- METHOD: get_documents_from_multilabel_database_bow() ---
+metadata: yes
+freq: 2
+Obtaining training documents from a part of the corpus bow_merlot
+Obtaining test documents from complete corpus bow_merlot
+--- METHOD: get_unique_words_bow() ---
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...
+Training multilabel classifier...
+Classifying test documents (Prediction)
+Metrics:
 ----------------
 Hamming Loss:
-0.130888888889
+0.117555555556
 
 Accuracy:
-0.27
+0.324
 
 Precision:
-0.509963288186
+0.579026701161
 
 Recall:
-0.393939393939
+0.392255892256
 
 Classification Report:
                             precision    recall  f1-score   support
 
-                      Arts       0.50      0.19      0.27        16
- Academic Support Services       0.39      0.32      0.35        60
-                  Business       0.32      0.20      0.25        54
-                Humanities       0.48      0.32      0.39        84
-Mathematics and Statistics       0.60      0.33      0.42        46
-    Science and Technology       0.62      0.55      0.58       200
-     Workforce Development       0.92      0.48      0.63        25
-                 Education       0.38      0.36      0.37        80
-           Social Sciences       0.32      0.28      0.30        29
+                      Arts       0.67      0.12      0.21        16
+ Academic Support Services       0.58      0.30      0.40        60
+                  Business       0.45      0.19      0.26        54
+                Humanities       0.60      0.32      0.42        84
+Mathematics and Statistics       0.70      0.30      0.42        46
+    Science and Technology       0.64      0.60      0.62       200
+     Workforce Development       1.00      0.44      0.61        25
+                 Education       0.41      0.36      0.38        80
+           Social Sciences       0.18      0.07      0.10        29
 
-               avg / total       0.51      0.39      0.44       594
+               avg / total       0.58      0.39      0.45       594
 
 F1-score
-0.395434800021
 ----------------
-F1_SCORE (Macro): 0.395434800021
-Precision: 0.509963288186
-Recall: 0.393939393939
----- Fin ejecucion ----
+F1_SCORE (Macro): 0.380834199075
+Precision: 0.579026701161
+Recall: 0.392255892256
+---- Execution End ----

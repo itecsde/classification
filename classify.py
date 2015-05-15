@@ -27,38 +27,37 @@ class Logger(object):
         self.log.close()
 
 # Parameters available to iterate
-corpus_availables = ["boc_reuters_27000","bow_reuters_27000","boc_ohsumed","bow_ohsumed","boc_ohsumed_expanded","boc_20_newsgroup","bow_20_newsgroup","boc_ieee","bow_ieee","boc_ieee_expanded",
+corpora_available = ["boc_reuters_27000","bow_reuters_27000","boc_ohsumed","bow_ohsumed","boc_ohsumed_expanded","boc_20_newsgroup","bow_20_newsgroup","boc_ieee","bow_ieee","boc_ieee_expanded",
 "boc_20_newsgroup_expanded","boc_reuters_21578","bow_reuters_21578","boc_reuters_21578_expanded", "bow_oercommons", "boc_oercommons","bow_merlot","bow_ohsumed_multilabel","boc_ohsumed_multilabel",
 "bow_uvigomed_multilabel","boc_uvigomed_multilabel","bow_uvigomed","boc_uvigomed", "bow_ohsumed_randomized","boc_ohsumed_randomized","boc_ohsumed_randomized_multilabel",
 "bow_ohsumed_randomized_multilabel","bow_reuters_rcv1", "bow_reuters_rcv2","boc_reuters_rcv1", "boc_reuters_rcv2","bow_reuters_rcv2_translated_to_english_google_translate",
 "boc_wikipedia_english","boc_wikipedia_spanish", "bow_wikipedia_english", "bow_wikipedia_spanish"]
-classify_methods_availables = ["mbayes", "kneighbors","multilabel","SVM","linear_SVM","nu_SVM"]
-threshold_availables = [0.01, 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90]
-weighting_availables = ["milne", "binary"] #centrodid
-metric_availables = ["cosine","jaccard","braycurtis","mahalanobis"]
+classify_methods_available = ["mbayes", "kneighbors","multilabel","SVM","linear_SVM","nu_SVM"]
+threshold_available = [0.01, 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90]
+weighting_available = ["milne", "binary"] #centrodid
+metrics_available = ["cosine","jaccard","braycurtis","mahalanobis"]
 kernel_functions_available = ["linear","poly","rbf","sigmoid"]
 
-
-parser = argparse.ArgumentParser(description = 'Clasificacion de contenidos')
-parser.add_argument('-corpus', dest='corpus', default="all", help="Si no se pone nada por defecto hace todos los corpus disponibles", choices=['boc_reuters_27000','bow_reuters_27000','boc_ohsumed','bow_ohsumed','boc_ohsumed_expanded','boc_20_newsgroup','bow_20_newsgroup','boc_ieee','bow_ieee','boc_ieee_expanded','boc_20_newsgroup_expanded','boc_reuters_21578','bow_reuters_21578','boc_reuters_21578_expanded','bow_oercommons', 'boc_oercommons','bow_merlot','bow_ohsumed_multilabel','boc_ohsumed_multilabel','bow_uvigomed_multilabel','boc_uvigomed_multilabel','bow_uvigomed','boc_uvigomed','bow_ohsumed_randomized','boc_ohsumed_randomized','boc_ohsumed_randomized_multilabel','bow_ohsumed_randomized_multilabel','bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','bow_reuters_rcv2_translated_to_english_google_translate'])
+parser = argparse.ArgumentParser(description = 'Classifier')
+parser.add_argument('-corpus', dest='corpus', default="all", help="If empty, use all available corpora.", choices=['boc_reuters_27000','bow_reuters_27000','boc_ohsumed','bow_ohsumed','boc_ohsumed_expanded','boc_20_newsgroup','bow_20_newsgroup','boc_ieee','bow_ieee','boc_ieee_expanded','boc_20_newsgroup_expanded','boc_reuters_21578','bow_reuters_21578','boc_reuters_21578_expanded','bow_oercommons', 'boc_oercommons','bow_merlot','bow_ohsumed_multilabel','boc_ohsumed_multilabel','bow_uvigomed_multilabel','boc_uvigomed_multilabel','bow_uvigomed','boc_uvigomed','bow_ohsumed_randomized','boc_ohsumed_randomized','boc_ohsumed_randomized_multilabel','bow_ohsumed_randomized_multilabel','bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','bow_reuters_rcv2_translated_to_english_google_translate'])
 parser.add_argument('-corpus_training', dest='corpus_training', default = "none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','boc_wikipedia_english', 'bow_wikipedia_english'])
-parser.add_argument('-corpus_test', dest='corpus_test', default="none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','bow_reuters_rcv2_translated_to_english_google_translate','boc_wikipedia_spanish', 'bow_wikipedia_english','boc_wikipedia_english'])
-parser.add_argument('-method', dest='classify_method', default = "mbayes", help="Metodo de clasificacion. Por defecto mbayes", choices =  ["all", "mbayes", "kneighbors","multilabel","SVM","linear_SVM", "nu_SVM","cross_language_linear_SVM"])
-parser.add_argument('-threshold', dest='threshold', default = 0.01, type = float, help = "Umbral a partir del cual se tienen en cuenta las anotationes de un documento. Por defecto 0.01", choices =  threshold_availables)
-parser.add_argument('-test', dest='test', default = 0, type = int, help = "Numero de documentos para test. Si no se pone nada se utiliza lo que venga en el corpus por defecto")
-parser.add_argument('-train', dest='train', default = 0, type = int ,help = "Numero de documentos para training. Si no se pone nada se utiliza lo que venga en el corpus por defecto")
-parser.add_argument('-weighting',  dest='weighting', default = "milne", help = "Peso que utilizamos para calcular probabilidades. Por defecto Milne.", choices =  ['all', 'milne','centroid', 'binary'])
-parser.add_argument('-smoothing',  dest='smoothing', default = 0.001, type = float,  help = "Smoothing para el mbayes. Es el parametro alpha que se le mete a la clase MultinomialNB.")
+parser.add_argument('-corpus_test', dest='corpus_test', default="none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2', 'bow_reuters_rcv2_translated_to_english_google_translate', 'boc_wikipedia_spanish', 'bow_wikipedia_english', 'boc_wikipedia_english'])
+parser.add_argument('-method', dest='classify_method', default = "mbayes", help="Classification method, default mbayes.", choices =  ["all", "mbayes", "kneighbors","multilabel","SVM","linear_SVM", "nu_SVM","cross_language_linear_SVM"])
+parser.add_argument('-threshold', dest='threshold', default = 0.01, type = float, help = "Annotations threshold. Default 0.01", choices =  threshold_available)
+parser.add_argument('-test', dest='test', default = 0, type = int, help = "Test number documents. If empty, all.")
+parser.add_argument('-train', dest='train', default = 0, type = int ,help = "Training number documents. If empty, all.")
+parser.add_argument('-weighting',  dest='weighting', default = "milne", help = "Weighting used. Default Milne weighting.", choices =  ['all', 'milne', 'centroid', 'binary'])
+parser.add_argument('-smoothing',  dest='smoothing', default = 0.001, type = float,  help = "mbayes Smoothing. Alpha param in MultinomialMB class.")
 parser.add_argument('-exp_threshold',  dest='expansion_threshold', default = 1, type = float,  help = "")
 parser.add_argument('-exp_relatedness',  dest='expansion_relatedness', default = 1, type = float,  help = "")
 parser.add_argument('-exp_weighting', dest='expanded_weighting', default = 0.1, type = float, help = "")
 parser.add_argument('-kbest', dest='kbest', default = 3000, type = int, help = "")
 parser.add_argument('-n_neighbors', dest="n_neighbors", default = 10, type=int, help="")
-parser.add_argument('-metric', dest="metric", default = "cosine", help="", choices = ['cosine','jaccard','braycurtis','mahalanobis','euclidean','manhattan','chebyshev','seuclidean'])
-parser.add_argument('-destination_folder', dest="destination_folder", help="Nombre de la carpeta de destino donde se guardan los .json del experimento")
-parser.add_argument('-algorithm', dest="algorithm", default = "SVC", help="Algoritmo a utilizar en el caso multilabel", choices = ['SVC','Bayes','KNN','SGD', 'SVC_rbf','SVC_poly','SVC_sigmoid','linear_SVC'])
-parser.add_argument('-kernel', dest="kernel", default = "linear", help="Funcion kernel para el clasificador SVM", choices = ['linear','poly','rbf','sigmoid'])
-parser.add_argument('-nu', dest='nu', default = 0.5, type = float, help = "Parametro nu para el clasificador NuSVM")
+parser.add_argument('-metric', dest="metric", default = "cosine", help="", choices = ['cosine', 'jaccard', 'braycurtis', 'mahalanobis', 'euclidean', 'manhattan', 'chebyshev', 'seuclidean'])
+parser.add_argument('-destination_folder', dest="destination_folder", help="Destination folder to store .json experiment results file.")
+parser.add_argument('-algorithm', dest="algorithm", default = "SVC", help="Multilabel algorithm to use.", choices = ['SVC','Bayes','KNN','SGD', 'SVC_rbf','SVC_poly','SVC_sigmoid','linear_SVC'])
+parser.add_argument('-kernel', dest="kernel", default = "linear", help="Kernel function to SVM classifier.", choices = ['linear','poly','rbf','sigmoid'])
+parser.add_argument('-nu', dest='nu', default = 0.5, type = float, help = "Nu param to NuSVM algorithm.")
 parser.add_argument('-metadata_freq', dest="metadata_freq", default = 0, type=int, help="")
 
 args = parser.parse_args()
@@ -66,21 +65,21 @@ args = parser.parse_args()
 # INPUT PARAMETERS
 if args.corpus_training == "none" and args.corpus_test == "none":
     if args.corpus == 'all':
-        array_corpus = corpus_availables
+        array_corpus = corpora_available
     else:
         array_corpus = [args.corpus]
 else:
     array_corpus = ["cross_language"]  # is not a corpus, it is only to indicate that will make use of a corpus to train and another for test
 
 if args.classify_method == 'all':
-    array_classify_methods = classify_methods_availables
+    array_classify_methods = classify_methods_available
 else:
     array_classify_methods = [args.classify_method]
 
 array_threshold = [args.threshold]
 
 if args.weighting == 'all':
-    array_weighting = weighting_availables
+    array_weighting = weighting_available
 else:
     array_weighting = [args.weighting]
 
@@ -98,8 +97,8 @@ nu = args.nu
 corpus_training = args.corpus_training
 corpus_test = args.corpus_test
 classify_method = array_classify_methods[0]
-tfidf = False #not operative yet
-stemming = "porter" #not operative yet
+tfidf = False           # not operative yet
+stemming = "porter"     # not operative yet
 weighting = array_weighting[0]
 metadata_freq = args.metadata_freq
 
@@ -107,6 +106,7 @@ if metadata_freq > 0:
     metadata = "yes"
 else:
     metadata = "no"
+    metadata_freq = 0
 
 if args.classify_method == "mbayes":
     json_path = "Results/json/BAYES/" + destination_folder + "/"
@@ -269,7 +269,7 @@ for corpus in array_corpus:
             if classify_method == "multilabel":
                 filename = corpus + "_th_"+ (str(threshold)).replace("0.","") + "_" + str(number_of_documents_for_training) + "_" + str(number_of_documents_for_testing) + "_" + classify_method + "_" + str(n_neighbors) + "_neighbors" +str(int(time.time()))+  ".json"
                 with open(json_path + filename, "w") as outfile:
-                    json.dump(util_classify.get_experiment_multilabel_results(corpus, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method,tfidf,stemming,smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score_result, expanded_weighting, kbest, n_neighbors, metric, hamming_loss, accuracy, precision, recall, algorithm), outfile)
+                    json.dump(util_classify.get_experiment_multilabel_results(corpus, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method,tfidf,stemming,smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score_result, expanded_weighting, kbest, n_neighbors, metric, hamming_loss, accuracy, precision, recall, algorithm, metadata_freq), outfile)
             elif "cross_language" in classify_method:
                 filename = corpus_training + "_" + corpus_test + "_th_"+ (str(threshold)).replace("0.","") + "_" + str(number_of_documents_for_training) + "_" + str(number_of_documents_for_testing) + "_" + classify_method + "_" + str(n_neighbors) + "_neighbors" +str(int(time.time()))+  ".json"
                 with open(json_path + filename, "w") as outfile:

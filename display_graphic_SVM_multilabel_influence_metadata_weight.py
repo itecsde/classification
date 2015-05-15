@@ -11,7 +11,7 @@ print experiment_folder
 
 json_files = glob.glob("Results/json/Multilabel/" + experiment_folder + "/*.json")
 
-metadata_weight = [0, 1, 2, 3, 8, 10, 13, 21, 25]
+metadata_weight = [0, 1, 2, 3, 8, 10, 13, 21, 25, 30, 34, 40, 55]
 
 bow = {}
 boc = {}

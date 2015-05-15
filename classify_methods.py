@@ -21,7 +21,7 @@ DBSession = sessionmaker()
 Session = DBSession()
 
 
-def kneighbors(corpus,documents_training, documents_test, words_features, n_neighbors, metric, kbest):
+def kneighbors(corpus, documents_training, documents_test, words_features, n_neighbors, metric, kbest):
     """
     KNeighbors Algorithm
     :param corpus:
@@ -35,11 +35,11 @@ def kneighbors(corpus,documents_training, documents_test, words_features, n_neig
     """
 
     print
-    print "----- KNeighbours Algorithm ------"
+    print "----- KNeighbors Algorithm ------"
     print "Creating Training Vectors..."
     array_vector_training = []
     array_categories = []
-    for (id ,original_category, annotations) in documents_training:
+    for (id, original_category, annotations) in documents_training:
         array_vector_training.append(util_classify.transform_document_in_vector(annotations, words_features, corpus))
         array_categories.append(util_classify.get_categories(corpus).index(original_category))    
         
@@ -97,7 +97,7 @@ def kneighbors(corpus,documents_training, documents_test, words_features, n_neig
     original_categories = []
 
     for (id ,original_category, annotations) in documents_test: 
-        vector = util_classify.transform_document_in_vector(annotations,words_features,corpus)
+        vector = util_classify.transform_document_in_vector(annotations, words_features, corpus)
         if kbest != "all":
             vector = ch2.transform(vector)
         cat_classify = neigh.predict(vector)
@@ -123,14 +123,14 @@ def multinomial_bayes_nltk_wrapper(corpus, documents_training, documents_test, w
     print "----- Multinomial Bayes with wrapper nltk Algorithm------"
     print "Creating Training Feature Vectors..."
     array_features_training = []
-    for (id ,original_category, annotations) in documents_training:
+    for (id, original_category, annotations) in documents_training:
         array_features_training.append((util_classify.transform_document_in_dict(annotations, words_features, corpus), original_category))
     # array_features_training = apply_features(extract_document_features,documents_training)
     print "Training algorithm..."
     # ('chi2', SelectKBest(chi2, k=3000)),
     if kbest == 0:
         kbest = "all"
-    pipeline = Pipeline([('chi2', SelectKBest(chi2, k=kbest)),('tfidf', TfidfTransformer()),                         
+    pipeline = Pipeline([('chi2', SelectKBest(chi2, k=kbest)), ('tfidf', TfidfTransformer()),
                          ('nb', MultinomialNB(alpha=smoothing))])
 
     # pipeline = Pipeline([('nb', MultinomialNB(alpha=smoothing))])
@@ -143,8 +143,8 @@ def multinomial_bayes_nltk_wrapper(corpus, documents_training, documents_test, w
     estimated_categories = []
     original_categories = []               
     
-    for (id ,cat_original, annotations) in documents_test:
-        cat_estimated = classifier.classify((util_classify.transform_document_in_dict(annotations,words_features,corpus)))
+    for (id, cat_original, annotations) in documents_test:
+        cat_estimated = classifier.classify((util_classify.transform_document_in_dict(annotations, words_features, corpus)))
         estimated_categories.append(categories.index(cat_estimated))
         original_categories.append(categories.index(cat_original))
     return original_categories, estimated_categories
@@ -180,26 +180,26 @@ def multinomial_bayes_sklearn(corpus, documents_training, documents_test, words_
     
     # Training in parts
     print "Training algorithm in parts..."
-    First = True        
-    for (id ,original_category, annotations) in documents_training:
-        if First == True:            
-            classifier.partial_fit(np.array(util_classify.transform_document_in_vector(annotations, words_features, corpus)),  np.array([original_category]), classes = categories)
-            First = False
+    first = True
+    for (id, original_category, annotations) in documents_training:
+        if first is True:
+            classifier.partial_fit(np.array(util_classify.transform_document_in_vector(annotations, words_features, corpus)), np.array([original_category]), classes=categories)
+            first = False
         else:
-            classifier.partial_fit(np.array(util_classify.transform_document_in_vector(annotations, words_features,corpus)),  np.array([original_category]))
+            classifier.partial_fit(np.array(util_classify.transform_document_in_vector(annotations, words_features, corpus)), np.array([original_category]))
                       
     print "Calculating metrics..."
     estimated_categories = []
     original_categories = []               
     
-    for (id ,cat_original, annotations) in documents_test:
+    for (id, cat_original, annotations) in documents_test:
         cat_estimated = classifier.predict(np.array((util_classify.transform_document_in_vector(annotations, words_features, corpus))))
         estimated_categories.append(categories.index(cat_estimated))
         original_categories.append(categories.index(cat_original))
     return original_categories, estimated_categories
 
 
-def multilabel(corpus, documents_training, documents_test, words_features,smoothing,algorithm):
+def multilabel(corpus, documents_training, documents_test, words_features, smoothing, algorithm):
     """
     Multilabel algorithm
     :param corpus:
@@ -217,7 +217,7 @@ def multilabel(corpus, documents_training, documents_test, words_features,smooth
     
     first_time = 0
     first_time_categories = 0
-    for (id ,original_category, annotations) in documents_training:
+    for (id, original_category, annotations) in documents_training:
         vector = util_classify.transform_document_in_vector(annotations, words_features, corpus)
         vector = np.array(vector)
         if first_time == 0:
@@ -231,7 +231,7 @@ def multilabel(corpus, documents_training, documents_test, words_features,smooth
         # OERCOMMONS corpus -> 21 categories
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
-        vector_categories = np.zeros(9)
+        vector_categories = np.zeros(21)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
         vector_categories = np.array(vector_categories)
@@ -243,46 +243,42 @@ def multilabel(corpus, documents_training, documents_test, words_features,smooth
 
     print "Training multilabel classifier..."
     if algorithm == "SVC":
-        classif = OneVsRestClassifier(SVC(kernel='linear'))
+        classifier = OneVsRestClassifier(SVC(kernel='linear'))
     elif algorithm == "SVC_rbf":
-        print "Entro por SVC_rbf"
-        classif = OneVsRestClassifier(SVC(kernel='rbf', gamma=10.0))
+        classifier = OneVsRestClassifier(SVC(kernel='rbf', gamma=10.0))
     elif algorithm == "SVC_poly":
-        print "Entro por poly"
-        classif = OneVsRestClassifier(SVC(kernel='poly'))
+        classifier = OneVsRestClassifier(SVC(kernel='poly'))
     elif algorithm == "SVC_sigmoid":
-        print "Entro por sigmoid"
-        classif = OneVsRestClassifier(SVC(kernel='sigmoid'))
+        classifier = OneVsRestClassifier(SVC(kernel='sigmoid'))
     elif algorithm == "linear_SVC":
-        classif = OneVsRestClassifier(LinearSVC())
+        classifier = OneVsRestClassifier(LinearSVC())
     elif algorithm == "Bayes":
-        print "Entro por Bayes"
-        classif = OneVsRestClassifier(MultinomialNB())
+        classifier = OneVsRestClassifier(MultinomialNB())
     elif algorithm == "KNN":
-        classif = OneVsRestClassifier(KNeighborsClassifier())
+        classifier = OneVsRestClassifier(KNeighborsClassifier())
     elif algorithm == "SGD":
-        classif = OneVsRestClassifier(linear_model.SGDClassifier())
+        classifier = OneVsRestClassifier(linear_model.SGDClassifier())
 
-    classif.fit(array_vector_training, array_vector_categories)
+    classifier.fit(array_vector_training, array_vector_categories)
 
     print "Classifying test documents (Prediction)"
     first_time = 0
     first_time_categories = 0
     for (id, original_category, annotations) in documents_test:
-        vector = util_classify.transform_document_in_vector(annotations, words_features,corpus)
+        vector = util_classify.transform_document_in_vector(annotations, words_features, corpus)
         vector = np.array(vector)
         if first_time == 0:
             array_vector_test = vector
             first_time = 1
         else:
-            array_vector_test = np.vstack((array_vector_test,vector))
+            array_vector_test = np.vstack((array_vector_test, vector))
 
         # From here we calculate the vector of original categories for test documents to be used as ground truth when making measurements
         original_categories = [x.strip() for x in original_category.split(',')]
         # OERCOMMONS corpus -> 21 categories
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
-        vector_categories = np.zeros(9)
+        vector_categories = np.zeros(21)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
         vector_categories = np.array(vector_categories)
@@ -292,7 +288,7 @@ def multilabel(corpus, documents_training, documents_test, words_features,smooth
         else:
             ground_truth_vector_categories = np.vstack((ground_truth_vector_categories, vector_categories))
 
-    prediction = classif.predict(array_vector_test)
+    prediction = classifier.predict(array_vector_test)
         
     return ground_truth_vector_categories, prediction
 
@@ -315,8 +311,8 @@ def support_vector_machines(corpus, documents_training, documents_test, words_fe
 
     array_vector_training = []
     array_categories = []
-    for (id ,original_category, annotations) in documents_training:
-        array_vector_training.append(util_classify.transform_document_in_vector(annotations,words_features, corpus))
+    for (id, original_category, annotations) in documents_training:
+        array_vector_training.append(util_classify.transform_document_in_vector(annotations, words_features, corpus))
         array_categories.append(util_classify.get_categories(corpus).index(original_category))    
         
     print "Training the algorithm..."
@@ -324,7 +320,7 @@ def support_vector_machines(corpus, documents_training, documents_test, words_fe
 
     X_train_features = []
     y_train_categories = []
-    # Entrenandolo de golpe
+    # Train all
     for (id, original_category, annotations) in documents_training:
         X_train_features.append(util_classify.transform_document_in_vector(annotations, words_features, corpus))
         y_train_categories.append(original_category)
@@ -335,7 +331,7 @@ def support_vector_machines(corpus, documents_training, documents_test, words_fe
     estimated_categories = []
     original_categories = []
 
-    for (id ,cat_original, annotations) in documents_test:
+    for (id, cat_original, annotations) in documents_test:
         cat_estimated = classifier.predict(np.array((util_classify.transform_document_in_vector(annotations, words_features, corpus))))
         estimated_categories.append(categories.index(cat_estimated))
         original_categories.append(categories.index(cat_original))
@@ -359,7 +355,7 @@ def linear_support_vector_machines(corpus, documents_training, documents_test, w
 
     array_vector_training = []
     array_categories = []
-    for (id ,original_category, annotations) in documents_training:
+    for (id, original_category, annotations) in documents_training:
         array_vector_training.append(util_classify.transform_document_in_vector(annotations, words_features, corpus))
         array_categories.append(util_classify.get_categories(corpus).index(original_category))    
         
@@ -368,8 +364,8 @@ def linear_support_vector_machines(corpus, documents_training, documents_test, w
 
     X_train_features = []
     y_train_categories = []
-    # Entrenandolo de golpe
-    for (id ,original_category, annotations) in documents_training:        
+    # Train all
+    for (id, original_category, annotations) in documents_training:
         X_train_features.append(util_classify.transform_document_in_vector(annotations, words_features, corpus))
         y_train_categories.append(original_category)
 
@@ -384,6 +380,7 @@ def linear_support_vector_machines(corpus, documents_training, documents_test, w
         estimated_categories.append(categories.index(cat_estimated))
         original_categories.append(categories.index(cat_original))
     return original_categories, estimated_categories
+
 
 # Cross-Language Linear Support Vector Machines Algorithm
 def linear_support_vector_machines_cross_language(corpus_training, corpus_test, documents_training, documents_test, words_features):
@@ -408,7 +405,7 @@ def linear_support_vector_machines_cross_language(corpus_training, corpus_test, 
     array_vector_training = []
     array_categories = []
 
-    for (id ,original_category, annotations) in documents_training:
+    for (id, original_category, annotations) in documents_training:
         array_vector_training.append(util_classify.transform_document_in_vector(annotations, words_features, corpus_training))
         array_categories.append(util_classify.get_categories(corpus_training).index(original_category))    
 
@@ -420,8 +417,8 @@ def linear_support_vector_machines_cross_language(corpus_training, corpus_test, 
 
     X_train_features = []
     y_train_categories = []
-    # Entrenandolo de golpe
-    for (id ,original_category, annotations) in documents_training:        
+    # Train all
+    for (id, original_category, annotations) in documents_training:
         X_train_features.append(util_classify.transform_document_in_vector(annotations, words_features, corpus_training))
         y_train_categories.append(original_category)
 
@@ -484,7 +481,7 @@ def linear_support_vector_machines_tf_idf(corpus, documents_training, documents_
     if kbest == 0:
         kbest = "all"
 
-    pipeline = Pipeline([('chi2', SelectKBest(chi2, k=kbest)),('tfidf', TfidfTransformer()),                         
+    pipeline = Pipeline([('chi2', SelectKBest(chi2, k=kbest)), ('tfidf', TfidfTransformer()),
                          ('svc', LinearSVC())])
 
     # pipeline = Pipeline([('nb', MultinomialNB(alpha=smoothing))])
@@ -528,11 +525,11 @@ def nu_support_vector_machines(corpus, documents_training, documents_test, words
         array_categories.append(util_classify.get_categories(corpus).index(original_category))    
         
     print "Training the algorithm..."
-    classifier = NuSVC(nu = nu, kernel=kernel)    
+    classifier = NuSVC(nu=nu, kernel=kernel)
 
     X_train_features = []
     y_train_categories = []
-    # Entrenandolo de golpe
+    # Train all
     for (id, original_category, annotations) in documents_training:
         X_train_features.append(util_classify.transform_document_in_vector(annotations, words_features, corpus))
         y_train_categories.append(original_category)
@@ -609,5 +606,3 @@ def multinomial_bayes3(corpus, documents_training, documents_test, words_feature
         
         
 '''
-
-

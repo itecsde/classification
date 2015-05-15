@@ -2,6 +2,7 @@
   <dictionary name="marcos">
     <words>
       <w>dataset</w>
+      <w>kneighbors</w>
       <w>mbayes</w>
       <w>minkowski</w>
     </words>
