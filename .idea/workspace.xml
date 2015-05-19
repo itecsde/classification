@@ -2,77 +2,207 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_1000_500_cross_language_linear_SVM_10_neighbors1432033080.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_100_500_cross_language_linear_SVM_10_neighbors1432032751.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_10_500_cross_language_linear_SVM_10_neighbors1432032551.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_2000_500_cross_language_linear_SVM_10_neighbors1432033438.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_200_500_cross_language_linear_SVM_10_neighbors1432032820.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_20_500_cross_language_linear_SVM_10_neighbors1432032619.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_500_500_cross_language_linear_SVM_10_neighbors1432032928.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_50_500_cross_language_linear_SVM_10_neighbors1432032685.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_1000_500_cross_language_linear_SVM_10_neighbors1432033103.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_100_500_cross_language_linear_SVM_10_neighbors1432032706.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_2000_500_cross_language_linear_SVM_10_neighbors1432033533.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_200_500_cross_language_linear_SVM_10_neighbors1432032766.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_20_500_cross_language_linear_SVM_10_neighbors1432032611.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_500_500_cross_language_linear_SVM_10_neighbors1432032880.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_50_500_cross_language_linear_SVM_10_neighbors1432032656.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_5_500_cross_language_linear_SVM_10_neighbors1432032533.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_1000_831_cross_language_linear_SVM_10_neighbors1432025408.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_100_831_cross_language_linear_SVM_10_neighbors1432023523.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_10_831_cross_language_linear_SVM_10_neighbors1432023303.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_2000_831_cross_language_linear_SVM_10_neighbors1432028373.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_200_831_cross_language_linear_SVM_10_neighbors1432023711.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_20_831_cross_language_linear_SVM_10_neighbors1432023340.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_3000_831_cross_language_linear_SVM_10_neighbors1432032252.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_500_831_cross_language_linear_SVM_10_neighbors1432024187.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_50_831_cross_language_linear_SVM_10_neighbors1432023415.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_5_831_cross_language_linear_SVM_10_neighbors1432023279.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_1000_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_1000_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_100_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_100_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_10_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_10_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_2000_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_2000_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_200_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_200_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_20_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_20_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_3000_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_5000_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_500_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_500_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_50_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_50_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_5_500_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_5_831_cross_language_linear_SVM.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/print_graphics/parser_20_newsgroups_to_create_data_table.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/print_graphics/parser_ohsumed_json_to_create_data_table.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/print_graphics/parser_reuters_21578_json_to_create_data_table.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_20NG_second_round_experiments_threshold.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_20NG_second_round_experiments_threshold.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_20_newsgroups.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_20_newsgroups.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_20_newsgroups_various_expansions.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_20_newsgroups_various_expansions.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ieee.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ieee.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ieee_various_expansions.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ieee_various_expansions.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_expanded_weighting_20_newsgroups.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_expanded_weighting_20_newsgroups.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_expanded_weighting_ieee.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_expanded_weighting_ieee.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_expanded_weighting_ohsumed.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_expanded_weighting_ohsumed.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_expanded_weighting_reuters_21578.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_expanded_weighting_reuters_21578.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_smoothing_BoC_20NG_ohsumed_ieee.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_smoothing_BoC_20NG_ohsumed_ieee.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_informacion_reducida_IEEE_08_08.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_informacion_reducida_IEEE_08_08.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_knn_20ng_wf_th_0.01_varying_n_neighbors.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_knn_20ng_wf_th_0.01_varying_n_neighbors.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_knn_ohsumed_wf_th_0.01_varying_n_neighbors.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_knn_ohsumed_wf_th_0.01_varying_n_neighbors.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_knn_reuters_21578_wf_th_0.01_varying_n_neighbors.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_knn_reuters_21578_wf_th_0.01_varying_n_neighbors.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ohsumed.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ohsumed.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ohsumed_second_round_experiments_threshold.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ohsumed_second_round_experiments_threshold.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ohsumed_various_expansions.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ohsumed_various_expansions.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_reuters_21578_second_round_experiments_threshold.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_reuters_21578_second_round_experiments_threshold.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_reuters_21587_various_expansions.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_reuters_21587_various_expansions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" afterPath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_1000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_100_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_10_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_2000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_200_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_20_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_500_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_50_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_5_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_1000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_100_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_10_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_2000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_200_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_20_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_500_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_50_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_5_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_1000_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_1000_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_1000_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_100_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_100_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_100_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_10_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_10_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_10_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_2000_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_2000_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_2000_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_200_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_200_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_200_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_20_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_20_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_20_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_2398_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_3000_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_3000_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_5000_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_500_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_500_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_500_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_50_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_50_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_50_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_5_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_5_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_5_831_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_7500_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431007085.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431008254.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431012342.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431012491.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431012825.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431072617.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431073612.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431076456.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431076717.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431079525.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431080237.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431081015.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classify.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classify_methods.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/convert_db_sde_in_simplified.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_sde_declarative.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_sde_declarative2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_simplified_declarative.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/aaaaexperiment_multilabel_linear_SVC_UVigoMED_babar.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/aaaaexperiment_multilabel_linear_SVC_UVigoMED_jumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/aaaexperiment_linear_SVM_UVigoMED_single_label_bow_boc_dumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/aaaexperiment_linear_SVM_UVigoMED_single_label_bow_boc_ganesha.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_SVM_OHSUMED_single_label_bow_boc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_knn_experiment_information_reduced.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_knn_generic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_multilabel_generic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_multilabel_paper_ical.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_percentage_increment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_1.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_20_newsgroups_with_varios_expanded_thresholds.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_SVM_kernel_linear_OHSUMED_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_SVM_kernel_poly_OHSUMED_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_SVM_kernel_rbf_OHSUMED_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_SVM_kernel_sigmoid_OHSUMED_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_ieee.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_ieee_with_varios_expanded_thresholds.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_expanded_weighting_20_newsgroups_0.8_0.8.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_expanded_weighting_ieee_0.8_0.8.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_expanded_weighting_ohsumed_0.8_0.8.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_expanded_weighting_reuters_21578_0.8_0.8 .sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_smoothing_BoC_20NG_ohsumed_ieee.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_informacion_reducida_IEEE_08_08.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_20ng_wf_th_0.01_varying_n_neighbors_braycurtis.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_20ng_wf_th_0.01_varying_n_neighbors_cosine.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_20ng_wf_th_0.01_varying_n_neighbors_jaccard.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_20_ng_measures.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_braycurtis.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_cosine.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_jaccard.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_ohsumed_measures.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_braycurtis.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_cosine.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_jaccard.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_reuters_21578_measures.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_braycurtis.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_cosine.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_jaccard.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_bray_curtis.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_cosine.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_jaccard.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_reuters_21578_wf_th_0.01_varying_n_neighbors_braycurtis.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_reuters_21578_wf_th_0.01_varying_n_neighbors_jaccard.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_20NG_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_IEEE_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_OHSUMED_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_Reuters27000_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_reuters_21578_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_KNN.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_KNN_merlot.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_KNN_ohsumed.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SGD.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SGD_merlot.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SGD_ohsumed.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_merlot.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_ohsumed.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_ohsumed_BoC.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_poly.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_rbf.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_sigmoid.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_linear_SVC_ohsumed.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_naive_bayes.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_naive_bayes_merlot.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_naive_bayes_ohsumed.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_nu_SVM_kernel_linear_OHSUMED_single_label_bow_boc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_ohsumed.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_ohsumed_with_varios_expanded_thresholds.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_braycurtis.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_chebyshev.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_cosine.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_euclidean.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_jaccard.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_manhattan.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_braycurtis.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_chebyshev.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_cosine.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_euclidean.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_jaccard.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_manhattan.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_2.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_babar.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_dumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_ganesha.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_jumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_marcos_pc.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimentos_multilabel_BoC.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/personal.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/script.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/script_remoto.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_influence_metadata_weight.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_metadata_500_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_without_metadata_500_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_influence_metadata_weight.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_metadata_500_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_without_metadata_500_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_1000_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_2000_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_3000_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_500_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_bow_500_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_translated_to_english_google_translate_randomized_single_label_bow_500_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_boc_500 .sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_bow_500.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_bow_621.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_SL_150_test/experiment_linear_SVM_ohsumed_randomized_single_label_bow_boc_dumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_SL_5000_1000/experiment_linear_SVC_ohsumed_5000_1000_ganesha.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_SL_5000_1000/experiment_linear_SVC_ohsumed_5000_1000_tantor.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_150_test/experiment_linear_SVM_ohsumed_randomized_single_label_bow_boc_dumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_150_test/experiment_linear_SVM_ohsumed_randomized_single_label_bow_boc_ganesha.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_150_test/experiment_multilabel_linear_SVC_ohsumed_randomized_babar.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_150_test/experiment_multilabel_linear_SVC_ohsumed_randomized_jumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_5000_1000/experiment_linear_SVC_ohsumed_randomized_5000_1000_ganesha.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_5000_1000/experiment_linear_SVC_ohsumed_randomized_5000_1000_tantor.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_all_test/experiment_linear_SVM_ohsumed_randomized_single_label_bow_boc_dumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_multilabel/experiment_multilabel_linear_SVC_ohsumed_randomized_babar.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_multilabel/experiment_multilabel_linear_SVC_ohsumed_randomized_jumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_uvigomed_SL_300_test/experiment_linear_SVM_UVigoMED_single_label_bow_boc_dumbo_300_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_uvigomed_SL_300_test/experiment_linear_SVM_UVigoMED_single_label_bow_boc_ganesha_300_test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_uvigomed_SL_5000_1000/experiment_multilabel_linear_SVC_uvigomed_5000_1000_babar.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_uvigomed_SL_5000_1000/experiment_multilabel_linear_SVC_uvigomed_5000_1000_jumbo.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prueba" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util_classify.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wikitopics_classifier.iws" />
@@ -97,11 +227,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="classify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classify.py">
+      <file leaf-file-name="classify.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1686" max-vertical-offset="4913">
-              <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.3878887" vertical-offset="69" max-vertical-offset="4913">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -109,75 +239,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classify_methods.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classify_methods.py">
+      <file leaf-file-name="experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="8972" max-vertical-offset="10421">
-              <caret line="555" column="30" selection-start-line="555" selection-start-column="30" selection-end-line="555" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert_db_sde_in_simplified.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/convert_db_sde_in_simplified.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2176" max-vertical-offset="2278">
-              <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_sde_declarative.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db_sde_declarative.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3048973" vertical-offset="24" max-vertical-offset="952">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#71#0" expanded="true" />
-                <element signature="e#272#310#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_sde_declarative2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_sde_declarative2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="952">
-              <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_simplified_declarative.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_simplified_declarative.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1122">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util_classify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util_classify.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="14127" max-vertical-offset="16626">
-              <caret line="732" column="0" selection-start-line="732" selection-start-column="0" selection-end-line="732" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,6 +279,8 @@
         <option value="$PROJECT_DIR$/db_sde_declarative2.py" />
         <option value="$PROJECT_DIR$/db_simplified_declarative.py" />
         <option value="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+        <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh" />
+        <option value="$PROJECT_DIR$/source/classify.py" />
       </list>
     </option>
   </component>
@@ -220,6 +289,31 @@
     <option name="y" value="144" />
     <option name="width" value="1861" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BashSupport</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -244,7 +338,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,12 +358,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.lastSelected" value="preferences.lookFeel" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -278,7 +372,10 @@
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings />
+      <console-settings module-name="wikitopics_classifier" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="wikitopics_classifier" />
+      </console-settings>
     </option>
   </component>
   <component name="RecentsManager">
@@ -294,7 +391,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh">
+  <component name="RunManager" selected="Python.display_graphic_SVM_cross_language">
     <configuration default="false" name="display_graphic_SVM_cross_language" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,7 +600,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432030967169</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2015_05_19_14_06 from pyCharm">
+      <created>1432037177767</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1432037177767</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -531,25 +634,25 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17745303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30793318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31732777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35636562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25843307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24217118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -589,7 +692,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="2015_05_19 from pyCharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="2015_05_19 from pyCharm" />
+    <MESSAGE value="2015_05_19_14_06 from pyCharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="2015_05_19_14_06 from pyCharm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -598,70 +702,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14127" max-vertical-offset="16626">
-          <caret line="732" column="0" selection-start-line="732" selection-start-column="0" selection-end-line="732" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_sde_declarative2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="952">
-          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_simplified_declarative.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1122">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14127" max-vertical-offset="16626">
-          <caret line="732" column="0" selection-start-line="732" selection-start-column="0" selection-end-line="732" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2363" max-vertical-offset="4913">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="969">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3709" max-vertical-offset="8993">
-          <caret line="244" column="41" selection-start-line="244" selection-start-column="41" selection-end-line="244" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,54 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_influence_metadata_weight.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="408">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="11645">
-          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_influence_metadata_weight.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="391">
-          <caret line="6" column="115" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2363" max-vertical-offset="4913">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="969">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3709" max-vertical-offset="8993">
-          <caret line="244" column="41" selection-start-line="244" selection-start-column="41" selection-end-line="244" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,131 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_influence_metadata_weight.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="408">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="11645">
-          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_influence_metadata_weight.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="391">
-          <caret line="6" column="115" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="4913">
-          <caret line="44" column="288" selection-start-line="44" selection-start-column="288" selection-end-line="44" selection-end-column="288" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="8993">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="11645">
-          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_influence_metadata_weight.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5525">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="11662">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="13685">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5525">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="11662">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="13685">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,45 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_influence_metadata_weight.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15044248" vertical-offset="0" max-vertical-offset="791">
-          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_metadata_500_test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="3" column="91" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/print_graphics/multilabel/display_graphic_SVM_multilabel_metadata_vs_no_metadata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_influence_metadata_weight.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_without_metadata_500_test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_metadata_500_test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34871796" vertical-offset="0" max-vertical-offset="585">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -949,66 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classify_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8972" max-vertical-offset="10421">
-          <caret line="555" column="30" selection-start-line="555" selection-start-column="30" selection-end-line="555" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14127" max-vertical-offset="16626">
-          <caret line="732" column="0" selection-start-line="732" selection-start-column="0" selection-end-line="732" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1686" max-vertical-offset="4913">
-          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convert_db_sde_in_simplified.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2278">
-          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_sde_declarative2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="952">
-          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_simplified_declarative.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/print_graphics/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="822">
@@ -1016,21 +800,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh">
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5042373" vertical-offset="0" max-vertical-offset="472">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_sde_declarative.py">
+    <entry file="file://$PROJECT_DIR$/source/classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3048973" vertical-offset="24" max-vertical-offset="952">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.3878887" vertical-offset="69" max-vertical-offset="4913">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <element signature="e#0#71#0" expanded="true" />
-            <element signature="e#272#310#0" expanded="false" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
