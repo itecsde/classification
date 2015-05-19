@@ -1,18 +1,11 @@
-import os
-import sys
 from sqlalchemy import Column, ForeignKey, Integer, String, Float, Text
 from sqlalchemy.ext.declarative import declarative_base, AbstractConcreteBase
 from sqlalchemy.orm import relationship
-from sqlalchemy import create_engine
 
-from sqlalchemy.ext.associationproxy import association_proxy
- 
 BaseSDE = declarative_base()
-
 
 class Taggable(AbstractConcreteBase, BaseSDE):
     id = Column(Integer, primary_key=True)
-
 
 class Report(Taggable):
     __tablename__ = 'reports'
@@ -38,14 +31,10 @@ class Tag(BaseSDE):
     }
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
-    
-    
+
     #taggable = relationship("Taggable", secondary=lambda: taggable_tag_annotations)    
     #taggables = association_proxy('taggable')
-    
-    
-   
-   
+
 class TaggableTagAnnotation(BaseSDE):
     __tablename__ = 'taggable_tag_annotations'
     __table_args__ = {  
@@ -61,10 +50,3 @@ class TaggableTagAnnotation(BaseSDE):
     weight = Column(Float, nullable=True)
     type_tag = Column(String(255), nullable = True)
     wikipedia_article_id = Column(Integer, nullable = True)
-    
-
-
-
-
-      
-    

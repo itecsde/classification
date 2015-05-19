@@ -382,7 +382,6 @@ def linear_support_vector_machines(corpus, documents_training, documents_test, w
     return original_categories, estimated_categories
 
 
-# Cross-Language Linear Support Vector Machines Algorithm
 def linear_support_vector_machines_cross_language(corpus_training, corpus_test, documents_training, documents_test, words_features):
     """
     Cross Language linear Support Vector Machines algorithm. The Support Vector Machines algorithm with a linear kernel.

@@ -1,12 +1,10 @@
-import os
-import sys
 import platform
+
 from sqlalchemy import Column, ForeignKey, Integer, String, Float, Text, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 
- 
 Base = declarative_base()
  
 class Document(Base):
@@ -41,23 +39,22 @@ class Annotation(Base):
     relatedness = Column(Float, nullable=True)
     expanded_from = Column(Integer, nullable=True)
     old_id = Column(Integer, nullable = True)
-    
- 
+
 # Create an engine that stores data in the local directory's
 # sqlalchemy_example.db file.
 
 if platform.node() == "jumbo":
-	engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_ohsumed_threshold_01?charset=utf8')
+    engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_ohsumed_threshold_01?charset=utf8')
 elif platform.node() == "babar":
-	engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_20newsgroups_threshold_01?charset=utf8')
+    engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_20newsgroups_threshold_01?charset=utf8')
 elif platform.node() == "ganesha":
-	engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_20newsgroups_threshold_01?charset=utf8')
+    engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_20newsgroups_threshold_01?charset=utf8')
 elif platform.node() == "dumbo":
-	engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_reuters_21578_threshold_01?charset=utf8')
+    engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_reuters_21578_threshold_01?charset=utf8')
 elif platform.node() == "tantor":
-	engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_ohsumed_randomized_multilabel_threshold_01?charset=utf8')
+    engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_ohsumed_randomized_multilabel_threshold_01?charset=utf8')
 elif platform.node() == "marcos-B85M-D3V":
-	engine = create_engine('mysql://classify_user:classify_password@localhost/simplified_wikipedia_es_translated_to_english_google_translate?charset=utf8')
+    engine = create_engine('mysql://classify_user:classify_password@localhost/simplified_wikipedia_es_translated_to_english_google_translate?charset=utf8')
 
 # Create all tables in the engine. This is equivalent to "Create Table"
 # statements in raw SQL.

@@ -701,6 +701,7 @@ def transform_document_in_vector(annotations, words_features,corpus):
             document_vector.append(annotations.count(annotation_name)) #/float(total_weight)
     return document_vector
 
+
 def transform_document_in_dict(annotations, words_features,corpus):
     """
     Transform the document in a dictionary composed by the couples: word that refers and weight in the particular document.
@@ -717,6 +718,7 @@ def transform_document_in_dict(annotations, words_features,corpus):
             document_features[annotation_name] =  annotations.count(annotation_name) #/float(total_weight)    
     return document_features
 
+
 def get_annotation_weight(annotation_name, annotations):
     """
     Return the weight of an annotation.
@@ -728,6 +730,7 @@ def get_annotation_weight(annotation_name, annotations):
         if name == annotation_name:
             return weight
     return 0
+
 
 def print_experiment_details(corpus, corpus_training, corpus_test, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf, stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, expanded_weighting, neighbors, metric, algorithm, kernel, nu):
     """
