@@ -16,7 +16,7 @@ import os
 class Logger(object):
     def __init__(self, filename):
         self.terminal = sys.stdout
-        self.log = open("../Results/" + filename, "w")
+        self.log = open("../results/" + filename, "w")
 
     def write(self, message):
         self.terminal.write(message)
@@ -109,15 +109,15 @@ else:
     metadata_freq = 0
 
 if args.classify_method == "mbayes":
-    json_path = "../Results/json/BAYES/" + destination_folder + "/"
+    json_path = "../results/json/BAYES/" + destination_folder + "/"
 elif args.classify_method == "kneighbors":
-    json_path = "../Results/json/KNN/" + destination_folder + "/"
+    json_path = "../results/json/KNN/" + destination_folder + "/"
 elif args.classify_method == "multilabel":
-    json_path = "../Results/json/Multilabel/" + destination_folder + "/"
+    json_path = "../results/json/Multilabel/" + destination_folder + "/"
 elif args.classify_method == "SVM" or args.classify_method == "linear_SVM" or args.classify_method == "nu_SVM":
-    json_path = "../Results/json/SVM/" + destination_folder + "/"
+    json_path = "../results/json/SVM/" + destination_folder + "/"
 elif args.classify_method == "cross_language_linear_SVM":
-    json_path = "../Results/json/cross_language_SVM/" + destination_folder + "/"
+    json_path = "../results/json/cross_language_SVM/" + destination_folder + "/"
 
 if os.path.exists(json_path) == False:
     os.mkdir(json_path)
