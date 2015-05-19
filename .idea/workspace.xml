@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/print_graphics/multilabel/display_graphic_SVM_multilabel.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_1000_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_2000_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_3000_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/ohsumed_randomized_multilabel/experiment_multilabel_linear_SVC_ohsumed_randomized_babar.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/ohsumed_randomized_multilabel/experiment_multilabel_linear_SVC_ohsumed_randomized_jumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/uvigomed_SL_300_test/experiment_linear_SVM_UVigoMED_single_label_bow_boc_dumbo_300_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/uvigomed_SL_300_test/experiment_linear_SVM_UVigoMED_single_label_bow_boc_ganesha_300_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/uvigomed_SL_5000_1000/experiment_multilabel_linear_SVC_uvigomed_5000_1000_babar.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/uvigomed_SL_5000_1000/experiment_multilabel_linear_SVC_uvigomed_5000_1000_jumbo.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py" afterPath="$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_500_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_500_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_bow_500_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_bow_500_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_translated_to_english_google_translate_randomized_single_label_bow_500_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_translated_to_english_google_translate_randomized_single_label_bow_500_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_boc_500 .sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_boc_500 .sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_bow_500.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_bow_500.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_bow_621.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_bow_621.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_merlot_bow_influence_metadata_weight.sh" afterPath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_merlot_bow_influence_metadata_weight.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_merlot_bow_metadata_500_test.sh" afterPath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_merlot_bow_metadata_500_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_merlot_bow_without_metadata_500_test.sh" afterPath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_merlot_bow_without_metadata_500_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_oercommons_bow_influence_metadata_weight.sh" afterPath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_oercommons_bow_influence_metadata_weight.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_oercommons_bow_metadata_500_test.sh" afterPath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_oercommons_bow_metadata_500_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_oercommons_bow_without_metadata_500_test.sh" afterPath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_oercommons_bow_without_metadata_500_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="" />
     <ignored path="wikitopics_classifier.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -191,20 +159,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wikitopics_classifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikitopics_classifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikitopics_classifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
