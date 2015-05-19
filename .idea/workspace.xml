@@ -2,47 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/print_graphics/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/print_graphics/cross_language/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/print_graphics/multilabel/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_1000_500_multilabel_10_neighbors1431523819.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_100_500_multilabel_10_neighbors1431523332.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_10_500_multilabel_10_neighbors1431522992.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_2000_500_multilabel_10_neighbors1431524215.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_200_500_multilabel_10_neighbors1431523456.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_20_500_multilabel_10_neighbors1431523102.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_5000_500_multilabel_10_neighbors1431525883.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_500_500_multilabel_10_neighbors1431523608.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_50_500_multilabel_10_neighbors1431523215.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_merlot_multilabel_bow_metadata/bow_merlot_th_01_5_500_multilabel_10_neighbors1431522884.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_1000_500_multilabel_10_neighbors1431439501.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_100_500_multilabel_10_neighbors1431434363.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_10_500_multilabel_10_neighbors1431431342.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_2000_500_multilabel_10_neighbors1431443356.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_200_500_multilabel_10_neighbors1431435545.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_20_500_multilabel_10_neighbors1431432300.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_5000_500_multilabel_10_neighbors1431452436.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_500_500_multilabel_10_neighbors1431437128.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_50_500_multilabel_10_neighbors1431433312.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata_vs_no_metadata/bow_oercommons_th_01_5_500_multilabel_10_neighbors1431430398.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/prueba/boc_ohsumed_multilabel_th_01_5_5_multilabel_10_neighbors1421930628.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/prueba/boc_uvigomed_multilabel_th_01_10_10_multilabel_10_neighbors1424267350.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/prueba/boc_uvigomed_multilabel_th_01_5_5_multilabel_10_neighbors1424267067.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/prueba/bow_ohsumed_multilabel_th_01_5_5_multilabel_10_neighbors1421850329.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/prueba/bow_ohsumed_multilabel_th_01_5_5_multilabel_10_neighbors1421930263.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/Multilabel/prueba/bow_uvigomed_multilabel_th_01_5_5_multilabel_10_neighbors1424266756.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_500_test.sh" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphic_SVM_cross_language.py" afterPath="$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphic_SVM_cross_language_vs_gold_standard.py" afterPath="$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language_vs_gold_standard.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphic_SVM_multilabel_influence_metadata_weight.py" afterPath="$PROJECT_DIR$/print_graphics/multilabel/display_graphic_SVM_multilabel_influence_metadata_weight.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphic_SVM_multilabel_metadata_vs_no_metadata.py" afterPath="$PROJECT_DIR$/print_graphics/multilabel/display_graphic_SVM_multilabel_metadata_vs_no_metadata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classify_methods.py" afterPath="$PROJECT_DIR$/classify_methods.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_db_sde_in_simplified.py" afterPath="$PROJECT_DIR$/convert_db_sde_in_simplified.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_sde_declarative.py" afterPath="$PROJECT_DIR$/db_sde_declarative.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_sde_declarative2.py" afterPath="$PROJECT_DIR$/db_sde_declarative2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_simplified_declarative.py" afterPath="$PROJECT_DIR$/db_simplified_declarative.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/marcos.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/marcos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util_classify.py" afterPath="$PROJECT_DIR$/util_classify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_1000_500_cross_language_linear_SVM_10_neighbors1432033080.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_100_500_cross_language_linear_SVM_10_neighbors1432032751.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_10_500_cross_language_linear_SVM_10_neighbors1432032551.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_2000_500_cross_language_linear_SVM_10_neighbors1432033438.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_200_500_cross_language_linear_SVM_10_neighbors1432032820.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_20_500_cross_language_linear_SVM_10_neighbors1432032619.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_500_500_cross_language_linear_SVM_10_neighbors1432032928.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test/boc_reuters_rcv1_boc_reuters_rcv1_th_01_50_500_cross_language_linear_SVM_10_neighbors1432032685.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_1000_500_cross_language_linear_SVM_10_neighbors1432033103.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_100_500_cross_language_linear_SVM_10_neighbors1432032706.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_2000_500_cross_language_linear_SVM_10_neighbors1432033533.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_200_500_cross_language_linear_SVM_10_neighbors1432032766.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_20_500_cross_language_linear_SVM_10_neighbors1432032611.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_500_500_cross_language_linear_SVM_10_neighbors1432032880.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_50_500_cross_language_linear_SVM_10_neighbors1432032656.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_rcv1_test_rcv1_500_test_bow/bow_reuters_rcv1_bow_reuters_rcv1_th_01_5_500_cross_language_linear_SVM_10_neighbors1432032533.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_1000_831_cross_language_linear_SVM_10_neighbors1432025408.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_100_831_cross_language_linear_SVM_10_neighbors1432023523.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_10_831_cross_language_linear_SVM_10_neighbors1432023303.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_2000_831_cross_language_linear_SVM_10_neighbors1432028373.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_200_831_cross_language_linear_SVM_10_neighbors1432023711.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_20_831_cross_language_linear_SVM_10_neighbors1432023340.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_3000_831_cross_language_linear_SVM_10_neighbors1432032252.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_500_831_cross_language_linear_SVM_10_neighbors1432024187.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_50_831_cross_language_linear_SVM_10_neighbors1432023415.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/json/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_831_test_bow/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_5_831_cross_language_linear_SVM_10_neighbors1432023279.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_1000_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_1000_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_100_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_100_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_10_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_10_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_2000_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_2000_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_200_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_200_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_20_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_20_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_3000_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_5000_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_500_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_500_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_50_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_50_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_5_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Results/cross_language_th_01_5_831_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/print_graphics/parser_20_newsgroups_to_create_data_table.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/print_graphics/parser_ohsumed_json_to_create_data_table.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/print_graphics/parser_reuters_21578_json_to_create_data_table.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_20NG_second_round_experiments_threshold.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_20NG_second_round_experiments_threshold.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_20_newsgroups.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_20_newsgroups.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_20_newsgroups_various_expansions.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_20_newsgroups_various_expansions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ieee.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ieee.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ieee_various_expansions.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ieee_various_expansions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_expanded_weighting_20_newsgroups.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_expanded_weighting_20_newsgroups.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_expanded_weighting_ieee.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_expanded_weighting_ieee.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_expanded_weighting_ohsumed.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_expanded_weighting_ohsumed.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_expanded_weighting_reuters_21578.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_expanded_weighting_reuters_21578.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_influence_smoothing_BoC_20NG_ohsumed_ieee.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_influence_smoothing_BoC_20NG_ohsumed_ieee.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_informacion_reducida_IEEE_08_08.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_informacion_reducida_IEEE_08_08.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_knn_20ng_wf_th_0.01_varying_n_neighbors.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_knn_20ng_wf_th_0.01_varying_n_neighbors.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_knn_ohsumed_wf_th_0.01_varying_n_neighbors.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_knn_ohsumed_wf_th_0.01_varying_n_neighbors.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_knn_reuters_21578_wf_th_0.01_varying_n_neighbors.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_knn_reuters_21578_wf_th_0.01_varying_n_neighbors.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ohsumed.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ohsumed.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ohsumed_second_round_experiments_threshold.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ohsumed_second_round_experiments_threshold.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_ohsumed_various_expansions.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_ohsumed_various_expansions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_reuters_21578_second_round_experiments_threshold.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_reuters_21578_second_round_experiments_threshold.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/display_graphics/display_graphic_reuters_21587_various_expansions.py" afterPath="$PROJECT_DIR$/print_graphics/display_graphics/display_graphic_reuters_21587_various_expansions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" afterPath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wikitopics_classifier.iws" />
@@ -106,8 +136,8 @@
       <file leaf-file-name="db_sde_declarative.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_sde_declarative.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3888888" vertical-offset="0" max-vertical-offset="952">
-              <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
+            <state vertical-scroll-proportion="1.3048973" vertical-offset="24" max-vertical-offset="952">
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
                 <element signature="e#272#310#0" expanded="false" />
@@ -181,14 +211,15 @@
         <option value="$PROJECT_DIR$/db_sde_declarative.py" />
         <option value="$PROJECT_DIR$/db_sde_declarative2.py" />
         <option value="$PROJECT_DIR$/db_simplified_declarative.py" />
+        <option value="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="116" />
-    <option name="width" value="1863" />
-    <option name="height" value="1085" />
+    <option name="x" value="59" />
+    <option name="y" value="144" />
+    <option name="width" value="1861" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -213,6 +244,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,23 +263,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikitopics_classifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikitopics_classifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="print_graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,13 +288,13 @@
       <recent name="$PROJECT_DIR$/experiments_OER_classification" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/print_graphics" />
       <recent name="$PROJECT_DIR$/print_graphics/multilabel" />
       <recent name="$PROJECT_DIR$/print_graphics/cross_language" />
-      <recent name="$PROJECT_DIR$/print_graphics" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.display_graphic_SVM_cross_language">
+  <component name="RunManager" selected="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh">
     <configuration default="false" name="display_graphic_SVM_cross_language" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,6 +312,32 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments_cross_language" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="wikitopics_classifier" />
+      <envs />
+      <RunnerSettings RunnerId="BashRunner" />
+      <ConfigurationWrapper RunnerId="BashRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments_cross_language" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="wikitopics_classifier" />
+      <envs />
+      <RunnerSettings RunnerId="BashRunner" />
+      <ConfigurationWrapper RunnerId="BashRunner" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -430,12 +473,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
+      <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
+      <item index="2" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+        <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
+        <item index="2" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
       </list>
     </recent_temporary>
   </component>
@@ -450,6 +497,13 @@
       <option name="number" value="Default" />
       <updated>1431515695099</updated>
     </task>
+    <task id="LOCAL-00001" summary="2015_05_19 from pyCharm">
+      <created>1432030967169</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1432030967169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -473,29 +527,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="116" width="1863" height="1085" extended-state="6" />
+    <frame x="59" y="144" width="1861" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11064718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17745303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30793318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30032644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35636562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24217118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20876826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -514,9 +568,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729053" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -544,6 +598,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/util_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14127" max-vertical-offset="16626">
+          <caret line="732" column="0" selection-start-line="732" selection-start-column="0" selection-end-line="732" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db_sde_declarative2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="952">
@@ -588,9 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="969">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="969">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,9 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5694051" vertical-offset="176" max-vertical-offset="969">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,14 +1013,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="822">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5042373" vertical-offset="0" max-vertical-offset="472">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_sde_declarative.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3888888" vertical-offset="0" max-vertical-offset="952">
-          <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
+        <state vertical-scroll-proportion="1.3048973" vertical-offset="24" max-vertical-offset="952">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
             <element signature="e#272#310#0" expanded="false" />

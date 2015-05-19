@@ -1,0 +1,55 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: reuters_rcv1
+CORPUS TEST: reuters_rcv1
+REPRESENTATION: BoW
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 2000
+#TEST: 500
+
+Getting train and test documents...
+--- METHOD: get_documents_from_cross_language_database_bow() ---
+Obtaining training documents from a part of the corpus bow_reuters_rcObtObtaining test documents from a part of the corpus bow_reuter(18820L, 'ECAT', [('Foreign direct investment', 0.844331), ('Balance of payments', 0.8309), ('Finance', 0.811377), ('Finance minister', 0Training the algorithm...
+Calculating metrics...
+             precision    recall  f1-score   support
+
+        M11       0.93      0.86      0.89        73
+       ECAT       0.72      0.67      0.69        88
+        C15       0.88      0.85      0.86        85
+        E21       0.88      0.84      0.86        80
+       GCAT       0.83      0.92      0.88        93
+       CCAT       0.70      0.77      0.73        81
+
+avg / total       0.82      0.82      0.82       500
+
+F1_SCORE (Macro): 0.819324543588
+Precision: 0.820374679944
+Recall: 0.818
+---- Execution End ----
+d', 0.0168623), ('Donation', 0.0168623), ('Balance (accounting)', 0.0168623), ('EMD 567', 0.0168623), ('Inflow (hydrology)', 0.0168623), ('Low Countries derby', 0.0168623), ('Budget speech', 0.0162839), ('Earnings', 0.0157947), ('Alternative medicine', 0.0147415), ('Autumn', 0.0147415), ('Private school', 0.0147415), ('Minister (government)', 0.0147415), ('Aircraft registration', 0.0147415), ('Tropical cyclone', 0.0147415), ('Unrequited love', 0.0147415), ('Freedom of speech', 0.0147415)])
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+             precision    recall  f1-score   support
+
+        M11       0.72      0.79      0.76        73
+       ECAT       0.76      0.62      0.69        88
+        C15       0.62      0.82      0.71        85
+        E21       0.74      0.71      0.73        80
+       GCAT       0.81      0.72      0.76        93
+       CCAT       0.59      0.56      0.57        81
+
+avg / total       0.71      0.70      0.70       500
+
+F1_SCORE (Macro): 0.702842754468
+Precision: 0.711051633831
+Recall: 0.704
+---- Execution End ----
