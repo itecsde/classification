@@ -1,7 +1,7 @@
 ---- EXPERIMENT DETAILS ----
 CORPUS TRAINING: wikipedia_english
-CORPUS TEST: wikipedia_spanish
-REPRESENTATION: BoC
+CORPUS TEST: wikipedia_spanish_translated_to_english_google_translate
+REPRESENTATION: BoW
 THRESHOLD: 0.01
 CLASSIFY METHOD: cross_language_linear_SVM
 METRIC: cosine
@@ -13,11 +13,10 @@ WEIGHTING: milne
 #TEST: 621
 
 Getting train and test documents...
---- Method: get_documents_from_cross_language_database_boc() ---
-Obtaining training documents from a part of corpus  boc_wikipedia_english
-Obtaining test documents from a part of corpus boc_wikipedia_spanish
-(765L, 'Mathematics and logic', [('Language', 0.684436), ('Human', 0.644795), ('Life', 0.479468), ('Belgium', 0.144978), ('Fallacy', 0.134386), ('Thought', 0.110873), ('1970', 0.096123), ('Discipline', 0.0370044), ('Process (computing)', 0.0168623), ('North', 0.0168623), ('Nonformal learning', 0.0168623), ('Informalism', 0.0168623), ('Everyday life', 0.0147415), ('Argument', 0.0137802)])
---- METHOD: get_unique_words_boc() ---
+--- METHOD: get_documents_from_cross_language_database_bow() ---
+Obtaining training documents from a part of the corpus bow_wikipedia_english
+Obtaining test documents from a part of the corpus bow_wikipedia_spanish_translated_to_english_google_translate
+--- METHOD: get_unique_words_bow() ---
 
 ----- Cross-Language Support Vector Machines algorithm------
 Creating Training Vectors...
@@ -25,13 +24,13 @@ Training the algorithm...
 Calculating metrics...
                        precision    recall  f1-score   support
 
- Culture and the arts       0.76      0.92      0.83       202
- Geography and places       0.81      0.85      0.83       221
-Mathematics and logic       0.92      0.67      0.77       198
+ Culture and the arts       0.87      0.92      0.89       204
+ Geography and places       0.90      0.91      0.90       222
+Mathematics and logic       0.96      0.89      0.92       195
 
-          avg / total       0.83      0.81      0.81       621
+          avg / total       0.91      0.90      0.91       621
 
-F1_SCORE (Macro): 0.811534048696
-Precision: 0.828408903988
-Recall: 0.814814814815
+F1_SCORE (Macro): 0.90556506381
+Precision: 0.906952008643
+Recall: 0.90499194847
 ---- Execution End ----

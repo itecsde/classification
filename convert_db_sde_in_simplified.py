@@ -34,7 +34,7 @@ def get_original_category(scraped_from):
 
 
 
-corpus_databases = ["corpus_reuters_27000_threshold_01","corpus_reuters_27000_annotated_with_title_and_description_01","corpus_ohsumed_threshold_01","corpus_ohsumed_th_01_expanded","corpus_20_newsgroups_threshould_01","corpus_20_newsgroups_th_01_expanded","corpus_ieee_threshould_01","corpus_ieee_th_01_expanded","corpus_merlot_threshold_01","corpus_ohsumed_multilabel_threshold_01", "corpus_uvigomed_multilabel_threshold_01","corpus_uvigomed_threshold_01","corpus_ohsumed_randomized_threshold_01","corpus_ohsumed_randomized_multilabel_threshold_01","corpus_reuters_rcv2_threshold_01","corpus_reuters_rcv1_threshold_01","corpus_reuters_rcv2_translated_to_english_google_translate","corpus_wikipedia_english_threshold_01","corpus_wikipedia_spanish_annotations_translated_to_en_th_01"]
+corpus_databases = ["corpus_reuters_27000_threshold_01","corpus_reuters_27000_annotated_with_title_and_description_01","corpus_ohsumed_threshold_01","corpus_ohsumed_th_01_expanded","corpus_20_newsgroups_threshould_01","corpus_20_newsgroups_th_01_expanded","corpus_ieee_threshould_01","corpus_ieee_th_01_expanded","corpus_merlot_threshold_01","corpus_ohsumed_multilabel_threshold_01", "corpus_uvigomed_multilabel_threshold_01","corpus_uvigomed_threshold_01","corpus_ohsumed_randomized_threshold_01","corpus_ohsumed_randomized_multilabel_threshold_01","corpus_reuters_rcv2_threshold_01","corpus_reuters_rcv1_threshold_01","corpus_reuters_rcv2_translated_to_english_google_translate","corpus_wikipedia_english_threshold_01","corpus_wikipedia_spanish_annotations_translated_to_en_th_01","corpus_wikipedia_es_translated_to_english_google_translate"]
 
 simplified_databases = []
 for corpus_db in corpus_databases:    
@@ -44,7 +44,7 @@ for corpus_db in corpus_databases:
 #### Aqui es donde escogemos la base de datos de corpus_databases a simplificar ###
 ###################################################################################
 #############
-selection = 18
+selection = 19
 #############
 
 corpus_db = corpus_databases[selection]

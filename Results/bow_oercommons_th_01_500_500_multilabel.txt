@@ -1,0 +1,73 @@
+---- EXPERIMENT DETAILS ----
+CORPUS: oercommons
+REPRESENTATION: BoW
+THRESHOLD: 0.01
+CLASSIFY METHOD: multilabel
+METRIC: cosine
+TFIDF: no
+STEMMING: porter
+SMOOTHING: 0.001
+WEIGHTING: milne
+ALGORITHM: linear_SVC
+#TRAIN: 500
+#TEST: 500
+
+Getting train and test documents...
+--- METHOD: get_documents_from_multilabel_database_bow() ---
+metadata: yes
+freq: 3
+Obtaining training documents from a part of the corpus bow_oercommons
+Obtaining test documents from complete corpus bow_oercommons
+--- METHOD: get_unique_words_bow() ---
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...
+Training multilabel classifier...
+Classifying test documents (Prediction)
+Metrics:
+----------------
+Hamming Loss:
+0.0353333333333
+
+Accuracy:
+0.536
+
+Precision:
+0.892011024237
+
+Recall:
+0.76409366869
+
+Classification Report:
+                            precision    recall  f1-score   support
+
+                      Arts       1.00      0.27      0.42        15
+                 Education       0.84      0.85      0.84       162
+                  Business       0.00      0.00      0.00        12
+                Humanities       0.93      0.75      0.83        53
+Mathematics and Statistics       0.89      0.66      0.76        50
+                   Physics       0.86      0.81      0.84        54
+                Geoscience       1.00      0.94      0.97        70
+ Computing and Information       0.80      0.62      0.70        13
+                   Ecology       1.00      0.62      0.76        34
+               Engineering       0.92      0.63      0.75        19
+    Science and Technology       0.72      0.59      0.65       122
+  Forestry and Agriculture       1.00      0.62      0.76        34
+             Space Science       0.97      0.89      0.93        38
+               Mathematics       0.88      0.65      0.75        46
+              Life Science       0.91      0.86      0.89       131
+                  Politics       1.00      1.00      1.00        28
+                       Law       1.00      1.00      1.00        28
+                Technology       1.00      0.50      0.67        20
+           Social Sciences       0.94      0.69      0.79       129
+                 Chemistry       0.93      0.93      0.93        67
+                   History       1.00      1.00      1.00        28
+
+               avg / total       0.89      0.76      0.82      1153
+
+F1-score
+----------------
+F1_SCORE (Macro): 0.773417352014
+Precision: 0.892011024237
+Recall: 0.76409366869
+---- Execution End ----

@@ -81,7 +81,10 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_english_threshold_01'        
 
     elif corpus == "bow_wikipedia_spanish" or corpus == "boc_wikipedia_spanish":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_spanish_annotations_translated_to_en_th_01'           
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_spanish_annotations_translated_to_en_th_01'
+
+    elif corpus == "bow_wikipedia_spanish_translated_to_english_google_translate" or corpus == "boc_wikipedia_spanish_translated_to_english_google_translate":
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_es_translated_to_english_google_translate'
 
 
     EngineDB = create_engine(db_parameters)

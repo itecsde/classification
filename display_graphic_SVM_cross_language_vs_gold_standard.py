@@ -41,7 +41,7 @@ print boc
 print cl
 
 p_bow, = plt.plot(train_set, [x[1] for x in bow], 'ko-')
-p_boc, = plt.plot(train_set,  [x[1] for x in boc],'rx-')
+#p_boc, = plt.plot(train_set,  [x[1] for x in boc],'rx-')
 p_cl, = plt.plot(train_set,  [x[1] for x in cl],'b.-')
 
 
@@ -49,7 +49,6 @@ plt.title(experiment_folder)
 plt.xlabel('Training sequence')
 plt.ylabel('F1-score')
 
-plt.legend([p_bow,p_boc, p_cl], ["BoW", "BoC", "Cross Language"], loc = "lower right", prop={'size':12})
-
+plt.legend([p_bow,p_cl], ["BoW Machine Translation", "Our approach"], loc = "lower right", prop={'size':12})
 
 plt.savefig("Results/json/cross_language_SVM/" + experiment_folder + "/" + experiment_folder.replace(".", "_"))

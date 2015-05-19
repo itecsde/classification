@@ -17,3 +17,57 @@ Getting train and test documents...
 metadata: yes
 freq: 3
 Obtaining training documents from a part of the corpus bow_oercommons
+Obtaining test documents from complete corpus bow_oercommons
+--- METHOD: get_unique_words_bow() ---
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...
+Training multilabel classifier...
+Classifying test documents (Prediction)
+Metrics:
+----------------
+Hamming Loss:
+0.088380952381
+
+Accuracy:
+0.168
+
+Precision:
+0.68692566999
+
+Recall:
+0.355594102342
+
+Classification Report:
+                            precision    recall  f1-score   support
+
+                      Arts       0.62      0.33      0.43        15
+                 Education       0.59      0.51      0.55       162
+                  Business       0.00      0.00      0.00        12
+                Humanities       0.92      0.23      0.36        53
+Mathematics and Statistics       1.00      0.44      0.61        50
+                   Physics       0.44      0.13      0.20        54
+                Geoscience       0.91      0.43      0.58        70
+ Computing and Information       0.33      0.08      0.12        13
+                   Ecology       1.00      0.06      0.11        34
+               Engineering       0.33      0.05      0.09        19
+    Science and Technology       0.47      0.25      0.32       122
+  Forestry and Agriculture       1.00      0.06      0.11        34
+             Space Science       0.61      0.29      0.39        38
+               Mathematics       0.27      0.09      0.13        46
+              Life Science       0.68      0.69      0.68       131
+                  Politics       1.00      0.64      0.78        28
+                       Law       1.00      0.64      0.78        28
+                Technology       0.00      0.00      0.00        20
+           Social Sciences       0.80      0.25      0.38       129
+                 Chemistry       0.78      0.37      0.51        67
+                   History       1.00      0.64      0.78        28
+
+               avg / total       0.69      0.36      0.44      1153
+
+F1-score
+----------------
+F1_SCORE (Macro): 0.378067767968
+Precision: 0.68692566999
+Recall: 0.355594102342
+---- Execution End ----
