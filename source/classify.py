@@ -14,9 +14,9 @@ import time
 import os
 
 class Logger(object):
-    def __init__(self, filename):
+    def __init__(self, filename, json_path):
         self.terminal = sys.stdout
-        self.log = open("../results/" + filename, "w")
+        self.log = open(json_path + filename, "w")
 
     def write(self, message):
         self.terminal.write(message)
@@ -109,15 +109,15 @@ else:
     metadata_freq = 0
 
 if args.classify_method == "mbayes":
-    json_path = "../results/json/BAYES/" + destination_folder + "/"
+    json_path = "../results/BAYES/" + destination_folder + "/"
 elif args.classify_method == "kneighbors":
-    json_path = "../results/json/KNN/" + destination_folder + "/"
+    json_path = "../results/KNN/" + destination_folder + "/"
 elif args.classify_method == "multilabel":
-    json_path = "../results/json/Multilabel/" + destination_folder + "/"
+    json_path = "../results/Multilabel/" + destination_folder + "/"
 elif args.classify_method == "SVM" or args.classify_method == "linear_SVM" or args.classify_method == "nu_SVM":
-    json_path = "../results/json/SVM/" + destination_folder + "/"
+    json_path = "../results/SVM/" + destination_folder + "/"
 elif args.classify_method == "cross_language_linear_SVM":
-    json_path = "../results/json/cross_language_SVM/" + destination_folder + "/"
+    json_path = "../results/cross_language_SVM/" + destination_folder + "/"
 
 if os.path.exists(json_path) == False:
     os.mkdir(json_path)
@@ -153,7 +153,7 @@ for corpus in array_corpus:
                 filename = corpus + "_th_" + (str(threshold)).replace("0.", "") + "_" + str(number_of_documents_for_training) + "_" + str(number_of_documents_for_testing) + "_" + classify_method + ".txt"
 
             old_stdout = sys.stdout
-            sys.stdout = Logger(filename)
+            sys.stdout = Logger(filename, json_path)
 
             # Print experiment details
             util_classify.print_experiment_details(corpus, corpus_training, corpus_test, threshold, number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf, stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, expanded_weighting, n_neighbors, metric, algorithm, kernel, nu)
