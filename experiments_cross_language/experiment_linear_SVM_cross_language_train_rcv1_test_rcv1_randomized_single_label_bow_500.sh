@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 cd ..
 python classify.py -corpus_training bow_reuters_rcv1 -corpus_test bow_reuters_rcv1 -method cross_language_linear_SVM -train 5 -test 500 -metric cosine -destination_folder train_rcv1_test_rcv1_500_test_bow
 python classify.py -corpus_training bow_reuters_rcv1 -corpus_test bow_reuters_rcv1 -method cross_language_linear_SVM -train 10 -test 500 -metric cosine -destination_folder train_rcv1_test_rcv1_500_test_bow
