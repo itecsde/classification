@@ -9,10 +9,12 @@ experiment_folder = sys.argv[1]
 print "exp folder"
 print experiment_folder
 
-json_files =  glob.glob("Results/json/cross_language_SVM/" + experiment_folder +"/*.json")
+json_files =  glob.glob("../../results/cross_language_SVM/" + experiment_folder +"/*.json")
 #json_files = glob.glob("Results/json/Multilabel/" + experiment_folder + "/*.json")
 
-train_set = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 2398]
+print json_files
+
+train_set = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000]
 
 bow = {}
 boc = {}
@@ -47,5 +49,5 @@ plt.ylabel('F1-score')
 #plt.legend([p_bow,p_boc], ["BoW", "BoC"], loc = "lower right", prop={'size':12})
 plt.legend([p_boc], ["BoC"], loc="lower right", prop={'size': 12})
 
-plt.savefig("Results/json/cross_language_SVM/" + experiment_folder + "/" + experiment_folder.replace(".", "_"))
+plt.savefig("../../results/cross_language_SVM/" + experiment_folder + "/" + experiment_folder.replace(".", "_"))
 # plt.savefig("Results/json/Multilabel/" + experiment_folder + "/" + experiment_folder.replace(".", "_"))

@@ -113,7 +113,7 @@ if args.classify_method == "mbayes":
 elif args.classify_method == "kneighbors":
     json_path = "../results/KNN/" + destination_folder + "/"
 elif args.classify_method == "multilabel":
-    json_path = "../results/Multilabel/" + destination_folder + "/"
+    json_path = "../results/multilabel/" + destination_folder + "/"
 elif args.classify_method == "SVM" or args.classify_method == "linear_SVM" or args.classify_method == "nu_SVM":
     json_path = "../results/SVM/" + destination_folder + "/"
 elif args.classify_method == "cross_language_linear_SVM":

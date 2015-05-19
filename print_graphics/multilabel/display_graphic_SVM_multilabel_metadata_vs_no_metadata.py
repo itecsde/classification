@@ -9,7 +9,7 @@ experiment_folder = sys.argv[1]
 print "exp folder"
 print experiment_folder
 
-json_files = glob.glob("Results/json/Multilabel/" + experiment_folder + "/*.json")
+json_files = glob.glob("../../results/multilabel/" + experiment_folder + "/*.json")
 
 train_set = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000]
 
@@ -42,4 +42,4 @@ plt.xlabel('Training sequence')
 plt.ylabel('F1-score')
 plt.legend([p_bow_metadata, p_bow_no_metadata], ["With metadata", "Without metadata"], loc="lower right", prop={'size': 12})
 
-plt.savefig("Results/json/Multilabel/" + experiment_folder + "/" + experiment_folder.replace(".", "_"))
+plt.savefig("../../results/multilabel/" + experiment_folder + "/" + experiment_folder.replace(".", "_"))

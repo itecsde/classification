@@ -9,7 +9,7 @@ experiment_folder = sys.argv[1]
 print "exp folder"
 print experiment_folder
 
-json_files = glob.glob("Results/json/Multilabel/" + experiment_folder + "/*.json")
+json_files = glob.glob("../../results/multilabel/" + experiment_folder + "/*.json")
 
 metadata_weight = [0, 1, 2, 3, 8, 10, 13, 21, 25, 30, 34, 40, 55]
 
@@ -37,4 +37,4 @@ plt.xlabel('metadata_frequency')
 plt.ylabel('F1-score')
 plt.legend([p_bow], ["BoW"], loc="lower right", prop={'size': 12})
 
-plt.savefig("Results/json/Multilabel/" + experiment_folder + "/" + experiment_folder.replace(".", "_"))
+plt.savefig("../../results/multilabel/" + experiment_folder + "/" + experiment_folder.replace(".", "_"))
