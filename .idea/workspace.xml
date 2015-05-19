@@ -1,210 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_1000_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_100_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_10_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_2000_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_200_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_20_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_5000_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_500_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_50_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_merlot_th_01_5_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_1000_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_100_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_10_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_2000_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_200_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_20_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_5000_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_500_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_50_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/bow_oercommons_th_01_5_500_multilabel.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_1000_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_1000_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_1000_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_100_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_100_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_100_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_10_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_10_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_10_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_2000_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_2000_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_2000_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_200_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_200_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_200_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_20_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_20_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_20_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_2398_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_3000_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_3000_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_5000_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_500_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_500_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_500_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_50_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_50_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_50_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_5_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_5_621_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_5_831_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/cross_language_th_01_7500_500_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431007085.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431008254.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431012342.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431012491.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431012825.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431072617.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431073612.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431076456.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431076717.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431079525.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431080237.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/json/cross_language_SVM/prueba_borrar/boc_reuters_rcv1_boc_reuters_rcv2_th_01_5_6_cross_language_linear_SVM_10_neighbors1431081015.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classify.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classify_methods.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/convert_db_sde_in_simplified.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_sde_declarative.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_sde_declarative2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db_simplified_declarative.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/aaaaexperiment_multilabel_linear_SVC_UVigoMED_babar.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/aaaaexperiment_multilabel_linear_SVC_UVigoMED_jumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/aaaexperiment_linear_SVM_UVigoMED_single_label_bow_boc_dumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/aaaexperiment_linear_SVM_UVigoMED_single_label_bow_boc_ganesha.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_SVM_OHSUMED_single_label_bow_boc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_knn_experiment_information_reduced.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_knn_generic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_multilabel_generic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_multilabel_paper_ical.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/display_graphic_percentage_increment.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_1.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_20_newsgroups_with_varios_expanded_thresholds.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_SVM_kernel_linear_OHSUMED_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_SVM_kernel_poly_OHSUMED_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_SVM_kernel_rbf_OHSUMED_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_SVM_kernel_sigmoid_OHSUMED_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_ieee.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_ieee_with_varios_expanded_thresholds.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_expanded_weighting_20_newsgroups_0.8_0.8.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_expanded_weighting_ieee_0.8_0.8.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_expanded_weighting_ohsumed_0.8_0.8.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_expanded_weighting_reuters_21578_0.8_0.8 .sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_influence_smoothing_BoC_20NG_ohsumed_ieee.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_informacion_reducida_IEEE_08_08.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_20ng_wf_th_0.01_varying_n_neighbors_braycurtis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_20ng_wf_th_0.01_varying_n_neighbors_cosine.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_20ng_wf_th_0.01_varying_n_neighbors_jaccard.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_20_ng_measures.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_braycurtis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_cosine.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_jaccard.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_ohsumed_measures.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_braycurtis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_cosine.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_jaccard.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_reuters_21578_measures.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_braycurtis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_cosine.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_jaccard.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_bray_curtis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_cosine.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_jaccard.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_reuters_21578_wf_th_0.01_varying_n_neighbors_braycurtis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_knn_reuters_21578_wf_th_0.01_varying_n_neighbors_jaccard.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_20NG_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_IEEE_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_OHSUMED_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_Reuters27000_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_linear_SVM_reuters_21578_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_KNN.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_KNN_merlot.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_KNN_ohsumed.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SGD.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SGD_merlot.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SGD_ohsumed.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_merlot.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_ohsumed.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_ohsumed_BoC.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_poly.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_rbf.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_SVC_sigmoid.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_linear_SVC_ohsumed.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_naive_bayes.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_naive_bayes_merlot.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_multilabel_naive_bayes_ohsumed.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_nu_SVM_kernel_linear_OHSUMED_single_label_bow_boc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_ohsumed.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_ohsumed_with_varios_expanded_thresholds.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_braycurtis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_chebyshev.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_cosine.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_euclidean.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_jaccard.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_boc_ohsumed_10n_manhattan.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_braycurtis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_chebyshev.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_cosine.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_euclidean.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_jaccard.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experiment_reduced_information_bow_ohsumed_10n_manhattan.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_2.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_babar.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_dumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_ganesha.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_jumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimento_multilabel_BoC_marcos_pc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/experimentos_multilabel_BoC.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/personal.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/script.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/script_remoto.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_influence_metadata_weight.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_metadata_500_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_merlot_bow_without_metadata_500_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_influence_metadata_weight.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_metadata_500_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_OER_classification/experiment_multilabel_linear_SVC_oercommons_bow_without_metadata_500_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_1000_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_2000_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_3000_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_500_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_bow_500_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_translated_to_english_google_translate_randomized_single_label_bow_500_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_boc_500 .sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_bow_500.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_bow_621.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_SL_150_test/experiment_linear_SVM_ohsumed_randomized_single_label_bow_boc_dumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_SL_5000_1000/experiment_linear_SVC_ohsumed_5000_1000_ganesha.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_SL_5000_1000/experiment_linear_SVC_ohsumed_5000_1000_tantor.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_150_test/experiment_linear_SVM_ohsumed_randomized_single_label_bow_boc_dumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_150_test/experiment_linear_SVM_ohsumed_randomized_single_label_bow_boc_ganesha.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_150_test/experiment_multilabel_linear_SVC_ohsumed_randomized_babar.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_150_test/experiment_multilabel_linear_SVC_ohsumed_randomized_jumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_5000_1000/experiment_linear_SVC_ohsumed_randomized_5000_1000_ganesha.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_5000_1000/experiment_linear_SVC_ohsumed_randomized_5000_1000_tantor.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_SL_all_test/experiment_linear_SVM_ohsumed_randomized_single_label_bow_boc_dumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_multilabel/experiment_multilabel_linear_SVC_ohsumed_randomized_babar.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_ohsumed_randomized_multilabel/experiment_multilabel_linear_SVC_ohsumed_randomized_jumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_uvigomed_SL_300_test/experiment_linear_SVM_UVigoMED_single_label_bow_boc_dumbo_300_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_uvigomed_SL_300_test/experiment_linear_SVM_UVigoMED_single_label_bow_boc_ganesha_300_test.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_uvigomed_SL_5000_1000/experiment_multilabel_linear_SVC_uvigomed_5000_1000_babar.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments_uvigomed_SL_5000_1000/experiment_multilabel_linear_SVC_uvigomed_5000_1000_jumbo.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prueba" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/util_classify.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="" />
     <ignored path="wikitopics_classifier.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -606,7 +403,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432037177767</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reorder">
+      <created>1432044600892</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1432044600892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -633,6 +436,7 @@
     <frame x="59" y="144" width="1861" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17745303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31732777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -648,7 +452,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -693,7 +496,8 @@
     </option>
     <MESSAGE value="2015_05_19 from pyCharm" />
     <MESSAGE value="2015_05_19_14_06 from pyCharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="2015_05_19_14_06 from pyCharm" />
+    <MESSAGE value="Reorder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

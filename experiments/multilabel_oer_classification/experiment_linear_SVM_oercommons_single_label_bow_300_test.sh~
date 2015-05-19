@@ -1,0 +1,14 @@
+cd ..
+
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 5 -test 500 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 10 -test 500 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 20 -test 300 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 50 -test 300 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 100 -test 300 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 200 -test 300 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 500 -test 300 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 1000 -test 300 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 2000 -test 300 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+python classify.py -corpus boc_uvigomed -method linear_SVM  -train 5000 -test 300 -destination_folder linear_SVM_uvigomed_SL_SL_300_test
+
