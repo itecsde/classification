@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd ..
+cd ../../source
 
 python classify.py -corpus bow_merlot -method multilabel -train 5 -test 500 -metric cosine -metadata_freq 2 -destination_folder linear_multilabel_SVC_merlot_multilabel_bow_metadata_freq_2 -algorithm linear_SVC
 python classify.py -corpus bow_merlot -method multilabel -train 10 -test 500 -metric cosine -metadata_freq 2 -destination_folder linear_multilabel_SVC_merlot_multilabel_bow_metadata_freq_2 -algorithm linear_SVC

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd ..
+cd ../../source
 
 #python classify.py -corpus bow_oercommons -method multilabel -train 5000 -test 500 -metric cosine -metadata_freq 0 -destination_folder linear_multilabel_SVC_oercommons_bow_influence_metadata_weight -algorithm linear_SVC
 #python classify.py -corpus bow_oercommons -method multilabel -train 5000 -test 500 -metric cosine -metadata_freq 1 -destination_folder linear_multilabel_SVC_oercommons_bow_influence_metadata_weight -algorithm linear_SVC
