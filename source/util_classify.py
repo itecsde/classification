@@ -21,7 +21,7 @@ def set_database_session(corpus):
     global Sesionmaker, EngineDB, DBSession, Session
     
     if corpus == "boc_reuters_27000" or corpus == "bow_reuters_27000":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_reuters_27000_threshold_01'
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_reuters_27000_threshold_01'
 
     elif corpus == "boc_reuters_21578" or corpus == "bow_reuters_21578":
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_reuters_21578_threshold_01'
@@ -42,16 +42,16 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_20newsgroups_th_01_expanded'        
     
     elif corpus == "boc_ieee" or corpus == "bow_ieee":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_ieee_threshould_01'
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_ieee_threshould_01'
 
     elif corpus == "boc_ieee_expanded":
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_ieee_th_01_expanded'
 
     elif corpus == "bow_oercommons" or corpus == "boc_oercommons":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_oercommons_threshold_01'
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_oercommons_threshold_01'
 
     elif corpus == "bow_merlot" or corpus == "boc_merlot":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_merlot_threshold_01'       
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_merlot_threshold_01'
 
     elif corpus == "bow_ohsumed_multilabel" or corpus == "boc_ohsumed_multilabel":
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_ohsumed_multilabel_threshold_01'
@@ -69,22 +69,22 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_ohsumed_randomized_multilabel_threshold_01'
 
     elif corpus == "bow_reuters_rcv1" or corpus == "boc_reuters_rcv1":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_reuters_rcv1_threshold_01'                
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_reuters_rcv1_threshold_01'
 
     elif corpus == "bow_reuters_rcv2" or corpus == "boc_reuters_rcv2":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_reuters_rcv2_threshold_01'
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_reuters_rcv2_threshold_01'
 
     elif corpus == "bow_reuters_rcv2_translated_to_english_google_translate" or corpus == "boc_reuters_rcv2_translated_to_english_google_translate":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_reuters_rcv2_translated_to_english_google_translate'        
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_reuters_rcv2_translated_to_english_google_translate'
 
     elif corpus == "bow_wikipedia_english" or corpus == "boc_wikipedia_english":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_english_threshold_01'        
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_wikipedia_english_threshold_01'
 
     elif corpus == "bow_wikipedia_spanish" or corpus == "boc_wikipedia_spanish":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_spanish_annotations_translated_to_en_th_01'
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_wikipedia_spanish_annotations_translated_to_en_th_01'
 
     elif corpus == "bow_wikipedia_spanish_translated_to_english_google_translate" or corpus == "boc_wikipedia_spanish_translated_to_english_google_translate":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_es_translated_to_english_google_translate'
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_wikipedia_es_translated_to_english_google_translate'
 
 
     EngineDB = create_engine(db_parameters)
