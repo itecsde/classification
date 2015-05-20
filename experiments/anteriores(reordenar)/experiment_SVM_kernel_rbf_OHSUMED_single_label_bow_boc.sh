@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 python classify.py -corpus bow_ohsumed -method SVM -kernel rbf -train 5 -destination_folder SVM_kernel_rbf_OHSUMED_SL_kernel_rbf_SL
 python classify.py -corpus bow_ohsumed -method SVM -kernel rbf -train 10 -destination_folder SVM_kernel_rbf_OHSUMED_SL_kernel_rbf_SL
 python classify.py -corpus bow_ohsumed -method SVM -kernel rbf -train 15 -destination_folder SVM_kernel_rbf_OHSUMED_SL_kernel_rbf_SL

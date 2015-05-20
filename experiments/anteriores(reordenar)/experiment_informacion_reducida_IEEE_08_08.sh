@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #python classify.py -corpus boc_ieee_expanded -method mbayes -train 5 -exp_threshold 0.8 -exp_relatedness 0.8 -test 138 -kbest 3000
 #python classify.py -corpus boc_ieee_expanded -method mbayes -train 10 -exp_threshold 0.8 -exp_relatedness 0.8 -test 138 -kbest 3000
 #python classify.py -corpus boc_ieee_expanded -method mbayes -train 15 -exp_threshold 0.8 -exp_relatedness 0.8 -test 138 -kbest 3000

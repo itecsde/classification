@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #python classify.py -corpus boc_20_newsgroup -method mbayes -train 150 -smoothing 0.001
 #python classify.py -corpus boc_20_newsgroup -method mbayes -train 150 -smoothing 0.005
 #python classify.py -corpus boc_20_newsgroup -method mbayes -train 150 -smoothing 0.01

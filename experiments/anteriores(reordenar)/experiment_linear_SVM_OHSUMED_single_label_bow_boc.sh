@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #python classify.py -corpus bow_ohsumed -method linear_SVM  -train 5 -destination_folder linear_SVM_OHSUMED_SL_SL
 #python classify.py -corpus bow_ohsumed -method linear_SVM  -train 10 -destination_folder linear_SVM_OHSUMED_SL_SL
 #python classify.py -corpus bow_ohsumed -method linear_SVM  -train 15 -destination_folder linear_SVM_OHSUMED_SL_SL

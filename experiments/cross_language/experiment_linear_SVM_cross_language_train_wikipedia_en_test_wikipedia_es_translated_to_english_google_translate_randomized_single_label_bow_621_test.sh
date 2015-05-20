@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 cd ../../source
+
 python classify.py -corpus_training bow_wikipedia_english -corpus_test bow_wikipedia_spanish_translated_to_english_google_translate -method cross_language_linear_SVM -train 5 -test 621 -metric cosine -destination_folder train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_621_test_bow
 
 python classify.py -corpus_training bow_wikipedia_english -corpus_test bow_wikipedia_spanish_translated_to_english_google_translate -method cross_language_linear_SVM -train 10 -test 621 -metric cosine -destination_folder train_wikipedia_english_test_wikipedia_spanish_translated_to_english_google_translate_621_test_bow

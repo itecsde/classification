@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 python classify.py -corpus boc_ieee -method mbayes -train 5 -test 138
 python classify.py -corpus boc_ieee -method mbayes -train 10 -test 138
 python classify.py -corpus boc_ieee -method mbayes -train 15 -test 138

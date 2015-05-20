@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 python classify.py -corpus bow_ohsumed -method nu_SVM -nu 0.1 -kernel linear -train 5 -destination_folder nu_SVM_kernel_linear_OHSUMED_SL_kernel_linear_SL_nu_01
 python classify.py -corpus bow_ohsumed -method nu_SVM -nu 0.1 -kernel linear -train 10 -destination_folder nu_SVM_kernel_linear_OHSUMED_SL_kernel_linear_SL_nu_01
 python classify.py -corpus bow_ohsumed -method nu_SVM -nu 0.1 -kernel linear -train 15 -destination_folder nu_SVM_kernel_linear_OHSUMED_SL_kernel_linear_SL_nu_01

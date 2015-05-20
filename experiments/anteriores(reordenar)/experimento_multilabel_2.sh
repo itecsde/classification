@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #python classify.py -corpus bow_oercommons -method multilabel -train 5 -test 1000 -metric cosine -destination_folder prueba
 #python classify.py -corpus bow_oercommons -method multilabel -train 10 -test 1000 -metric cosine -destination_folder prueba
 #python classify.py -corpus bow_oercommons -method multilabel -train 20 -test 1000 -metric cosine -destination_folder prueba

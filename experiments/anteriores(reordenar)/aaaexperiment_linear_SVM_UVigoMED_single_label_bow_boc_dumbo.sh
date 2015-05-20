@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #python classify.py -corpus boc_uvigomed -method linear_SVM  -train 5 -test 150 -destination_folder linear_SVM_uvigomed_SL_SL
 #python classify.py -corpus boc_uvigomed -method linear_SVM  -train 10 -test 150 -destination_folder linear_SVM_uvigomed_SL_SL
 #python classify.py -corpus boc_uvigomed -method linear_SVM  -train 15 -test 150 -destination_folder linear_SVM_uvigomed_SL_SL

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 python classify.py -corpus boc_20_newsgroup_expanded -method mbayes -train 5 -exp_threshold 0.8 -exp_relatedness 0.8 -exp_weighting 0.001
 python classify.py -corpus boc_20_newsgroup_expanded -method mbayes -train 5 -exp_threshold 0.8 -exp_relatedness 0.8 -exp_weighting 0.01
 python classify.py -corpus boc_20_newsgroup_expanded -method mbayes -train 5 -exp_threshold 0.8 -exp_relatedness 0.8 -exp_weighting 0.025

@@ -1,4 +1,5 @@
-cd ..
+#!/usr/bin/env bash
+cd ../../source
 
 python classify.py -corpus boc_ohsumed_randomized -method linear_SVM -train 5 -test 1000 -metric cosine -destination_folder linear_SVC_ohsumed_randomized_5000_1000_aleat
 python classify.py -corpus boc_ohsumed_randomized -method linear_SVM -train 10 -test 1000 -metric cosine -destination_folder linear_SVC_ohsumed_randomized_5000_1000_aleat 

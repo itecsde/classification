@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 python classify.py -corpus boc_20_newsgroup -method mbayes -train 5
 python classify.py -corpus boc_20_newsgroup -method mbayes -train 10
 python classify.py -corpus boc_20_newsgroup -method mbayes -train 15

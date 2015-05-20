@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 python classify.py -corpus boc_ieee -method linear_SVM  -train 5 -test 200 -destination_folder linear_SVM_ieee_SL
 python classify.py -corpus boc_ieee -method linear_SVM  -train 10 -test 200 -destination_folder linear_SVM_ieee_SL
 python classify.py -corpus boc_ieee -method linear_SVM  -train 15 -test 200 -destination_folder linear_SVM_ieee_SL
