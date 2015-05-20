@@ -86,6 +86,9 @@ def set_database_session(corpus):
     elif corpus == "bow_wikipedia_spanish_translated_to_english_google_translate" or corpus == "boc_wikipedia_spanish_translated_to_english_google_translate":
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_wikipedia_es_translated_to_english_google_translate'
 
+    elif corpus == "bow_cnx" or corpus == "boc_cnx":
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_cnx'
+
 
     EngineDB = create_engine(db_parameters)
     Base.metadata.bind = EngineDB

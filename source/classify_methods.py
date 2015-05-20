@@ -231,7 +231,8 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
         # OERCOMMONS corpus -> 21 categories
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
-        vector_categories = np.zeros(21)
+        # CNX corpus -> 6 categories
+        vector_categories = np.zeros(6)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
         vector_categories = np.array(vector_categories)
@@ -278,7 +279,8 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
         # OERCOMMONS corpus -> 21 categories
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
-        vector_categories = np.zeros(21)
+        # CNX corpus -> 6 categories
+        vector_categories = np.zeros(6)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
         vector_categories = np.array(vector_categories)
