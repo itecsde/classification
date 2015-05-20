@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 cd ../../source
+
 python classify.py -corpus bow_merlot -method multilabel -train 5 -test 1000 -metric cosine -destination_folder multilabel_KNN_merlot -algorithm KNN
 python classify.py -corpus bow_merlot -method multilabel -train 10 -test 1000 -metric cosine -destination_folder multilabel_KNN_merlot -algorithm KNN
 python classify.py -corpus bow_merlot -method multilabel -train 20 -test 1000 -metric cosine -destination_folder multilabel_KNN_merlot -algorithm KNN
