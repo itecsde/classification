@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd ../../source
+
+sh experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_cosine.sh
+sh experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_jaccard.sh
+sh experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_braycurtis.sh
+

@@ -48,10 +48,10 @@ else:
 	p_bow, = plt.plot(n_neighbors_set,  [x[1] for x in bow],'rx-')
 	p_boc_expanded, = plt.plot(n_neighbors_set,  [x[1] for x in boc_expanded],'g*-')
 
+plt.title(experiment_folder)
+plt.xlabel('n_neighbors')
+plt.ylabel('F1-score')
 plt.legend([p_boc, p_bow, p_boc_expanded], ["BoC","BoW","BoC_expanded"], loc = "lower right")
 
-print experiment_folder
-
-
-plt.savefig("Results/img/" + experiment_folder.replace(".","_"))
+plt.savefig("Results/json/KNN/" + experiment_folder + "/" + experiment_folder.replace(".","_"))
 
