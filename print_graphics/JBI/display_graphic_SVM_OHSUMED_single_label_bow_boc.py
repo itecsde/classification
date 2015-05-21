@@ -10,12 +10,10 @@ print "exp folder"
 print experiment_folder
 
 json_files =  glob.glob("Results/json/SVM/" + experiment_folder +"/*.json")
-#json_files =  glob.glob("Results/json/Multilabel/" + experiment_folder +"/*.json")
-train_set = [5, 10, 15, 20, 25, 30, 40, 50, 75, 100, 150,300,500,750,1000]
+
+train_set = [5, 10, 15, 20, 25, 30, 40, 50, 75, 100, 150,300, 500, 750, 1000]
 train_set = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000]
-#train_set = [5, 10, 15, 20, 25, 30, 40, 50]
-#train_set = [5, 10, 15]
-#train_set = [5, 10, 15, 20, 25, 30, 40, 50, 75, 100, 150, 300, 500]
+
 
 bow_ohsumed = {}
 boc_ohsumed = {}
@@ -51,4 +49,3 @@ plt.ylabel('F1-score')
 plt.legend([p_bow,p_boc], ["BoW", "BoC"], loc = "lower right", prop={'size':12})
 
 plt.savefig("Results/json/SVM/" + experiment_folder + "/" + experiment_folder.replace(".","_"))
-#plt.savefig("Results/json/Multilabel/" + experiment_folder + "/" + experiment_folder.replace(".","_"))

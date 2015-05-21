@@ -2,19 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_metadata_500_test.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_without_metadata_500_test.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_1000_500_multilabel_10_neighbors1431439501.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_100_500_multilabel_10_neighbors1431434363.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_10_500_multilabel_10_neighbors1431431342.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_2000_500_multilabel_10_neighbors1431443356.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_200_500_multilabel_10_neighbors1431435545.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_20_500_multilabel_10_neighbors1431432300.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_5000_500_multilabel_10_neighbors1431452436.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_500_500_multilabel_10_neighbors1431437128.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_50_500_multilabel_10_neighbors1431433312.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/bow_oercommons_th_01_5_500_multilabel_10_neighbors1431430398.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/linear_multilabel_SVC_oercommons_multilabel_bow_metadata/linear_multilabel_SVC_oercommons_multilabel_bow_metadata.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_20_newsgroups_with_varios_expanded_thresholds.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_ieee.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_ieee_with_varios_expanded_thresholds.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_influence_expanded_weighting_20_newsgroups_0.8_0.8.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_influence_expanded_weighting_ieee_0.8_0.8.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_influence_expanded_weighting_ohsumed_0.8_0.8.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_influence_expanded_weighting_reuters_21578_0.8_0.8 .sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_influence_smoothing_BoC_20NG_ohsumed_ieee.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_informacion_reducida_IEEE_08_08.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_ohsumed.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiments/anteriores(reordenar)/experiment_ohsumed_with_varios_expanded_thresholds.sh" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_500_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_500_test.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_bow_500_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_bow_500_test.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_translated_to_english_google_translate_randomized_single_label_bow_500_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_translated_to_english_google_translate_randomized_single_label_bow_500_test.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_boc_500 .sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_boc_500 .sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_bow_500.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_bow_500.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_bow_621.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_bow_621.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/print_graphics/cross_language/__init__.py" afterPath="$PROJECT_DIR$/print_graphics/cross_language_SVM/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py" afterPath="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language_vs_gold_standard.py" afterPath="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language_vs_gold_standard.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_graphics/JBI/display_graphic_SVM_OHSUMED_single_label_bow_boc.py" afterPath="$PROJECT_DIR$/print_graphics/JBI/display_graphic_SVM_OHSUMED_single_label_bow_boc.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wikitopics_classifier.iws" />
@@ -38,20 +52,7 @@
     <favorites_list name="wikitopics_classifier" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="display_graphic_SVM_multilabel_metadata_vs_no_metadata.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/print_graphics/multilabel/display_graphic_SVM_multilabel_metadata_vs_no_metadata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.05598756" vertical-offset="36" max-vertical-offset="850">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -64,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_boc_500_test.sh" />
         <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_randomized_single_label_bow_500_test.sh" />
         <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv1_test_rcv2_translated_to_english_google_translate_randomized_single_label_bow_500_test.sh" />
         <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_boc_500 .sh" />
@@ -115,6 +115,7 @@
         <option value="$PROJECT_DIR$/source/util_classify.py" />
         <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_metadata_500_test.sh" />
         <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_without_metadata_500_test.sh" />
+        <option value="$PROJECT_DIR$/print_graphics/JBI/display_graphic_SVM_OHSUMED_single_label_bow_boc.py" />
       </list>
     </option>
   </component>
@@ -156,7 +157,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -203,6 +204,22 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="208" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="225" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="232" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="206" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="226" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="232" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1131" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -214,11 +231,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/print_graphics" />
+      <recent name="$PROJECT_DIR$/print_graphics/cross_language" />
+      <recent name="$PROJECT_DIR$/experiments" />
       <recent name="$PROJECT_DIR$/experiments/multilabel_oer_classification" />
       <recent name="$PROJECT_DIR$/print_graphics/multilabel" />
-      <recent name="$PROJECT_DIR$/experiments_cross_language" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/experiments_OER_classification" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/print_graphics" />
@@ -472,7 +489,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432137876769</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add cnx corpus and experiments">
+      <created>1432217207622</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1432217207622</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -501,12 +524,12 @@
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17745303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29749477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12212943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17791077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40587595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24217118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -573,41 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_bow_621.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_20ng_wf_th_0.01_varying_n_neighbors_braycurtis.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
@@ -947,13 +935,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/print_graphics/JBI/display_graphic_SVM_OHSUMED_single_label_bow_boc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27250308" vertical-offset="0" max-vertical-offset="969">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_500.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/print_graphics/multilabel/display_graphic_SVM_multilabel_metadata_vs_no_metadata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.05598756" vertical-offset="36" max-vertical-offset="850">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print_graphics/cross_language_SVM/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020961776" vertical-offset="0" max-vertical-offset="811">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
