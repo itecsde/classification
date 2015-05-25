@@ -29,7 +29,8 @@ def get_original_category(scraped_from):
 
 corpus_databases = ["corpus_reuters_27000_threshold_01",
                     "corpus_reuters_27000_annotated_with_title_and_description_01",
-                    "corpus_ohsumed_threshold_01","corpus_ohsumed_th_01_expanded",
+                    "corpus_ohsumed_threshold_01",
+                    "corpus_ohsumed_th_01_expanded",
                     "corpus_20_newsgroups_threshould_01",
                     "corpus_20_newsgroups_th_01_expanded",
                     "corpus_ieee_threshould_01",
@@ -56,7 +57,7 @@ for corpus_db in corpus_databases:
 #### Here we choose the BD of corpus_databases to simplify                      ###
 ###################################################################################
 #############
-selection = 20
+selection = 18
 #############
 
 corpus_db = corpus_databases[selection]
@@ -122,7 +123,7 @@ else:
             session_classify.add(new_document)
             session_classify.commit()
             
-            for taggable_tag_annotation in session_sde.query(TaggableTagAnnotation).filter(TaggableTagAnnotation.taggable_type == "ReutersNewItem", TaggableTagAnnotation.type_tag == "human", TaggableTagAnnotation.taggable_id == report.id):
+            for taggable_tag_annotation in session_sde.query(TaggableTagAnnotation).filter(TaggableTagAnnotation.taggable_type == "ReutersNewItem", TaggableTagAnnotation.type_tag == "automatic", TaggableTagAnnotation.taggable_id == report.id):
                 new_annotation = Annotation(name = taggable_tag_annotation.tag.name, weight = taggable_tag_annotation.weight, document = new_document, expanded = taggable_tag_annotation.expanded, relatedness = taggable_tag_annotation.relatedness, expanded_from = taggable_tag_annotation.expanded_from, old_id = taggable_tag_annotation.id)
                 session_classify.add(new_annotation)        
             print report.name
