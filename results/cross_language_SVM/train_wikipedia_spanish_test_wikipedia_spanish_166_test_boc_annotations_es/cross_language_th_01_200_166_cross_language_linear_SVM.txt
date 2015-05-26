@@ -1,0 +1,37 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: wikipedia_spanish
+CORPUS TEST: wikipedia_spanish
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 200
+#TEST: 166
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_wikipedia_spanish
+Obtaining test documents from a part of corpus boc_wikipedia_spanish
+(1L, 'Culture and the arts', [('Leyes de Burgos', 0.911974), ('Diccionario de la lengua espa\xf1ola', 0.903253), ('Junta de Valladolid', 0.901385), ('Mesopotamia', 0.882117), ('Tales de Mileto', 0.879002), ('Rudyard Kipling', 0.879002), ('Tigris', 0.877753), ('Teotihuacan', 0.869327), ('Era de los descubrimientos', 0.869327), ('Auguste Comte', 0.865191), ('\xc1frica', 0.856192), ('Sumeria', 0.855339), ('Polis', 0.847128), ('Positivismo', 0.844261), ('B\xe1rbaro', 0.842041), ('Buen salvaje', 0.839721), ('Racismo', 0.836593), ('Relativismo cultural', 0.833713), ('Estado de naturaleza', 0.829773), ('Ius gentium', 0.822105), ('Homero', 0.819261), ('Religi\xf3n', 0.816331), ('Razas humanas', 0.813687), ('Portugal', 0.81041), ('Sedentarismo', 0.804728), ('Colonialismo', 0.804197), ('Supranacionalidad', 0.804197), ('Capitalismo', 0.800515), ('Jean-Jacques Rousseau', 0.797552), ('Misionero', 0.795711), ('Arte y cultura cl\xe1sica', 0.789089), ('Calendario', 0.784197), ('Clero', 0.784197), ('Perspectiva', 0.783378), ('Cosmovisi\xf3n', 0.781843), ('Cristianismo', 0.775547), ('Homo sapiens', 0.766022), ('Grecia', 0.756375), ('Civilizaci\xf3n', 0.754207), ('Ciencias sociales', 0.751563), ('Imperio', 0.750806), ('Instituci\xf3n', 0.750806), ('Naturaleza', 0.750361), ('Antropolog\xeda', 0.740249), ('Historia', 0.734333), ('Raza', 0.733831), ('Siglo XV', 0.732647), ('Persia', 0.719717), ('Cultura', 0.7194), ('Occidente', 0.7194), ('Sociedad', 0.7194), ('Escritura', 0.718103), ('Imperialismo', 0.718103), ('Ilustraci\xf3n', 0.718103), ('Cultura primitiva', 0.718103), ('La carga del hombre blanco', 0.718103), ('Lenin', 0.713286), ('Siglo XVIII', 0.712172), ('Siglo XIX', 0.712172), ('Olimpiada', 0.709945), ('Filosof\xeda', 0.706228), ('Italia', 0.705518), ('Ciencia', 0.70317), ('Costumbre', 0.70317), ('Ciudadano', 0.702601), ('Tribu', 0.702601), ('Parentesco', 0.702601), ('Progreso', 0.701843), ('Relativismo', 0.699215), ('Etnia', 0.683977), ('Creencia', 0.672208), ('Naci\xf3n', 0.672208), ('Estructura social', 0.668311), ('Idioma griego', 0.637586), ('Valor (axiolog\xeda)', 0.614906), ('Ley', 0.612631), ('Templo', 0.612106), ('Agricultura', 0.604587), ('Derecho', 0.594954), ('Historiograf\xeda', 0.582424), ('Tiempo', 0.569217), ('Excedente', 0.568277), ('Intelectual', 0.54001), ('Comunidad', 0.536741), ('Rep\xfablica Popular China', 0.532936), ('Memoria hist\xf3rica', 0.49269), ('Concepto', 0.492122), ('Coyuntura', 0.492122), ('Alemania', 0.47712), ('Antigua Roma', 0.465575), ('Monarca', 0.451315), ('Rusia', 0.446972), ('Papel', 0.436161), ('Estado', 0.408565), ('Industria', 0.402091), ('Mundo', 0.37754), ('Descubrimiento de Am\xe9rica', 0.368006), ('Siglo IV', 0.357647), ('Conquistadores espa\xf1oles', 0.347521), ('Vida', 0.342759), ('Trabajo (sociolog\xeda)', 0.341581), ('Am\xe9rica', 0.326857), ('Desarrollo econ\xf3mico', 0.322966), ('Francia', 0.319837), ('Ciudad', 0.288148), ('Burgos', 0.276288), ('Sagrado', 0.274684), ('Partido pol\xedtico', 0.253765), ('Valladolid', 0.245896), ('Europa', 0.2165), ('Or\xe1culo de Delfos', 0.214025), ('Idioma', 0.210873), ('Sonido', 0.146925), ('Conquista de Am\xe9rica', 0.133922), ('Propiedad', 0.129806), ('Bellas artes', 0.114781), ('Sufragio universal', 0.11369), ('Libro', 0.101782), ('Igualdad ante la ley', 0.0652965), ('Espacio (f\xedsica)', 0.0607308), ('Relaci\xf3n social', 0.0397094), ('Blanco (persona)', 0.0332387), ('Perversi\xf3n', 0.0311179), ('Conjunto', 0.0300804), ('Palabra', 0.0300804), ('Parto', 0.0300804), ('Mileto', 0.0297972), ('Entidad', 0.0279596), ('Culto', 0.0279596), ('Fuerza', 0.0168623), ('Grado Celsius', 0.0168623), ('Metro', 0.0168623), ('Ox\xedgeno', 0.0168623), ('9 de septiembre', 0.0168623), ('7 de abril', 0.0168623), ('Teatro del absurdo', 0.0168623), ('Cordillera de los Andes', 0.0168623), ('Blanco (color)', 0.0168623), ('Golfo P\xe9rsico', 0.0168623), ('Escala musical', 0.0168623), ('General', 0.0168623), ('T\xedtulo de grado', 0.0168623), ('Aliados de la Segunda Guerra Mundial', 0.0168623), ('Pluralismo pol\xedtico', 0.0168623), ('Devenir', 0.0168623), ('Extranjero', 0.0162839), ('Unidad de medida', 0.0147415), ('Habla', 0.0147415), ('Organizaci\xf3n', 0.0147415), ('Comportamiento', 0.0147415), ('Modelo cient\xedfico', 0.0147415), ('Finanzas', 0.0147415), ('Mercanc\xeda', 0.0147415), ('Junta de gobierno', 0.0147415), ('Conciencia', 0.0147415), ('Espiritualidad', 0.0147415), ('Independencia', 0.0143213), ('Estilo de vida', 0.0143213), ('Oxford', 0.0141802), ('Debate', 0.0136738), ('Pesimismo', 0.013127)])
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                       precision    recall  f1-score   support
+
+ Culture and the arts       0.76      0.74      0.75        53
+ Geography and places       0.83      0.69      0.75        64
+Mathematics and logic       0.65      0.82      0.72        49
+
+          avg / total       0.75      0.74      0.74       166
+
+F1_SCORE (Macro): 0.740952490952
+Precision: 0.754665002784
+Recall: 0.740963855422
+---- Execution End ----

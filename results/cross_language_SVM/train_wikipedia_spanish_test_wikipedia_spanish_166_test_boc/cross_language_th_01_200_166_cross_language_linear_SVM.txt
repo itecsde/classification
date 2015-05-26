@@ -1,0 +1,37 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: wikipedia_spanish
+CORPUS TEST: wikipedia_spanish
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 200
+#TEST: 166
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_wikipedia_spanish
+Obtaining test documents from a part of corpus boc_wikipedia_spanish
+(580L, 'Mathematics and logic', [('Monomial', 0.903277), ('Polynomial', 0.82379), ('Equality (mathematics)', 0.797677), ('Algebraic structure', 0.790973), ('Addition', 0.760203), ('Elementary function', 0.75953), ('Division (mathematics)', 0.748217), ('Trinomial', 0.734616), ('Subtraction', 0.72904), ('Equation', 0.72904), ('Inequation', 0.725421), ('Order of operations', 0.723286), ('Binomial', 0.71741), ('Natural number', 0.71741), ('Exponentiation', 0.714797), ('\xc1lgebra', 0.695621), ('Coefficient', 0.695621), ('Integer', 0.678276), ('Logarithm', 0.678276), ('Negative number', 0.662719), ('Variable (mathematics)', 0.659933), ('Multiplication', 0.626514), ('Identity (mathematics)', 0.585583), ('Field (mathematics)', 0.540183), ('Function (mathematics)', 0.46053), ('Degree of a polynomial', 0.455405), ('Letter (alphabet)', 0.239537), ('Bracket', 0.0629825), ('Order (biology)', 0.0297972), ('Magnitude (mathematics)', 0.0168623), ('University', 0.0168623), ('Signos', 0.0168623), ('Rule of inference', 0.0168623)])
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                       precision    recall  f1-score   support
+
+ Culture and the arts       0.89      0.65      0.76        52
+ Geography and places       0.81      0.67      0.73        63
+Mathematics and logic       0.62      0.92      0.74        51
+
+          avg / total       0.78      0.74      0.74       166
+
+F1_SCORE (Macro): 0.742049272826
+Precision: 0.776809667821
+Recall: 0.740963855422
+---- Execution End ----
