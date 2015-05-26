@@ -81,13 +81,24 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_wikipedia_english_threshold_01'
 
     elif corpus == "bow_wikipedia_spanish" or corpus == "boc_wikipedia_spanish":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_spanish_annotations_translated_to_en_th_01'
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_spanish_annotations_spanish_th_01'
 
     elif corpus == "bow_wikipedia_spanish_translated_to_english_google_translate" or corpus == "boc_wikipedia_spanish_translated_to_english_google_translate":
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_wikipedia_es_translated_to_english_google_translate'
 
+    elif corpus == "bow_wikipedia_human_medicine_english" or corpus == "boc_wikipedia_human_medicine_english":
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_human_medicine_en'
+
+    elif corpus == "bow_wikipedia_human_medicine_spanish" or corpus == "boc_wikipedia_human_medicine_spanish":
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_human_medicine_es_annotations_en'
+
+    elif corpus == "bow_wikipedia_human_medicine_spanish_to_english_google_translate" or corpus == "boc_wikipedia_human_medicine_spanish_to_english_google_translate":
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_human_medicine_es_translated_to_en_GT'
+
     elif corpus == "bow_cnx" or corpus == "boc_cnx":
         db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_cnx'
+
+
 
 
     EngineDB = create_engine(db_parameters)

@@ -46,7 +46,11 @@ corpus_databases = ["corpus_reuters_27000_threshold_01",
                     "corpus_reuters_rcv2_translated_to_english_google_translate",
                     "corpus_wikipedia_english_threshold_01",
                     "corpus_wikipedia_spanish_annotations_translated_to_en_th_01",
+                    "corpus_wikipedia_spanish_annotations_spanish_th_01",
                     "corpus_wikipedia_es_translated_to_english_google_translate",
+                    "corpus_wikipedia_human_medicine_en",
+                    "corpus_wikipedia_human_medicine_es_annotations_en",
+                    "corpus_wikipedia_human_medicine_es_translated_to_en_GT",
                     "corpus_cnx"]
 
 simplified_databases = []
@@ -57,7 +61,7 @@ for corpus_db in corpus_databases:
 #### Here we choose the BD of corpus_databases to simplify                      ###
 ###################################################################################
 #############
-selection = 18
+selection = 21
 #############
 
 corpus_db = corpus_databases[selection]
