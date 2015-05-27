@@ -2,6 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/borrar.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_1000_621_cross_language_linear_SVM_10_neighbors1431602882.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_100_621_cross_language_linear_SVM_10_neighbors1431602455.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_10_621_cross_language_linear_SVM_10_neighbors1431602416.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_2000_621_cross_language_linear_SVM_10_neighbors1431603760.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_200_621_cross_language_linear_SVM_10_neighbors1431602482.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_20_621_cross_language_linear_SVM_10_neighbors1431602426.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_2398_621_cross_language_linear_SVM_10_neighbors1431604909.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_500_621_cross_language_linear_SVM_10_neighbors1431602579.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_50_621_cross_language_linear_SVM_10_neighbors1431602439.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_5_621_cross_language_linear_SVM_10_neighbors1431602406.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/train_wikipedia_english_test_wikipedia_spanish_621_test_boc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_1000_621_cross_language_linear_SVM_10_neighbors1431602882.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_100_621_cross_language_linear_SVM_10_neighbors1431602455.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_10_621_cross_language_linear_SVM_10_neighbors1431602416.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_2000_621_cross_language_linear_SVM_10_neighbors1431603760.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_200_621_cross_language_linear_SVM_10_neighbors1431602482.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_20_621_cross_language_linear_SVM_10_neighbors1431602426.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_2398_621_cross_language_linear_SVM_10_neighbors1431604909.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_500_621_cross_language_linear_SVM_10_neighbors1431602579.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_50_621_cross_language_linear_SVM_10_neighbors1431602439.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/boc_wikipedia_english_boc_wikipedia_spanish_th_01_5_621_cross_language_linear_SVM_10_neighbors1431602406.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test/train_wikipedia_english_test_wikipedia_spanish_BoC_vs_MT_621_test.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/classify_methods.py" afterPath="$PROJECT_DIR$/source/classify_methods.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/convert_db_sde_in_simplified.py" afterPath="$PROJECT_DIR$/source/convert_db_sde_in_simplified.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/db_simplified_declarative.py" afterPath="$PROJECT_DIR$/source/db_simplified_declarative.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language_vs_gold_standard.py" afterPath="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language_vs_gold_standard.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/util_classify.py" afterPath="$PROJECT_DIR$/source/util_classify.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wikitopics_classifier.iws" />
@@ -26,55 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="util_classify.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/util_classify.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73712736" vertical-offset="1020" max-vertical-offset="16864">
-              <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_boc_621.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_boc_621.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5" vertical-offset="0" max-vertical-offset="340">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_bow_621.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_bow_621.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="272">
-              <caret line="10" column="171" selection-start-line="10" selection-start-column="171" selection-end-line="10" selection-end-column="171" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert_db_sde_in_simplified.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/convert_db_sde_in_simplified.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="2380">
-              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="classify.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="4930">
-              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.083333336" vertical-offset="3692" max-vertical-offset="4930">
+              <caret line="217" column="21" selection-start-line="217" selection-start-column="21" selection-end-line="217" selection-end-column="21" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -82,13 +66,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_simplified_declarative.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/db_simplified_declarative.py">
+      <file leaf-file-name="classify_methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1944447" vertical-offset="291" max-vertical-offset="1122">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state vertical-scroll-proportion="-9.916667" vertical-offset="8415" max-vertical-offset="11713">
+              <caret line="516" column="0" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convert_db_sde_in_simplified.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/convert_db_sde_in_simplified.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9057377" vertical-offset="34" max-vertical-offset="2278">
+              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util_classify.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/util_classify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.138889" vertical-offset="11930" max-vertical-offset="16881">
+              <caret line="719" column="4" selection-start-line="719" selection-start-column="4" selection-end-line="719" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,10 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_rcv2_test_rcv2_randomized_single_label_bow_500.sh" />
-        <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_en_test_wikipedia_es_translated_to_english_google_translate_randomized_single_label_bow_621_test.sh" />
-        <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh" />
-        <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_bow_621.sh" />
         <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
         <option value="$PROJECT_DIR$/experiments/cross_language/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh" />
         <option value="$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_20ng_wf_th_0.01_varying_n_neighbors_braycurtis.sh" />
@@ -147,17 +149,21 @@
         <option value="$PROJECT_DIR$/experiments/ICALT/experiment_multilabel_KNN_merlot.sh" />
         <option value="$PROJECT_DIR$/fich.htm" />
         <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_influence_metadata_weight.sh" />
-        <option value="$PROJECT_DIR$/source/classify_methods.py" />
         <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_metadata_500_test.sh" />
         <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_without_metadata_500_test.sh" />
         <option value="$PROJECT_DIR$/print_graphics/JBI/display_graphic_SVM_OHSUMED_single_label_bow_boc.py" />
         <option value="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language.py" />
         <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_boc_621.sh" />
         <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_bow_621.sh" />
-        <option value="$PROJECT_DIR$/source/db_simplified_declarative.py" />
-        <option value="$PROJECT_DIR$/source/util_classify.py" />
-        <option value="$PROJECT_DIR$/source/convert_db_sde_in_simplified.py" />
         <option value="$PROJECT_DIR$/source/classify.py" />
+        <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_human_medicine_english_test_wikipedia_human_medicine_spanish_randomized_single_label_469_test_our_approach_vs_MT.sh" />
+        <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh" />
+        <option value="$PROJECT_DIR$/source/db_simplified_declarative.py" />
+        <option value="$PROJECT_DIR$/source/convert_db_sde_in_simplified.py" />
+        <option value="$PROJECT_DIR$/source/util_classify.py" />
+        <option value="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language_vs_gold_standard.py" />
+        <option value="$PROJECT_DIR$/source/borrar.py" />
+        <option value="$PROJECT_DIR$/source/classify_methods.py" />
       </list>
     </option>
   </component>
@@ -244,6 +250,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print_graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print_graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cross_language_SVM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="experiments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -276,6 +328,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -300,26 +353,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.display_graphic_SVM_cross_language">
-    <configuration default="false" name="display_graphic_SVM_cross_language" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/print_graphics/cross_language" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="wikitopics_classifier" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.classify">
     <configuration default="false" name="experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -344,6 +378,57 @@
       <envs />
       <RunnerSettings RunnerId="BashRunner" />
       <ConfigurationWrapper RunnerId="BashRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments/cross_language_SVM" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="wikitopics_classifier" />
+      <envs />
+      <RunnerSettings RunnerId="BashRunner" />
+      <ConfigurationWrapper RunnerId="BashRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="display_graphic_SVM_cross_language" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/print_graphics/cross_language" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="wikitopics_classifier" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/print_graphics/cross_language/display_graphic_SVM_cross_language.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="classify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="wikitopics_classifier" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/classify.py" />
+      <option name="PARAMETERS" value="-corpus_training boc_wikipedia_english -corpus_test boc_wikipedia_spanish -method cross_language_linear_SVM -train 500 -test 832 -metric cosine -destination_folder train_wikipedia_english_test_wikipedia_spanish_832_test_boc" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -479,16 +564,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
-      <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
-      <item index="2" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
+      <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+      <item index="2" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
+      <item index="3" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
+      <item index="4" class="java.lang.String" itemvalue="Python.classify" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
-        <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
-        <item index="2" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.classify" />
+        <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
+        <item index="2" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+        <item index="3" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
+        <item index="4" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
       </list>
     </recent_temporary>
   </component>
@@ -596,48 +685,27 @@
     <frame x="59" y="144" width="1861" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17745303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18475991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19102296" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36724702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24217118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19967356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24217118" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3058455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729053" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -667,67 +735,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
+          <line>449</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
+          <line>463</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
+          <line>472</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
+          <line>485</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_braycurtis.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_cosine.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_20_ng_varying_n_neighbors_n_features_jaccard.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_ohsumed_measures.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_braycurtis.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_cosine.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_ohsumed_varying_n_neighbors_n_features_jaccard.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_reuters_21578_measures.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_braycurtis.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
@@ -987,26 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language_vs_gold_standard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2781955" vertical-offset="222" max-vertical-offset="1020">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6393" max-vertical-offset="10455">
-          <caret line="425" column="21" selection-start-line="425" selection-start-column="21" selection-end-line="425" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_boc_621.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5" vertical-offset="0" max-vertical-offset="340">
@@ -1015,51 +1039,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_bow_621.sh">
+    <entry file="file://$PROJECT_DIR$/source/db_sde_declarative.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="272">
-          <caret line="10" column="171" selection-start-line="10" selection-start-column="171" selection-end-line="10" selection-end-column="171" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/convert_db_sde_in_simplified.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="2380">
-          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#71#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/db_simplified_declarative.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1944447" vertical-offset="291" max-vertical-offset="1122">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state vertical-scroll-proportion="-16.472221" vertical-offset="359" max-vertical-offset="1122">
+          <caret line="56" column="141" selection-start-line="56" selection-start-column="141" selection-end-line="56" selection-end-column="141" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_spanish_test_wikipedia_spanish_randomized_single_label_bow_621.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="460">
+          <caret line="10" column="171" selection-start-line="10" selection-start-column="171" selection-end-line="10" selection-end-column="171" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_human_medicine_english_test_wikipedia_human_medicine_spanish_randomized_single_label_469_test_our_approach_vs_MT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_english_randomized_single_label_boc_621.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_832_test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="3" column="240" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="240" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14701602" vertical-offset="10998" max-vertical-offset="12393">
+          <caret line="655" column="8" selection-start-line="655" selection-start-column="8" selection-end-line="655" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.043668" vertical-offset="0" max-vertical-offset="12767">
+          <caret line="126" column="70" selection-start-line="126" selection-start-column="70" selection-end-line="126" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.118694365" vertical-offset="27783" max-vertical-offset="37825">
+          <caret line="1642" column="0" selection-start-line="1642" selection-start-column="0" selection-end-line="1643" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language_vs_gold_standard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38505095" vertical-offset="0" max-vertical-offset="883">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2735632" vertical-offset="0" max-vertical-offset="870">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="4930">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.083333336" vertical-offset="3692" max-vertical-offset="4930">
+          <caret line="217" column="21" selection-start-line="217" selection-start-column="21" selection-end-line="217" selection-end-column="21" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/borrar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7893545" vertical-offset="0" max-vertical-offset="883">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/util_classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73712736" vertical-offset="1020" max-vertical-offset="16864">
-          <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
+        <state vertical-scroll-proportion="-8.138889" vertical-offset="11930" max-vertical-offset="16881">
+          <caret line="719" column="4" selection-start-line="719" selection-start-column="4" selection-end-line="719" selection-end-column="4" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.916667" vertical-offset="8415" max-vertical-offset="11713">
+          <caret line="516" column="0" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/convert_db_sde_in_simplified.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9057377" vertical-offset="34" max-vertical-offset="2278">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -353,10 +353,10 @@ def linear_support_vector_machines(corpus, documents_training, documents_test, w
     print
     print "----- Linear Support Vector Machines Algorithm------"
     print "Creating Training Vectors..."
-    categories = util_classify.get_categories(corpus)  
-
+    categories = util_classify.get_categories(corpus)
     array_vector_training = []
     array_categories = []
+
     for (id, original_category, annotations) in documents_training:
         array_vector_training.append(util_classify.transform_document_in_vector(annotations, words_features, corpus))
         array_categories.append(util_classify.get_categories(corpus).index(original_category))    
@@ -379,6 +379,53 @@ def linear_support_vector_machines(corpus, documents_training, documents_test, w
 
     for (id ,cat_original, annotations) in documents_test:
         cat_estimated = classifier.predict(np.array((util_classify.transform_document_in_vector(annotations, words_features, corpus))))
+        estimated_categories.append(categories.index(cat_estimated))
+        original_categories.append(categories.index(cat_original))
+    return original_categories, estimated_categories
+
+
+def linear_support_vector_machines_tf_idf(corpus, documents_training, documents_test, words_features, kbest):
+    """
+    Linear Support Vector Machines Algorithm. The Support Vector Machines algorithm with a linear kernel and using TF/IDF
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param kbest:
+    :return:
+    """
+
+    print
+    print "----- Linear Support Vector Machines with tfidf algorithm ------"
+    print "Creating Features Training Vectors..."
+    categories = util_classify.get_categories(corpus)
+    array_features_training = []
+
+    for (id, original_category, annotations) in documents_training:
+        array_features_training.append((util_classify.transform_document_in_dict(annotations, words_features, corpus), original_category))
+
+    # array_features_training = apply_features(extract_document_features,documents_training)
+
+    print "Training algorithm..."
+    # ('chi2', SelectKBest(chi2, k=3000)),
+
+    if kbest == 0:
+        kbest = "all"
+
+    pipeline = Pipeline([('chi2', SelectKBest(chi2, k=kbest)), ('tfidf', TfidfTransformer()),
+                         ('svc', LinearSVC())])
+
+    # pipeline = Pipeline([('nb', MultinomialNB(alpha=smoothing))])
+
+    classifier = SklearnClassifier(pipeline)
+    classifier.train(array_features_training)
+
+    print "Calculating metrics..."
+    estimated_categories = []
+    original_categories = []
+
+    for (id, cat_original, annotations) in documents_test:
+        cat_estimated = classifier.classify((util_classify.transform_document_in_dict(annotations, words_features, corpus)))
         estimated_categories.append(categories.index(cat_estimated))
         original_categories.append(categories.index(cat_original))
     return original_categories, estimated_categories
@@ -453,53 +500,80 @@ def linear_support_vector_machines_cross_language(corpus_training, corpus_test, 
     Session.commit()
     # End storage process predicted categories in DB
 
-    return original_categories, estimated_categories    
+    return original_categories, estimated_categories
 
 
-def linear_support_vector_machines_tf_idf(corpus, documents_training, documents_test, words_features, kbest):
+def linear_support_vector_machines_cross_language_tf_idf(corpus_training, corpus_test, documents_training, documents_test, words_features, kbest):
     """
-    Linear Support Vector Machines Algorithm. The Support Vector Machines algorithm with a linear kernel and using TF/IDF
-    :param corpus:
+    Cross Language linear Support Vector Machines algorithm. The Support Vector Machines algorithm with a linear kernel.
+    An implementation of linear SVM to conduct cross-language experiments.
+    :param corpus_training:
+    :param corpus_test:
     :param documents_training:
     :param documents_test:
     :param words_features:
-    :param kbest:
     :return:
     """
 
     print
-    print "----- Linear Support Vector Machines with tfidf algorithm ------"
-    print "Creating Features Training Vectors..."
+    print "----- Cross-Language Support Vector Machines algorithm------"
+    print "Creating Training Vectors..."
+    categories = util_classify.get_categories(corpus_training)
+    ids_documents_test = []
+    original_cats = []
+    array_cats_names = []
     array_features_training = []
+    array_vector_training = []
+    array_categories = []
+
     for (id, original_category, annotations) in documents_training:
-        array_features_training.append((util_classify.transform_document_in_dict(annotations, words_features, corpus), original_category))
-        
-    # array_features_training = apply_features(extract_document_features,documents_training)
+        array_features_training.append((util_classify.transform_document_in_dict(annotations, words_features, corpus_training), original_category))
+        array_categories.append(util_classify.get_categories(corpus_training).index(original_category))
 
-    print "Training algorithm..."
-    # ('chi2', SelectKBest(chi2, k=3000)),
+    for x in array_categories:
+        array_cats_names.append(categories[x])
 
-    if kbest == 0:
-        kbest = "all"
+    print "Training the algorithm..."
+    classifier = LinearSVC()
 
-    pipeline = Pipeline([('chi2', SelectKBest(chi2, k=kbest)), ('tfidf', TfidfTransformer()),
-                         ('svc', LinearSVC())])
+    X_train_features = []
+    y_train_categories = []
+    # Train all
+    for (id, original_category, annotations) in documents_training:
+        X_train_features.append(util_classify.transform_document_in_vector(annotations, words_features, corpus_training))
+        y_train_categories.append(original_category)
 
-    # pipeline = Pipeline([('nb', MultinomialNB(alpha=smoothing))])
-
-    classifier = SklearnClassifier(pipeline)
-    classifier.train(array_features_training)
+    classifier.fit(np.array(X_train_features), np.array(y_train_categories))
 
     print "Calculating metrics..."
-    categories = util_classify.get_categories(corpus)
     estimated_categories = []
-    original_categories = []               
-    
+    original_categories = []
+
+    categories = util_classify.get_categories(corpus_test)
+
     for (id, cat_original, annotations) in documents_test:
-        cat_estimated = classifier.classify((util_classify.transform_document_in_dict(annotations, words_features, corpus)))
+        ids_documents_test.append(id)
+        original_cats.append(cat_original)
+        cat_estimated = classifier.predict(np.array((util_classify.transform_document_in_vector(annotations, words_features, corpus_test))))
         estimated_categories.append(categories.index(cat_estimated))
         original_categories.append(categories.index(cat_original))
-    return original_categories, estimated_categories    
+
+    categories_names = util_classify.get_categories(corpus_test)
+
+    array_cats_names = []
+    for x in estimated_categories:
+        array_cats_names.append(categories_names[x])
+
+    # Storage process predicted categories in DB
+    util_classify.set_database_session(corpus_test)
+    for document in Session.query(Document):
+        if document.id in ids_documents_test:
+            pos = ids_documents_test.index(document.id)
+            document.classified_in_category = array_cats_names[pos]
+    Session.commit()
+    # End storage process predicted categories in DB
+
+    return original_categories, estimated_categories
 
 
 def nu_support_vector_machines(corpus, documents_training, documents_test, words_features, kernel, nu):

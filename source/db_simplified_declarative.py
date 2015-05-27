@@ -54,7 +54,7 @@ elif platform.node() == "dumbo":
 elif platform.node() == "tantor":
     engine = create_engine('mysql://classify_user:classify_password@192.168.1.12/simplified_ohsumed_randomized_multilabel_threshold_01?charset=utf8')
 elif platform.node() == "marcos-B85M-D3V":
-    engine = create_engine('mysql://classify_user:classify_password@localhost/simplified_wikipedia_human_medicine_en?charset=utf8')
+    engine = create_engine('mysql://classify_user:classify_password@localhost/simplified_wikipedia_spanish_annotations_translated_to_en_th_01?charset=utf8')
 
 # Create all tables in the engine. This is equivalent to "Create Table"
 # statements in raw SQL.
