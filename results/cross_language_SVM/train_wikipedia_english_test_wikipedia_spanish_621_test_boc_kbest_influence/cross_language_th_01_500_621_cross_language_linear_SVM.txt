@@ -1,0 +1,37 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: wikipedia_english
+CORPUS TEST: wikipedia_spanish
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: yes
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 500
+#TEST: 621
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_wikipedia_english
+Obtaining test documents from a part of corpus boc_wikipedia_spanish
+(765L, 'Mathematics and logic', [('Aristotle', 0.797676), ('Human', 0.749662), ('Argument', 0.713916), ('Logic', 0.709797), ('Language', 0.701843), ('Life', 0.672208), ('Thought', 0.654651), ('North America', 0.624102), ('1970', 0.542246), ('Discipline (academia)', 0.498826), ('Information', 0.421073), ('1970s', 0.303296), ('Americas', 0.212183), ('Academy', 0.207031), ('Formal logic', 0.143079), ('Fallacy', 0.0867798), ('Informal logic', 0.0739124), ('Discipline', 0.0370044), ('North', 0.0332387), ('Decade', 0.0300804), ('Process (computing)', 0.0168623), ('Nonformal learning', 0.0168623), ('Informalism', 0.0168623), ('Everyday life', 0.0147415), ('Opposition (politics)', 0.0147415)])
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training algorithm...
+Calculating metrics...
+                       precision    recall  f1-score   support
+
+ Culture and the arts       0.82      0.88      0.85       202
+ Geography and places       0.92      0.84      0.88       221
+Mathematics and logic       0.89      0.90      0.89       198
+
+          avg / total       0.88      0.87      0.87       621
+
+F1_SCORE (Macro): 0.873149966665
+Precision: 0.875440242599
+Recall: 0.872785829308
+---- Execution End ----

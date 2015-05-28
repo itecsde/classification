@@ -1,0 +1,55 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: wikipedia_human_medicine_english
+CORPUS TEST: wikipedia_human_medicine_spanish
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 1000
+#TEST: 469
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_wikipedia_human_medicine_english
+Obtaining test documents from a part of corpus boc_wikipedia_human_medicine_spanish
+(139L, 'Gerontology', [('Enzyme', 0.901385), ('Chromosome', 0.897973), ('Ageing', 0.875419), ('Health', 0.846685), ('Stem cell', 0.818686), ('Human', 0.816331), ('DNA replication', 0.809037), ('DNA', 0.800515), ('Senescence', 0.800515), ('Morphology (biology)', 0.79352), ('C\xe1ncer', 0.785202), ('Embryo', 0.781524), ('Somatic cell', 0.76818), ('Species', 0.748983), ('Disease', 0.744813), ('Organ (anatomy)', 0.743484), ('Life', 0.7194), ('Genetics', 0.71741), ('Genetic code', 0.715975), ('Heart', 0.697339), ('Cell (biology)', 0.695621), ('Physiology', 0.691549), ('Death', 0.683165), ('Life expectancy', 0.679624), ('Old age', 0.657269), ('Organism', 0.655978), ('Joint', 0.650147), ('Apoptosis', 0.633069), ('Dementia', 0.617753), ('Public health', 0.60243), ('Telomere', 0.591491), ('Population ageing', 0.588761), ('Individual', 0.587222), ('Society', 0.585035), ('Adaptation', 0.582997), ('Time', 0.582994), ('Research', 0.383031), ('Person', 0.312202), ('Telomerase', 0.266208), ('1984', 0.143448), ('Nucleic acid sequence', 0.124214), ('Population', 0.101782), ('Reason', 0.101782), ('Reality', 0.0370044), ('Hectare', 0.0297435), ('Clock', 0.0168623), ('Division (botany)', 0.0168623), ('Serial (radio and television)', 0.0168623), ('Degenerative disease', 0.0168623), ('Chemical process', 0.0168623), ('1965', 0.0162839), ('Retirement', 0.0147415)])
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                                precision    recall  f1-score   support
+
+          Alternative_medicine       0.64      0.52      0.57        31
+                    Cardiology       0.53      0.73      0.62        22
+                 Endocrinology       0.78      0.86      0.82        21
+              Gastroenterology       0.75      0.35      0.48        17
+                      Genetics       0.66      0.89      0.76        28
+                    Geriatrics       0.17      0.20      0.18         5
+                   Gerontology       0.75      0.38      0.50        16
+                    Hematology       0.59      0.72      0.65        36
+                    Nephrology       0.79      0.79      0.79        28
+                     Neurology       0.62      0.70      0.66        33
+                    Obstetrics       0.65      0.74      0.69        27
+                      Oncology       0.64      0.30      0.41        23
+                 Ophthalmology       0.60      0.82      0.69        33
+Orthopedic_surgical_procedures       0.38      0.43      0.40        14
+                     Pathology       0.35      0.33      0.34        18
+                    Pediatrics       0.77      0.31      0.45        54
+                    Psychiatry       1.00      0.50      0.67         2
+                  Rheumatology       0.36      0.43      0.39        21
+                       Surgery       0.44      0.68      0.54        28
+                       Urology       0.50      0.17      0.25         6
+                   Gynaecology       0.22      0.33      0.27         6
+
+                   avg / total       0.61      0.58      0.57       469
+
+F1_SCORE (Macro): 0.52909753193
+Precision: 0.612473563814
+Recall: 0.584221748401
+---- Execution End ----

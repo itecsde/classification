@@ -1,0 +1,55 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: wikipedia_human_medicine_english
+CORPUS TEST: wikipedia_human_medicine_spanish
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 2143
+#TEST: 469
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_wikipedia_human_medicine_english
+Obtaining test documents from a part of corpus boc_wikipedia_human_medicine_spanish
+(139L, 'Gerontology', [('Chromosome', 0.911974), ('Enzyme', 0.901385), ('Ageing', 0.875419), ('Human', 0.816331), ('DNA', 0.800515), ('Disease', 0.784086), ('Embryo', 0.783879), ('Life', 0.7194), ('Senescence', 0.707902), ('Health', 0.699238), ('Old age', 0.675125), ('Time', 0.666711), ('Death', 0.665309), ('Organism', 0.655978), ('Dementia', 0.647608), ('Cell (biology)', 0.638597), ('Life expectancy', 0.621291), ('Species', 0.589554), ('Society', 0.585035), ('Apoptosis', 0.536413), ('Genetic code', 0.534161), ('Joint', 0.448154), ('1984', 0.423636), ('Individual', 0.414064), ('Telomerase', 0.266208), ('Person', 0.200374), ('Clock', 0.0377168), ('Reality', 0.0370044), ('Hectare', 0.0297435), ('Degenerative disease', 0.0168623), ('Legal process', 0.0168623), ('Nucleic acid sequence', 0.0168623), ('1965', 0.0162839), ('Serial (radio and television)', 0.0157947)])
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                                precision    recall  f1-score   support
+
+          Alternative_medicine       0.42      0.65      0.51        31
+                    Cardiology       0.71      0.23      0.34        22
+                 Endocrinology       0.61      0.67      0.64        21
+              Gastroenterology       0.80      0.24      0.36        17
+                      Genetics       0.59      0.68      0.63        28
+                    Geriatrics       0.38      0.60      0.46         5
+                   Gerontology       0.71      0.31      0.43        16
+                    Hematology       0.54      0.53      0.54        36
+                    Nephrology       0.73      0.79      0.76        28
+                     Neurology       0.76      0.79      0.78        33
+                    Obstetrics       0.59      0.70      0.64        27
+                      Oncology       0.60      0.26      0.36        23
+                 Ophthalmology       0.38      0.79      0.51        33
+Orthopedic_surgical_procedures       0.33      0.36      0.34        14
+                     Pathology       0.29      0.11      0.16        18
+                    Pediatrics       0.65      0.37      0.47        54
+                    Psychiatry       1.00      0.50      0.67         2
+                  Rheumatology       0.71      0.57      0.63        21
+                       Surgery       0.26      0.46      0.33        28
+                       Urology       0.25      0.17      0.20         6
+                   Gynaecology       0.50      0.33      0.40         6
+
+                   avg / total       0.57      0.52      0.51       469
+
+F1_SCORE (Macro): 0.484536443554
+Precision: 0.566676785941
+Recall: 0.520255863539
+---- Execution End ----
