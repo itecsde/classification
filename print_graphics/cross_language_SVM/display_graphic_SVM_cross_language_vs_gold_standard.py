@@ -11,7 +11,7 @@ print experiment_folder
 
 json_files =  glob.glob("../../results/cross_language_SVM/" + experiment_folder +"/*.json")
 
-train_set = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 2398]
+train_set = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 2143]
 
 bow = {}
 cl = {}

@@ -52,7 +52,7 @@ parser.add_argument('-smoothing',  dest='smoothing', default = 0.001, type = flo
 parser.add_argument('-exp_threshold',  dest='expansion_threshold', default = 1, type = float,  help = "")
 parser.add_argument('-exp_relatedness',  dest='expansion_relatedness', default = 1, type = float,  help = "")
 parser.add_argument('-exp_weighting', dest='expanded_weighting', default = 0.1, type = float, help = "")
-parser.add_argument('-kbest', dest='kbest', default = 3000, type = int, help = "")
+parser.add_argument('-kbest', dest='kbest', default = 0, type = int, help = "")
 parser.add_argument('-n_neighbors', dest="n_neighbors", default = 10, type=int, help="")
 parser.add_argument('-metric', dest="metric", default = "cosine", help="", choices = ['cosine', 'jaccard', 'braycurtis', 'mahalanobis', 'euclidean', 'manhattan', 'chebyshev', 'seuclidean'])
 parser.add_argument('-destination_folder', dest="destination_folder", help="Destination folder to store .json experiment results file.")
@@ -224,7 +224,10 @@ for corpus in array_corpus:
 
             # Cross-Language Support Vector Machines
             if classify_method == "cross_language_linear_SVM":
-                original_categories, estimated_categories = classify_methods.linear_support_vector_machines_cross_language(corpus_training, corpus_test, documents_training, documents_test, words_features)
+                if tfidf == True:
+                    original_categories, estimated_categories = classify_methods.linear_support_vector_machines_cross_language_tf_idf(corpus_training, corpus_test, documents_training, documents_test, words_features, kbest)
+                else:
+                    original_categories, estimated_categories = classify_methods.linear_support_vector_machines_cross_language(corpus_training, corpus_test, documents_training, documents_test, words_features)
                 print classification_report(original_categories,estimated_categories,target_names=util_classify.get_categories(corpus_test))
                 f1_score_result = f1_score(original_categories,estimated_categories, pos_label= None, average = 'macro')
                 precision = precision_score(original_categories,estimated_categories)

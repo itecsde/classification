@@ -677,7 +677,6 @@ def get_unique_words_boc(documents):
                     else:
                         words_features[word] = annotation_weight
 
-    print words_features
     return words_features
 
 def get_unique_words_bow(documents):

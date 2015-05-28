@@ -404,18 +404,13 @@ def linear_support_vector_machines_tf_idf(corpus, documents_training, documents_
     for (id, original_category, annotations) in documents_training:
         array_features_training.append((util_classify.transform_document_in_dict(annotations, words_features, corpus), original_category))
 
-    # array_features_training = apply_features(extract_document_features,documents_training)
-
     print "Training algorithm..."
-    # ('chi2', SelectKBest(chi2, k=3000)),
 
     if kbest == 0:
         kbest = "all"
 
     pipeline = Pipeline([('chi2', SelectKBest(chi2, k=kbest)), ('tfidf', TfidfTransformer()),
                          ('svc', LinearSVC())])
-
-    # pipeline = Pipeline([('nb', MultinomialNB(alpha=smoothing))])
 
     classifier = SklearnClassifier(pipeline)
     classifier.train(array_features_training)
@@ -533,17 +528,15 @@ def linear_support_vector_machines_cross_language_tf_idf(corpus_training, corpus
     for x in array_categories:
         array_cats_names.append(categories[x])
 
-    print "Training the algorithm..."
-    classifier = LinearSVC()
+    print "Training algorithm..."
 
-    X_train_features = []
-    y_train_categories = []
-    # Train all
-    for (id, original_category, annotations) in documents_training:
-        X_train_features.append(util_classify.transform_document_in_vector(annotations, words_features, corpus_training))
-        y_train_categories.append(original_category)
+    if kbest == 0:
+        kbest = "all"
 
-    classifier.fit(np.array(X_train_features), np.array(y_train_categories))
+    pipeline = Pipeline([('chi2', SelectKBest(chi2, k=kbest)), ('tfidf', TfidfTransformer()), ('svc', LinearSVC())])
+
+    classifier = SklearnClassifier(pipeline)
+    classifier.train(array_features_training)
 
     print "Calculating metrics..."
     estimated_categories = []
@@ -552,12 +545,11 @@ def linear_support_vector_machines_cross_language_tf_idf(corpus_training, corpus
     categories = util_classify.get_categories(corpus_test)
 
     for (id, cat_original, annotations) in documents_test:
-        ids_documents_test.append(id)
-        original_cats.append(cat_original)
-        cat_estimated = classifier.predict(np.array((util_classify.transform_document_in_vector(annotations, words_features, corpus_test))))
+        cat_estimated = classifier.classify((util_classify.transform_document_in_dict(annotations, words_features, corpus_test)))
         estimated_categories.append(categories.index(cat_estimated))
         original_categories.append(categories.index(cat_original))
 
+    '''
     categories_names = util_classify.get_categories(corpus_test)
 
     array_cats_names = []
@@ -572,6 +564,7 @@ def linear_support_vector_machines_cross_language_tf_idf(corpus_training, corpus
             document.classified_in_category = array_cats_names[pos]
     Session.commit()
     # End storage process predicted categories in DB
+    '''
 
     return original_categories, estimated_categories
 
