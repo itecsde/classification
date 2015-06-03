@@ -51,7 +51,8 @@ corpus_databases = ["corpus_reuters_27000_threshold_01",
                     "corpus_wikipedia_human_medicine_en",
                     "corpus_wikipedia_human_medicine_es_annotations_en",
                     "corpus_wikipedia_human_medicine_es_translated_to_en_GT",
-                    "corpus_cnx"]
+                    "corpus_cnx",
+                    "corpus_oercommons_threshold_01"]
 
 simplified_databases = []
 for corpus_db in corpus_databases:    
@@ -61,7 +62,7 @@ for corpus_db in corpus_databases:
 #### Here we choose the BD of corpus_databases to simplify                      ###
 ###################################################################################
 #############
-selection = 18
+selection = 25
 #############
 
 corpus_db = corpus_databases[selection]
@@ -123,7 +124,7 @@ else:
             cgisplit = None
 
         if original_cat != "":        
-            new_document = Document(name = report.name, description = report.description, original_category = original_cat, cgisplit = cgisplit)
+            new_document = Document(name = report.name, description = report.description, original_category = original_cat, cgisplit = cgisplit, url =  report.file_id, image_url = report.exchanges)
             session_classify.add(new_document)
             session_classify.commit()
             

@@ -60,6 +60,7 @@ parser.add_argument('-algorithm', dest="algorithm", default = "SVC", help="Multi
 parser.add_argument('-kernel', dest="kernel", default = "linear", help="Kernel function to SVM classifier.", choices = ['linear','poly','rbf','sigmoid'])
 parser.add_argument('-nu', dest='nu', default = 0.5, type = float, help = "Nu param to NuSVM algorithm.")
 parser.add_argument('-metadata_freq', dest="metadata_freq", default = 0, type=int, help="")
+parser.add_argument('-hybrid', dest="hybrid", default = "no", choices=['yes','no'] , help="Select if you want to use a hybrid model (words + concepts) or not")
 
 args = parser.parse_args()
 
@@ -102,6 +103,7 @@ tfidf = False           # not operative yet
 stemming = "porter"     # not operative yet
 weighting = array_weighting[0]
 metadata_freq = args.metadata_freq
+hybrid = args.hybrid
 
 if metadata_freq > 0:
     metadata = "yes"
@@ -179,8 +181,12 @@ for corpus in array_corpus:
                     documents_training, documents_test = util_classify.get_documents_from_cross_language_database_boc(corpus_training, corpus_test, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
                     words_features = util_classify.get_unique_words_boc(documents_training)
                 elif "bow" in corpus_training and "bow" in corpus_test:
-                    documents_training, documents_test = util_classify.get_documents_from_cross_language_database_bow(corpus_training, corpus_test, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
-                    words_features = util_classify.get_unique_words_bow(documents_training)
+                    print "bow, Hybrid?"
+                    documents_training, documents_test = util_classify.get_documents_from_cross_language_database_boc(corpus_training, corpus_test, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
+                    words_features = util_classify.get_unique_words_boc(documents_training)
+                    documents_training, documents_test = util_classify.get_documents_from_cross_language_database_bow(corpus_training, corpus_test, hybrid, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
+                    words_features_bow = util_classify.get_unique_words_bow(documents_training)
+                    words_features.update(words_features_bow)
             else:
                 if "boc" in corpus:
                     documents_training, documents_test = util_classify.get_documents_from_database_boc(corpus, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)

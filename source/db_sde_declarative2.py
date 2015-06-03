@@ -19,6 +19,9 @@ class ReutersNewItem(Taggable):
     description = Column(Text, nullable=True)
     topics = Column(String(255), nullable=True)
     cgisplit = Column(String(255), nullable=True)
+    file_id = Column(String(255), nullable=True)
+    exchanges = Column(String(255), nullable=True)
+
 
 
 class Tag(BaseSDE2):

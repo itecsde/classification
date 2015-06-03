@@ -232,7 +232,7 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
         # CNX corpus -> 6 categories
-        vector_categories = np.zeros(6)
+        vector_categories = np.zeros(9)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
         vector_categories = np.array(vector_categories)
@@ -280,7 +280,7 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
         # CNX corpus -> 6 categories
-        vector_categories = np.zeros(6)
+        vector_categories = np.zeros(9)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
         vector_categories = np.array(vector_categories)
@@ -450,7 +450,7 @@ def linear_support_vector_machines_cross_language(corpus_training, corpus_test, 
 
     for (id, original_category, annotations) in documents_training:
         array_vector_training.append(util_classify.transform_document_in_vector(annotations, words_features, corpus_training))
-        array_categories.append(util_classify.get_categories(corpus_training).index(original_category))    
+        array_categories.append(util_classify.get_categories(corpus_training).index(original_category))
 
     for x in array_categories:
         array_cats_names.append(categories[x])

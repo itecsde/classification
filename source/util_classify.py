@@ -48,7 +48,7 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_ieee_th_01_expanded'
 
     elif corpus == "bow_oercommons" or corpus == "boc_oercommons":
-        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_oercommons_threshold_01'
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_oercommons_threshold_01'
 
     elif corpus == "bow_merlot" or corpus == "boc_merlot":
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_merlot_threshold_01'
@@ -78,7 +78,7 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_reuters_rcv2_translated_to_english_google_translate'
 
     elif corpus == "bow_wikipedia_english" or corpus == "boc_wikipedia_english":
-        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_wikipedia_english_threshold_01'
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_english_threshold_01'
 
     elif corpus == "bow_wikipedia_spanish" or corpus == "boc_wikipedia_spanish":
         db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_spanish_annotations_translated_to_en_th_01'
@@ -386,11 +386,17 @@ def get_documents_from_cross_language_database_boc(corpus_training, corpus_test,
         random.seed("www.itec-sde.net")
         random.shuffle(documents_test)   
         documents_test = documents_test[0:num_documents_for_test]
-        print documents_test[0]
+        #print documents_test[0]
                    
     return documents_train, documents_test
 
-def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,threshold, weighting, expansion_threshold, expansion_relatedness, num_documents_for_training, expanded_weighting, num_documents_for_test):
+def add_concepts_to_bow_document(document, weight):
+    for annotation in document.annotations:
+        for i in range(0, weight):
+            document.description = document.description + annotation.name + " "
+    return document
+
+def get_documents_from_cross_language_database_bow(corpus_training, corpus_test, hybrid, threshold, weighting, expansion_threshold, expansion_relatedness, num_documents_for_training, expanded_weighting, num_documents_for_test):
     """
     Obtain :param num_documents_for_training: BoW random training documents from :param corpus_training: training corpus
     and :param num_documents_for_test: BoW random test documents from :param corpus_test: test corpus
@@ -417,14 +423,17 @@ def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,
     set_database_session(corpus_training)   
     if num_documents_for_training == 0:
         print "Obtaining training documents from complete corpus " + corpus_training
-        for document in Session.query(Document).filter(Document.cgisplit == "train"):    
-            documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] ))
+        for document in Session.query(Document).filter(Document.cgisplit == "train"):
+            documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
         random.seed("www.itec-sde.net")
         random.shuffle(documents_training)
     else:
         print "Obtaining training documents from a part of the corpus " + corpus_training
         for document in Session.query(Document).filter(Document.cgisplit == "train"):                    
-            documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))                    
+            if hybrid == "yes":
+                documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] + get_document_annotations(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
+            elif hybrid == "no":
+                documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
         random.seed("www.itec-sde.net")
         random.shuffle(documents_training)
         documents_training = documents_training[0:num_documents_for_training]
@@ -590,6 +599,7 @@ def add_metadata_to_document(document, metadata_freq):
             document.description = document.description + annotation.name.replace(" ", "_") + " "
     return document
 
+
 def get_documents_from_multilabel_database_bow(corpus, num_documents_for_training, metadata, metadata_freq, num_documents_for_test = 0):
     """
     Obtain :param num_documents_for_training: BoW random training documents from :param corpus: corpus
@@ -664,14 +674,14 @@ def get_unique_words_boc(documents):
 
     for (id, cat, annotations) in documents:
         for (annotation_name, annotation_weight) in annotations:
-            words_with_duplicates.append(annotation_name)
+            words_with_duplicates.append(annotation_name.decode(encoding="ISO-8859-1"))
     
     words_unique = list(set(words_with_duplicates))
     
     for word in words_unique:
         for (id, cat, annotations) in documents:
             for (annotation_name, annotation_weight) in annotations:
-                if annotation_name == word:
+                if annotation_name.decode(encoding="ISO-8859-1") == word:
                     if words_features.has_key(word):
                         words_features[word] += annotation_weight
                     else:
