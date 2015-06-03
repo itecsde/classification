@@ -1,0 +1,41 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: wikipedia_english
+CORPUS TEST: wikipedia_english
+REPRESENTATION: BoW
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 500
+#TEST: 621
+
+Getting train and test documents...
+bow, Hybrid?
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  bow_wikipedia_english
+Obtaining test documents from a part of corpus bow_wikipedia_english
+--- METHOD: get_unique_words_boc() ---
+--- METHOD: get_documents_from_cross_language_database_bow() ---
+Obtaining training documents from a part of the corpus bow_wikipedia_english
+Obtaining test documents from a part of the corpus bow_wikipedia_english
+--- METHOD: get_unique_words_bow() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                       precision    recall  f1-score   support
+
+ Culture and the arts       0.75      0.77      0.76       194
+ Geography and places       0.81      0.79      0.80       179
+Mathematics and logic       0.84      0.83      0.84       248
+
+          avg / total       0.80      0.80      0.80       621
+
+F1_SCORE (Macro): 0.798964014957
+Precision: 0.802856075892
+Recall: 0.80193236715
+---- Execution End ----
