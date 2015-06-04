@@ -20,13 +20,14 @@ class Document(Base):
     description = Column(Text, default = True)
     cgisplit = Column(String(255), nullable=True)
     original_category =  Column(Text, nullable=True)    
+    classified_in_category =  Column(String(255), nullable=True)
     classified_in_category_oercommons =  Column(String(255), nullable=True)
     classified_in_category_merlot =  Column(String(255), nullable=True)
     classified_in_category_cnx =  Column(String(255), nullable=True)
     classified_in_category_wikipedia =  Column(String(255), nullable=True)
-
     url =  Column(String(255), nullable=True)
     image_url =  Column(String(255), nullable=True)
+    corpus = Column(String(255), nullable=True)
     annotations = relationship("Annotation", backref="documents")
     evaluations = relationship("Evaluation", backref="documents")
  

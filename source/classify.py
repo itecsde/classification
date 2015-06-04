@@ -41,8 +41,8 @@ kernel_functions_available = ["linear","poly","rbf","sigmoid"]
 
 parser = argparse.ArgumentParser(description = 'Classifier')
 parser.add_argument('-corpus', dest='corpus', default="all", help="If empty, use all available corpora.", choices=['boc_reuters_27000','bow_reuters_27000','boc_ohsumed','bow_ohsumed','boc_ohsumed_expanded','boc_20_newsgroup','bow_20_newsgroup','boc_ieee','bow_ieee','boc_ieee_expanded','boc_20_newsgroup_expanded','boc_reuters_21578','bow_reuters_21578','boc_reuters_21578_expanded','bow_oercommons', 'boc_oercommons','bow_merlot','bow_ohsumed_multilabel','boc_ohsumed_multilabel','bow_uvigomed_multilabel','boc_uvigomed_multilabel','bow_uvigomed','boc_uvigomed','bow_ohsumed_randomized','boc_ohsumed_randomized','boc_ohsumed_randomized_multilabel','bow_ohsumed_randomized_multilabel','bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','bow_reuters_rcv2_translated_to_english_google_translate','bow_cnx', 'boc_cnx'])
-parser.add_argument('-corpus_training', dest='corpus_training', default = "none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','boc_wikipedia_english', 'bow_wikipedia_english', 'bow_wikipedia_spanish', 'boc_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_english'])
-parser.add_argument('-corpus_test', dest='corpus_test', default="none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2', 'bow_reuters_rcv2_translated_to_english_google_translate', 'boc_wikipedia_spanish', 'bow_wikipedia_english', 'boc_wikipedia_english', 'bow_wikipedia_spanish_translated_to_english_google_translate', 'bow_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_spanish_to_english_google_translate'])
+parser.add_argument('-corpus_training', dest='corpus_training', default = "none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','boc_wikipedia_english', 'bow_wikipedia_english', 'bow_wikipedia_spanish', 'boc_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_english', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx"])
+parser.add_argument('-corpus_test', dest='corpus_test', default="none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2', 'bow_reuters_rcv2_translated_to_english_google_translate', 'boc_wikipedia_spanish', 'bow_wikipedia_english', 'boc_wikipedia_english', 'bow_wikipedia_spanish_translated_to_english_google_translate', 'bow_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_spanish_to_english_google_translate', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx"])
 parser.add_argument('-method', dest='classify_method', default = "mbayes", help="Classification method, default mbayes.", choices =  ["all", "mbayes", "kneighbors","multilabel","SVM","linear_SVM", "nu_SVM","cross_language_linear_SVM"])
 parser.add_argument('-threshold', dest='threshold', default = 0.01, type = float, help = "Annotations threshold. Default 0.01", choices =  threshold_available)
 parser.add_argument('-test', dest='test', default = 0, type = int, help = "Test number documents. If empty, all.")
@@ -61,6 +61,7 @@ parser.add_argument('-kernel', dest="kernel", default = "linear", help="Kernel f
 parser.add_argument('-nu', dest='nu', default = 0.5, type = float, help = "Nu param to NuSVM algorithm.")
 parser.add_argument('-metadata_freq', dest="metadata_freq", default = 0, type=int, help="")
 parser.add_argument('-hybrid', dest="hybrid", default = "no", choices=['yes','no'] , help="Select if you want to use a hybrid model (words + concepts) or not")
+parser.add_argument('-cross_corpora', dest="cross_corpora", default = "no", choices=['yes','no'])
 
 args = parser.parse_args()
 
@@ -104,6 +105,7 @@ stemming = "porter"     # not operative yet
 weighting = array_weighting[0]
 metadata_freq = args.metadata_freq
 hybrid = args.hybrid
+cross_corpora = args.cross_corpora
 
 if metadata_freq > 0:
     metadata = "yes"
@@ -174,7 +176,10 @@ for corpus in array_corpus:
                     documents_training, documents_test = util_classify.get_documents_from_multilabel_database_boc(corpus, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
                     words_features = util_classify.get_unique_words_boc(documents_training)
                 elif "bow" in corpus:
-                    documents_training, documents_test = util_classify.get_documents_from_multilabel_database_bow(corpus, number_of_documents_for_training, metadata, metadata_freq, number_of_documents_for_testing)
+                    if cross_corpora == "no":
+                        documents_training, documents_test = util_classify.get_documents_from_multilabel_database_bow(corpus, number_of_documents_for_training, metadata, metadata_freq, number_of_documents_for_testing)
+                    elif cross_corpora == "yes":
+                        documents_training, documents_test = util_classify.get_documents_from_multilabel_database_bow_cross_corpora(corpus_training, corpus_test, number_of_documents_for_training, metadata, metadata_freq, number_of_documents_for_testing)
                     words_features = util_classify.get_unique_words_bow(documents_training)
             elif args.classify_method == "cross_language_linear_SVM":
                 if "boc" in corpus_training and "boc" in corpus_test:

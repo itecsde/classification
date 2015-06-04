@@ -214,7 +214,11 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
     print "----- Multilabel Algorithm------"
     print "Creating Training Vectors..."
     print "Creating Training Feature Vectors..."
-    
+
+    util_classify.set_database_session(corpus)
+
+    ids_documents_test = []
+
     first_time = 0
     first_time_categories = 0
     for (id, original_category, annotations) in documents_training:
@@ -266,6 +270,7 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
     first_time = 0
     first_time_categories = 0
     for (id, original_category, annotations) in documents_test:
+        ids_documents_test.append(id)
         vector = util_classify.transform_document_in_vector(annotations, words_features, corpus)
         vector = np.array(vector)
         if first_time == 0:
@@ -291,8 +296,35 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
             ground_truth_vector_categories = np.vstack((ground_truth_vector_categories, vector_categories))
 
     prediction = classifier.predict(array_vector_test)
-        
+
+    # Storage process predicted categories in DB
+    for document in Session.query(Document):
+        if document.id in ids_documents_test:
+            categories_list = ""
+            pos = ids_documents_test.index(document.id)
+            document_prediction = prediction[pos]
+            matches = [item for item in range(len(document_prediction)) if document_prediction[item] == 1]
+            for i in matches:
+                category = util_classify.get_multiple_categories(corpus)[i]
+                categories_list = categories_list + category + ","
+            categories_list = categories_list[:-1]
+            document.classified_in_category = categories_list
+            '''
+            if corpus == "bow_oercommons":
+                document.classified_in_category_oercommons = categories_list
+            elif corpus == "bow_merlot":
+                document.classified_in_category_merlot = categories_list
+            elif corpus == "bow_cnx":
+                document.classified_in_category_cnx = categories_list
+            elif corpus == "bow_wikipedia":
+                document.classified_in_category_wikipedia = categories_list
+            '''
+    Session.commit()
+    # End storage process predicted categories in DB
+
+
     return ground_truth_vector_categories, prediction
+
 
 
 def support_vector_machines(corpus, documents_training, documents_test, words_features, kernel):

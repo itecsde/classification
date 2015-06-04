@@ -51,7 +51,7 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_oercommons_threshold_01'
 
     elif corpus == "bow_merlot" or corpus == "boc_merlot":
-        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_merlot_threshold_01'
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_merlot_threshold_01'
 
     elif corpus == "bow_ohsumed_multilabel" or corpus == "boc_ohsumed_multilabel":
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_ohsumed_multilabel_threshold_01'
@@ -97,6 +97,9 @@ def set_database_session(corpus):
 
     elif corpus == "bow_cnx" or corpus == "boc_cnx":
         db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_cnx'
+
+    elif corpus == "bow_oer_aggregator_oercommons" or corpus == "bow_oer_aggregator_merlot" or corpus == "bow_oer_aggregator_cnx":
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_oer_aggregator'
 
 
 
@@ -600,6 +603,90 @@ def add_metadata_to_document(document, metadata_freq):
     return document
 
 
+def get_documents_from_multilabel_database_bow_cross_corpora(corpus_training, corpus_test, num_documents_for_training, metadata, metadata_freq, num_documents_for_test = 0):
+    """
+    Obtain :param num_documents_for_training: BoW random training documents from :param corpus: corpus
+    and :param num_documents_for_test: BoW random test documents from :param corpus: corpus
+    :param corpus:
+    :param num_documents_for_training:
+    :param metadata:
+    :param metadata_freq:
+    :param num_documents_for_test:
+    :return:
+    """
+    print "--- METHOD: get_documents_from_multilabel_database_bow_cross_corpora() ---"
+
+    if "oercommons" in corpus_training:
+        c_train = "oercommons"
+    elif "merlot" in corpus_training:
+        c_train = "merlot"
+    elif "cnx" in corpus_training:
+        c_train = "cnx"
+    elif "wikipedia" in corpus_training:
+        c_train = "wikipedia"
+
+    if "oercommons" in corpus_test:
+        c_test = "oercommons"
+    elif "merlot" in corpus_test:
+        c_test = "merlot"
+    elif "cnx" in corpus_test:
+        c_test = "cnx"
+    elif "wikipedia" in corpus_test:
+        c_test = "wikipedia"
+
+
+    stemmer = PorterStemmer()
+    tokenizer =  RegexpTokenizer(r'\w+')
+    documents_training = []
+    documents_test = []
+
+    print "metadata: " + metadata
+    print "freq: " + str(metadata_freq)
+
+    # Train
+    set_database_session(corpus_training)
+    if num_documents_for_training == 0:
+        print "Obtaining training documents from complete corpus " + corpus_training
+        for document in Session.query(Document).filter(Document.corpus == c_train).filter(Document.cgisplit == "train"):
+            if metadata == "yes":
+                add_metadata_to_document(document, metadata_freq)
+            documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] ))
+        random.seed("www.itec-sde.net")
+        random.shuffle(documents_training)
+    else:
+        print "Obtaining training documents from a part of the corpus " + corpus_training
+        for document in Session.query(Document).filter(Document.corpus == c_train).filter(Document.cgisplit == "train"):
+            if metadata == "yes":
+                add_metadata_to_document(document, metadata_freq)
+            documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
+        random.seed("www.itec-sde.net")
+        random.shuffle(documents_training)
+        documents_training = documents_training[0:num_documents_for_training]
+
+    # Test
+    set_database_session(corpus_test)
+    if num_documents_for_test == 0:
+        print "Obtaining test documents from complete corpus " + corpus_test
+        for document in Session.query(Document).filter(Document.corpus == c_test).filter(Document.cgisplit == "test"):
+            if metadata == "yes":
+                add_metadata_to_document(document, metadata_freq)
+            documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
+        random.seed("www.itec-sde.net")
+        random.shuffle(documents_test)
+    else:
+        print "Obtaining test documents from a part of the corpus " + corpus_test
+        for document in Session.query(Document).filter(Document.corpus == c_test).filter(Document.cgisplit == "test"):
+            if metadata == "yes":
+                add_metadata_to_document(document, metadata_freq)
+            documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
+        random.seed("www.itec-sde.net")
+        random.shuffle(documents_test)
+        documents_test = documents_test[0:num_documents_for_test]
+
+    return documents_training, documents_test
+
+
+
 def get_documents_from_multilabel_database_bow(corpus, num_documents_for_training, metadata, metadata_freq, num_documents_for_test = 0):
     """
     Obtain :param num_documents_for_training: BoW random training documents from :param corpus: corpus
@@ -650,7 +737,7 @@ def get_documents_from_multilabel_database_bow(corpus, num_documents_for_trainin
         random.seed("www.itec-sde.net")
         random.shuffle(documents_test)
     else:
-        print "Obtaining test documents from complete corpus " + corpus
+        print "Obtaining test documents from a part of the corpus " + corpus
         for document in Session.query(Document).filter(Document.cgisplit == "test"):
             if metadata == "yes":
                 add_metadata_to_document(document, metadata_freq)            

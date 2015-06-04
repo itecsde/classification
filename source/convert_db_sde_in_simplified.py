@@ -65,8 +65,12 @@ for corpus_db in corpus_databases:
 selection = 25
 #############
 
-corpus_db = corpus_databases[selection]
-simplified_db = simplified_databases[selection]
+#corpus_db = corpus_databases[selection]
+#simplified_db = simplified_databases[selection]
+
+corpus_db = "corpus_merlot_threshold_01"
+simplified_db = "simplified_oercommons_threshold_01"
+
 
 # Data conversion
 txt_url_db_corpus = str('mysql://classify_user:classify_password@localhost/' + corpus_db)
@@ -124,11 +128,11 @@ else:
             cgisplit = None
 
         if original_cat != "":        
-            new_document = Document(name = report.name, description = report.description, original_category = original_cat, cgisplit = cgisplit, url =  report.file_id, image_url = report.exchanges)
+            new_document = Document(name = report.name, description = report.description, original_category = original_cat, cgisplit = cgisplit, url = report.file_id, image_url = report.exchanges, corpus = "merlot")
             session_classify.add(new_document)
             session_classify.commit()
             
-            for taggable_tag_annotation in session_sde.query(TaggableTagAnnotation).filter(TaggableTagAnnotation.taggable_type == "ReutersNewItem", TaggableTagAnnotation.type_tag == "translated", TaggableTagAnnotation.taggable_id == report.id):
+            for taggable_tag_annotation in session_sde.query(TaggableTagAnnotation).filter(TaggableTagAnnotation.taggable_type == "ReutersNewItem", TaggableTagAnnotation.type_tag == "human", TaggableTagAnnotation.taggable_id == report.id):
                 new_annotation = Annotation(name = taggable_tag_annotation.tag.name, weight = taggable_tag_annotation.weight, document = new_document, expanded = taggable_tag_annotation.expanded, relatedness = taggable_tag_annotation.relatedness, expanded_from = taggable_tag_annotation.expanded_from, old_id = taggable_tag_annotation.id)
                 session_classify.add(new_annotation)        
             print report.name
