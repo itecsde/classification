@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_100_100_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_100_100_multilabel_10_neighbors1433327054.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_100_100_multilabel_10_neighbors1433327734.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_5000_500_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_5000_500_multilabel_10_neighbors1433331851.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_5000_500_multilabel_10_neighbors1433338781.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_50_50_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_50_50_multilabel_10_neighbors1433326503.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_50_50_multilabel_10_neighbors1433329737.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_50_50_multilabel_10_neighbors1433330057.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_oer_agreggator_linear_SVC_bow_metadata_500_test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/classify.py" afterPath="$PROJECT_DIR$/source/classify.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/classify_methods.py" afterPath="$PROJECT_DIR$/source/classify_methods.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/convert_db_sde_in_simplified.py" afterPath="$PROJECT_DIR$/source/convert_db_sde_in_simplified.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/db_simplified_declarative.py" afterPath="$PROJECT_DIR$/source/db_simplified_declarative.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/util_classify.py" afterPath="$PROJECT_DIR$/source/util_classify.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/borrar.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wikitopics_classifier.iws" />
@@ -758,7 +743,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433323552982</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="04_06_2015">
+      <created>1433433710417</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1433433710417</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -835,7 +826,8 @@
     <MESSAGE value="2015_05_28" />
     <MESSAGE value="cross language SVM kbest features" />
     <MESSAGE value="03_06_2015" />
-    <option name="LAST_COMMIT_MESSAGE" value="03_06_2015" />
+    <MESSAGE value="04_06_2015" />
+    <option name="LAST_COMMIT_MESSAGE" value="04_06_2015" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,13 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.043668" vertical-offset="0" max-vertical-offset="12767">
           <caret line="126" column="70" selection-start-line="126" selection-start-column="70" selection-end-line="126" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/borrar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7893545" vertical-offset="0" max-vertical-offset="883">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
         </state>
       </provider>
     </entry>
