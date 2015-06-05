@@ -212,12 +212,29 @@ def get_multiple_categories(corpus):
     :return:
     """
     categories = []
-    for category in Session.query(Document.original_category).distinct():
-        tokens = [x.strip() for x in category[0].split(',')]
-        for i in tokens:
-            categories.append(i)
-    categories = list(set(categories))
-    return categories
+
+    if "oer_aggregator" in corpus:
+        if "oercommons" in corpus:
+            c_corpus = "oercommons"
+        elif "merlot" in corpus:
+            c_corpus= "merlot"
+        elif "cnx" in corpus:
+            c_corpus = "cnx"
+        elif "wikipedia" in corpus:
+            c_corpus = "wikipedia"
+        for category in Session.query(Document.original_category).filter(Document.corpus == c_corpus).distinct():
+            tokens = [x.strip() for x in category[0].split(',')]
+            for i in tokens:
+                categories.append(i)
+        categories = list(set(categories))
+        return categories
+    else:
+        for category in Session.query(Document.original_category).distinct():
+            tokens = [x.strip() for x in category[0].split(',')]
+            for i in tokens:
+                categories.append(i)
+        categories = list(set(categories))
+        return categories
 
 def get_document_annotations(annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting):
     """

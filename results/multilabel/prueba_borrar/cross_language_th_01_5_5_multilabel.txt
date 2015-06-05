@@ -1,0 +1,16 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: oer_aggregator_oercommons
+CORPUS TEST: oer_aggregator_oercommons
+REPRESENTATION: BoW
+THRESHOLD: 0.01
+CLASSIFY METHOD: multilabel
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+ALGORITHM: SVC
+#TRAIN: 5
+#TEST: 5
+
+Getting train and test documents...

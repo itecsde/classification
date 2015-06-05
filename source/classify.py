@@ -40,9 +40,9 @@ metrics_available = ["cosine","jaccard","braycurtis","mahalanobis"]
 kernel_functions_available = ["linear","poly","rbf","sigmoid"]
 
 parser = argparse.ArgumentParser(description = 'Classifier')
-parser.add_argument('-corpus', dest='corpus', default="all", help="If empty, use all available corpora.", choices=['boc_reuters_27000','bow_reuters_27000','boc_ohsumed','bow_ohsumed','boc_ohsumed_expanded','boc_20_newsgroup','bow_20_newsgroup','boc_ieee','bow_ieee','boc_ieee_expanded','boc_20_newsgroup_expanded','boc_reuters_21578','bow_reuters_21578','boc_reuters_21578_expanded','bow_oercommons', 'boc_oercommons','bow_merlot','bow_ohsumed_multilabel','boc_ohsumed_multilabel','bow_uvigomed_multilabel','boc_uvigomed_multilabel','bow_uvigomed','boc_uvigomed','bow_ohsumed_randomized','boc_ohsumed_randomized','boc_ohsumed_randomized_multilabel','bow_ohsumed_randomized_multilabel','bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','bow_reuters_rcv2_translated_to_english_google_translate','bow_cnx', 'boc_cnx'])
-parser.add_argument('-corpus_training', dest='corpus_training', default = "none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','boc_wikipedia_english', 'bow_wikipedia_english', 'bow_wikipedia_spanish', 'boc_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_english', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx"])
-parser.add_argument('-corpus_test', dest='corpus_test', default="none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2', 'bow_reuters_rcv2_translated_to_english_google_translate', 'boc_wikipedia_spanish', 'bow_wikipedia_english', 'boc_wikipedia_english', 'bow_wikipedia_spanish_translated_to_english_google_translate', 'bow_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_spanish_to_english_google_translate', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx"])
+parser.add_argument('-corpus', dest='corpus', default="all", help="If empty, use all available corpora.", choices=['boc_reuters_27000','bow_reuters_27000','boc_ohsumed','bow_ohsumed','boc_ohsumed_expanded','boc_20_newsgroup','bow_20_newsgroup','boc_ieee','bow_ieee','boc_ieee_expanded','boc_20_newsgroup_expanded','boc_reuters_21578','bow_reuters_21578','boc_reuters_21578_expanded','bow_oercommons', 'boc_oercommons','bow_merlot','bow_ohsumed_multilabel','boc_ohsumed_multilabel','bow_uvigomed_multilabel','boc_uvigomed_multilabel','bow_uvigomed','boc_uvigomed','bow_ohsumed_randomized','boc_ohsumed_randomized','boc_ohsumed_randomized_multilabel','bow_ohsumed_randomized_multilabel','bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','bow_reuters_rcv2_translated_to_english_google_translate','bow_cnx', 'boc_cnx', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx"])
+parser.add_argument('-corpus_training', dest='corpus_training', default = "none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','boc_wikipedia_english', 'bow_wikipedia_english', 'bow_wikipedia_spanish', 'boc_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_english', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx",'bow_oercommons','bow_merlot', 'bow_cnx', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx"])
+parser.add_argument('-corpus_test', dest='corpus_test', default="none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2', 'bow_reuters_rcv2_translated_to_english_google_translate', 'boc_wikipedia_spanish', 'bow_wikipedia_english', 'boc_wikipedia_english', 'bow_wikipedia_spanish_translated_to_english_google_translate', 'bow_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_spanish_to_english_google_translate', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx", 'bow_cnx', 'bow_oercommons','bow_merlot'])
 parser.add_argument('-method', dest='classify_method', default = "mbayes", help="Classification method, default mbayes.", choices =  ["all", "mbayes", "kneighbors","multilabel","SVM","linear_SVM", "nu_SVM","cross_language_linear_SVM"])
 parser.add_argument('-threshold', dest='threshold', default = 0.01, type = float, help = "Annotations threshold. Default 0.01", choices =  threshold_available)
 parser.add_argument('-test', dest='test', default = 0, type = int, help = "Test number documents. If empty, all.")
@@ -65,8 +65,9 @@ parser.add_argument('-cross_corpora', dest="cross_corpora", default = "no", choi
 
 args = parser.parse_args()
 
+
 # INPUT PARAMETERS
-if args.corpus_training == "none" and args.corpus_test == "none":
+if (args.corpus_training == "none" and args.corpus_test == "none") or args.classify_method == "multilabel":
     if args.corpus == 'all':
         array_corpus = corpora_available
     else:
@@ -107,6 +108,7 @@ metadata_freq = args.metadata_freq
 hybrid = args.hybrid
 cross_corpora = args.cross_corpora
 
+
 if metadata_freq > 0:
     metadata = "yes"
 else:
@@ -129,6 +131,7 @@ if os.path.exists(json_path) == False:
 # END INPUT PARAMETERS
 
 # MAIN
+print array_corpus
 for corpus in array_corpus:
 
     if args.train == 0 and args.test == 0:

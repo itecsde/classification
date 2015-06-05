@@ -65,11 +65,8 @@ for corpus_db in corpus_databases:
 selection = 25
 #############
 
-#corpus_db = corpus_databases[selection]
-#simplified_db = simplified_databases[selection]
-
-corpus_db = "corpus_merlot_threshold_01"
-simplified_db = "simplified_oercommons_threshold_01"
+corpus_db = corpus_databases[selection]
+simplified_db = simplified_databases[selection]
 
 
 # Data conversion
@@ -128,7 +125,7 @@ else:
             cgisplit = None
 
         if original_cat != "":        
-            new_document = Document(name = report.name, description = report.description, original_category = original_cat, cgisplit = cgisplit, url = report.file_id, image_url = report.exchanges, corpus = "merlot")
+            new_document = Document(name = report.name, description = report.description, original_category = original_cat, cgisplit = cgisplit, url = report.file_id, image_url = report.exchanges, corpus = "cnx")
             session_classify.add(new_document)
             session_classify.commit()
             
