@@ -236,6 +236,7 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
         # CNX corpus -> 6 categories
+        # Common categories -> 6 categories
         vector_categories = np.zeros(6)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
@@ -285,8 +286,8 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
         # CNX corpus -> 6 categories
+        # Common categories -> 6 categories
 
-        '''
         vector_categories = np.zeros(6)
         for category in original_categories:
             vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
@@ -296,11 +297,12 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
             first_time_categories = 1
         else:
             ground_truth_vector_categories = np.vstack((ground_truth_vector_categories, vector_categories))
-        '''
+
 
     prediction = classifier.predict(array_vector_test)
 
     # Storage process predicted categories in DB
+    '''
     for document in Session.query(Document):
         if document.id in ids_documents_test:
             categories_list = ""
@@ -324,7 +326,7 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
 
     Session.commit()
     # End storage process predicted categories in DB
-
+    '''
     return ground_truth_vector_categories, prediction
 
 

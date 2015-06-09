@@ -1,5 +1,5 @@
 ---- EXPERIMENT DETAILS ----
-CORPUS: oer_aggregator_cnx
+CORPUS: oer_aggregator_oercommons
 REPRESENTATION: BoW
 THRESHOLD: 0.01
 CLASSIFY METHOD: multilabel
@@ -15,8 +15,8 @@ ALGORITHM: SVC
 Getting train and test documents...
 --- METHOD: get_documents_from_multilabel_database_bow_cross_corpora() ---
 metadata: yes
-freq: 2
-Obtaining training documents from a part of the corpus bow_oer_aggregator_cnx
+freq: 3
+Obtaining training documents from a part of the corpus bow_oer_aggregator_oercommons
 Obtaining test documents from a part of the corpus bow_oer_aggregator_merlot
 --- METHOD: get_unique_words_bow() ---
 ----- Multilabel Algorithm------
