@@ -21,13 +21,13 @@ class Document(Base):
     cgisplit = Column(String(255), nullable=True)
     original_category =  Column(Text, nullable=True)    
     classified_in_category =  Column(String(255), nullable=True)
-    classified_in_category_oercommons =  Column(String(255), nullable=True)
-    classified_in_category_merlot =  Column(String(255), nullable=True)
-    classified_in_category_cnx =  Column(String(255), nullable=True)
-    classified_in_category_wikipedia =  Column(String(255), nullable=True)
-    url =  Column(String(255), nullable=True)
-    image_url =  Column(String(255), nullable=True)
-    corpus = Column(String(255), nullable=True)
+    #classified_in_category_oercommons =  Column(String(255), nullable=True)
+    #classified_in_category_merlot =  Column(String(255), nullable=True)
+    #classified_in_category_cnx =  Column(String(255), nullable=True)
+    #classified_in_category_wikipedia =  Column(String(255), nullable=True)
+    #url =  Column(String(255), nullable=True)
+    #image_url =  Column(String(255), nullable=True)
+    #corpus = Column(String(255), nullable=True)
     annotations = relationship("Annotation", backref="documents")
     evaluations = relationship("Evaluation", backref="documents")
  
@@ -57,6 +57,8 @@ class Evaluation(Base):
     id = Column(Integer, primary_key=True)
     document_id = Column(Integer, ForeignKey('documents.id'))
     evaluation = Column(String(250), nullable=True)
+    corpus_taxonomy = Column(String(250), nullable=True)
+    corpus_resource = Column(String(250), nullable=True)
 
 # Create an engine that stores data in the local directory's
 # sqlalchemy_example.db file.

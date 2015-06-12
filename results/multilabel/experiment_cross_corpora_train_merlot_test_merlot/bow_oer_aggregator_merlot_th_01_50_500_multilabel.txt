@@ -1,0 +1,58 @@
+---- EXPERIMENT DETAILS ----
+CORPUS: oer_aggregator_merlot
+REPRESENTATION: BoW
+THRESHOLD: 0.01
+CLASSIFY METHOD: multilabel
+METRIC: cosine
+TFIDF: no
+STEMMING: porter
+SMOOTHING: 0.001
+WEIGHTING: milne
+ALGORITHM: SVC
+#TRAIN: 50
+#TEST: 500
+
+Getting train and test documents...
+--- METHOD: get_documents_from_multilabel_database_bow_cross_corpora() ---
+metadata: yes
+freq: 2
+Obtaining training documents from a part of the corpus bow_oer_aggregator_merlot
+Obtaining test documents from a part of the corpus bow_oer_aggregator_merlot
+--- METHOD: get_unique_words_bow() ---
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...
+Training multilabel classifier...
+Classifying test documents (Prediction)
+Metrics:
+----------------
+Hamming Loss:
+0.178666666667
+
+Accuracy:
+0.25
+
+Precision:
+0.391791259533
+
+Recall:
+0.28280961183
+
+Classification Report:
+                            precision    recall  f1-score   support
+
+                      Arts       0.50      0.04      0.08        24
+                  Business       0.24      0.11      0.15        80
+                Humanities       0.00      0.00      0.00        81
+Mathematics and Statistics       0.38      0.24      0.29        34
+    Science and Technology       0.57      0.52      0.54       259
+           Social Sciences       0.33      0.02      0.03        63
+
+               avg / total       0.39      0.28      0.31       541
+
+F1-score
+----------------
+F1_SCORE (Macro): 0.182015285405
+Precision: 0.391791259533
+Recall: 0.28280961183
+---- Execution End ----

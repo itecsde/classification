@@ -2,28 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_1000_500_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_1000_500_multilabel_10_neighbors1433849172.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_100_500_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_100_500_multilabel_10_neighbors1433848489.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_10_500_multilabel_10_neighbors1433848098.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_2000_500_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_200_500_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_200_500_multilabel_10_neighbors1433848641.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_20_500_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_20_500_multilabel_10_neighbors1433848223.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_500_500_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_500_500_multilabel_10_neighbors1433848844.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_50_500_multilabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_50_500_multilabel_10_neighbors1433848351.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_cnx.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_merlot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_oercommons.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_cnx.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_merlot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_oercommons.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_cnx.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_oercommons.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/experiment_cross_corpora_train_cnx_test_cnx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/experiment_cross_corpora_train_cnx_test_merlot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/experiment_cross_corpora_train_cnx_test_oercommons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/experiment_cross_corpora_train_merlot_test_cnx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/experiment_cross_corpora_train_merlot_test_merlot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/experiment_cross_corpora_train_merlot_test_oercommons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/experiment_cross_corpora_train_oercommons_test_cnx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/experiment_cross_corpora_train_oercommons_test_merlot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/experiment_cross_corpora_train_oercommons_test_oercommons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_1000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_1000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_1000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_1000_500_multilabel_10_neighbors1433860925.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_1000_500_multilabel_10_neighbors1433863096.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_1000_500_multilabel_10_neighbors1433933887.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_100_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_100_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_100_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_100_500_multilabel_10_neighbors1433860537.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_100_500_multilabel_10_neighbors1433862616.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_100_500_multilabel_10_neighbors1433933476.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_10_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_10_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_10_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_10_500_multilabel_10_neighbors1433860291.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_10_500_multilabel_10_neighbors1433862314.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_10_500_multilabel_10_neighbors1433933232.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_2000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_2000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_2000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_2000_500_multilabel_10_neighbors1433861403.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_2000_500_multilabel_10_neighbors1433863543.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_2000_500_multilabel_10_neighbors1433934298.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_200_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_200_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_200_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_200_500_multilabel_10_neighbors1433860619.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_200_500_multilabel_10_neighbors1433862735.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_200_500_multilabel_10_neighbors1433933571.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_20_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_20_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_20_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_20_500_multilabel_10_neighbors1433860375.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_20_500_multilabel_10_neighbors1433862410.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_20_500_multilabel_10_neighbors1433933309.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_5000_500_multilabel_10_neighbors1433863891.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_5000_500_multilabel_10_neighbors1433865491.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_5000_500_multilabel_10_neighbors1433936104.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_500_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_500_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_500_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_500_500_multilabel_10_neighbors1433860736.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_500_500_multilabel_10_neighbors1433862879.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_500_500_multilabel_10_neighbors1433933696.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_50_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_50_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_50_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_50_500_multilabel_10_neighbors1433860450.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_50_500_multilabel_10_neighbors1433862511.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_50_500_multilabel_10_neighbors1433933390.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_5_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_5_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_5_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_cnx/bow_oer_aggregator_cnx_th_01_5_500_multilabel_10_neighbors1433860220.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_5_500_multilabel_10_neighbors1433862215.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_5_500_multilabel_10_neighbors1433933153.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_1000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_1000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_1000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_1000_500_multilabel_10_neighbors1433862611.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_1000_500_multilabel_10_neighbors1433924253.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_1000_500_multilabel_10_neighbors1433927399.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_100_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_100_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_100_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_100_500_multilabel_10_neighbors1433862014.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_100_500_multilabel_10_neighbors1433923591.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_100_500_multilabel_10_neighbors1433926826.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_10_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_10_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_10_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_10_500_multilabel_10_neighbors1433861659.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_10_500_multilabel_10_neighbors1433923144.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_10_500_multilabel_10_neighbors1433926471.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_2000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_2000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_2000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_2000_500_multilabel_10_neighbors1433863147.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_2000_500_multilabel_10_neighbors1433924781.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_2000_500_multilabel_10_neighbors1433927901.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_200_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_200_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_200_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_200_500_multilabel_10_neighbors1433862157.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_200_500_multilabel_10_neighbors1433923760.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_200_500_multilabel_10_neighbors1433926962.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_20_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_20_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_20_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_20_500_multilabel_10_neighbors1433861772.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_20_500_multilabel_10_neighbors1433923289.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_20_500_multilabel_10_neighbors1433926588.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_5000_500_multilabel_10_neighbors1433865380.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_5000_500_multilabel_10_neighbors1433926802.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_5000_500_multilabel_10_neighbors1433929736.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_500_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_500_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_500_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_500_500_multilabel_10_neighbors1433862340.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_500_500_multilabel_10_neighbors1433923966.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_500_500_multilabel_10_neighbors1433927139.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_50_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_50_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_50_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_50_500_multilabel_10_neighbors1433861890.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_50_500_multilabel_10_neighbors1433923436.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_50_500_multilabel_10_neighbors1433926710.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_5_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_5_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_5_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_merlot/bow_oer_aggregator_merlot_th_01_5_500_multilabel_10_neighbors1433861547.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_5_500_multilabel_10_neighbors1433923002.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_5_500_multilabel_10_neighbors1433926355.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_1000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_1000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_1000_500_multilabel_10_neighbors1433854773.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_1000_500_multilabel_10_neighbors1433867704.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_100_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_100_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_100_500_multilabel_10_neighbors1433853986.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_100_500_multilabel_10_neighbors1433866823.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_10_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_10_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_10_500_multilabel_10_neighbors1433853519.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_10_500_multilabel_10_neighbors1433866250.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_2000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_2000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_2000_500_multilabel_10_neighbors1433849857.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_2000_500_multilabel_10_neighbors1433855531.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_2000_500_multilabel_10_neighbors1433868432.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_200_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_200_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_200_500_multilabel_10_neighbors1433854164.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_200_500_multilabel_10_neighbors1433867040.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_20_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_20_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_20_500_multilabel_10_neighbors1433853669.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_20_500_multilabel_10_neighbors1433866435.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel_10_neighbors1433853002.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel_10_neighbors1433858843.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel_10_neighbors1433871178.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_500_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_500_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_500_500_multilabel_10_neighbors1433854403.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_500_500_multilabel_10_neighbors1433867312.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_50_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_50_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_50_500_multilabel_10_neighbors1433853824.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_50_500_multilabel_10_neighbors1433866626.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_5_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_5_500_multilabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_oercommons/bow_oer_aggregator_oercommons_th_01_5_500_multilabel_10_neighbors1433853371.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/multilabel/experiment_cross_corpora_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_5_500_multilabel_10_neighbors1433866065.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_500_500_cross_language_linear_SVM_10_neighbors1434096468.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_500_500_cross_language_linear_SVM_10_neighbors1434100700.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_500_500_cross_language_linear_SVM_10_neighbors1434102763.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_500_500_cross_language_linear_SVM.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/print_graphics/oer_aggregator/display_graphic_SVM_multilabel.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_cnx_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_cnx_th_01_5000_500_multilabel_10_neighbors1433497823.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_cnx_th_01_5_5_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_cnx_th_01_5_5_multilabel_10_neighbors1433495847.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_100_100_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_100_100_multilabel_10_neighbors1433327054.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_100_100_multilabel_10_neighbors1433327734.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_5000_500_multilabel_10_neighbors1433331851.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_5000_500_multilabel_10_neighbors1433338781.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_50_50_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_50_50_multilabel_10_neighbors1433326503.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_50_50_multilabel_10_neighbors1433329737.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_merlot_th_01_50_50_multilabel_10_neighbors1433330057.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_cnx_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_cnx_th_01_5000_500_multilabel_10_neighbors1433501353.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_cnx_th_01_5_5_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_cnx_th_01_5_5_multilabel_10_neighbors1433498817.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_cnx_th_01_5_5_multilabel_10_neighbors1433846815.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_merlot_th_01_5_5_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_merlot_th_01_5_5_multilabel_10_neighbors1433846975.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_oercommons_th_01_5_5_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/bow_oer_aggregator_oercommons_th_01_5_5_multilabel_10_neighbors1433846904.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar/cross_language_th_01_5_5_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_merlot/bow_oer_aggregator_merlot_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_merlot/bow_oer_aggregator_merlot_th_01_5000_500_multilabel_10_neighbors1433505328.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_oercommons/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_oercommons/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel_10_neighbors1433511316.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_train_cnx_test_merlot/bow_oer_aggregator_cnx_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_train_cnx_test_oercommons/bow_oer_aggregator_cnx_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_train_cnx_test_oercommons/bow_oer_aggregator_merlot_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_train_merlot_test_cnx/bow_oer_aggregator_merlot_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_train_merlot_test_oercommons/bow_oer_aggregator_merlot_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_train_oercommons_test_cnx/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/multilabel/prueba_borrar_train_oercommons_test_merlot/bow_oer_aggregator_oercommons_th_01_5000_500_multilabel.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/classify.py" afterPath="$PROJECT_DIR$/source/classify.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/db_simplified_declarative.py" afterPath="$PROJECT_DIR$/source/db_simplified_declarative.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_oercommons.sh" afterPath="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_oercommons.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/util_classify.py" afterPath="$PROJECT_DIR$/source/util_classify.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wikitopics_classifier.iws" />
@@ -48,11 +242,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="classify.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/classify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6921875" vertical-offset="3076" max-vertical-offset="5219">
+              <caret line="207" column="48" selection-start-line="207" selection-start-column="48" selection-end-line="207" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="classify_methods.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.111111" vertical-offset="6523" max-vertical-offset="12189">
-              <caret line="403" column="15" selection-start-line="403" selection-start-column="15" selection-end-line="403" selection-end-column="15" />
+            <state vertical-scroll-proportion="-5.4166665" vertical-offset="8339" max-vertical-offset="12189">
+              <caret line="502" column="0" selection-start-line="502" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -60,94 +266,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment_cross_corpora_train_merlot_test_oercommons.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_oercommons.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.25" vertical-offset="0" max-vertical-offset="323">
-              <caret line="13" column="138" selection-start-line="13" selection-start-column="138" selection-end-line="13" selection-end-column="138" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment_cross_corpora_train_oercommons_test_cnx.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_cnx.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment_cross_corpora_train_cnx_test_merlot.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_merlot.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment_cross_corpora_train_cnx_test_oercommons.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_oercommons.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment_cross_corpora_train_merlot_test_merlot.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_merlot.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.25" vertical-offset="0" max-vertical-offset="323">
-              <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment_cross_corpora_train_oercommons_test_oercommons.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_oercommons.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2918455" vertical-offset="0" max-vertical-offset="466">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert_db_sde_in_simplified.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/convert_db_sde_in_simplified.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2312">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="util_classify.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/util_classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.055555" vertical-offset="3229" max-vertical-offset="18802">
-              <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
+            <state vertical-scroll-proportion="-14.944445" vertical-offset="7401" max-vertical-offset="18802">
+              <caret line="467" column="38" selection-start-line="467" selection-start-column="38" selection-end-line="467" selection-end-column="38" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classify_oer_agreggator_linear_SVC_bow_metadata_500_test_each_corpus.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/classify_oer_agreggator_linear_SVC_bow_metadata_500_test_each_corpus.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -165,7 +291,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_bow_boc_boc_expanded_reuters_21578_varying_n_neighbors_n_features_jaccard.sh" />
         <option value="$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_bray_curtis.sh" />
         <option value="$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_cosine.sh" />
         <option value="$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_knn_ohsumed_wf_th_0.01_varying_n_neighbors_jaccard.sh" />
@@ -200,11 +325,8 @@
         <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test_kbest_influence.sh" />
         <option value="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language_kbest_influence.py" />
         <option value="$PROJECT_DIR$/source/db_sde_declarative2.py" />
-        <option value="$PROJECT_DIR$/source/db_simplified_declarative.py" />
         <option value="$PROJECT_DIR$/experiments/oer_agreggator/experiment_oer_agreggator_linear_SVC_bow_metadata_500_test.sh" />
         <option value="$PROJECT_DIR$/source/convert_db_sde_in_simplified.py" />
-        <option value="$PROJECT_DIR$/source/classify.py" />
-        <option value="$PROJECT_DIR$/source/util_classify.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora.sh" />
         <option value="$PROJECT_DIR$/source/classify_methods.py" />
@@ -216,6 +338,10 @@
         <option value="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_cnx.sh" />
         <option value="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_merlot.sh" />
         <option value="$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_oercommons.sh" />
+        <option value="$PROJECT_DIR$/print_graphics/oer_aggregator/display_graphic_SVM_multilabel.py" />
+        <option value="$PROJECT_DIR$/source/util_classify.py" />
+        <option value="$PROJECT_DIR$/source/db_simplified_declarative.py" />
+        <option value="$PROJECT_DIR$/source/classify.py" />
       </list>
     </option>
   </component>
@@ -315,6 +441,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="print_graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print_graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oer_aggregator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="experiments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -333,7 +491,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="oer_agreggator" />
+              <option name="myItemId" value="cross_language_SVM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,11 +536,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/print_graphics/oer_aggregator" />
       <recent name="$PROJECT_DIR$/experiments/oer_agreggator" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/print_graphics/cross_language_SVM" />
       <recent name="$PROJECT_DIR$/experiments/cross_language_SVM" />
-      <recent name="$PROJECT_DIR$/print_graphics" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/print_graphics" />
@@ -391,7 +549,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.multilabel ">
+  <component name="RunManager" selected="Python.classify hybrid approach bow_wikipedia_english">
     <configuration default="false" name="experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -634,7 +792,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="wikitopics_classifier" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/classify.py" />
-      <option name="PARAMETERS" value="-corpus_training bow_wikipedia_english -corpus_test bow_wikipedia_english -method cross_language_linear_SVM -hybrid no -train 1 -test 1 -metric cosine -destination_folder prueba" />
+      <option name="PARAMETERS" value="-corpus_training bow_wikipedia_english -corpus_test bow_wikipedia_english -method cross_language_linear_SVM -hybrid no -train 500 -test 500 -metric cosine -destination_folder prueba" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
@@ -660,12 +818,12 @@
       <method />
     </configuration>
     <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Python.classify hybrid approach" />
-      <item index="1" class="java.lang.String" itemvalue="Python.classify hybrid approach bow_wikipedia_english" />
-      <item index="2" class="java.lang.String" itemvalue="Python.multilabel " />
-      <item index="3" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
-      <item index="4" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
-      <item index="5" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
+      <item index="0" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
+      <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+      <item index="2" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
+      <item index="3" class="java.lang.String" itemvalue="Python.classify hybrid approach" />
+      <item index="4" class="java.lang.String" itemvalue="Python.classify hybrid approach bow_wikipedia_english" />
+      <item index="5" class="java.lang.String" itemvalue="Python.multilabel " />
       <item index="6" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
       <item index="7" class="java.lang.String" itemvalue="Python.classify" />
     </list>
@@ -828,7 +986,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433848113352</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="09_06_2015 cross-corpora experiments">
+      <created>1433849968424</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1433849968424</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -855,24 +1019,24 @@
     <frame x="59" y="144" width="1861" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17640918" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46868476" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28705636" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27557412" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31338412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14417845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5177453" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52609605" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -949,13 +1113,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/experiments/closeness_in_concept_space/experiment_reduced_information_bow_ohsumed_10n_chebyshev.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03715847" vertical-offset="0" max-vertical-offset="915">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiments/ICALT/experiment_multilabel_KNN_merlot.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2966443" vertical-offset="0" max-vertical-offset="745">
@@ -1151,43 +1308,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/db_sde_declarative.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/db_sde_declarative2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45609757" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/db_simplified_declarative.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="541" max-vertical-offset="1343">
-          <caret line="72" column="87" selection-start-line="72" selection-start-column="87" selection-end-line="72" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.638889" vertical-offset="2637" max-vertical-offset="5219">
-          <caret line="184" column="122" selection-start-line="184" selection-start-column="122" selection-end-line="184" selection-end-column="122" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,32 +1348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/convert_db_sde_in_simplified.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/util_classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.055555" vertical-offset="3229" max-vertical-offset="18802">
-          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/classify_oer_agreggator_linear_SVC_bow_metadata_500_test_each_corpus.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -1257,52 +1356,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_cnx.sh">
+    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46984926" vertical-offset="0" max-vertical-offset="398">
-          <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
+    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_oercommons.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.111111" vertical-offset="6523" max-vertical-offset="12189">
-          <caret line="403" column="15" selection-start-line="403" selection-start-column="15" selection-end-line="403" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.36589405" vertical-offset="0" max-vertical-offset="604">
+          <caret line="13" column="238" selection-start-line="13" selection-start-column="238" selection-end-line="13" selection-end-column="238" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_oercommons.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.25" vertical-offset="0" max-vertical-offset="323">
-          <caret line="13" column="138" selection-start-line="13" selection-start-column="138" selection-end-line="13" selection-end-column="138" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_cnx.sh">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_merlot.sh">
+    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_cnx.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_cnx.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5552764" vertical-offset="0" max-vertical-offset="398">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
           <folding />
         </state>
       </provider>
@@ -1315,19 +1396,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_merlot.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_cnx.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25869566" vertical-offset="0" max-vertical-offset="460">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print_graphics/oer_aggregator/display_graphic_SVM_multilabel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83657587" vertical-offset="284" max-vertical-offset="901">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/convert_db_sde_in_simplified.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8822355" vertical-offset="1530" max-vertical-offset="2312">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/db_simplified_declarative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59143966" vertical-offset="104" max-vertical-offset="1377">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/db_sde_declarative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/db_sde_declarative2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72762644" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_merlot_test_merlot.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.25" vertical-offset="0" max-vertical-offset="323">
+        <state vertical-scroll-proportion="0.30538923" vertical-offset="0" max-vertical-offset="501">
           <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_oercommons_test_oercommons.sh">
+    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora_train_cnx_test_cnx.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2918455" vertical-offset="0" max-vertical-offset="466">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.44111776" vertical-offset="0" max-vertical-offset="501">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/util_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.944445" vertical-offset="7401" max-vertical-offset="18802">
+          <caret line="467" column="38" selection-start-line="467" selection-start-column="38" selection-end-line="467" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4166665" vertical-offset="8339" max-vertical-offset="12189">
+          <caret line="502" column="0" selection-start-line="502" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6921875" vertical-offset="3076" max-vertical-offset="5219">
+          <caret line="207" column="48" selection-start-line="207" selection-start-column="48" selection-end-line="207" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

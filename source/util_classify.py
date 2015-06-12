@@ -99,7 +99,7 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_cnx'
 
     elif corpus == "bow_oer_aggregator_oercommons" or corpus == "bow_oer_aggregator_merlot" or corpus == "bow_oer_aggregator_cnx":
-        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_oer_aggregator'
+        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_oer_aggregator'
 
 
 
