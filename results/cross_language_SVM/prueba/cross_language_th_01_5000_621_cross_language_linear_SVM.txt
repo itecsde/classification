@@ -9,8 +9,8 @@ TFIDF: no
 STEMMING: -
 SMOOTHING: 0.001
 WEIGHTING: milne
-#TRAIN: 500
-#TEST: 500
+#TRAIN: 5000
+#TEST: 621
 
 Getting train and test documents...
 bow, Hybrid?
@@ -25,13 +25,13 @@ Training the algorithm...
 Calculating metrics...
                        precision    recall  f1-score   support
 
- Culture and the arts       0.73      0.82      0.77       156
- Geography and places       0.83      0.78      0.81       142
-Mathematics and logic       0.85      0.81      0.83       202
+ Culture and the arts       0.82      0.89      0.86       194
+ Geography and places       0.91      0.88      0.89       179
+Mathematics and logic       0.93      0.89      0.91       248
 
-          avg / total       0.81      0.81      0.81       500
+          avg / total       0.89      0.89      0.89       621
 
-F1_SCORE (Macro): 0.804391311399
-Precision: 0.81031160401
-Recall: 0.806
+F1_SCORE (Macro): 0.885982039562
+Precision: 0.889774313382
+Recall: 0.887278582931
 ---- Execution End ----

@@ -532,6 +532,80 @@ def linear_support_vector_machines_cross_language(corpus_training, corpus_test, 
 
     return original_categories, estimated_categories
 
+def linear_support_vector_machines_cross_language_hybrid(corpus_training, corpus_test, documents_training_bow, documents_test_bow, documents_training_boc, documents_test_boc, words_features):
+    """
+    Cross Language linear Support Vector Machines algorithm. The Support Vector Machines algorithm with a linear kernel.
+    An implementation of linear SVM to conduct cross-language experiments.
+    :param corpus_training:
+    :param corpus_test:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :return:
+    """
+
+    print
+    print "----- Cross-Language Support Vector Machines algorithm hybrid------"
+    print "Creating Training Vectors..."
+    categories = util_classify.get_categories(corpus_training)
+    ids_documents_test = []
+    original_cats = []
+    array_cats_names = []
+    array_vector_training = []
+    array_categories = []
+
+
+    for (id, original_category, annotations) in documents_training_bow:
+        array_vector_training.append(util_classify.transform_document_in_vector(annotations, words_features, corpus_training))
+        array_categories.append(util_classify.get_categories(corpus_training).index(original_category))
+
+    for x in array_categories:
+        array_cats_names.append(categories[x])
+
+    print "Training the algorithm..."
+    classifier = LinearSVC()
+
+    X_train_features = []
+    y_train_categories = []
+    # Train all
+    for (id, original_category, annotations) in documents_training_bow:
+        X_train_features.append(util_classify.transform_document_in_vector(annotations, words_features, corpus_training))
+        y_train_categories.append(original_category)
+
+    classifier.fit(np.array(X_train_features), np.array(y_train_categories))
+
+    print "Calculating metrics..."
+    estimated_categories = []
+    original_categories = []
+
+    categories = util_classify.get_categories(corpus_test)
+
+    for (id, cat_original, annotations) in documents_test_bow:
+        ids_documents_test.append(id)
+        original_cats.append(cat_original)
+        cat_estimated = classifier.predict(np.array((util_classify.transform_document_in_vector(annotations, words_features, corpus_test))))
+        estimated_categories.append(categories.index(cat_estimated))
+        original_categories.append(categories.index(cat_original))
+
+    categories_names = util_classify.get_categories(corpus_test)
+
+    array_cats_names = []
+    for x in estimated_categories:
+        array_cats_names.append(categories_names[x])
+
+    # Storage process predicted categories in DB
+    util_classify.set_database_session(corpus_test)
+    for document in Session.query(Document):
+        if document.id in ids_documents_test:
+            pos = ids_documents_test.index(document.id)
+            document.classified_in_category = array_cats_names[pos]
+    Session.commit()
+    # End storage process predicted categories in DB
+
+    return original_categories, estimated_categories
+
+
+
 
 def linear_support_vector_machines_cross_language_tf_idf(corpus_training, corpus_test, documents_training, documents_test, words_features, kbest):
     """

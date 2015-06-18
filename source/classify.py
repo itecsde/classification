@@ -190,8 +190,8 @@ for corpus in array_corpus:
                     words_features = util_classify.get_unique_words_boc(documents_training)
                 elif "bow" in corpus_training and "bow" in corpus_test:
                     print "bow, Hybrid?"
-                    #documents_training, documents_test = util_classify.get_documents_from_cross_language_database_boc(corpus_training, corpus_test, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
-                    #words_features = util_classify.get_unique_words_boc(documents_training)
+                    #documents_training_boc, documents_test_boc = util_classify.get_documents_from_cross_language_database_boc(corpus_training, corpus_test, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
+                    #words_features = util_classify.get_unique_words_boc(documents_training_boc)
                     documents_training, documents_test = util_classify.get_documents_from_cross_language_database_bow(corpus_training, corpus_test, hybrid, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
                     words_features = util_classify.get_unique_words_bow(documents_training)
                     #words_features.update(words_features_bow)

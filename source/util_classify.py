@@ -84,7 +84,7 @@ def set_database_session(corpus):
         db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_spanish_annotations_translated_to_en_th_01'
 
     elif corpus == "bow_wikipedia_spanish_translated_to_english_google_translate" or corpus == "boc_wikipedia_spanish_translated_to_english_google_translate":
-        db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_wikipedia_es_translated_to_english_google_translate'
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_es_translated_to_english_google_translate'
 
     elif corpus == "bow_wikipedia_human_medicine_english" or corpus == "boc_wikipedia_human_medicine_english":
         db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_wikipedia_human_medicine_en'
@@ -265,6 +265,38 @@ def get_document_annotations(annotations, weighting, threshold, expansion_thresh
                 for annotation_expanded in annotations:                   
                     if annotation_expanded.expanded == True and annotation_expanded.expanded_from == annotation.old_id and annotation_expanded.relatedness >= expansion_relatedness:
                         aux_document_annotations.append((annotation_expanded.name,expanded_weighting))
+    return aux_document_annotations
+
+
+def annotations_to_words (annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting):
+    """
+    Returns the annotations of a document and its weight.
+    :param annotations:
+    :param weighting:
+    :param threshold:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param expanded_weighting:
+    :return:
+    """
+
+    if expansion_threshold < 1:
+        expansion = True
+    else:
+        expansion = False
+
+    aux_document_annotations = []
+    for annotation in annotations:
+        if annotation.weight >= threshold:
+            if weighting == "milne":
+                aux_weighting = annotation.weight
+            elif weighting == "binary":
+                aux_weighting = 1
+            aux_document_annotations.append(annotation.name.decode(encoding="ISO-8859-1"))
+            if expansion == True and annotation.weight >= expansion_threshold:
+                for annotation_expanded in annotations:
+                    if annotation_expanded.expanded == True and annotation_expanded.expanded_from == annotation.old_id and annotation_expanded.relatedness >= expansion_relatedness:
+                        aux_document_annotations.append(annotation_expanded.name.decode(encoding="ISO-8859-1"))
     return aux_document_annotations
 
 def get_documents_from_database_boc(corpus, threshold, weighting, expansion_threshold, expansion_relatedness, num_documents_per_category_for_training ,expanded_weighting, num_documents_per_category_for_testing = 0):
@@ -451,7 +483,7 @@ def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,
         print "Obtaining training documents from a part of the corpus " + corpus_training
         for document in Session.query(Document).filter(Document.cgisplit == "train"):                    
             if hybrid == "yes":
-                documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] + get_document_annotations(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
+                documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] + annotations_to_words(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
             elif hybrid == "no":
                 documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
         random.seed("www.itec-sde.net")
@@ -469,7 +501,10 @@ def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,
     else:
         print "Obtaining test documents from a part of the corpus " + corpus_test
         for document in Session.query(Document).filter(Document.cgisplit == "test"):
-            documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))                    
+            if hybrid == "yes":
+                documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] + annotations_to_words(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
+            elif hybrid == "no":
+                documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
         random.seed("www.itec-sde.net")
         random.shuffle(documents_test)   
         documents_test = documents_test[0:num_documents_for_test]
@@ -787,9 +822,13 @@ def get_unique_words_boc(documents):
             for (annotation_name, annotation_weight) in annotations:
                 if annotation_name.decode(encoding="ISO-8859-1") == word:
                     if words_features.has_key(word):
-                        words_features[word] += annotation_weight
+                        # le pongo uno para ver si asi influye el boc
+                        words_features[word] += 1
+                        #words_features[word] += annotation_weight
                     else:
-                        words_features[word] = annotation_weight
+                        # le pongo uno para ver si asi influye el boc
+                        words_features[word] = 1
+                        #words_features[word] = annotation_weight
 
     return words_features
 
