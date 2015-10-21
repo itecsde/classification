@@ -1,0 +1,37 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: jrc_acquis_english
+CORPUS TEST: jrc_acquis_spanish_to_english
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: multilabel_cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 10
+#TEST: 10
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_jrc_acquis_english
+Obtaining test documents from a part of corpus boc_jrc_acquis_spanish_to_english
+--- METHOD: get_unique_words_boc() ---
+multi
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...
+boc_jrc_acquis_english
+Features sorted by their score:
+[(0.0374, 'PTRATIO'), (0.0, 'ZN'), (0.0, 'TAX'), (0.0, 'RM'), (0.0, 'RAD'), (0.0, 'NOX'), (0.0, 'LSTAT'), (0.0, 'INDUS'), (0.0, 'DIS'), (0.0, 'CRIM'), (0.0, 'CHAS'), (0.0, 'B'), (0.0, 'AGE')]
+Feature ranking:
+1. feature 47 (0.018644)
+2. feature 78 (0.017744)
+3. feature 261 (0.017380)
+4. feature 58 (0.017107)
+5. feature 19 (0.016517)
+6. feature 344 (0.015936)
+7. feature 163 (0.015154)
+8. feature 59 (0.014851)
+9. feature 326 (0.014535)
+10. feature 33 (0.014450)

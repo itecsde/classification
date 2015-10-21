@@ -417,7 +417,7 @@ def get_documents_from_cross_language_database_boc(corpus_training, corpus_test,
         random.shuffle(documents_train)
     else:
         print "Obtaining training documents from a part of corpus  " + corpus_training
-        for document in Session.query(Document).filter(Document.cgisplit == "train"):     
+        for document in Session.query(Document).filter(Document.cgisplit == "train").filter(Document.id < 10):
             documents_train.append((document.id, document.original_category, get_document_annotations(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting)))                                
         random.seed("www.itec-sde.net")
         random.shuffle(documents_train)
@@ -436,7 +436,7 @@ def get_documents_from_cross_language_database_boc(corpus_training, corpus_test,
         random.shuffle(documents_test)
     else:
         print "Obtaining test documents from a part of corpus " + corpus_test
-        for document in Session.query(Document).filter(Document.cgisplit == "test"):          
+        for document in Session.query(Document).filter(Document.cgisplit == "test").filter(Document.id < 10):
             if weighting == "milne":                                                      
                 documents_test.append((document.id, document.original_category, [(annotation.name,annotation.weight) for annotation in document.annotations if annotation.weight >= threshold]))
             elif weighting == "binary":

@@ -11,6 +11,10 @@ from sklearn.feature_selection import SelectKBest, chi2
 import numpy as np
 from sklearn import linear_model
 from sklearn.multiclass import OneVsRestClassifier
+from sklearn.ensemble import ExtraTreesClassifier
+import matplotlib.pyplot as plt
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.datasets import load_boston
 
 import util_classify
 from db_simplified_declarative import Document
@@ -250,6 +254,175 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
             first_time_categories = 1
         else:
             array_vector_categories = np.vstack((array_vector_categories, vector_categories))
+
+    print "Training multilabel classifier..."
+    if algorithm == "SVC":
+        classifier = OneVsRestClassifier(SVC(kernel='linear'))
+    elif algorithm == "SVC_rbf":
+        classifier = OneVsRestClassifier(SVC(kernel='rbf', gamma=10.0))
+    elif algorithm == "SVC_poly":
+        classifier = OneVsRestClassifier(SVC(kernel='poly'))
+    elif algorithm == "SVC_sigmoid":
+        classifier = OneVsRestClassifier(SVC(kernel='sigmoid'))
+    elif algorithm == "linear_SVC":
+        classifier = OneVsRestClassifier(LinearSVC())
+    elif algorithm == "Bayes":
+        classifier = OneVsRestClassifier(MultinomialNB())
+    elif algorithm == "KNN":
+        classifier = OneVsRestClassifier(KNeighborsClassifier())
+    elif algorithm == "SGD":
+        classifier = OneVsRestClassifier(linear_model.SGDClassifier())
+
+    classifier.fit(array_vector_training, array_vector_categories)
+
+    print "Classifying test documents (Prediction)"
+    first_time = 0
+    first_time_categories = 0
+    for (id, original_category, annotations) in documents_test:
+        ids_documents_test.append(id)
+        vector = util_classify.transform_document_in_vector(annotations, words_features, corpus)
+        vector = np.array(vector)
+        if first_time == 0:
+            array_vector_test = vector
+            first_time = 1
+        else:
+            array_vector_test = np.vstack((array_vector_test, vector))
+
+        # From here we calculate the vector of original categories for test documents to be used as ground truth when making measurements
+        original_categories = [x.strip() for x in original_category.split(',')]
+        # OERCOMMONS corpus -> 21 categories
+        # MERLOT corpus -> 9 categories
+        # OHSUMED corpus -> 23 categories
+        # CNX corpus -> 6 categories
+        # Common categories -> 6 categories
+
+        vector_categories = np.zeros(21)
+        for category in original_categories:
+            vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
+        vector_categories = np.array(vector_categories)
+        if first_time_categories == 0:
+            ground_truth_vector_categories = vector_categories
+            first_time_categories = 1
+        else:
+            ground_truth_vector_categories = np.vstack((ground_truth_vector_categories, vector_categories))
+
+
+    prediction = classifier.predict(array_vector_test)
+
+    # Storage process predicted categories in DB
+    '''
+    for document in Session.query(Document):
+        if document.id in ids_documents_test:
+            categories_list = ""
+            pos = ids_documents_test.index(document.id)
+            document_prediction = prediction[pos]
+            matches = [item for item in range(len(document_prediction)) if document_prediction[item] == 1]
+            for i in matches:
+                category = util_classify.get_multiple_categories(corpus)[i]
+                categories_list = categories_list + category + ","
+            categories_list = categories_list[:-1]
+            document.classified_in_category = categories_list
+
+            if "oercommons" in corpus:
+                document.classified_in_category_oercommons = categories_list
+            elif "merlot" in corpus:
+                document.classified_in_category_merlot = categories_list
+            elif "cnx" in corpus:
+                document.classified_in_category_cnx = categories_list
+            elif "wikipedia" in corpus:
+                document.classified_in_category_wikipedia = categories_list
+
+    Session.commit()
+    # End storage process predicted categories in DB
+    '''
+    return ground_truth_vector_categories, prediction
+
+
+def multilabel_feature_selection(corpus, documents_training, documents_test, words_features, smoothing, algorithm):
+    """
+    Multilabel algorithm
+    :param corpus:
+    :param documents_training:
+    :param documents_test:
+    :param words_features:
+    :param smoothing:
+    :param algorithm:
+    :return:
+    """
+
+    print "----- Multilabel Algorithm------"
+    print "Creating Training Vectors..."
+    print "Creating Training Feature Vectors..."
+
+    print corpus
+
+    util_classify.set_database_session(corpus)
+
+
+    ids_documents_test = []
+
+    first_time = 0
+    first_time_categories = 0
+    for (id, original_category, annotations) in documents_training:
+        vector = util_classify.transform_document_in_vector(annotations, words_features, corpus)
+        vector = np.array(vector)
+        if first_time == 0:
+            array_vector_training = vector
+            first_time = 1
+        else:
+            array_vector_training = np.vstack((array_vector_training, vector))
+
+        original_categories = [x.strip() for x in original_category.split(',')]
+
+
+        # OERCOMMONS corpus -> 21 categories
+        # MERLOT corpus -> 9 categories
+        # OHSUMED corpus -> 23 categories
+        # CNX corpus -> 6 categories
+        # Common categories -> 6 categories
+        vector_categories = np.zeros(21)
+        for category in original_categories:
+            vector_categories[util_classify.get_multiple_categories(corpus).index(category)] = 1
+        vector_categories = np.array(vector_categories)
+        if first_time_categories == 0:
+            array_vector_categories = vector_categories
+            first_time_categories = 1
+        else:
+            array_vector_categories = np.vstack((array_vector_categories, vector_categories))
+
+
+    boston = load_boston()
+    names = boston["feature_names"]
+    rf = RandomForestRegressor()
+    rf.fit(array_vector_training, array_vector_categories)
+    print "Features sorted by their score:"
+    print sorted(zip(map(lambda x: round(x, 4), rf.feature_importances_), names),
+             reverse=True)
+    # Build a forest and compute the feature importances
+    forest = ExtraTreesClassifier(n_estimators=250,
+                              random_state=0)
+
+    forest.fit(array_vector_training, array_vector_categories)
+
+    importances = forest.feature_importances_
+    std = np.std([tree.feature_importances_ for tree in forest.estimators_],
+             axis=0)
+    indices = np.argsort(importances)[::-1]
+
+    # Print the feature ranking
+    print("Feature ranking:")
+
+    for f in range(10):
+        print("%d. feature %d (%f)" % (f + 1, indices[f], importances[indices[f]]))
+
+    # Plot the feature importances of the forest
+    plt.figure()
+    plt.title("Feature importances")
+    plt.bar(range(10), importances[indices],
+           color="r", yerr=std[indices], align="center")
+    plt.xticks(range(10), indices)
+    plt.xlim([-1, 10])
+    plt.show()
 
     print "Training multilabel classifier..."
     if algorithm == "SVC":
