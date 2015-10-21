@@ -1,0 +1,74 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: jrc_acquis_english
+CORPUS TEST: jrc_acquis_spanish_to_english
+REPRESENTATION: BoW
+THRESHOLD: 0.01
+CLASSIFY METHOD: multilabel_cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 2
+#TEST: 2
+
+Getting train and test documents...
+bow, Hybrid?
+--- METHOD: get_documents_from_cross_language_database_bow() ---
+Obtaining training documents from a part of the corpus bow_jrc_acquis_english
+Obtaining test documents from a part of the corpus bow_jrc_acquis_spanish_to_english
+--- METHOD: get_unique_words_bow() ---
+multi
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...
+bow_jrc_acquis_english
+Training multilabel classifier...
+Classifying test documents (Prediction)
+Metrics:
+----------------
+Hamming Loss:
+0.166666666667
+
+Accuracy:
+0.0
+
+Precision:
+0.0
+
+Recall:
+0.0
+
+Classification Report:
+                                        precision    recall  f1-score   support
+
+          EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         0
+                           ENVIRONMENT       0.00      0.00      0.00         0
+                      SOCIAL QUESTIONS       0.00      0.00      0.00         1
+               INTERNATIONAL RELATIONS       0.00      0.00      0.00         0
+                               FINANCE       0.00      0.00      0.00         0
+     EMPLOYMENT AND WORKING CONDITIONS       0.00      0.00      0.00         0
+                             TRANSPORT       0.00      0.00      0.00         0
+PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         0
+                                ENERGY       0.00      0.00      0.00         0
+                             ECONOMICS       0.00      0.00      0.00         0
+                                 TRADE       0.00      0.00      0.00         1
+              BUSINESS AND COMPETITION       0.00      0.00      0.00         0
+                               SCIENCE       0.00      0.00      0.00         1
+           INTERNATIONAL ORGANISATIONS       0.00      0.00      0.00         0
+                              POLITICS       0.00      0.00      0.00         0
+AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                   LAW       0.00      0.00      0.00         0
+                        EUROPEAN UNION       0.00      0.00      0.00         1
+                              INDUSTRY       0.00      0.00      0.00         0
+                       AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                             GEOGRAPHY       0.00      0.00      0.00         1
+
+                           avg / total       0.00      0.00      0.00         7
+
+F1-score
+----------------
+F1_SCORE (Macro): 0.0
+Precision: 0.0
+Recall: 0.0
+---- Execution End ----

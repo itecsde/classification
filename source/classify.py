@@ -32,7 +32,7 @@ corpora_available = ["boc_reuters_27000","bow_reuters_27000","boc_ohsumed","bow_
 "bow_uvigomed_multilabel","boc_uvigomed_multilabel","bow_uvigomed","boc_uvigomed", "bow_ohsumed_randomized","boc_ohsumed_randomized","boc_ohsumed_randomized_multilabel",
 "bow_ohsumed_randomized_multilabel","bow_reuters_rcv1", "bow_reuters_rcv2","boc_reuters_rcv1", "boc_reuters_rcv2","bow_reuters_rcv2_translated_to_english_google_translate",
 "boc_wikipedia_english","boc_wikipedia_spanish", "bow_wikipedia_english", "bow_wikipedia_spanish", "bow_wikipedia_spanish_translated_to_english_google_translate",
-"boc_cnx","bow_cnx", "corpus_wikipedia_human_medicine_en", "corpus_wikipedia_human_medicine_es_annotations_en","corpus_wikipedia_human_medicine_es_translated_to_en_GT"]
+"boc_cnx","bow_cnx", "corpus_wikipedia_human_medicine_en", "corpus_wikipedia_human_medicine_es_annotations_en","corpus_wikipedia_human_medicine_es_translated_to_en_GT",""]
 classify_methods_available = ["mbayes", "kneighbors","multilabel","SVM","linear_SVM","nu_SVM"]
 threshold_available = [0.01, 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90]
 weighting_available = ["milne", "binary"] #centrodid
@@ -41,9 +41,9 @@ kernel_functions_available = ["linear","poly","rbf","sigmoid"]
 
 parser = argparse.ArgumentParser(description = 'Classifier')
 parser.add_argument('-corpus', dest='corpus', default="all", help="If empty, use all available corpora.", choices=['boc_reuters_27000','bow_reuters_27000','boc_ohsumed','bow_ohsumed','boc_ohsumed_expanded','boc_20_newsgroup','bow_20_newsgroup','boc_ieee','bow_ieee','boc_ieee_expanded','boc_20_newsgroup_expanded','boc_reuters_21578','bow_reuters_21578','boc_reuters_21578_expanded','bow_oercommons', 'boc_oercommons','bow_merlot','bow_ohsumed_multilabel','boc_ohsumed_multilabel','bow_uvigomed_multilabel','boc_uvigomed_multilabel','bow_uvigomed','boc_uvigomed','bow_ohsumed_randomized','boc_ohsumed_randomized','boc_ohsumed_randomized_multilabel','bow_ohsumed_randomized_multilabel','bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','bow_reuters_rcv2_translated_to_english_google_translate','bow_cnx', 'boc_cnx', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx"])
-parser.add_argument('-corpus_training', dest='corpus_training', default = "none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','boc_wikipedia_english', 'bow_wikipedia_english', 'bow_wikipedia_spanish', 'boc_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_english', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx",'bow_oercommons','bow_merlot', 'bow_cnx', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx"])
-parser.add_argument('-corpus_test', dest='corpus_test', default="none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2', 'bow_reuters_rcv2_translated_to_english_google_translate', 'boc_wikipedia_spanish', 'bow_wikipedia_english', 'boc_wikipedia_english', 'bow_wikipedia_spanish_translated_to_english_google_translate', 'bow_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_spanish_to_english_google_translate', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx", 'bow_cnx', 'bow_oercommons','bow_merlot'])
-parser.add_argument('-method', dest='classify_method', default = "mbayes", help="Classification method, default mbayes.", choices =  ["all", "mbayes", "kneighbors","multilabel","SVM","linear_SVM", "nu_SVM","cross_language_linear_SVM"])
+parser.add_argument('-corpus_training', dest='corpus_training', default = "none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2','boc_wikipedia_english', 'bow_wikipedia_english', 'bow_wikipedia_spanish', 'boc_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_english', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx",'bow_oercommons','bow_merlot', 'bow_cnx', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx","boc_jrc_acquis_english","bow_jrc_acquis_english","boc_jrc_acquis_spanish_to_english","bow_jrc_acquis_spanish_to_english"])
+parser.add_argument('-corpus_test', dest='corpus_test', default="none", choices=['bow_reuters_rcv1', 'bow_reuters_rcv2','boc_reuters_rcv1', 'boc_reuters_rcv2', 'bow_reuters_rcv2_translated_to_english_google_translate', 'boc_wikipedia_spanish', 'bow_wikipedia_english', 'boc_wikipedia_english', 'bow_wikipedia_spanish_translated_to_english_google_translate', 'bow_wikipedia_spanish','boc_wikipedia_human_medicine_spanish','boc_wikipedia_human_medicine_english','bow_wikipedia_human_medicine_spanish_to_english_google_translate', "bow_oer_aggregator_oercommons", "bow_oer_aggregator_merlot", "bow_oer_aggregator_cnx", 'bow_cnx', 'bow_oercommons','bow_merlot','boc_wikipedia_human_medicine_spanish_to_english_google_translate',"boc_jrc_acquis_spanish_to_english","bow_jrc_acquis_spanish_to_english"])
+parser.add_argument('-method', dest='classify_method', default = "mbayes", help="Classification method, default mbayes.", choices =  ["all", "mbayes", "kneighbors","multilabel","SVM","linear_SVM", "nu_SVM","cross_language_linear_SVM","multilabel_cross_language_linear_SVM"])
 parser.add_argument('-threshold', dest='threshold', default = 0.01, type = float, help = "Annotations threshold. Default 0.01", choices =  threshold_available)
 parser.add_argument('-test', dest='test', default = 0, type = int, help = "Test number documents. If empty, all.")
 parser.add_argument('-train', dest='train', default = 0, type = int ,help = "Training number documents. If empty, all.")
@@ -56,7 +56,7 @@ parser.add_argument('-kbest', dest='kbest', default = 0, type = int, help = "")
 parser.add_argument('-n_neighbors', dest="n_neighbors", default = 10, type=int, help="")
 parser.add_argument('-metric', dest="metric", default = "cosine", help="", choices = ['cosine', 'jaccard', 'braycurtis', 'mahalanobis', 'euclidean', 'manhattan', 'chebyshev', 'seuclidean'])
 parser.add_argument('-destination_folder', dest="destination_folder", help="Destination folder to store .json experiment results file.")
-parser.add_argument('-algorithm', dest="algorithm", default = "SVC", help="Multilabel algorithm to use.", choices = ['SVC','Bayes','KNN','SGD', 'SVC_rbf','SVC_poly','SVC_sigmoid','linear_SVC'])
+parser.add_argument('-algorithm', dest="algorithm", default = "linear_SVC", help="Multilabel algorithm to use.", choices = ['SVC','Bayes','KNN','SGD', 'SVC_rbf','SVC_poly','SVC_sigmoid','linear_SVC'])
 parser.add_argument('-kernel', dest="kernel", default = "linear", help="Kernel function to SVM classifier.", choices = ['linear','poly','rbf','sigmoid'])
 parser.add_argument('-nu', dest='nu', default = 0.5, type = float, help = "Nu param to NuSVM algorithm.")
 parser.add_argument('-metadata_freq', dest="metadata_freq", default = 0, type=int, help="")
@@ -72,6 +72,8 @@ if (args.corpus_training == "none" and args.corpus_test == "none") or args.class
         array_corpus = corpora_available
     else:
         array_corpus = [args.corpus]
+elif args.classify_method == "cross_language_multilabel":
+    array_corpus = ["cross_language_multilabel"] # is not a corpus, it is only to indicate that will make use of a corpus to train and another for test
 else:
     array_corpus = ["cross_language"]  # is not a corpus, it is only to indicate that will make use of a corpus to train and another for test
 
@@ -124,6 +126,8 @@ elif args.classify_method == "multilabel":
 elif args.classify_method == "SVM" or args.classify_method == "linear_SVM" or args.classify_method == "nu_SVM":
     json_path = "../results/SVM/" + destination_folder + "/"
 elif args.classify_method == "cross_language_linear_SVM":
+    json_path = "../results/cross_language_SVM/" + destination_folder + "/"
+elif args.classify_method == "multilabel_cross_language_linear_SVM":
     json_path = "../results/cross_language_SVM/" + destination_folder + "/"
 
 if os.path.exists(json_path) == False:
@@ -184,7 +188,7 @@ for corpus in array_corpus:
                     elif cross_corpora == "yes":
                         documents_training, documents_test = util_classify.get_documents_from_multilabel_database_bow_cross_corpora(corpus_training, corpus_test, number_of_documents_for_training, metadata, metadata_freq, number_of_documents_for_testing)
                     words_features = util_classify.get_unique_words_bow(documents_training)
-            elif args.classify_method == "cross_language_linear_SVM":
+            elif args.classify_method == "cross_language_linear_SVM" or args.classify_method == "multilabel_cross_language_linear_SVM":
                 if "boc" in corpus_training and "boc" in corpus_test:
                     documents_training, documents_test = util_classify.get_documents_from_cross_language_database_boc(corpus_training, corpus_test, threshold, weighting, expansion_threshold, expansion_relatedness, number_of_documents_for_training, expanded_weighting, number_of_documents_for_testing)
                     words_features = util_classify.get_unique_words_boc(documents_training)
@@ -254,8 +258,13 @@ for corpus in array_corpus:
                 f1_score_result = f1_score(original_categories,estimated_categories, pos_label= None, average = 'macro')
 
             #Multilabel
-            if classify_method == "all_classifiers" or classify_method == "multilabel":
-                ground_truth_vector_categories, prediction = classify_methods.multilabel(corpus, documents_training, documents_test, words_features, smoothing, algorithm)
+            if classify_method == "all_classifiers" or classify_method == "multilabel" or classify_method == "multilabel_cross_language_linear_SVM":
+                print "multi"
+                if corpus_training == "bow_jrc_acquis_english":
+                    ground_truth_vector_categories, prediction = classify_methods.multilabel("bow_jrc_acquis_english", documents_training, documents_test, words_features, smoothing, algorithm)
+                elif corpus_training == "boc_jrc_acquis_english":
+                    ground_truth_vector_categories, prediction = classify_methods.multilabel("boc_jrc_acquis_english", documents_training, documents_test, words_features, smoothing, algorithm)
+                #ground_truth_vector_categories, prediction = classify_methods.multilabel("bow_jrc_acquis_spanish_to_english", documents_test, documents_test, words_features, smoothing, algorithm)
                 print "Metrics:"
                 print "----------------"
                 print "Hamming Loss:"
@@ -291,7 +300,7 @@ for corpus in array_corpus:
             elif "cross_language" in classify_method:
                 filename = corpus_training + "_" + corpus_test + "_th_"+ (str(threshold)).replace("0.","") + "_" + str(number_of_documents_for_training) + "_" + str(number_of_documents_for_testing) + "_" + classify_method + "_" + str(n_neighbors) + "_neighbors" +str(int(time.time()))+  ".json"
                 with open(json_path + filename, "w") as outfile:
-                    json.dump(util_classify.get_experiment_cross_language_results(corpus, corpus_training, corpus_test, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method,tfidf,stemming,smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score_result, expanded_weighting, kbest, n_neighbors, metric, kernel, nu, precision, recall), outfile)
+                    json.dump(util_classify.get_experiment_cross_language_results(corpus, corpus_training, corpus_test, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method,tfidf,stemming,smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score_result, expanded_weighting, kbest, n_neighbors, metric, kernel, nu, precision, recall, hybrid), outfile)
             else:
                 filename = corpus + "_th_"+ (str(threshold)).replace("0.","") + "_" + str(number_of_documents_for_training) + "_" + str(number_of_documents_for_testing) + "_" + classify_method + "_" + str(n_neighbors) + "_neighbors" +str(int(time.time()))+  ".json"
                 with open(json_path + filename, "w") as outfile:

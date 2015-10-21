@@ -18,7 +18,7 @@ bow, Hybrid?
 Obtaining training documents from a part of the corpus bow_wikipedia_english
 Obtaining test documents from a part of the corpus bow_wikipedia_spanish_translated_to_english_google_translate
 --- METHOD: get_unique_words_bow() ---
+aa
 
 ----- Cross-Language Support Vector Machines algorithm------
 Creating Training Vectors...
-Training the algorithm...

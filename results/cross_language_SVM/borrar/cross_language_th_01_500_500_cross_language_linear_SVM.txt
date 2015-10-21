@@ -1,0 +1,439 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: jrc_acquis_spanish_to_english
+CORPUS TEST: jrc_acquis_spanish_to_english
+REPRESENTATION: BoW
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 500
+#TEST: 500
+
+Getting train and test documents...
+bow, Hybrid?
+--- METHOD: get_documents_from_cross_language_database_bow() ---
+Obtaining training documents from a part of the corpus bow_jrc_acquis_spanish_to_english
+Obtaining test documents from a part of the corpus bow_jrc_acquis_spanish_to_english
+--- METHOD: get_unique_words_bow() ---
+aa
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                                                                                                                                                                  precision    recall  f1-score   support
+
+                                                                                                          EUROPEAN UNION,TRADE,INTERNATIONAL RELATIONS,TRANSPORT       0.00      0.00      0.00         1
+                                        ECONOMICS,AGRICULTURE AND FORESTRY AND FISHERIES,PRODUCTION AND TECHNOLOGY AND RESEARCH,INDUSTRY,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                         EUROPEAN UNION,ECONOMICS,AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS       0.04      1.00      0.08        20
+                                                                                            FINANCE,TRADE,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                        TRADE,GEOGRAPHY,AGRI-FOODSTUFFS,SOCIAL QUESTIONS,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                  AGRICULTURE AND FORESTRY AND FISHERIES,FINANCE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                                     LAW,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                        TRADE,BUSINESS AND COMPETITION,AGRI-FOODSTUFFS,GEOGRAPHY       0.00      0.00      0.00         3
+                                                                                                                         TRADE,INTERNATIONAL RELATIONS,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                       TRANSPORT,POLITICS,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                            EUROPEAN UNION,ENERGY,EDUCATION AND COMMUNICATIONS,INTERNATIONAL RELATIONS,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                           TRADE,INDUSTRY,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                    AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                                           TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         2
+                                                                               GEOGRAPHY,SOCIAL QUESTIONS,AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                   TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                          AGRI-FOODSTUFFS,GEOGRAPHY,TRADE,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                         INDUSTRY,TRADE,EUROPEAN UNION,ECONOMICS       0.00      0.00      0.00         1
+                                                                                                        SOCIAL QUESTIONS,INDUSTRY,EUROPEAN UNION,TRADE,GEOGRAPHY       0.00      0.00      0.00         2
+                                                                                  EUROPEAN UNION,PRODUCTION AND TECHNOLOGY AND RESEARCH,INDUSTRY,TRADE,TRANSPORT       0.00      0.00      0.00         2
+                                                                  ENVIRONMENT,EDUCATION AND COMMUNICATIONS,EUROPEAN UNION,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00        12
+                                                                                  AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,ECONOMICS,TRADE       0.00      0.00      0.00         1
+                                                                                                          AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS       0.00      0.00      0.00         2
+                                                                                     ENVIRONMENT,EUROPEAN UNION,PRODUCTION AND TECHNOLOGY AND RESEARCH,TRANSPORT       0.00      0.00      0.00         1
+                                                                                     AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,EUROPEAN UNION       0.00      0.00      0.00         2
+                                                                                                         GEOGRAPHY,TRADE,INTERNATIONAL RELATIONS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                             AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS,ENVIRONMENT,       0.00      0.00      0.00         1
+                                                                                                    TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                               INTERNATIONAL RELATIONS,ECONOMICS       0.00      0.00      0.00         1
+                                                                                   GEOGRAPHY,AGRI-FOODSTUFFS,ENERGY,AGRICULTURE AND FORESTRY AND FISHERIES,TRADE       0.00      0.00      0.00         1
+                                                                                                          AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                                        EUROPEAN UNION,TRANSPORT       0.00      0.00      0.00         1
+                                                     AGRICULTURE AND FORESTRY AND FISHERIES,PRODUCTION AND TECHNOLOGY AND RESEARCH,EUROPEAN UNION,TRADE,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                                          LAW,EUROPEAN UNION,ECONOMICS,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                     AGRICULTURE AND FORESTRY AND FISHERIES,POLITICS,INTERNATIONAL RELATIONS,ENVIRONMENT,FINANCE       0.00      0.00      0.00         1
+                                                                                                                     TRANSPORT,EMPLOYMENT AND WORKING CONDITIONS       0.00      0.00      0.00         1
+                                                                                          AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS,GEOGRAPHY,TRADE       0.00      0.00      0.00         1
+                                                                                                          INTERNATIONAL RELATIONS,TRADE,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                               AGRICULTURE AND FORESTRY AND FISHERIES,SCIENCE,EDUCATION AND COMMUNICATIONS,TRADE       0.00      0.00      0.00         1
+                                                                                                              AGRICULTURE AND FORESTRY AND FISHERIES,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                            AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,TRADE       0.00      0.00      0.00         4
+                                                                                                                    SOCIAL QUESTIONS,AGRI-FOODSTUFFS,ENVIRONMENT       0.00      0.00      0.00         2
+                                                                                      AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS,GEOGRAPHY,ECONOMICS       0.00      0.00      0.00         1
+                                                                                       TRADE,EDUCATION AND COMMUNICATIONS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                          EDUCATION AND COMMUNICATIONS,POLITICS,GEOGRAPHY,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                           POLITICS,SOCIAL QUESTIONS,EDUCATION AND COMMUNICATIONS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                            AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,EUROPEAN UNION,FINANCE,       0.00      0.00      0.00         2
+                                                                                                AGRI-FOODSTUFFS,GEOGRAPHY,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                                     AGRI-FOODSTUFFS,ENVIRONMENT       0.00      0.00      0.00         2
+                                                                                                SOCIAL QUESTIONS,INDUSTRY,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                   AGRI-FOODSTUFFS,INTERNATIONAL RELATIONS,TRADE       0.00      0.00      0.00         1
+                                                                                                      AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,ECONOMICS       0.00      0.00      0.00         1
+                                                                                                                                                INDUSTRY,SCIENCE       0.00      0.00      0.00         1
+                                                                                        TRADE,PRODUCTION AND TECHNOLOGY AND RESEARCH,INDUSTRY,ENVIRONMENT,ENERGY       0.00      0.00      0.00         1
+                                                                                                  EUROPEAN UNION,POLITICS,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                              TRADE,TRANSPORT,ENVIRONMENT,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                           AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,POLITICS       0.00      0.00      0.00         1
+                                                                                                          AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,TRADE       0.00      0.00      0.00         1
+                                                                                         SOCIAL QUESTIONS,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         2
+                                                                                                                         TRADE,GEOGRAPHY,FINANCE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                       FINANCE,BUSINESS AND COMPETITION,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                                                   AGRI-FOODSTUFFS,FINANCE,TRADE       0.00      0.00      0.00         3
+                                                                                                                          SOCIAL QUESTIONS,TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                    EUROPEAN UNION,TRADE,INTERNATIONAL RELATIONS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                                 GEOGRAPHY,TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                    AGRI-FOODSTUFFS,ENVIRONMENT,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                        ENVIRONMENT,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                                  INTERNATIONAL RELATIONS,TRADE,AGRI-FOODSTUFFS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                            INTERNATIONAL RELATIONS,SOCIAL QUESTIONS,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                           AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,INTERNATIONAL RELATIONS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                                           AGRI-FOODSTUFFS,TRADE       0.00      0.00      0.00         1
+                                                                         BUSINESS AND COMPETITION,INTERNATIONAL ORGANISATIONS,EDUCATION AND COMMUNICATIONS,TRADE       0.00      0.00      0.00         1
+                                                           EUROPEAN UNION,INTERNATIONAL RELATIONS,EDUCATION AND COMMUNICATIONS,INTERNATIONAL ORGANISATIONS,TRADE       0.00      0.00      0.00         1
+                                                                         AGRI-FOODSTUFFS,GEOGRAPHY,AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                        TRADE,TRANSPORT,GEOGRAPHY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                                                  EUROPEAN UNION       0.00      0.00      0.00         1
+                                                               ENVIRONMENT,SCIENCE,PRODUCTION AND TECHNOLOGY AND RESEARCH,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                                       TRADE,AGRI-FOODSTUFFS,LAW       0.00      0.00      0.00         1
+                                                                           BUSINESS AND COMPETITION,ECONOMICS,ENVIRONMENT,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                    SOCIAL QUESTIONS,EUROPEAN UNION,AGRICULTURE AND FORESTRY AND FISHERIES,TRADE       0.00      0.00      0.00         1
+                                                                                                                                EUROPEAN UNION,FINANCE,ECONOMICS       0.00      0.00      0.00         1
+                                                                 AGRICULTURE AND FORESTRY AND FISHERIES,EDUCATION AND COMMUNICATIONS,INTERNATIONAL ORGANISATIONS       0.00      0.00      0.00         1
+                                                                                       SOCIAL QUESTIONS,TRADE,ENVIRONMENT,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                                  EUROPEAN UNION,GEOGRAPHY,TRADE       0.00      0.00      0.00         1
+                                                                   AGRI-FOODSTUFFS,ECONOMICS,EDUCATION AND COMMUNICATIONS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                           LAW,BUSINESS AND COMPETITION,EUROPEAN UNION,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                           ECONOMICS,EUROPEAN UNION,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                          ENVIRONMENT,EDUCATION AND COMMUNICATIONS,INDUSTRY,EUROPEAN UNION,TRADE       0.00      0.00      0.00         1
+                                                                                          TRADE,INDUSTRY,SOCIAL QUESTIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                          EUROPEAN UNION,INTERNATIONAL RELATIONS,TRADE,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                         GEOGRAPHY,TRADE,INDUSTRY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                        INDUSTRY,PRODUCTION AND TECHNOLOGY AND RESEARCH,POLITICS       0.00      0.00      0.00         1
+                                                                                                   AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS,TRADE       0.00      0.00      0.00         1
+                                                                              TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,INTERNATIONAL ORGANISATIONS       0.00      0.00      0.00         1
+                                                                                                                          INDUSTRY,TRADE,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                AGRI-FOODSTUFFS,EUROPEAN UNION,GEOGRAPHY,SOCIAL QUESTIONS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                  FINANCE,GEOGRAPHY,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                  INTERNATIONAL RELATIONS,EDUCATION AND COMMUNICATIONS,SOCIAL QUESTIONS,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                                                                          AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                          AGRI-FOODSTUFFS,TRADE,SOCIAL QUESTIONS       0.00      0.00      0.00         2
+                                                                                                                                      POLITICS,FINANCE,ECONOMICS       0.00      0.00      0.00         1
+                                                                          ECONOMICS,AGRICULTURE AND FORESTRY AND FISHERIES,EDUCATION AND COMMUNICATIONS,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                                   ENVIRONMENT,INTERNATIONAL RELATIONS,TRANSPORT       0.00      0.00      0.00         1
+                                                                                                                      SOCIAL QUESTIONS,AGRI-FOODSTUFFS,LAW,TRADE       0.00      0.00      0.00         1
+                                                                                                                EUROPEAN UNION,GEOGRAPHY,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                     AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS,TRADE,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                 EUROPEAN UNION,TRANSPORT,EDUCATION AND COMMUNICATIONS,ECONOMICS       0.00      0.00      0.00         1
+                                                                                                                            ENVIRONMENT,EUROPEAN UNION,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                            PRODUCTION AND TECHNOLOGY AND RESEARCH,TRADE,EUROPEAN UNION,INDUSTRY       0.00      0.00      0.00         1
+                                                                                  EUROPEAN UNION,INDUSTRY,PRODUCTION AND TECHNOLOGY AND RESEARCH,GEOGRAPHY,TRADE       0.00      0.00      0.00         1
+                                                                                                                                                  TRADE,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                                         TRADE,FINANCE,GEOGRAPHY,AGRI-FOODSTUFFS       0.00      0.00      0.00         6
+                                                                                                                   TRADE,AGRI-FOODSTUFFS,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                ENERGY,TRADE,INTERNATIONAL RELATIONS,INTERNATIONAL ORGANISATIONS       0.00      0.00      0.00         1
+                                                                         TRADE,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                 TRANSPORT,EUROPEAN UNION,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                       EDUCATION AND COMMUNICATIONS,EUROPEAN UNION,LAW,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                               BUSINESS AND COMPETITION,FINANCE,       0.00      0.00      0.00         1
+                                                                                                         AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS       0.00      0.00      0.00         2
+                                                                         AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,PRODUCTION AND TECHNOLOGY AND RESEARCH,LAW       0.00      0.00      0.00         1
+                                                                                                                                      FINANCE,EUROPEAN UNION,LAW       0.00      0.00      0.00         1
+                                                                                          GEOGRAPHY,AGRI-FOODSTUFFS,TRADE,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                                 TRADE,GEOGRAPHY,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                                 TRANSPORT,ENERGY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                    TRADE,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         2
+                                                                                                       INDUSTRY,LAW,PRODUCTION AND TECHNOLOGY AND RESEARCH,TRADE       0.00      0.00      0.00         2
+                                                                                                                            POLITICS,LAW,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                    AGRI-FOODSTUFFS,INTERNATIONAL RELATIONS,SCIENCE,AGRICULTURE AND FORESTRY AND FISHERIES,TRADE       0.00      0.00      0.00         1
+                                                                                                                            EUROPEAN UNION,TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         2
+                                                                                          AGRI-FOODSTUFFS,TRADE,BUSINESS AND COMPETITION,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                          TRANSPORT,PRODUCTION AND TECHNOLOGY AND RESEARCH,EUROPEAN UNION,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                           EDUCATION AND COMMUNICATIONS,SOCIAL QUESTIONS,INTERNATIONAL RELATIONS       0.00      0.00      0.00         8
+                                                                                            AGRICULTURE AND FORESTRY AND FISHERIES,ENVIRONMENT,SOCIAL QUESTIONS,       0.00      0.00      0.00         1
+                                                                SOCIAL QUESTIONS,AGRI-FOODSTUFFS,EUROPEAN UNION,GEOGRAPHY,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                              TRANSPORT,ENVIRONMENT,PRODUCTION AND TECHNOLOGY AND RESEARCH,TRADE       0.00      0.00      0.00         1
+                                                                                                                  TRADE,GEOGRAPHY,EUROPEAN UNION,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                          EUROPEAN UNION,EDUCATION AND COMMUNICATIONS,GEOGRAPHY,FINANCE,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                                                                                   TRADE,AGRI-FOODSTUFFS,SCIENCE       0.00      0.00      0.00         3
+                                                                                           GEOGRAPHY,PRODUCTION AND TECHNOLOGY AND RESEARCH,EUROPEAN UNION,TRADE       0.00      0.00      0.00         1
+                                                                                                                      PRODUCTION AND TECHNOLOGY AND RESEARCH,LAW       0.00      0.00      0.00         1
+                                                                                                                      ECONOMICS,BUSINESS AND COMPETITION,FINANCE       0.00      0.00      0.00         1
+                                                                                GEOGRAPHY,INTERNATIONAL RELATIONS,ECONOMICS,BUSINESS AND COMPETITION,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                    TRANSPORT,PRODUCTION AND TECHNOLOGY AND RESEARCH,INTERNATIONAL ORGANISATIONS       0.00      0.00      0.00         1
+                                                                                                                  AGRICULTURE AND FORESTRY AND FISHERIES,FINANCE       0.00      0.00      0.00         1
+                                                                                           INDUSTRY,INTERNATIONAL RELATIONS,GEOGRAPHY,ENVIRONMENT,EUROPEAN UNION       0.00      0.00      0.00         1
+                                           TRADE,ECONOMICS,FINANCE,PRODUCTION AND TECHNOLOGY AND RESEARCH,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                EUROPEAN UNION,EMPLOYMENT AND WORKING CONDITIONS       0.00      0.00      0.00         2
+                                                                                                AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES,ECONOMICS       0.00      0.00      0.00         1
+                                                                                                         ENVIRONMENT,EUROPEAN UNION,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                       AGRICULTURE AND FORESTRY AND FISHERIES,EUROPEAN UNION,ECONOMICS,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                         AGRI-FOODSTUFFS,SOCIAL QUESTIONS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                    ECONOMICS,EUROPEAN UNION,EDUCATION AND COMMUNICATIONS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         5
+                                                                                                                     EMPLOYMENT AND WORKING CONDITIONS,TRANSPORT       0.00      0.00      0.00         1
+                                                                                                    ENVIRONMENT,PRODUCTION AND TECHNOLOGY AND RESEARCH,TRANSPORT       0.00      0.00      0.00         2
+                                                                                            PRODUCTION AND TECHNOLOGY AND RESEARCH,SCIENCE,TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                             ENVIRONMENT,EUROPEAN UNION,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                                                                  EUROPEAN UNION,FINANCE,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                              EUROPEAN UNION,EDUCATION AND COMMUNICATIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         3
+                                                                                                                               TRANSPORT,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                                   AGRI-FOODSTUFFS,TRADE,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                         AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,SOCIAL QUESTIONS,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                 EUROPEAN UNION,FINANCE,GEOGRAPHY,TRADE,POLITICS,AGRI-FOODSTUFFS       0.00      0.00      0.00         2
+                                                                           ENVIRONMENT,TRADE,EDUCATION AND COMMUNICATIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                                                             TRANSPORT,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                              ENVIRONMENT,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                              ENVIRONMENT,TRANSPORT,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                                       LAW,INDUSTRY,PRODUCTION AND TECHNOLOGY AND RESEARCH,TRADE       0.00      0.00      0.00         4
+                                                                                                          AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                             SOCIAL QUESTIONS,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                                                 ENERGY,TRANSPORT,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                INTERNATIONAL RELATIONS,EUROPEAN UNION,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                            AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                          INDUSTRY,PRODUCTION AND TECHNOLOGY AND RESEARCH,TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                     AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,EUROPEAN UNION,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                                  EUROPEAN UNION,TRADE,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                         GEOGRAPHY,INDUSTRY,EUROPEAN UNION,TRADE       0.00      0.00      0.00         1
+                                                                                                    AGRI-FOODSTUFFS,TRADE,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                       TRANSPORT,PRODUCTION AND TECHNOLOGY AND RESEARCH,INDUSTRY       0.00      0.00      0.00         1
+                                                                                         AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,GEOGRAPHY,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                          EUROPEAN UNION,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                           ENVIRONMENT,EMPLOYMENT AND WORKING CONDITIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                         AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,TRADE,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                               EUROPEAN UNION,EMPLOYMENT AND WORKING CONDITIONS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                   AGRI-FOODSTUFFS,BUSINESS AND COMPETITION,EUROPEAN UNION,TRADE       0.00      0.00      0.00         1
+                                                                                                                                  BUSINESS AND COMPETITION,TRADE       0.00      0.00      0.00         1
+                                                                                                                         AGRI-FOODSTUFFS,INTERNATIONAL RELATIONS       0.00      0.00      0.00         2
+                                                                                      AGRI-FOODSTUFFS,GEOGRAPHY,INTERNATIONAL RELATIONS,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                         AGRICULTURE AND FORESTRY AND FISHERIES,EMPLOYMENT AND WORKING CONDITIONS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                              BUSINESS AND COMPETITION,TRANSPORT       0.00      0.00      0.00         1
+                                            EDUCATION AND COMMUNICATIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH,EUROPEAN UNION,GEOGRAPHY,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                          ECONOMICS,EUROPEAN UNION,EDUCATION AND COMMUNICATIONS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                GEOGRAPHY,TRADE,AGRI-FOODSTUFFS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                           AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,TRADE,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                    AGRI-FOODSTUFFS,SOCIAL QUESTIONS,ENVIRONMENT       0.00      0.00      0.00         3
+                                                                                                                TRANSPORT,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                          TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                            ENVIRONMENT,TRANSPORT,EUROPEAN UNION       0.00      0.00      0.00         8
+                                                                                                            POLITICS,EDUCATION AND COMMUNICATIONS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                   TRADE,ENERGY,FINANCE,BUSINESS AND COMPETITION       0.00      0.00      0.00         2
+                                                                  ENVIRONMENT,TRANSPORT,EMPLOYMENT AND WORKING CONDITIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                              EUROPEAN UNION,TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                    AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS,TRADE       0.00      0.00      0.00         3
+                                                                                                         EUROPEAN UNION,ENVIRONMENT,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                                                                 TRADE,AGRI-FOODSTUFFS,ECONOMICS       0.00      0.00      0.00         1
+                                                                                             SOCIAL QUESTIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                        ECONOMICS,FINANCE,INTERNATIONAL RELATIONS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                                                 TRADE,ECONOMICS       0.00      0.00      0.00         1
+                                                                                               ENVIRONMENT,PRODUCTION AND TECHNOLOGY AND RESEARCH,EUROPEAN UNION       0.00      0.00      0.00         2
+                                                                                                                                                           TRADE       0.00      0.00      0.00         1
+                                                                   INTERNATIONAL RELATIONS,TRADE,BUSINESS AND COMPETITION,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                          GEOGRAPHY,INTERNATIONAL ORGANISATIONS,ECONOMICS,EUROPEAN UNION,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                       PRODUCTION AND TECHNOLOGY AND RESEARCH,TRANSPORT,INDUSTRY       0.00      0.00      0.00         1
+                                                              AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES,ENVIRONMENT,EUROPEAN UNION,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                          TRANSPORT,TRADE,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                       BUSINESS AND COMPETITION,ECONOMICS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                           GEOGRAPHY,BUSINESS AND COMPETITION,EDUCATION AND COMMUNICATIONS,TRADE       0.00      0.00      0.00         1
+                                                                                                  INTERNATIONAL RELATIONS,GEOGRAPHY,TRADE,EUROPEAN UNION,FINANCE       0.00      0.00      0.00         1
+                                                                                                                 EUROPEAN UNION,EDUCATION AND COMMUNICATIONS,LAW       0.00      0.00      0.00         1
+                                                                                     EUROPEAN UNION,TRADE,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                             ENVIRONMENT,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                                                FINANCE,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                                                           TRADE,INDUSTRY,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                   SOCIAL QUESTIONS,POLITICS,EMPLOYMENT AND WORKING CONDITIONS,EUROPEAN UNION,TRADE,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                                                                         POLITICS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                                          SOCIAL QUESTIONS,TRADE       0.00      0.00      0.00         1
+                                                                                                             EDUCATION AND COMMUNICATIONS,FINANCE,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                                   AGRI-FOODSTUFFS,TRADE,FINANCE       0.00      0.00      0.00         1
+                                                                                                                     EMPLOYMENT AND WORKING CONDITIONS,ECONOMICS       0.00      0.00      0.00         1
+                                                                        GEOGRAPHY,TRADE,BUSINESS AND COMPETITION,PRODUCTION AND TECHNOLOGY AND RESEARCH,INDUSTRY       0.00      0.00      0.00         1
+                                                                                              POLITICS,EUROPEAN UNION,ECONOMICS,BUSINESS AND COMPETITION,FINANCE       0.00      0.00      0.00         1
+                                                                                                                                                 ECONOMICS,TRADE       0.00      0.00      0.00         1
+                                                                                   INTERNATIONAL RELATIONS,GEOGRAPHY,EUROPEAN UNION,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                                   SOCIAL QUESTIONS,TRADE,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                       AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,ECONOMICS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                      EDUCATION AND COMMUNICATIONS,GEOGRAPHY,LAW       0.00      0.00      0.00         1
+                                                                                     AGRI-FOODSTUFFS,EUROPEAN UNION,TRADE,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                               BUSINESS AND COMPETITION,GEOGRAPHY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                         TRADE,GEOGRAPHY,AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                            AGRI-FOODSTUFFS,TRADE,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                   INTERNATIONAL ORGANISATIONS,GEOGRAPHY,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                           AGRI-FOODSTUFFS,INTERNATIONAL RELATIONS,SOCIAL QUESTIONS,TRADE,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                 EUROPEAN UNION,FINANCE,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                                                                        TRADE,GEOGRAPHY,AGRI-FOODSTUFFS,POLITICS       0.00      0.00      0.00         1
+                                                                         SOCIAL QUESTIONS,INTERNATIONAL RELATIONS,GEOGRAPHY,FINANCE,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         2
+                                                                                                                                  TRADE,EUROPEAN UNION,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                                     INDUSTRY,ENVIRONMENT,ENERGY       0.00      0.00      0.00         1
+                                                                                                 GEOGRAPHY,INTERNATIONAL RELATIONS,INDUSTRY,EUROPEAN UNION,TRADE       0.00      0.00      0.00         2
+                                                               SOCIAL QUESTIONS,TRADE,INDUSTRY,EUROPEAN UNION,AGRICULTURE AND FORESTRY AND FISHERIES,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                    ENVIRONMENT,TRANSPORT,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         2
+                                                                                                   EDUCATION AND COMMUNICATIONS,TRADE,EUROPEAN UNION,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                              TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                                            LAW,INTERNATIONAL RELATIONS,POLITICS       0.00      0.00      0.00         1
+                                                                                          TRADE,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                  EMPLOYMENT AND WORKING CONDITIONS,TRANSPORT,ENVIRONMENT,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                SOCIAL QUESTIONS,AGRI-FOODSTUFFS,INDUSTRY,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                            TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                AGRICULTURE AND FORESTRY AND FISHERIES,ECONOMICS       0.00      0.00      0.00         1
+                                                                                    BUSINESS AND COMPETITION,GEOGRAPHY,ECONOMICS,EUROPEAN UNION,FINANCE,POLITICS       0.00      0.00      0.00         1
+                                                                                                    TRADE,AGRI-FOODSTUFFS,EDUCATION AND COMMUNICATIONS,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                   EUROPEAN UNION,ENVIRONMENT,TRADE,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                             INTERNATIONAL RELATIONS,AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL ORGANISATIONS,FINANCE,       0.00      0.00      0.00         1
+                                                                                                       GEOGRAPHY,INTERNATIONAL RELATIONS,EUROPEAN UNION,INDUSTRY       0.00      0.00      0.00         1
+                                                                              AGRICULTURE AND FORESTRY AND FISHERIES,EUROPEAN UNION,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                  AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                                     EDUCATION AND COMMUNICATIONS,TRADE,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                                                                             LAW       0.00      0.00      0.00         1
+                                                                        ECONOMICS,AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                 LAW,GEOGRAPHY,ECONOMICS,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                             TRADE,SOCIAL QUESTIONS,GEOGRAPHY,ENVIRONMENT,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                       EUROPEAN UNION,INDUSTRY,INTERNATIONAL RELATIONS,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                               AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,SCIENCE,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                    AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                 GEOGRAPHY,AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,TRADE,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                          AGRI-FOODSTUFFS,TRADE,GEOGRAPHY,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                        EUROPEAN UNION,TRADE,TRANSPORT,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                         POLITICS,LAW,GEOGRAPHY,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                      INTERNATIONAL RELATIONS,GEOGRAPHY,EUROPEAN UNION,ECONOMICS       0.00      0.00      0.00         1
+                                                                                        AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                                      ECONOMICS,INDUSTRY,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                         AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS,TRADE,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                      INTERNATIONAL RELATIONS,INDUSTRY,ECONOMICS       0.00      0.00      0.00         1
+                                                                             ENVIRONMENT,AGRI-FOODSTUFFS,SOCIAL QUESTIONS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                             AGRI-FOODSTUFFS,SOCIAL QUESTIONS,AGRICULTURE AND FORESTRY AND FISHERIES,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                           AGRICULTURE AND FORESTRY AND FISHERIES,EUROPEAN UNION,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                                        INDUSTRY,GEOGRAPHY,TRADE       0.00      0.00      0.00         1
+                                                                                                                                 ECONOMICS,TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                  INTERNATIONAL RELATIONS,EUROPEAN UNION,ENERGY,GEOGRAPHY,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                   INTERNATIONAL RELATIONS,ECONOMICS,INTERNATIONAL ORGANISATIONS       0.00      0.00      0.00         1
+                                                                                                                GEOGRAPHY,TRADE,SOCIAL QUESTIONS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                                  SOCIAL QUESTIONS,TRADE,FINANCE       0.00      0.00      0.00         1
+                                                                                           AGRI-FOODSTUFFS,TRADE,INDUSTRY,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                            EUROPEAN UNION,AGRI-FOODSTUFFS,TRADE       0.00      0.00      0.00         1
+                                                                                                                  TRADE,GEOGRAPHY,ENERGY,INDUSTRY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                  FINANCE,PRODUCTION AND TECHNOLOGY AND RESEARCH,BUSINESS AND COMPETITION,TRADE,       0.00      0.00      0.00         1
+                                                                                                                                    EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                                                                      EUROPEAN UNION,FINANCE,LAW       0.00      0.00      0.00         1
+                                                                                                                                             TRANSPORT,ECONOMICS       0.00      0.00      0.00         1
+                                                                       AGRICULTURE AND FORESTRY AND FISHERIES,EUROPEAN UNION,SCIENCE,TRADE,GEOGRAPHY,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                 EDUCATION AND COMMUNICATIONS,EUROPEAN UNION,GEOGRAPHY,TRADE,LAW       0.00      0.00      0.00         1
+                                                                                                 AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                    AGRI-FOODSTUFFS,TRADE,EUROPEAN UNION,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                 TRANSPORT,PRODUCTION AND TECHNOLOGY AND RESEARCH,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                              TRADE,GEOGRAPHY,INDUSTRY,TRANSPORT       0.00      0.00      0.00         1
+                                                                                                                            TRADE,EUROPEAN UNION,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                          ENERGY,INDUSTRY,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                                       GEOGRAPHY,POLITICS,FINANCE,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                        INTERNATIONAL RELATIONS,EDUCATION AND COMMUNICATIONS,LAW       0.00      0.00      0.00         1
+                                                                                                                    ENVIRONMENT,AGRI-FOODSTUFFS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                               AGRI-FOODSTUFFS,ENVIRONMENT,TRADE       0.00      0.00      0.00         1
+                                                                                                               EUROPEAN UNION,INDUSTRY,TRADE,TRANSPORT,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                  INDUSTRY,EDUCATION AND COMMUNICATIONS,TRADE,PRODUCTION AND TECHNOLOGY AND RESEARCH,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                                               GEOGRAPHY,POLITICS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                          TRADE,SOCIAL QUESTIONS,POLITICS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                  INTERNATIONAL RELATIONS,SOCIAL QUESTIONS,AGRI-FOODSTUFFS,TRADE       0.00      0.00      0.00         1
+                                                                                                    TRADE,EUROPEAN UNION,INTERNATIONAL RELATIONS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                 AGRICULTURE AND FORESTRY AND FISHERIES,POLITICS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                INDUSTRY,BUSINESS AND COMPETITION,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                     PRODUCTION AND TECHNOLOGY AND RESEARCH,LAW,SOCIAL QUESTIONS       0.00      0.00      0.00         3
+                                                                                       EMPLOYMENT AND WORKING CONDITIONS,EUROPEAN UNION,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                                                                                 EUROPEAN UNION,GEOGRAPHY,ENERGY       0.00      0.00      0.00         1
+                                        AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS,GEOGRAPHY,PRODUCTION AND TECHNOLOGY AND RESEARCH,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                            AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                     EDUCATION AND COMMUNICATIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH,EUROPEAN UNION,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                                            EUROPEAN UNION,TRADE,EDUCATION AND COMMUNICATIONS,INDUSTRY,TRANSPORT       0.00      0.00      0.00         1
+                   AGRICULTURE AND FORESTRY AND FISHERIES,EDUCATION AND COMMUNICATIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH,BUSINESS AND COMPETITION,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                                  GEOGRAPHY,EUROPEAN UNION,TRADE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                            TRADE,AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                                                 TRADE,AGRI-FOODSTUFFS,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                ECONOMICS,AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,SCIENCE       0.00      0.00      0.00         1
+                                                                                 INTERNATIONAL RELATIONS,LAW,TRADE,SOCIAL QUESTIONS,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                              AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,PRODUCTION AND TECHNOLOGY AND RESEARCH,AGRI-FOODSTUFFS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                              TRANSPORT,EDUCATION AND COMMUNICATIONS,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                                                         FINANCE,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                   SOCIAL QUESTIONS,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                  TRADE,EDUCATION AND COMMUNICATIONS,ENVIRONMENT,AGRICULTURE AND FORESTRY AND FISHERIES,POLITICS       0.00      0.00      0.00         1
+                                                                    AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS,EDUCATION AND COMMUNICATIONS,SCIENCE       0.00      0.00      0.00         1
+                                                                           PRODUCTION AND TECHNOLOGY AND RESEARCH,EUROPEAN UNION,TRADE,GEOGRAPHY,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                     SOCIAL QUESTIONS,ENVIRONMENT,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                   AGRICULTURE AND FORESTRY AND FISHERIES,ECONOMICS,TRADE,INTERNATIONAL RELATIONS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                       TRADE,EDUCATION AND COMMUNICATIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH,AGRICULTURE AND FORESTRY AND FISHERIES,POLITICS       0.00      0.00      0.00         1
+                                                                                                              EMPLOYMENT AND WORKING CONDITIONS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                          AGRICULTURE AND FORESTRY AND FISHERIES,EUROPEAN UNION,GEOGRAPHY,AGRI-FOODSTUFFS,ENERGY       0.00      0.00      0.00         1
+                                                                         AGRICULTURE AND FORESTRY AND FISHERIES,INTERNATIONAL RELATIONS,GEOGRAPHY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                  SOCIAL QUESTIONS,TRADE,EUROPEAN UNION,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                                  AGRI-FOODSTUFFS,GEOGRAPHY,EUROPEAN UNION,TRADE       0.00      0.00      0.00         1
+                                                                                                                           LAW,POLITICS,EUROPEAN UNION,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                PRODUCTION AND TECHNOLOGY AND RESEARCH,ENVIRONMENT,EDUCATION AND COMMUNICATIONS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                        ENERGY,EMPLOYMENT AND WORKING CONDITIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                                                                                              TRANSPORT,GEOGRAPHY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                           SOCIAL QUESTIONS,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                                            LAW,FINANCE,GEOGRAPHY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                    EDUCATION AND COMMUNICATIONS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                      EDUCATION AND COMMUNICATIONS,TRADE,FINANCE       0.00      0.00      0.00         1
+                                                                                                                          INTERNATIONAL RELATIONS,EUROPEAN UNION       0.00      0.00      0.00         1
+                         GEOGRAPHY,EUROPEAN UNION,AGRI-FOODSTUFFS,SOCIAL QUESTIONS,AGRICULTURE AND FORESTRY AND FISHERIES,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                     AGRICULTURE AND FORESTRY AND FISHERIES,EDUCATION AND COMMUNICATIONS,TRADE,ECONOMICS,BUSINESS AND COMPETITION,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                            AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                   PRODUCTION AND TECHNOLOGY AND RESEARCH,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                  EUROPEAN UNION,PRODUCTION AND TECHNOLOGY AND RESEARCH,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                                GEOGRAPHY,INTERNATIONAL RELATIONS,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                                           ENERGY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                               GEOGRAPHY,INDUSTRY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                                  GEOGRAPHY,SOCIAL QUESTIONS,LAW       0.00      0.00      0.00         1
+                                                                                                               BUSINESS AND COMPETITION,TRADE,GEOGRAPHY,INDUSTRY       0.00      0.00      0.00         1
+                                                                               TRADE,FINANCE,EDUCATION AND COMMUNICATIONS,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                                               GEOGRAPHY,TRADE,BUSINESS AND COMPETITION,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                                                          EUROPEAN UNION,FINANCE       0.00      0.00      0.00         1
+                                                                                                    EUROPEAN UNION,EDUCATION AND COMMUNICATIONS,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                                  SOCIAL QUESTIONS,GEOGRAPHY,LAW       0.00      0.00      0.00         1
+                                                                 INTERNATIONAL RELATIONS,AGRICULTURE AND FORESTRY AND FISHERIES,GEOGRAPHY,TRADE,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                    FINANCE,BUSINESS AND COMPETITION,EUROPEAN UNION,EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         1
+                                                                                                        INTERNATIONAL RELATIONS,GEOGRAPHY,EUROPEAN UNION,FINANCE       0.00      0.00      0.00         1
+                                                                                                          AGRI-FOODSTUFFS,TRADE,FINANCE,BUSINESS AND COMPETITION       0.00      0.00      0.00         1
+                                                             EUROPEAN UNION,TRADE,AGRI-FOODSTUFFS,INTERNATIONAL RELATIONS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                 BUSINESS AND COMPETITION,TRADE,GEOGRAPHY,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                   AGRICULTURE AND FORESTRY AND FISHERIES,PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         1
+                                                                                  TRADE,INTERNATIONAL RELATIONS,TRANSPORT,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                               GEOGRAPHY,BUSINESS AND COMPETITION,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                           LAW,EUROPEAN UNION,GEOGRAPHY,POLITICS       0.00      0.00      0.00         1
+                                                                                                                                 AGRI-FOODSTUFFS,TRANSPORT,TRADE       0.00      0.00      0.00         1
+                                                                                        TRADE,ENERGY,INDUSTRY,PRODUCTION AND TECHNOLOGY AND RESEARCH,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                                 FINANCE,BUSINESS AND COMPETITION,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                                                             EUROPEAN UNION,FINANCE,LAW,POLITICS       0.00      0.00      0.00         1
+                                                                                                                         INDUSTRY,TRADE,GEOGRAPHY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                  AGRICULTURE AND FORESTRY AND FISHERIES,AGRI-FOODSTUFFS,INTERNATIONAL RELATIONS       0.00      0.00      0.00         1
+                                                                                                 EDUCATION AND COMMUNICATIONS,TRANSPORT,EUROPEAN UNION,ECONOMICS       0.00      0.00      0.00         1
+                                                                                                                                      SOCIAL QUESTIONS,ECONOMICS       0.00      0.00      0.00         1
+                                                                                                                    AGRICULTURE AND FORESTRY AND FISHERIES,TRADE       0.00      0.00      0.00         1
+                                                                         GEOGRAPHY,SOCIAL QUESTIONS,TRADE,AGRI-FOODSTUFFS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                         PRODUCTION AND TECHNOLOGY AND RESEARCH,INTERNATIONAL RELATIONS,GEOGRAPHY,EUROPEAN UNION       0.00      0.00      0.00         1
+                                                                                    PRODUCTION AND TECHNOLOGY AND RESEARCH,TRADE,EUROPEAN UNION,SCIENCE,INDUSTRY       0.00      0.00      0.00         1
+TRADE,INTERNATIONAL RELATIONS,ENVIRONMENT,SOCIAL QUESTIONS,BUSINESS AND COMPETITION,EDUCATION AND COMMUNICATIONS,INDUSTRY,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                      AGRICULTURE AND FORESTRY AND FISHERIES,ENVIRONMENT,SCIENCE       0.00      0.00      0.00         1
+                                                                                                                                 AGRI-FOODSTUFFS,TRADE,GEOGRAPHY       0.00      0.00      0.00         1
+           AGRI-FOODSTUFFS,EDUCATION AND COMMUNICATIONS,GEOGRAPHY,EUROPEAN UNION,SOCIAL QUESTIONS,INTERNATIONAL RELATIONS,AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
+                                                                                                                        EDUCATION AND COMMUNICATIONS,ENVIRONMENT       0.00      0.00      0.00         1
+                                                                                                   AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                                                                SOCIAL QUESTIONS,AGRI-FOODSTUFFS       0.00      0.00      0.00         1
+                                                                                                                                          SCIENCE,TRADE,INDUSTRY       0.00      0.00      0.00         1
+                                                                                                AGRI-FOODSTUFFS,EDUCATION AND COMMUNICATIONS,TRANSPORT,GEOGRAPHY       0.00      0.00      0.00         1
+                                                                                                  EDUCATION AND COMMUNICATIONS,EMPLOYMENT AND WORKING CONDITIONS       0.00      0.00      0.00         1
+                                                                                                              SOCIAL QUESTIONS,AGRI-FOODSTUFFS,ENVIRONMENT,TRADE       0.00      0.00      0.00         1
+                                                                                         GEOGRAPHY,AGRICULTURE AND FORESTRY AND FISHERIES,TRADE,SOCIAL QUESTIONS       0.00      0.00      0.00         1
+                                                                                          AGRICULTURE AND FORESTRY AND FISHERIES,SOCIAL QUESTIONS,EUROPEAN UNION       0.00      0.00      0.00         1
+
+                                                                                                                                                     avg / total       0.00      0.04      0.00       500
+
+F1_SCORE (Macro): 0.00019040365575
+Precision: 0.0016
+Recall: 0.04
+---- Execution End ----

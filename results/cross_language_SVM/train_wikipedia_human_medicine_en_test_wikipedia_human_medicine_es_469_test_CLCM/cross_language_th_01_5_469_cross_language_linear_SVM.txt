@@ -1,0 +1,54 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: wikipedia_human_medicine_english
+CORPUS TEST: wikipedia_human_medicine_spanish_to_english_google_translate
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 5
+#TEST: 469
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_wikipedia_human_medicine_english
+Obtaining test documents from a part of corpus boc_wikipedia_human_medicine_spanish_to_english_google_translate
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                                precision    recall  f1-score   support
+
+          Alternative_medicine       0.00      0.00      0.00        31
+                    Cardiology       0.14      0.82      0.23        22
+                 Endocrinology       0.23      0.62      0.34        21
+              Gastroenterology       0.00      0.00      0.00        17
+                      Genetics       0.00      0.00      0.00        28
+                    Geriatrics       0.00      0.00      0.00         5
+                   Gerontology       0.00      0.00      0.00        16
+                    Hematology       0.00      0.00      0.00        36
+                    Nephrology       0.00      0.00      0.00        28
+                     Neurology       0.00      0.00      0.00        33
+                    Obstetrics       0.00      0.00      0.00        27
+                      Oncology       0.00      0.00      0.00        23
+                 Ophthalmology       0.00      0.00      0.00        33
+Orthopedic_surgical_procedures       0.03      0.64      0.07        14
+                     Pathology       0.00      0.00      0.00        18
+                    Pediatrics       0.23      0.09      0.13        54
+                    Psychiatry       0.00      0.00      0.00         2
+                  Rheumatology       0.00      0.00      0.00        21
+                       Surgery       0.00      0.00      0.00        28
+                       Urology       0.00      0.00      0.00         6
+                   Gynaecology       0.00      0.00      0.00         6
+
+                   avg / total       0.04      0.10      0.04       469
+
+F1_SCORE (Macro): 0.0366162659396
+Precision: 0.0439961913843
+Recall: 0.0959488272921
+---- Execution End ----

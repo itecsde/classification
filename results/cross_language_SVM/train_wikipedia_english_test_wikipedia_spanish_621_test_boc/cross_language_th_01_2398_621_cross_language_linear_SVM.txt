@@ -16,7 +16,6 @@ Getting train and test documents...
 --- Method: get_documents_from_cross_language_database_boc() ---
 Obtaining training documents from a part of corpus  boc_wikipedia_english
 Obtaining test documents from a part of corpus boc_wikipedia_spanish
-(765L, 'Mathematics and logic', [('Aristotle', 0.797676), ('Human', 0.749662), ('Argument', 0.713916), ('Logic', 0.709797), ('Language', 0.701843), ('Life', 0.672208), ('Thought', 0.654651), ('North America', 0.624102), ('1970', 0.542246), ('Discipline (academia)', 0.498826), ('Information', 0.421073), ('1970s', 0.303296), ('Americas', 0.212183), ('Academy', 0.207031), ('Formal logic', 0.143079), ('Fallacy', 0.0867798), ('Informal logic', 0.0739124), ('Discipline', 0.0370044), ('North', 0.0332387), ('Decade', 0.0300804), ('Process (computing)', 0.0168623), ('Nonformal learning', 0.0168623), ('Informalism', 0.0168623), ('Everyday life', 0.0147415), ('Opposition (politics)', 0.0147415)])
 --- METHOD: get_unique_words_boc() ---
 
 ----- Cross-Language Support Vector Machines algorithm------
@@ -31,7 +30,7 @@ Mathematics and logic       0.89      0.89      0.89       198
 
           avg / total       0.89      0.89      0.89       621
 
-F1_SCORE (Macro): 0.887277090234
-Precision: 0.887916574449
-Recall: 0.887278582931
+F1_SCORE (Macro): 0.88887925614
+Precision: 0.889485693489
+Recall: 0.888888888889
 ---- Execution End ----

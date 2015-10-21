@@ -5,7 +5,7 @@ REPRESENTATION: BoC
 THRESHOLD: 0.01
 CLASSIFY METHOD: cross_language_linear_SVM
 METRIC: cosine
-TFIDF: yes
+TFIDF: no
 STEMMING: -
 SMOOTHING: 0.001
 WEIGHTING: milne
@@ -15,3 +15,22 @@ WEIGHTING: milne
 Getting train and test documents...
 --- Method: get_documents_from_cross_language_database_boc() ---
 Obtaining training documents from a part of corpus  boc_wikipedia_english
+Obtaining test documents from a part of corpus boc_wikipedia_spanish
+--- METHOD: get_unique_words_boc() ---
+
+----- Cross-Language Support Vector Machines algorithm------
+Creating Training Vectors...
+Training the algorithm...
+Calculating metrics...
+                       precision    recall  f1-score   support
+
+ Culture and the arts       0.36      1.00      0.53       202
+ Geography and places       1.00      0.01      0.02       221
+Mathematics and logic       0.79      0.25      0.38       198
+
+          avg / total       0.73      0.41      0.30       621
+
+F1_SCORE (Macro): 0.3104739967
+Precision: 0.726518578098
+Recall: 0.407407407407
+---- Execution End ----

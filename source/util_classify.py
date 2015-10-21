@@ -101,6 +101,12 @@ def set_database_session(corpus):
     elif corpus == "bow_oer_aggregator_oercommons" or corpus == "bow_oer_aggregator_merlot" or corpus == "bow_oer_aggregator_cnx":
         db_parameters = 'mysql://classify_user:classify_password@192.168.1.12/simplified_oer_aggregator'
 
+    elif corpus == "bow_jrc_acquis_english" or corpus == "boc_jrc_acquis_english":
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_jrc_acquis_en'
+
+    elif corpus == "bow_jrc_acquis_spanish_to_english" or corpus == "boc_jrc_acquis_spanish_to_english":
+        db_parameters = 'mysql://classify_user:classify_password@localhost/simplified_jrc_acquis_es_to_en'
+
 
 
 
@@ -823,12 +829,12 @@ def get_unique_words_boc(documents):
                 if annotation_name.decode(encoding="ISO-8859-1") == word:
                     if words_features.has_key(word):
                         # le pongo uno para ver si asi influye el boc
-                        words_features[word] += 1
-                        #words_features[word] += annotation_weight
+                        #words_features[word] += 1
+                        words_features[word] += annotation_weight
                     else:
                         # le pongo uno para ver si asi influye el boc
-                        words_features[word] = 1
-                        #words_features[word] = annotation_weight
+                        #words_features[word] = 1
+                        words_features[word] = annotation_weight
 
     return words_features
 
@@ -1089,7 +1095,7 @@ def get_experiment_multilabel_results(corpus, threshold,number_of_documents_for_
     return content
     
 
-def get_experiment_cross_language_results(corpus, corpus_training, corpus_test, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf, stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score, expanded_weighting, kbest, n_neighbors, metric, kernel, nu, precision, recall):
+def get_experiment_cross_language_results(corpus, corpus_training, corpus_test, threshold,number_of_documents_for_training, number_of_documents_for_testing, classify_method, tfidf, stemming, smoothing, weighting, expansion_threshold, expansion_relatedness, f1_score, expanded_weighting, kbest, n_neighbors, metric, kernel, nu, precision, recall, hybrid):
     """
     Get the results of an cross-language experiment and write them into a .json file.
     :param corpus:
@@ -1135,6 +1141,6 @@ def get_experiment_cross_language_results(corpus, corpus_training, corpus_test, 
         c_expansion_relatedness = None
         c_expanded_weighting = None
            
-    content = {'corpus': c_corpus, 'corpus_training': c_corpus_training, 'corpus_test': c_corpus_test, 'representation': c_representation, 'threshold': threshold, 'expansion_threshold': c_expansion_threshold, 'expansion_relatedness': c_expansion_relatedness,'classify_method': classify_method, 'tfidf': tfidf, 'stemming': stemming, 'smoothing': smoothing, 'weighting': weighting, 'train': number_of_documents_for_training, 'test': number_of_documents_for_testing, 'f1_score': f1_score, 'expanded_weighting': c_expanded_weighting , 'KBest': kbest, 'n_neighbors': n_neighbors, 'metric': metric, 'precision': precision, 'recall': recall}
+    content = {'corpus': c_corpus, 'corpus_training': c_corpus_training, 'corpus_test': c_corpus_test, 'representation': c_representation, 'threshold': threshold, 'expansion_threshold': c_expansion_threshold, 'expansion_relatedness': c_expansion_relatedness,'classify_method': classify_method, 'tfidf': tfidf, 'stemming': stemming, 'smoothing': smoothing, 'weighting': weighting, 'train': number_of_documents_for_training, 'test': number_of_documents_for_testing, 'f1_score': f1_score, 'expanded_weighting': c_expanded_weighting , 'KBest': kbest, 'n_neighbors': n_neighbors, 'metric': metric, 'precision': precision, 'recall': recall, 'hybrid': hybrid}
     
     return content
