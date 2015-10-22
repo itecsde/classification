@@ -360,6 +360,7 @@ def multilabel_feature_selection(corpus, documents_training, documents_test, wor
 
 
     ids_documents_test = []
+    array_features = []
 
     first_time = 0
     first_time_categories = 0
@@ -390,14 +391,18 @@ def multilabel_feature_selection(corpus, documents_training, documents_test, wor
         else:
             array_vector_categories = np.vstack((array_vector_categories, vector_categories))
 
-
+    '''
+    #Load boston housing dataset as an example
     boston = load_boston()
     names = boston["feature_names"]
+    print type(names)
     rf = RandomForestRegressor()
     rf.fit(array_vector_training, array_vector_categories)
     print "Features sorted by their score:"
     print sorted(zip(map(lambda x: round(x, 4), rf.feature_importances_), names),
-             reverse=True)
+                 reverse=True)
+    '''
+
     # Build a forest and compute the feature importances
     forest = ExtraTreesClassifier(n_estimators=250,
                               random_state=0)
@@ -407,14 +412,40 @@ def multilabel_feature_selection(corpus, documents_training, documents_test, wor
     importances = forest.feature_importances_
     std = np.std([tree.feature_importances_ for tree in forest.estimators_],
              axis=0)
+    print std
     indices = np.argsort(importances)[::-1]
+
+    print "words features"
+    print words_features
+    print len(words_features)
+    print type(words_features)
+
+
+    for key, value in words_features.iteritems():
+        array_features.append(key)
+    print "Array Features"
+    print array_features
+
+    print "Indices"
+    print indices
+
+    print tree
+
+
 
     # Print the feature ranking
     print("Feature ranking:")
 
-    for f in range(10):
-        print("%d. feature %d (%f)" % (f + 1, indices[f], importances[indices[f]]))
+    outfile = open('features_2000_test_used_to_train_bueno.txt', 'w') # Indicamos el valor 'w'.
+    for f in range(500000):
+        print("%d. feature %d (%f) : %s" % (f + 1, indices[f], importances[indices[f]], array_features[indices[f]].encode('utf-8')))
+        outfile.write("%d. feature %d (%f) : %s \n" % (f + 1, indices[f], importances[indices[f]], array_features[indices[f]].encode('utf-8')))
 
+
+    outfile.close()
+
+
+    print "a"
     # Plot the feature importances of the forest
     plt.figure()
     plt.title("Feature importances")

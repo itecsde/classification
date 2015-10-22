@@ -1,0 +1,353 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: jrc_acquis_english
+CORPUS TEST: jrc_acquis_spanish_to_english
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: multilabel_cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 10
+#TEST: 1
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_jrc_acquis_english
+Obtaining test documents from a part of corpus boc_jrc_acquis_spanish_to_english
+--- METHOD: get_unique_words_boc() ---
+multi
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...
+boc_jrc_acquis_english
+<type 'numpy.ndarray'>
+Features sorted by their score:
+[(0.0186, 'CRIM'), (0.0109, 'TAX'), (0.0078, 'RAD'), (0.0, 'ZN'), (0.0, 'RM'), (0.0, 'PTRATIO'), (0.0, 'NOX'), (0.0, 'LSTAT'), (0.0, 'INDUS'), (0.0, 'DIS'), (0.0, 'CHAS'), (0.0, 'B'), (0.0, 'AGE')]
+words features
+{u'Directive (European Union)': 2.4111700000000003, u'Sheep': 0.583754, u'Fishery': 1.536022, u'Leaf': 0.0529772, u'Lead': 0.50668, u'Radio station': 0.113142, u'Social movement': 0.0147415, u'1995 enlargement of the European Union': 0.629356, u'Microbiology': 0.227483, u'Article 19': 0.0269662, u'Surveillance': 0.050955799999999996, u'Switzerland': 0.844339, u'Economic system': 0.0147415, u'Community health': 0.0290048, u'Agreement on the Application of Sanitary and Phytosanitary Measures': 0.0147415, u'Visa policy of the Schengen Area': 0.2783145, u'Digital rights management': 0.0422207, u'Market (place)': 0.09861220000000001, u'Egalitarianism': 0.27956, u'Port': 0.366738, u'Capacity utilization': 0.0168623, u'Goat': 0.178473, u'Potato starch': 0.0297972, u'Video on demand': 0.0147415, u'Fax': 0.321803, u'European Union law': 0.683991, u'Business': 0.110873, u'Telegraphy': 0.464108, u'Azores': 0.835103, u'Flour': 0.028716, u'Treaty of Rome': 6.617579999999999, u'Fraxinus': 0.0300804, u'Abortion in the United Kingdom': 0.0147415, u'Outfielder': 0.0168623, u'Shabbat': 0.0147415, u'Article 8 of the European Convention on Human Rights': 0.0383351, u'Obligation': 0.0147415, u'Constitution of Mexico': 0.0147415, u'Special forces': 0.0147415, u'Spain': 0.825578, u'By-product': 0.0147415, u'World economy': 0.340449, u'Import quota': 0.219056, u'Hungarian Academy of Sciences': 0.11793200000000001, u'Potato': 0.973878, u'Ecosystem': 0.331007, u'Member of parliament': 0.9944467000000001, u'Annexation': 0.6040445999999999, u'Market (economics)': 0.5651332, u'Analysis': 0.0147415, u'Keep': 0.0168623, u'Physical exercise': 0.0279596, u'Keel': 0.0168623, u'International Covenant on Economic, Social and Cultural Rights': 0.0147415, u'Organization': 1.238692, u'Security (finance)': 0.238913, u'European Union': 0.786341, u'Member state of the European Union': 6.283893, u'Control system': 0.0279596, u'Product (business)': 0.10226070000000001, u'Enlargement of the European Union': 0.27840940000000003, u'Cover version': 0.058966, u'Bovinae': 0.211764, u'Product differentiation': 0.0147415, u'Broth': 0.0370044, u'1996': 0.0168623, u'Tax': 0.716476, u'Telephone': 0.47147, u'Authority': 0.0517459, u'European Currency Unit': 0.0152478, u'United Kingdom general election, 1997': 0.0168623, u'Measurement': 0.0168623, u'Agriculture': 1.182354, u'Welfare state': 0.0250533, u'Transport': 0.502129, u'Direct effect': 0.35568120000000003, u'Horticulture': 0.558616, u'European Communities': 1.8818142, u'Management': 0.4028885, u'Application software': 0.0147415, u'Implementation': 0.0737075, u'Computer network': 0.0147415, u'European Economic Community': 7.372321, u'Law': 0.448814, u'Sampling (music)': 0.0147415, u'Inventory': 0.0147415, u'Cooperation': 0.0147415, u'1907': 0.0157947, u'International': 0.0311179, u'Domestic pig': 0.247927, u'Action film': 0.0168623, u'Parameter': 0.0147415, u'Political party': 0.248919, u'Pathogen': 0.174442, u'Vienna': 0.298818, u'Ship': 0.40955929999999996, u'Forest': 0.231684, u'Theatre': 0.0147415, u'Government': 0.0143213, u'Indent (Unix)': 0.0168623, u'Public health': 0.710784, u'Deposition (geology)': 0.0168623, u'Customs': 0.680329, u'Asset forfeiture': 0.0168623, u'Educational stage': 0.0168623, u'Cereal': 0.7229369999999999, u'Ship transport': 0.406857, u'Ethnic groups in Europe': 0.439815, u'Salmonella': 0.541079, u'Universal Declaration of Human Rights': 0.028489599999999997, u'Tariff': 0.818686, u'Collective': 0.0370044, u'Active ingredient': 0.0168623, u'Commerce': 0.0300804, u'Raw milk': 0.0297972, u'Observation': 0.0227187, u'Air pollution': 0.626891, u'Light': 0.0782504, u'Malt': 0.01376, u'Finland': 3.164846, u'Fodder': 0.0158689, u'Old French': 0.1326735, u'Procurement': 0.223981, u'Liechtenstein': 0.797579, u'Train station': 0.0168623, u'Prejudice': 0.0480609, u'Aquaculture': 0.56273, u'Drawing': 0.0297435, u'Security': 0.23932599999999998, u'Coeliac disease': 0.0147415, u'Egg': 0.0147415, u'Precedent': 0.0612839, u'Chinese economic reform': 0.355845, u'Pollution': 0.614344, u'Listed building': 0.0707997, u'Business administration': 0.0147415, u'Phase (waves)': 0.0147415, u'Portugal': 0.749777, u'Certification': 0.0147415, u'North Atlantic Treaty': 0.1310546, u'Fish': 0.38219, u'Economic development': 0.0205078, u'Sweden': 3.012942, u'Test (assessment)': 0.0654198, u'Trade': 0.867408, u'Austria': 2.204141, u'Seed': 0.539731, u'Fishing vessel': 0.125489, u'Hong Kong Basic Law Article 23': 0.0147415, u'Investment': 0.271614, u'Social structure': 0.0147415, u'Tax refund': 0.0217362, u'Veterinary medicine': 0.760458, u'Professional certification': 0.0147415, u'Causality': 0.0147415, u'Elizabeth II': 0.0147415, u'Official Journal of the European Union': 2.5998259999999997, u'Meal': 0.0300804, u'Transmission (mechanics)': 0.0147415, u'Forestry': 0.761328, u'Acting': 0.0147415, u'Law of obligations': 0.0147415, u'Health': 1.735916, u'Act of Parliament': 0.363374, u'Animal': 0.771238, u'Import': 1.11657, u'European Convention on Human Rights': 1.5497848, u'European Economic and Social Committee': 0.61719, u'Evaluation': 0.0147415, u'Solna Municipality': 0.0297972, u'State school': 0.0688687, u'Europe': 0.0147415, u'Country': 0.0147415, u'Heat': 0.0805305, u'Farm': 0.0279596, u'Inspection': 0.0147415, u'Freight forwarder': 0.0168623, u'Decision-making': 0.029483, u'Period (geology)': 0.029483, u'Sound recording and reproduction': 0.0276227, u'Limit set': 0.0168623, u'Radio broadcasting': 0.015901, u'Therapy': 0.0147415, u'Offal': 0.515136, u'Structural adjustment': 0.0355959, u'Repeal': 0.0740088, u'Data': 0.069644, u'Country music': 0.0332387, u'Chemical substance': 0.0276227, u"Master's degree": 0.0206987, u'1988': 0.0168623, u'Declaration of war': 0.0147415, u'Community': 0.147415, u'Standardization': 0.1055104, u'Helsinki': 0.714885, u'Column': 0.0147415, u'Milk': 0.689373, u'Poland': 0.239706, u'Cheque': 0.0458594, u'Numerus clausus': 0.0147415, u'Contract': 0.3557114, u'Cross': 0.0147415, u'Statute of limitations': 0.0147415, u'1863': 0.0168623, u'Structuralism': 0.0147415, u'European Parliament': 2.436663, u'Fly ash': 0.0147415, u'1868': 0.0168623, u'Regulation (European Union)': 0.8461795, u'Label': 0.0147415, u'Record producer': 0.050586900000000004, u'Site of Special Scientific Interest': 0.0318302, u'Software': 0.0147415, u'1991': 0.0168623, u'1990': 0.0168623, u'1993': 0.0337246, u'1992': 0.0168623, u'Force': 0.09597040000000001, u'1994': 0.0168623, u'British Overseas Territories': 0.0442245, u'1998': 0.0168623, u'Constitutional amendment': 0.0727476, u'Sovereign state': 0.136585, u'Methodology': 0.0805305, u'Regulatory compliance': 0.0157947, u'Frequency': 0.0147415, u'Initiative': 0.0147415, u'Rapporteur': 0.142846, u'Sea': 0.1216, u'Soil': 0.167041, u'Parliament of the United Kingdom': 0.70374, u'Jurisdiction': 0.0643121, u'Insurance': 0.175016, u'Regulation': 3.563677, u'Damages': 0.055541, u'Information': 0.7197321, u'Uniform': 0.0168623, u'United Nations Framework Convention on Climate Change': 0.3440571, u'Battery (electricity)': 0.0168623, u'Raw material': 0.0143213, u'Sake': 0.0168623, u'Social integration': 0.0147415, u'Altitude': 0.23318, u'Factory': 0.315465, u'Shilling': 0.029483, u'Battery cage': 0.013127, u'Game (hunting)': 0.326175, u'Gregorian calendar': 0.0168623, u'Competent authority': 0.0147415, u'Forest ecology': 0.0147415, u'Policy': 0.349299, u'Bivalvia': 0.0297972, u'Labour market flexibility': 0.0147415, u'Presentation': 0.0147415, u'Idaho': 0.0206987, u'Tonne': 0.207246, u'Mollusca': 0.371848, u'Plant': 0.58961, u'Customs territory': 0.0297972, u'Riot': 0.0147415, u'Starch': 0.130857, u'Film producer': 0.0147415, u'Paragraph': 0.0337246, u'The Crown': 0.0147415, u'Mission (Christianity)': 0.0168623, u'International law and Israeli settlements': 0.0147415, u'Grade (slope)': 0.0147415, u'Gross tonnage': 0.0337246, u'Demand': 0.0391252, u'Conceptual model': 0.0147415, u'Export': 1.220597, u'Economy': 0.411273, u'Conformity': 0.029483, u'Industry': 0.3217, u'Bearing (mechanical)': 0.0147415, u'Ireland': 0.545433, u'Meteorology': 0.303213, u'Communication': 0.45549850000000003, u'Meat': 0.9840450000000001, u'License': 0.110873, u'Prejudice (legal term)': 0.029483, u'Constitution of Ireland': 0.0610708, u'Atmosphere': 0.549299, u'1274': 0.0168623, u'Disease': 0.369419, u'Separation of powers': 0.0147415, u'Time limit': 0.0300804, u'Advance payment': 0.0137481, u'Articles 2 and 3 of the Constitution of Ireland': 0.0297972, u'Call for bids': 0.0158689, u'Power (physics)': 0.0147415, u'Order (biology)': 0.0816847, u'1992 Summer Olympics': 0.0168623, u'Physics': 0.0168623, u'Data transmission': 0.0147415, u'Power (social and political)': 0.0147415, u'Pork': 0.218291, u'Animal product': 0.12095, u'Poultry': 0.265348, u'Sampling (statistics)': 0.113674, u'Capital punishment': 0.18053, u'Objectivity (philosophy)': 0.0147415, u'Chairman': 0.101782, u'Manufacturing': 1.1173551000000002, u'1971': 0.0168623, u'Dietary supplement': 0.0168623, u'Short film': 0.0168623, u'Phosphate': 0.0168623, u'Radio': 0.364378, u'Fishing': 0.434729, u'1995': 0.11803609999999999, u'Marketing': 1.966392, u'Vienna Convention on the Law of Treaties': 0.0168623, u'Norm (social)': 0.0147415, u'Chicken': 0.0206987, u'Mind': 0.0147415, u'1766': 0.0168623, u'1966': 0.0168623, u'Coming into force': 0.2014035}
+319
+<type 'dict'>
+[u'Directive (European Union)', u'Sheep', u'Fishery', u'Leaf', u'Lead', u'Radio station', u'Social movement', u'1995 enlargement of the European Union', u'Microbiology', u'Article 19', u'Surveillance', u'Switzerland', u'Economic system', u'Community health', u'Agreement on the Application of Sanitary and Phytosanitary Measures', u'Visa policy of the Schengen Area', u'Digital rights management', u'Market (place)', u'Egalitarianism', u'Port', u'Capacity utilization', u'Goat', u'Potato starch', u'Video on demand', u'Fax', u'European Union law', u'Business', u'Telegraphy', u'Azores', u'Flour', u'Treaty of Rome', u'Fraxinus', u'Abortion in the United Kingdom', u'Outfielder', u'Shabbat', u'Article 8 of the European Convention on Human Rights', u'Obligation', u'Constitution of Mexico', u'Special forces', u'Spain', u'By-product', u'World economy', u'Import quota', u'Hungarian Academy of Sciences', u'Potato', u'Ecosystem', u'Member of parliament', u'Annexation', u'Market (economics)', u'Analysis', u'Keep', u'Physical exercise', u'Keel', u'International Covenant on Economic, Social and Cultural Rights', u'Organization', u'Security (finance)', u'European Union', u'Member state of the European Union', u'Control system', u'Product (business)', u'Enlargement of the European Union', u'Cover version', u'Bovinae', u'Product differentiation', u'Broth', u'1996', u'Tax', u'Telephone', u'Authority', u'European Currency Unit', u'United Kingdom general election, 1997', u'Measurement', u'Agriculture', u'Welfare state', u'Transport', u'Direct effect', u'Horticulture', u'European Communities', u'Management', u'Application software', u'Implementation', u'Computer network', u'European Economic Community', u'Law', u'Sampling (music)', u'Inventory', u'Cooperation', u'1907', u'International', u'Domestic pig', u'Action film', u'Parameter', u'Political party', u'Pathogen', u'Vienna', u'Ship', u'Forest', u'Theatre', u'Government', u'Indent (Unix)', u'Public health', u'Deposition (geology)', u'Customs', u'Asset forfeiture', u'Educational stage', u'Cereal', u'Ship transport', u'Ethnic groups in Europe', u'Salmonella', u'Universal Declaration of Human Rights', u'Tariff', u'Collective', u'Active ingredient', u'Commerce', u'Raw milk', u'Observation', u'Air pollution', u'Light', u'Malt', u'Finland', u'Fodder', u'Old French', u'Procurement', u'Liechtenstein', u'Train station', u'Prejudice', u'Aquaculture', u'Drawing', u'Security', u'Coeliac disease', u'Egg', u'Precedent', u'Chinese economic reform', u'Pollution', u'Listed building', u'Business administration', u'Phase (waves)', u'Portugal', u'Certification', u'North Atlantic Treaty', u'Fish', u'Economic development', u'Sweden', u'Test (assessment)', u'Trade', u'Austria', u'Seed', u'Fishing vessel', u'Hong Kong Basic Law Article 23', u'Investment', u'Social structure', u'Tax refund', u'Veterinary medicine', u'Professional certification', u'Causality', u'Elizabeth II', u'Official Journal of the European Union', u'Meal', u'Transmission (mechanics)', u'Forestry', u'Acting', u'Law of obligations', u'Health', u'Act of Parliament', u'Animal', u'Import', u'European Convention on Human Rights', u'European Economic and Social Committee', u'Evaluation', u'Solna Municipality', u'State school', u'Europe', u'Country', u'Heat', u'Farm', u'Inspection', u'Freight forwarder', u'Decision-making', u'Period (geology)', u'Sound recording and reproduction', u'Limit set', u'Radio broadcasting', u'Therapy', u'Offal', u'Structural adjustment', u'Repeal', u'Data', u'Country music', u'Chemical substance', u"Master's degree", u'1988', u'Declaration of war', u'Community', u'Standardization', u'Helsinki', u'Column', u'Milk', u'Poland', u'Cheque', u'Numerus clausus', u'Contract', u'Cross', u'Statute of limitations', u'1863', u'Structuralism', u'European Parliament', u'Fly ash', u'1868', u'Regulation (European Union)', u'Label', u'Record producer', u'Site of Special Scientific Interest', u'Software', u'1991', u'1990', u'1993', u'1992', u'Force', u'1994', u'British Overseas Territories', u'1998', u'Constitutional amendment', u'Sovereign state', u'Methodology', u'Regulatory compliance', u'Frequency', u'Initiative', u'Rapporteur', u'Sea', u'Soil', u'Parliament of the United Kingdom', u'Jurisdiction', u'Insurance', u'Regulation', u'Damages', u'Information', u'Uniform', u'United Nations Framework Convention on Climate Change', u'Battery (electricity)', u'Raw material', u'Sake', u'Social integration', u'Altitude', u'Factory', u'Shilling', u'Battery cage', u'Game (hunting)', u'Gregorian calendar', u'Competent authority', u'Forest ecology', u'Policy', u'Bivalvia', u'Labour market flexibility', u'Presentation', u'Idaho', u'Tonne', u'Mollusca', u'Plant', u'Customs territory', u'Riot', u'Starch', u'Film producer', u'Paragraph', u'The Crown', u'Mission (Christianity)', u'International law and Israeli settlements', u'Grade (slope)', u'Gross tonnage', u'Demand', u'Conceptual model', u'Export', u'Economy', u'Conformity', u'Industry', u'Bearing (mechanical)', u'Ireland', u'Meteorology', u'Communication', u'Meat', u'License', u'Prejudice (legal term)', u'Constitution of Ireland', u'Atmosphere', u'1274', u'Disease', u'Separation of powers', u'Time limit', u'Advance payment', u'Articles 2 and 3 of the Constitution of Ireland', u'Call for bids', u'Power (physics)', u'Order (biology)', u'1992 Summer Olympics', u'Physics', u'Data transmission', u'Power (social and political)', u'Pork', u'Animal product', u'Poultry', u'Sampling (statistics)', u'Capital punishment', u'Objectivity (philosophy)', u'Chairman', u'Manufacturing', u'1971', u'Dietary supplement', u'Short film', u'Phosphate', u'Radio', u'Fishing', u'1995', u'Marketing', u'Vienna Convention on the Law of Treaties', u'Norm (social)', u'Chicken', u'Mind', u'1766', u'1966', u'Coming into force']
+Feature ranking:
+1. feature 10 (0.021971) : Directive (European Union)
+2. feature 237 (0.015333) : Sheep
+3. feature 91 (0.013281) : Fishery
+4. feature 68 (0.012558) : Leaf
+5. feature 133 (0.011488) : Lead
+6. feature 300 (0.011047) : Radio station
+7. feature 101 (0.010344) : Social movement
+8. feature 162 (0.010268) : 1995 enlargement of the European Union
+9. feature 120 (0.010218) : Microbiology
+10. feature 311 (0.009981) : Article 19
+11. feature 38 (0.009681) : Surveillance
+12. feature 221 (0.009664) : Switzerland
+13. feature 144 (0.009503) : Economic system
+14. feature 189 (0.009211) : Community health
+15. feature 212 (0.009195) : Agreement on the Application of Sanitary and Phytosanitary Measures
+16. feature 263 (0.008334) : Visa policy of the Schengen Area
+17. feature 99 (0.008274) : Digital rights management
+18. feature 165 (0.008263) : Market (place)
+19. feature 81 (0.008261) : Egalitarianism
+20. feature 233 (0.008251) : Port
+21. feature 73 (0.008228) : Capacity utilization
+22. feature 181 (0.008204) : Goat
+23. feature 115 (0.008057) : Potato starch
+24. feature 96 (0.007936) : Video on demand
+25. feature 193 (0.007803) : Fax
+26. feature 230 (0.007792) : European Union law
+27. feature 3 (0.007483) : Business
+28. feature 223 (0.007429) : Telegraphy
+29. feature 111 (0.007358) : Azores
+30. feature 85 (0.007321) : Flour
+31. feature 45 (0.007260) : Treaty of Rome
+32. feature 201 (0.007227) : Fraxinus
+33. feature 37 (0.007224) : Abortion in the United Kingdom
+34. feature 54 (0.007128) : Outfielder
+35. feature 278 (0.007093) : Shabbat
+36. feature 55 (0.007085) : Article 8 of the European Convention on Human Rights
+37. feature 94 (0.007070) : Obligation
+38. feature 255 (0.006980) : Constitution of Mexico
+39. feature 218 (0.006921) : Special forces
+40. feature 294 (0.006913) : Spain
+41. feature 229 (0.006774) : By-product
+42. feature 183 (0.006724) : World economy
+43. feature 69 (0.006596) : Import quota
+44. feature 248 (0.006594) : Hungarian Academy of Sciences
+45. feature 197 (0.006567) : Potato
+46. feature 217 (0.006439) : Ecosystem
+47. feature 112 (0.006438) : Member of parliament
+48. feature 82 (0.006420) : Annexation
+49. feature 51 (0.006378) : Market (economics)
+50. feature 241 (0.006311) : Analysis
+51. feature 276 (0.006296) : Keep
+52. feature 24 (0.006294) : Physical exercise
+53. feature 78 (0.006190) : Keel
+54. feature 108 (0.006105) : International Covenant on Economic, Social and Cultural Rights
+55. feature 253 (0.006092) : Organization
+56. feature 8 (0.006045) : Security (finance)
+57. feature 6 (0.006032) : European Union
+58. feature 235 (0.005991) : Member state of the European Union
+59. feature 287 (0.005984) : Control system
+60. feature 67 (0.005972) : Product (business)
+61. feature 160 (0.005963) : Enlargement of the European Union
+62. feature 282 (0.005961) : Cover version
+63. feature 281 (0.005932) : Bovinae
+64. feature 58 (0.005918) : Product differentiation
+65. feature 84 (0.005890) : Broth
+66. feature 168 (0.005770) : 1996
+67. feature 269 (0.005734) : Tax
+68. feature 136 (0.005602) : Telephone
+69. feature 277 (0.005487) : Authority
+70. feature 213 (0.005427) : European Currency Unit
+71. feature 305 (0.005367) : United Kingdom general election, 1997
+72. feature 50 (0.005347) : Measurement
+73. feature 143 (0.005300) : Agriculture
+74. feature 304 (0.004922) : Welfare state
+75. feature 254 (0.004885) : Transport
+76. feature 32 (0.004884) : Direct effect
+77. feature 299 (0.004877) : Horticulture
+78. feature 231 (0.004824) : European Communities
+79. feature 312 (0.004801) : Management
+80. feature 169 (0.004734) : Application software
+81. feature 179 (0.004728) : Implementation
+82. feature 250 (0.004714) : Computer network
+83. feature 156 (0.004702) : European Economic Community
+84. feature 98 (0.004697) : Law
+85. feature 142 (0.004634) : Sampling (music)
+86. feature 291 (0.004630) : Inventory
+87. feature 227 (0.004581) : Cooperation
+88. feature 191 (0.004415) : 1907
+89. feature 116 (0.004393) : International
+90. feature 170 (0.004340) : Domestic pig
+91. feature 301 (0.004314) : Action film
+92. feature 23 (0.004308) : Parameter
+93. feature 52 (0.004213) : Political party
+94. feature 35 (0.004164) : Pathogen
+95. feature 226 (0.004162) : Vienna
+96. feature 39 (0.004142) : Ship
+97. feature 309 (0.004131) : Forest
+98. feature 188 (0.004115) : Theatre
+99. feature 2 (0.004093) : Government
+100. feature 158 (0.004058) : Indent (Unix)
+101. feature 77 (0.004032) : Public health
+102. feature 265 (0.004025) : Deposition (geology)
+103. feature 288 (0.004022) : Customs
+104. feature 308 (0.004000) : Asset forfeiture
+105. feature 0 (0.003981) : Educational stage
+106. feature 140 (0.003907) : Cereal
+107. feature 268 (0.003879) : Ship transport
+108. feature 166 (0.003852) : Ethnic groups in Europe
+109. feature 97 (0.003726) : Salmonella
+110. feature 88 (0.003717) : Universal Declaration of Human Rights
+111. feature 147 (0.003512) : Tariff
+112. feature 286 (0.003505) : Collective
+113. feature 95 (0.003349) : Active ingredient
+114. feature 249 (0.003255) : Commerce
+115. feature 132 (0.003091) : Raw milk
+116. feature 128 (0.002989) : Observation
+117. feature 220 (0.002989) : Air pollution
+118. feature 57 (0.002929) : Light
+119. feature 194 (0.002882) : Malt
+120. feature 47 (0.002836) : Finland
+121. feature 200 (0.002821) : Fodder
+122. feature 124 (0.002804) : Old French
+123. feature 46 (0.002787) : Procurement
+124. feature 225 (0.002719) : Liechtenstein
+125. feature 61 (0.002703) : Train station
+126. feature 109 (0.002663) : Prejudice
+127. feature 119 (0.002656) : Aquaculture
+128. feature 1 (0.002609) : Drawing
+129. feature 164 (0.002587) : Security
+130. feature 262 (0.002580) : Coeliac disease
+131. feature 145 (0.002524) : Egg
+132. feature 307 (0.002487) : Precedent
+133. feature 195 (0.002474) : Chinese economic reform
+134. feature 134 (0.002460) : Pollution
+135. feature 252 (0.002421) : Listed building
+136. feature 5 (0.002408) : Business administration
+137. feature 43 (0.002332) : Phase (waves)
+138. feature 216 (0.002321) : Portugal
+139. feature 126 (0.002309) : Certification
+140. feature 185 (0.002281) : North Atlantic Treaty
+141. feature 172 (0.002234) : Fish
+142. feature 198 (0.002227) : Economic development
+143. feature 196 (0.002208) : Sweden
+144. feature 205 (0.002203) : Test (assessment)
+145. feature 137 (0.002162) : Trade
+146. feature 27 (0.002128) : Austria
+147. feature 215 (0.002097) : Seed
+148. feature 13 (0.002024) : Fishing vessel
+149. feature 264 (0.002003) : Hong Kong Basic Law Article 23
+150. feature 272 (0.001982) : Investment
+151. feature 149 (0.001946) : Social structure
+152. feature 202 (0.001946) : Tax refund
+153. feature 9 (0.001943) : Veterinary medicine
+154. feature 159 (0.001939) : Professional certification
+155. feature 295 (0.001866) : Causality
+156. feature 56 (0.001859) : Elizabeth II
+157. feature 242 (0.001838) : Official Journal of the European Union
+158. feature 256 (0.001823) : Meal
+159. feature 93 (0.001816) : Transmission (mechanics)
+160. feature 219 (0.001787) : Forestry
+161. feature 89 (0.001785) : Acting
+162. feature 114 (0.001780) : Law of obligations
+163. feature 290 (0.001772) : Health
+164. feature 53 (0.001759) : Act of Parliament
+165. feature 303 (0.001755) : Animal
+166. feature 260 (0.001730) : Import
+167. feature 25 (0.001730) : European Convention on Human Rights
+168. feature 234 (0.001730) : European Economic and Social Committee
+169. feature 209 (0.001730) : Evaluation
+170. feature 21 (0.001708) : Solna Municipality
+171. feature 280 (0.001665) : State school
+172. feature 72 (0.001658) : Europe
+173. feature 117 (0.001643) : Country
+174. feature 285 (0.001517) : Heat
+175. feature 113 (0.001514) : Farm
+176. feature 30 (0.001514) : Inspection
+177. feature 177 (0.001514) : Freight forwarder
+178. feature 87 (0.001514) : Decision-making
+179. feature 44 (0.001514) : Period (geology)
+180. feature 239 (0.001514) : Sound recording and reproduction
+181. feature 297 (0.001499) : Limit set
+182. feature 293 (0.001481) : Radio broadcasting
+183. feature 48 (0.001477) : Therapy
+184. feature 139 (0.001477) : Offal
+185. feature 150 (0.001463) : Structural adjustment
+186. feature 178 (0.001459) : Repeal
+187. feature 64 (0.001452) : Data
+188. feature 246 (0.001441) : Country music
+189. feature 100 (0.001438) : Chemical substance
+190. feature 243 (0.001420) : Master's degree
+191. feature 173 (0.001413) : 1988
+192. feature 318 (0.001413) : Declaration of war
+193. feature 125 (0.001405) : Community
+194. feature 224 (0.001398) : Standardization
+195. feature 296 (0.001391) : Helsinki
+196. feature 148 (0.001347) : Column
+197. feature 186 (0.001333) : Milk
+198. feature 105 (0.001305) : Poland
+199. feature 107 (0.001297) : Cheque
+200. feature 314 (0.001297) : Numerus clausus
+201. feature 240 (0.001297) : Contract
+202. feature 28 (0.001297) : Cross
+203. feature 12 (0.001297) : Statute of limitations
+204. feature 151 (0.001297) : 1863
+205. feature 26 (0.001297) : Structuralism
+206. feature 261 (0.001297) : European Parliament
+207. feature 7 (0.001261) : Fly ash
+208. feature 210 (0.001261) : 1868
+209. feature 36 (0.001225) : Regulation (European Union)
+210. feature 208 (0.001207) : Label
+211. feature 80 (0.001189) : Record producer
+212. feature 298 (0.001157) : Site of Special Scientific Interest
+213. feature 75 (0.001153) : Software
+214. feature 245 (0.001153) : 1991
+215. feature 33 (0.001135) : 1990
+216. feature 244 (0.001112) : 1993
+217. feature 131 (0.001110) : 1992
+218. feature 17 (0.001103) : Force
+219. feature 292 (0.001081) : 1994
+220. feature 129 (0.001081) : British Overseas Territories
+221. feature 118 (0.001081) : 1998
+222. feature 135 (0.001081) : Constitutional amendment
+223. feature 76 (0.001081) : Sovereign state
+224. feature 190 (0.001081) : Methodology
+225. feature 207 (0.001081) : Regulatory compliance
+226. feature 167 (0.001081) : Frequency
+227. feature 176 (0.001081) : Initiative
+228. feature 273 (0.001081) : Rapporteur
+229. feature 258 (0.001081) : Sea
+230. feature 70 (0.001081) : Soil
+231. feature 302 (0.001081) : Parliament of the United Kingdom
+232. feature 63 (0.001081) : Jurisdiction
+233. feature 86 (0.001052) : Insurance
+234. feature 267 (0.001045) : Regulation
+235. feature 259 (0.001045) : Damages
+236. feature 20 (0.001045) : Information
+237. feature 222 (0.001009) : Uniform
+238. feature 15 (0.001009) : United Nations Framework Convention on Climate Change
+239. feature 275 (0.000973) : Battery (electricity)
+240. feature 171 (0.000955) : Raw material
+241. feature 310 (0.000937) : Sake
+242. feature 79 (0.000915) : Social integration
+243. feature 283 (0.000908) : Altitude
+244. feature 16 (0.000901) : Factory
+245. feature 154 (0.000886) : Shilling
+246. feature 174 (0.000865) : Battery cage
+247. feature 247 (0.000865) : Game (hunting)
+248. feature 40 (0.000865) : Gregorian calendar
+249. feature 266 (0.000865) : Competent authority
+250. feature 182 (0.000865) : Forest ecology
+251. feature 161 (0.000865) : Policy
+252. feature 257 (0.000865) : Bivalvia
+253. feature 74 (0.000865) : Labour market flexibility
+254. feature 110 (0.000865) : Presentation
+255. feature 163 (0.000865) : Idaho
+256. feature 180 (0.000865) : Tonne
+257. feature 199 (0.000865) : Mollusca
+258. feature 29 (0.000865) : Plant
+259. feature 232 (0.000865) : Customs territory
+260. feature 18 (0.000865) : Riot
+261. feature 141 (0.000865) : Starch
+262. feature 66 (0.000865) : Film producer
+263. feature 42 (0.000829) : Paragraph
+264. feature 106 (0.000793) : The Crown
+265. feature 59 (0.000793) : Mission (Christianity)
+266. feature 270 (0.000793) : International law and Israeli settlements
+267. feature 62 (0.000742) : Grade (slope)
+268. feature 251 (0.000742) : Gross tonnage
+269. feature 153 (0.000714) : Demand
+270. feature 157 (0.000692) : Conceptual model
+271. feature 121 (0.000649) : Export
+272. feature 204 (0.000649) : Economy
+273. feature 122 (0.000649) : Conformity
+274. feature 175 (0.000649) : Industry
+275. feature 155 (0.000649) : Bearing (mechanical)
+276. feature 313 (0.000649) : Ireland
+277. feature 34 (0.000649) : Meteorology
+278. feature 123 (0.000649) : Communication
+279. feature 315 (0.000649) : Meat
+280. feature 316 (0.000649) : License
+281. feature 104 (0.000649) : Prejudice (legal term)
+282. feature 284 (0.000649) : Constitution of Ireland
+283. feature 187 (0.000649) : Atmosphere
+284. feature 103 (0.000649) : 1274
+285. feature 90 (0.000649) : Disease
+286. feature 184 (0.000649) : Separation of powers
+287. feature 60 (0.000649) : Time limit
+288. feature 41 (0.000649) : Advance payment
+289. feature 152 (0.000648) : Articles 2 and 3 of the Constitution of Ireland
+290. feature 271 (0.000577) : Call for bids
+291. feature 83 (0.000483) : Power (physics)
+292. feature 102 (0.000476) : Order (biology)
+293. feature 289 (0.000432) : 1992 Summer Olympics
+294. feature 92 (0.000432) : Physics
+295. feature 11 (0.000432) : Data transmission
+296. feature 19 (0.000432) : Power (social and political)
+297. feature 146 (0.000432) : Pork
+298. feature 130 (0.000432) : Animal product
+299. feature 203 (0.000432) : Poultry
+300. feature 22 (0.000432) : Sampling (statistics)
+301. feature 274 (0.000432) : Capital punishment
+302. feature 71 (0.000432) : Objectivity (philosophy)
+303. feature 238 (0.000432) : Chairman
+304. feature 206 (0.000432) : Manufacturing
+305. feature 127 (0.000360) : 1971
+306. feature 14 (0.000216) : Dietary supplement
+307. feature 317 (0.000216) : Short film
+308. feature 65 (0.000216) : Phosphate
+309. feature 236 (0.000216) : Radio
+310. feature 214 (0.000216) : Fishing
+311. feature 228 (0.000216) : 1995
+312. feature 211 (0.000216) : Marketing
+313. feature 306 (0.000216) : Vienna Convention on the Law of Treaties
+314. feature 49 (0.000216) : Norm (social)
+315. feature 4 (0.000216) : Chicken
+316. feature 138 (0.000216) : Mind
+317. feature 192 (0.000000) : 1766
+318. feature 279 (0.000000) : 1966
+319. feature 31 (0.000000) : Coming into force
+a

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/feature_selection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/feature_selection_random_forest.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/boc_wikipedia_human_medicine_english_boc_wikipedia_human_medicine_spanish_th_01_2143_469_cross_language_linear_SVM_10_neighbors1432636810.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_wikipedia_english_bow_wikipedia_spanish_th_01_500_621_cross_language_linear_SVM_10_neighbors1432837584.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_2143_469_cross_language_linear_SVM.txt" afterPath="" />
@@ -108,6 +108,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/source/total_polynomial_2_legend.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/classify.py" afterPath="$PROJECT_DIR$/source/classify.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/classify_methods.py" afterPath="$PROJECT_DIR$/source/classify_methods.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_10_10_multilabel_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_10_10_multilabel_cross_language_linear_SVM.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_1_1_multilabel_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_1_1_multilabel_cross_language_linear_SVM.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_2_2_multilabel_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_2_2_multilabel_cross_language_linear_SVM.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/util_classify.py" afterPath="$PROJECT_DIR$/source/util_classify.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -136,8 +139,8 @@
       <file leaf-file-name="classify.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.111111" vertical-offset="3901" max-vertical-offset="5151">
-              <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
+            <state vertical-scroll-proportion="-7.75" vertical-offset="3988" max-vertical-offset="5151">
+              <caret line="264" column="123" selection-start-line="264" selection-start-column="123" selection-end-line="264" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -146,8 +149,8 @@
       <file leaf-file-name="classify_methods.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.111111" vertical-offset="6442" max-vertical-offset="16456">
-              <caret line="394" column="35" selection-start-line="394" selection-start-column="35" selection-end-line="394" selection-end-column="35" />
+            <state vertical-scroll-proportion="-11.805555" vertical-offset="7123" max-vertical-offset="16983">
+              <caret line="444" column="19" selection-start-line="444" selection-start-column="19" selection-end-line="444" selection-end-column="19" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -155,10 +158,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="feature_selection_random_forest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/feature_selection_random_forest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5" vertical-offset="0" max-vertical-offset="340">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="features_2000_train.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/features_2000_train.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.7222223" vertical-offset="0" max-vertical-offset="205173">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="feature_selection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/feature_selection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1003">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
@@ -168,8 +193,8 @@
       <file leaf-file-name="util_classify.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/util_classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3825504" vertical-offset="6898" max-vertical-offset="19431">
-              <caret line="438" column="107" selection-start-line="438" selection-start-column="107" selection-end-line="438" selection-end-column="107" />
+            <state vertical-scroll-proportion="0.66861314" vertical-offset="6512" max-vertical-offset="19414">
+              <caret line="418" column="86" selection-start-line="418" selection-start-column="86" selection-end-line="418" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -185,12 +210,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/source/classify_methods.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/experiments/ICALT/experiment_multilabel_KNN_merlot.sh" />
-        <option value="$PROJECT_DIR$/fich.htm" />
-        <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_influence_metadata_weight.sh" />
         <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_metadata_500_test.sh" />
         <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_without_metadata_500_test.sh" />
         <option value="$PROJECT_DIR$/print_graphics/JBI/display_graphic_SVM_OHSUMED_single_label_bow_boc.py" />
@@ -236,7 +261,10 @@
         <option value="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_MT_vs_hybrid.py" />
         <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_jrc_acquis_english_test_jrc_acquis_spanish_randomized_single_label_2000_test_CLCM_vs_MT_vs_hybrid.sh" />
         <option value="$PROJECT_DIR$/source/feature_selection.py" />
+        <option value="$PROJECT_DIR$/source/features.txt" />
+        <option value="$PROJECT_DIR$/source/features_2000_train.txt" />
         <option value="$PROJECT_DIR$/source/classify.py" />
+        <option value="$PROJECT_DIR$/source/feature_selection_random_forest.py" />
         <option value="$PROJECT_DIR$/source/classify_methods.py" />
         <option value="$PROJECT_DIR$/source/util_classify.py" />
       </list>
@@ -369,8 +397,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/experiments/cross_language_SVM" />
       <recent name="$PROJECT_DIR$/source" />
+      <recent name="$PROJECT_DIR$/experiments/cross_language_SVM" />
       <recent name="$PROJECT_DIR$/print_graphics/cross_language_SVM" />
       <recent name="$PROJECT_DIR$/print_graphics/multilabel" />
       <recent name="$PROJECT_DIR$/print_graphics/oer_aggregator" />
@@ -382,7 +410,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hybrid_multilabel_jrc_acquis">
+  <component name="RunManager" selected="Python.feature_selection">
     <configuration default="false" name="experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -692,6 +720,25 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="feature_selection" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="wikitopics_classifier" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/classify.py" />
+      <option name="PARAMETERS" value="-corpus_training boc_jrc_acquis_english -corpus_test boc_jrc_acquis_spanish_to_english -method multilabel_cross_language_linear_SVM -train 2 -test 2 -metric cosine -destination_folder prueba" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="multilabel " type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -711,7 +758,7 @@
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
-    <list size="11">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
       <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
       <item index="2" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
@@ -720,9 +767,10 @@
       <item index="5" class="java.lang.String" itemvalue="Python.classify hybrid approach jdjd" />
       <item index="6" class="java.lang.String" itemvalue="Python.classify hybrid approach jdjd (1)" />
       <item index="7" class="java.lang.String" itemvalue="Python.hybrid_multilabel_jrc_acquis" />
-      <item index="8" class="java.lang.String" itemvalue="Python.multilabel " />
-      <item index="9" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
-      <item index="10" class="java.lang.String" itemvalue="Python.classify" />
+      <item index="8" class="java.lang.String" itemvalue="Python.feature_selection" />
+      <item index="9" class="java.lang.String" itemvalue="Python.multilabel " />
+      <item index="10" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
+      <item index="11" class="java.lang.String" itemvalue="Python.classify" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -932,24 +980,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="116" width="1863" height="1085" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17640918" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6440501" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20250522" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35281837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25190425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3580376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27348644" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20402612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19519833" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -996,23 +1044,33 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>656</line>
+          <line>687</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>670</line>
+          <line>701</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>679</line>
+          <line>710</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>692</line>
+          <line>723</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
+          <line>447</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
+          <line>411</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1025,7 +1083,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1293,36 +1351,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/feature_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1003">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/feature_selection_random_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.111111" vertical-offset="3901" max-vertical-offset="5151">
-          <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
+        <state vertical-scroll-proportion="-7.75" vertical-offset="3988" max-vertical-offset="5151">
+          <caret line="264" column="123" selection-start-line="264" selection-start-column="123" selection-end-line="264" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/features_2000_test_used_to_train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.034483" vertical-offset="2482" max-vertical-offset="2975">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/features_2000_train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7222223" vertical-offset="0" max-vertical-offset="205173">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.111111" vertical-offset="6442" max-vertical-offset="16456">
-          <caret line="394" column="35" selection-start-line="394" selection-start-column="35" selection-end-line="394" selection-end-column="35" />
+        <state vertical-scroll-proportion="-11.805555" vertical-offset="7123" max-vertical-offset="16983">
+          <caret line="444" column="19" selection-start-line="444" selection-start-column="19" selection-end-line="444" selection-end-column="19" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/feature_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/util_classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3825504" vertical-offset="6898" max-vertical-offset="19431">
-          <caret line="438" column="107" selection-start-line="438" selection-start-column="107" selection-end-line="438" selection-end-column="107" />
+        <state vertical-scroll-proportion="0.66861314" vertical-offset="6512" max-vertical-offset="19414">
+          <caret line="418" column="86" selection-start-line="418" selection-start-column="86" selection-end-line="418" selection-end-column="86" />
           <folding />
         </state>
       </provider>

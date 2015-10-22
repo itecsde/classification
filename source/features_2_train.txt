@@ -1,0 +1,117 @@
+1. feature 0 (0.032000) : Leaf 
+2. feature 35 (0.032000) : Parameter 
+3. feature 5 (0.024000) : Egalitarianism 
+4. feature 106 (0.024000) : Data transmission 
+5. feature 13 (0.024000) : Ecosystem 
+6. feature 76 (0.020000) : Atmosphere 
+7. feature 9 (0.020000) : Obligation 
+8. feature 74 (0.016000) : Switzerland 
+9. feature 98 (0.016000) : Manufacturing 
+10. feature 28 (0.016000) : Management 
+11. feature 115 (0.016000) : Port 
+12. feature 61 (0.016000) : Forestry 
+13. feature 62 (0.016000) : Forest 
+14. feature 83 (0.016000) : Sea 
+15. feature 93 (0.016000) : Customs territory 
+16. feature 75 (0.016000) : Site of Special Scientific Interest 
+17. feature 4 (0.016000) : Market (place) 
+18. feature 102 (0.016000) : Tax refund 
+19. feature 107 (0.016000) : Elizabeth II 
+20. feature 112 (0.012000) : Export 
+21. feature 51 (0.012000) : Liechtenstein 
+22. feature 78 (0.012000) : Business administration 
+23. feature 34 (0.012000) : Action film 
+24. feature 3 (0.012000) : Visa policy of the Schengen Area 
+25. feature 73 (0.012000) : Contract 
+26. feature 56 (0.012000) : Sweden 
+27. feature 105 (0.012000) : 1992 Summer Olympics 
+28. feature 68 (0.012000) : Cheque 
+29. feature 99 (0.012000) : Bearing (mechanical) 
+30. feature 111 (0.012000) : Member state of the European Union 
+31. feature 25 (0.012000) : Transport 
+32. feature 59 (0.012000) : Causality 
+33. feature 50 (0.012000) : Procurement 
+34. feature 114 (0.012000) : Ship 
+35. feature 31 (0.012000) : Computer network 
+36. feature 36 (0.012000) : Political party 
+37. feature 30 (0.012000) : Implementation 
+38. feature 86 (0.012000) : Product differentiation 
+39. feature 38 (0.012000) : Deposition (geology) 
+40. feature 87 (0.012000) : Country music 
+41. feature 40 (0.012000) : Cereal 
+42. feature 43 (0.012000) : Tariff 
+43. feature 90 (0.012000) : Methodology 
+44. feature 94 (0.012000) : Riot 
+45. feature 103 (0.012000) : Call for bids 
+46. feature 41 (0.008000) : Ship transport 
+47. feature 57 (0.008000) : Test (assessment) 
+48. feature 47 (0.008000) : Malt 
+49. feature 55 (0.008000) : Soil 
+50. feature 27 (0.008000) : European Communities 
+51. feature 60 (0.008000) : Official Journal of the European Union 
+52. feature 44 (0.008000) : Observation 
+53. feature 52 (0.008000) : Security 
+54. feature 46 (0.008000) : Light 
+55. feature 48 (0.008000) : Finland 
+56. feature 8 (0.008000) : Fraxinus 
+57. feature 110 (0.008000) : Short film 
+58. feature 80 (0.008000) : Sovereign state 
+59. feature 101 (0.008000) : Listed building 
+60. feature 6 (0.008000) : Flour 
+61. feature 91 (0.008000) : Act of Parliament 
+62. feature 16 (0.008000) : Analysis 
+63. feature 85 (0.008000) : Information 
+64. feature 84 (0.008000) : Regulation (European Union) 
+65. feature 26 (0.008000) : Direct effect 
+66. feature 82 (0.008000) : United Nations Framework Convention on Climate Change 
+67. feature 72 (0.008000) : Meteorology 
+68. feature 21 (0.008000) : British Overseas Territories 
+69. feature 70 (0.008000) : Data 
+70. feature 69 (0.008000) : Repeal 
+71. feature 66 (0.008000) : Meal 
+72. feature 22 (0.008000) : Tax 
+73. feature 19 (0.004000) : Product (business) 
+74. feature 29 (0.004000) : Application software 
+75. feature 18 (0.004000) : Organization 
+76. feature 20 (0.004000) : Cover version 
+77. feature 15 (0.004000) : Market (economics) 
+78. feature 11 (0.004000) : World economy 
+79. feature 32 (0.004000) : European Economic Community 
+80. feature 10 (0.004000) : By-product 
+81. feature 33 (0.004000) : Inventory 
+82. feature 23 (0.004000) : Measurement 
+83. feature 116 (0.004000) : Capital punishment 
+84. feature 37 (0.004000) : Economy 
+85. feature 65 (0.004000) : Decision-making 
+86. feature 108 (0.004000) : Mind 
+87. feature 104 (0.004000) : Order (biology) 
+88. feature 92 (0.004000) : Forest ecology 
+89. feature 89 (0.004000) : Uniform 
+90. feature 39 (0.004000) : Customs 
+91. feature 77 (0.004000) : Force 
+92. feature 71 (0.004000) : Standardization 
+93. feature 67 (0.004000) : Therapy 
+94. feature 88 (0.004000) : Shilling 
+95. feature 54 (0.004000) : Certification 
+96. feature 53 (0.004000) : Pollution 
+97. feature 45 (0.004000) : Air pollution 
+98. feature 64 (0.004000) : Freight forwarder 
+99. feature 24 (0.000000) : Agriculture 
+100. feature 97 (0.000000) : Annexation 
+101. feature 1 (0.000000) : Surveillance 
+102. feature 2 (0.000000) : Fly ash 
+103. feature 113 (0.000000) : Asset forfeiture 
+104. feature 109 (0.000000) : Community 
+105. feature 42 (0.000000) : Ethnic groups in Europe 
+106. feature 7 (0.000000) : Treaty of Rome 
+107. feature 100 (0.000000) : License 
+108. feature 95 (0.000000) : Marketing 
+109. feature 96 (0.000000) : The Crown 
+110. feature 12 (0.000000) : Hungarian Academy of Sciences 
+111. feature 49 (0.000000) : Old French 
+112. feature 14 (0.000000) : Member of parliament 
+113. feature 17 (0.000000) : Coming into force 
+114. feature 81 (0.000000) : Regulation 
+115. feature 79 (0.000000) : Jurisdiction 
+116. feature 63 (0.000000) : European Convention on Human Rights 
+117. feature 58 (0.000000) : Austria 

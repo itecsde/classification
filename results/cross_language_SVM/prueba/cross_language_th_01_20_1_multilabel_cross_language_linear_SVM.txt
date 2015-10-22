@@ -9,7 +9,7 @@ TFIDF: no
 STEMMING: -
 SMOOTHING: 0.001
 WEIGHTING: milne
-#TRAIN: 1
+#TRAIN: 20
 #TEST: 1
 
 Getting train and test documents...

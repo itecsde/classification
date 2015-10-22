@@ -262,7 +262,7 @@ for corpus in array_corpus:
                 print "multi"
                 if corpus_training == "bow_jrc_acquis_english":
                     ground_truth_vector_categories, prediction = classify_methods.multilabel("bow_jrc_acquis_english", documents_training, documents_test, words_features, smoothing, algorithm)
-                elif corpus_training == "boc_jrc_acquis_english":
+                elif corpus_training == "boc_jrc_acquis_english" or corpus_training == "boc_jrc_acquis_spanish_to_english":
                     ground_truth_vector_categories, prediction = classify_methods.multilabel_feature_selection("boc_jrc_acquis_english", documents_training, documents_test, words_features, smoothing, algorithm)
                 #ground_truth_vector_categories, prediction = classify_methods.multilabel("bow_jrc_acquis_spanish_to_english", documents_test, documents_test, words_features, smoothing, algorithm)
                 print "Metrics:"

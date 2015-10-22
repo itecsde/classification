@@ -1,5 +1,5 @@
 ---- EXPERIMENT DETAILS ----
-CORPUS TRAINING: jrc_acquis_english
+CORPUS TRAINING: jrc_acquis_spanish_to_english
 CORPUS TEST: jrc_acquis_spanish_to_english
 REPRESENTATION: BoC
 THRESHOLD: 0.01
@@ -9,16 +9,11 @@ TFIDF: no
 STEMMING: -
 SMOOTHING: 0.001
 WEIGHTING: milne
-#TRAIN: 1
+#TRAIN: 1998
 #TEST: 1
 
 Getting train and test documents...
 --- Method: get_documents_from_cross_language_database_boc() ---
-Obtaining training documents from a part of corpus  boc_jrc_acquis_english
+Obtaining training documents from a part of corpus  boc_jrc_acquis_spanish_to_english
 Obtaining test documents from a part of corpus boc_jrc_acquis_spanish_to_english
 --- METHOD: get_unique_words_boc() ---
-multi
------ Multilabel Algorithm------
-Creating Training Vectors...
-Creating Training Feature Vectors...
-boc_jrc_acquis_english

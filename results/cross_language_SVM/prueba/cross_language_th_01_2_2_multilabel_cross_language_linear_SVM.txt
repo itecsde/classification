@@ -1,7 +1,7 @@
 ---- EXPERIMENT DETAILS ----
 CORPUS TRAINING: jrc_acquis_english
 CORPUS TEST: jrc_acquis_spanish_to_english
-REPRESENTATION: BoW
+REPRESENTATION: BoC
 THRESHOLD: 0.01
 CLASSIFY METHOD: multilabel_cross_language_linear_SVM
 METRIC: cosine
@@ -13,62 +13,168 @@ WEIGHTING: milne
 #TEST: 2
 
 Getting train and test documents...
-bow, Hybrid?
---- METHOD: get_documents_from_cross_language_database_bow() ---
-Obtaining training documents from a part of the corpus bow_jrc_acquis_english
-Obtaining test documents from a part of the corpus bow_jrc_acquis_spanish_to_english
---- METHOD: get_unique_words_bow() ---
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_jrc_acquis_english
+Obtaining test documents from a part of corpus boc_jrc_acquis_spanish_to_english
+--- METHOD: get_unique_words_boc() ---
 multi
 ----- Multilabel Algorithm------
 Creating Training Vectors...
 Creating Training Feature Vectors...
-bow_jrc_acquis_english
-Training multilabel classifier...
-Classifying test documents (Prediction)
-Metrics:
-----------------
-Hamming Loss:
-0.166666666667
-
-Accuracy:
-0.0
-
-Precision:
-0.0
-
-Recall:
-0.0
-
-Classification Report:
-                                        precision    recall  f1-score   support
-
-          EDUCATION AND COMMUNICATIONS       0.00      0.00      0.00         0
-                           ENVIRONMENT       0.00      0.00      0.00         0
-                      SOCIAL QUESTIONS       0.00      0.00      0.00         1
-               INTERNATIONAL RELATIONS       0.00      0.00      0.00         0
-                               FINANCE       0.00      0.00      0.00         0
-     EMPLOYMENT AND WORKING CONDITIONS       0.00      0.00      0.00         0
-                             TRANSPORT       0.00      0.00      0.00         0
-PRODUCTION AND TECHNOLOGY AND RESEARCH       0.00      0.00      0.00         0
-                                ENERGY       0.00      0.00      0.00         0
-                             ECONOMICS       0.00      0.00      0.00         0
-                                 TRADE       0.00      0.00      0.00         1
-              BUSINESS AND COMPETITION       0.00      0.00      0.00         0
-                               SCIENCE       0.00      0.00      0.00         1
-           INTERNATIONAL ORGANISATIONS       0.00      0.00      0.00         0
-                              POLITICS       0.00      0.00      0.00         0
-AGRICULTURE AND FORESTRY AND FISHERIES       0.00      0.00      0.00         1
-                                   LAW       0.00      0.00      0.00         0
-                        EUROPEAN UNION       0.00      0.00      0.00         1
-                              INDUSTRY       0.00      0.00      0.00         0
-                       AGRI-FOODSTUFFS       0.00      0.00      0.00         1
-                             GEOGRAPHY       0.00      0.00      0.00         1
-
-                           avg / total       0.00      0.00      0.00         7
-
-F1-score
-----------------
-F1_SCORE (Macro): 0.0
-Precision: 0.0
-Recall: 0.0
----- Execution End ----
+boc_jrc_acquis_english
+[ 0.176       0.          0.          0.10888526  0.1254751   0.15304901
+  0.08908423  0.          0.08908423  0.14        0.06311894  0.06311894
+  0.          0.15304901  0.          0.06311894  0.08908423  0.
+  0.06311894  0.06311894  0.06311894  0.08908423  0.08908423  0.06311894
+  0.          0.10888526  0.08908423  0.08908423  0.1254751   0.06311894
+  0.10888526  0.10888526  0.06311894  0.06311894  0.10888526  0.176
+  0.10888526  0.06311894  0.10888526  0.06311894  0.10888526  0.08908423
+  0.          0.10888526  0.08908423  0.06311894  0.08908423  0.08908423
+  0.08908423  0.          0.10888526  0.10888526  0.08908423  0.06311894
+  0.06311894  0.08908423  0.10888526  0.08908423  0.          0.10888526
+  0.08908423  0.1254751   0.1254751   0.          0.06311894  0.06311894
+  0.08908423  0.06311894  0.10888526  0.08908423  0.08908423  0.06311894
+  0.08908423  0.10888526  0.1254751   0.1254751   0.14        0.06311894
+  0.10888526  0.          0.08908423  0.          0.08908423  0.1254751
+  0.08908423  0.08908423  0.10888526  0.10888526  0.06311894  0.06311894
+  0.10888526  0.08908423  0.06311894  0.1254751   0.10888526  0.          0.
+  0.          0.1254751   0.10888526  0.          0.08908423  0.1254751
+  0.10888526  0.06311894  0.10888526  0.15304901  0.1254751   0.06311894
+  0.          0.08908423  0.10888526  0.10888526  0.          0.10888526
+  0.1254751   0.06311894]
+words features
+{u'Leaf': 0.0529772, u'Surveillance': 0.0362143, u'Fly ash': 0.0147415, u'Visa policy of the Schengen Area': 0.0147415, u'Market (place)': 0.0297435, u'Egalitarianism': 0.27956, u'Flour': 0.028716, u'Treaty of Rome': 1.038438, u'Fraxinus': 0.0300804, u'Obligation': 0.0147415, u'By-product': 0.0147415, u'World economy': 0.340449, u'Hungarian Academy of Sciences': 0.029483, u'Ecosystem': 0.331007, u'Member of parliament': 0.0851478, u'Market (economics)': 0.427496, u'Analysis': 0.0147415, u'Coming into force': 0.0147415, u'Organization': 0.261381, u'Product (business)': 0.0727777, u'Cover version': 0.0147415, u'British Overseas Territories': 0.0147415, u'Tax': 0.716476, u'Measurement': 0.0168623, u'Agriculture': 0.591177, u'Transport': 0.502129, u'Direct effect': 0.0168623, u'European Communities': 0.18123319999999998, u'Management': 0.101782, u'Application software': 0.0147415, u'Implementation': 0.0147415, u'Computer network': 0.0147415, u'European Economic Community': 1.142255, u'Inventory': 0.0147415, u'Action film': 0.0168623, u'Parameter': 0.0147415, u'Political party': 0.248919, u'Economy': 0.411273, u'Deposition (geology)': 0.0168623, u'Customs': 0.680329, u'Cereal': 0.446083, u'Ship transport': 0.406857, u'Ethnic groups in Europe': 0.049679, u'Tariff': 0.818686, u'Observation': 0.0227187, u'Air pollution': 0.626891, u'Light': 0.0391252, u'Malt': 0.01376, u'Finland': 0.844339, u'Old French': 0.029483, u'Procurement': 0.223981, u'Liechtenstein': 0.797579, u'Security': 0.101782, u'Pollution': 0.614344, u'Certification': 0.0147415, u'Soil': 0.167041, u'Sweden': 0.78281, u'Test (assessment)': 0.0147415, u'Austria': 0.768876, u'Causality': 0.0147415, u'Official Journal of the European Union': 0.42684900000000003, u'Forestry': 0.293163, u'Forest': 0.231684, u'European Convention on Human Rights': 0.09527200000000001, u'Freight forwarder': 0.0168623, u'Decision-making': 0.0147415, u'Meal': 0.0300804, u'Therapy': 0.0147415, u'Cheque': 0.0311179, u'Repeal': 0.0370044, u'Data': 0.069644, u'Standardization': 0.0907689, u'Meteorology': 0.303213, u'Contract': 0.0164421, u'Switzerland': 0.844339, u'Site of Special Scientific Interest': 0.0318302, u'Atmosphere': 0.549299, u'Force': 0.0370044, u'Business administration': 0.0147415, u'Jurisdiction': 0.0205078, u'Sovereign state': 0.136585, u'Regulation': 1.164848, u'United Nations Framework Convention on Climate Change': 0.301356, u'Sea': 0.1216, u'Regulation (European Union)': 0.0400632, u'Information': 0.0370044, u'Product differentiation': 0.0147415, u'Country music': 0.0332387, u'Shilling': 0.0147415, u'Uniform': 0.0168623, u'Methodology': 0.0805305, u'Act of Parliament': 0.363374, u'Forest ecology': 0.0147415, u'Customs territory': 0.0297972, u'Riot': 0.0147415, u'Marketing': 0.519435, u'The Crown': 0.0147415, u'Annexation': 0.045004, u'Manufacturing': 0.666711, u'Bearing (mechanical)': 0.0147415, u'License': 0.110873, u'Listed building': 0.023857, u'Tax refund': 0.0217362, u'Call for bids': 0.0158689, u'Order (biology)': 0.0147415, u'1992 Summer Olympics': 0.0168623, u'Data transmission': 0.0147415, u'Elizabeth II': 0.0147415, u'Mind': 0.0147415, u'Community': 0.029483, u'Short film': 0.0168623, u'Member state of the European Union': 1.218583, u'Export': 0.766022, u'Asset forfeiture': 0.0168623, u'Ship': 0.101002, u'Port': 0.366738, u'Capital punishment': 0.18053}
+117
+<type 'dict'>
+Array Features
+[u'Leaf', u'Surveillance', u'Fly ash', u'Visa policy of the Schengen Area', u'Market (place)', u'Egalitarianism', u'Flour', u'Treaty of Rome', u'Fraxinus', u'Obligation', u'By-product', u'World economy', u'Hungarian Academy of Sciences', u'Ecosystem', u'Member of parliament', u'Market (economics)', u'Analysis', u'Coming into force', u'Organization', u'Product (business)', u'Cover version', u'British Overseas Territories', u'Tax', u'Measurement', u'Agriculture', u'Transport', u'Direct effect', u'European Communities', u'Management', u'Application software', u'Implementation', u'Computer network', u'European Economic Community', u'Inventory', u'Action film', u'Parameter', u'Political party', u'Economy', u'Deposition (geology)', u'Customs', u'Cereal', u'Ship transport', u'Ethnic groups in Europe', u'Tariff', u'Observation', u'Air pollution', u'Light', u'Malt', u'Finland', u'Old French', u'Procurement', u'Liechtenstein', u'Security', u'Pollution', u'Certification', u'Soil', u'Sweden', u'Test (assessment)', u'Austria', u'Causality', u'Official Journal of the European Union', u'Forestry', u'Forest', u'European Convention on Human Rights', u'Freight forwarder', u'Decision-making', u'Meal', u'Therapy', u'Cheque', u'Repeal', u'Data', u'Standardization', u'Meteorology', u'Contract', u'Switzerland', u'Site of Special Scientific Interest', u'Atmosphere', u'Force', u'Business administration', u'Jurisdiction', u'Sovereign state', u'Regulation', u'United Nations Framework Convention on Climate Change', u'Sea', u'Regulation (European Union)', u'Information', u'Product differentiation', u'Country music', u'Shilling', u'Uniform', u'Methodology', u'Act of Parliament', u'Forest ecology', u'Customs territory', u'Riot', u'Marketing', u'The Crown', u'Annexation', u'Manufacturing', u'Bearing (mechanical)', u'License', u'Listed building', u'Tax refund', u'Call for bids', u'Order (biology)', u'1992 Summer Olympics', u'Data transmission', u'Elizabeth II', u'Mind', u'Community', u'Short film', u'Member state of the European Union', u'Export', u'Asset forfeiture', u'Ship', u'Port', u'Capital punishment']
+Indices
+[  0  35   5 106  13  76   9  74  98  28 115  61  62  83  93  75   4 102
+ 107 112  51  78  34   3  73  56 105  68  99 111  25  59  50 114  31  36
+  30  86  38  87  40  43  90  94 103  41  57  47  55  27  60  44  52  46
+  48   8 110  80 101   6  91  16  85  84  26  82  72  21  70  69  66  22
+  19  29  18  20  15  11  32  10  33  23 116  37  65 108 104  92  89  39
+  77  71  67  88  54  53  45  64  24  97   1   2 113 109  42   7 100  95
+  96  12  49  14  17  81  79  63  58]
+ExtraTreeClassifier(compute_importances=None, criterion='gini',
+          max_depth=None, max_features='auto', max_leaf_nodes=None,
+          min_density=None, min_samples_leaf=1, min_samples_split=2,
+          random_state=510278884, splitter='random')
+Feature ranking:
+1. feature 0 (0.032000) : Leaf
+2. feature 35 (0.032000) : Parameter
+3. feature 5 (0.024000) : Egalitarianism
+4. feature 106 (0.024000) : Data transmission
+5. feature 13 (0.024000) : Ecosystem
+6. feature 76 (0.020000) : Atmosphere
+7. feature 9 (0.020000) : Obligation
+8. feature 74 (0.016000) : Switzerland
+9. feature 98 (0.016000) : Manufacturing
+10. feature 28 (0.016000) : Management
+11. feature 115 (0.016000) : Port
+12. feature 61 (0.016000) : Forestry
+13. feature 62 (0.016000) : Forest
+14. feature 83 (0.016000) : Sea
+15. feature 93 (0.016000) : Customs territory
+16. feature 75 (0.016000) : Site of Special Scientific Interest
+17. feature 4 (0.016000) : Market (place)
+18. feature 102 (0.016000) : Tax refund
+19. feature 107 (0.016000) : Elizabeth II
+20. feature 112 (0.012000) : Export
+21. feature 51 (0.012000) : Liechtenstein
+22. feature 78 (0.012000) : Business administration
+23. feature 34 (0.012000) : Action film
+24. feature 3 (0.012000) : Visa policy of the Schengen Area
+25. feature 73 (0.012000) : Contract
+26. feature 56 (0.012000) : Sweden
+27. feature 105 (0.012000) : 1992 Summer Olympics
+28. feature 68 (0.012000) : Cheque
+29. feature 99 (0.012000) : Bearing (mechanical)
+30. feature 111 (0.012000) : Member state of the European Union
+31. feature 25 (0.012000) : Transport
+32. feature 59 (0.012000) : Causality
+33. feature 50 (0.012000) : Procurement
+34. feature 114 (0.012000) : Ship
+35. feature 31 (0.012000) : Computer network
+36. feature 36 (0.012000) : Political party
+37. feature 30 (0.012000) : Implementation
+38. feature 86 (0.012000) : Product differentiation
+39. feature 38 (0.012000) : Deposition (geology)
+40. feature 87 (0.012000) : Country music
+41. feature 40 (0.012000) : Cereal
+42. feature 43 (0.012000) : Tariff
+43. feature 90 (0.012000) : Methodology
+44. feature 94 (0.012000) : Riot
+45. feature 103 (0.012000) : Call for bids
+46. feature 41 (0.008000) : Ship transport
+47. feature 57 (0.008000) : Test (assessment)
+48. feature 47 (0.008000) : Malt
+49. feature 55 (0.008000) : Soil
+50. feature 27 (0.008000) : European Communities
+51. feature 60 (0.008000) : Official Journal of the European Union
+52. feature 44 (0.008000) : Observation
+53. feature 52 (0.008000) : Security
+54. feature 46 (0.008000) : Light
+55. feature 48 (0.008000) : Finland
+56. feature 8 (0.008000) : Fraxinus
+57. feature 110 (0.008000) : Short film
+58. feature 80 (0.008000) : Sovereign state
+59. feature 101 (0.008000) : Listed building
+60. feature 6 (0.008000) : Flour
+61. feature 91 (0.008000) : Act of Parliament
+62. feature 16 (0.008000) : Analysis
+63. feature 85 (0.008000) : Information
+64. feature 84 (0.008000) : Regulation (European Union)
+65. feature 26 (0.008000) : Direct effect
+66. feature 82 (0.008000) : United Nations Framework Convention on Climate Change
+67. feature 72 (0.008000) : Meteorology
+68. feature 21 (0.008000) : British Overseas Territories
+69. feature 70 (0.008000) : Data
+70. feature 69 (0.008000) : Repeal
+71. feature 66 (0.008000) : Meal
+72. feature 22 (0.008000) : Tax
+73. feature 19 (0.004000) : Product (business)
+74. feature 29 (0.004000) : Application software
+75. feature 18 (0.004000) : Organization
+76. feature 20 (0.004000) : Cover version
+77. feature 15 (0.004000) : Market (economics)
+78. feature 11 (0.004000) : World economy
+79. feature 32 (0.004000) : European Economic Community
+80. feature 10 (0.004000) : By-product
+81. feature 33 (0.004000) : Inventory
+82. feature 23 (0.004000) : Measurement
+83. feature 116 (0.004000) : Capital punishment
+84. feature 37 (0.004000) : Economy
+85. feature 65 (0.004000) : Decision-making
+86. feature 108 (0.004000) : Mind
+87. feature 104 (0.004000) : Order (biology)
+88. feature 92 (0.004000) : Forest ecology
+89. feature 89 (0.004000) : Uniform
+90. feature 39 (0.004000) : Customs
+91. feature 77 (0.004000) : Force
+92. feature 71 (0.004000) : Standardization
+93. feature 67 (0.004000) : Therapy
+94. feature 88 (0.004000) : Shilling
+95. feature 54 (0.004000) : Certification
+96. feature 53 (0.004000) : Pollution
+97. feature 45 (0.004000) : Air pollution
+98. feature 64 (0.004000) : Freight forwarder
+99. feature 24 (0.000000) : Agriculture
+100. feature 97 (0.000000) : Annexation
+101. feature 1 (0.000000) : Surveillance
+102. feature 2 (0.000000) : Fly ash
+103. feature 113 (0.000000) : Asset forfeiture
+104. feature 109 (0.000000) : Community
+105. feature 42 (0.000000) : Ethnic groups in Europe
+106. feature 7 (0.000000) : Treaty of Rome
+107. feature 100 (0.000000) : License
+108. feature 95 (0.000000) : Marketing
+109. feature 96 (0.000000) : The Crown
+110. feature 12 (0.000000) : Hungarian Academy of Sciences
+111. feature 49 (0.000000) : Old French
+112. feature 14 (0.000000) : Member of parliament
+113. feature 17 (0.000000) : Coming into force
+114. feature 81 (0.000000) : Regulation
+115. feature 79 (0.000000) : Jurisdiction
+116. feature 63 (0.000000) : European Convention on Human Rights
+117. feature 58 (0.000000) : Austria

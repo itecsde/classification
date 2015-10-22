@@ -1,0 +1,243 @@
+---- EXPERIMENT DETAILS ----
+CORPUS TRAINING: jrc_acquis_spanish_to_english
+CORPUS TEST: jrc_acquis_spanish_to_english
+REPRESENTATION: BoC
+THRESHOLD: 0.01
+CLASSIFY METHOD: multilabel_cross_language_linear_SVM
+METRIC: cosine
+TFIDF: no
+STEMMING: -
+SMOOTHING: 0.001
+WEIGHTING: milne
+#TRAIN: 2
+#TEST: 1
+
+Getting train and test documents...
+--- Method: get_documents_from_cross_language_database_boc() ---
+Obtaining training documents from a part of corpus  boc_jrc_acquis_spanish_to_english
+Obtaining test documents from a part of corpus boc_jrc_acquis_spanish_to_english
+--- METHOD: get_unique_words_boc() ---
+multi
+----- Multilabel Algorithm------
+Creating Training Vectors...
+Creating Training Feature Vectors...
+boc_jrc_acquis_english
+[ 0.08908423  0.06311894  0.1254751   0.06311894  0.08908423  0.08908423
+  0.06311894  0.06311894  0.08908423  0.10888526  0.06311894  0.08908423
+  0.10888526  0.06311894  0.          0.1254751   0.06311894  0.06311894
+  0.06311894  0.06311894  0.14        0.08908423  0.14        0.
+  0.06311894  0.1254751   0.10888526  0.06311894  0.08908423  0.08908423
+  0.06311894  0.08908423  0.06311894  0.06311894  0.08908423  0.
+  0.06311894  0.08908423  0.08908423  0.06311894  0.08908423  0.06311894
+  0.06311894  0.08908423  0.06311894  0.06311894  0.          0.06311894
+  0.08908423  0.10888526  0.08908423  0.06311894  0.10888526  0.
+  0.06311894  0.10888526  0.10888526  0.08908423  0.          0.          0.
+  0.06311894  0.06311894  0.          0.06311894  0.          0.06311894
+  0.          0.1254751   0.08908423  0.10888526  0.08908423  0.08908423
+  0.06311894  0.14        0.1254751   0.          0.06311894  0.06311894
+  0.08908423  0.06311894  0.          0.06311894  0.10888526  0.          0.
+  0.          0.          0.08908423  0.06311894  0.10888526  0.08908423
+  0.          0.08908423  0.          0.06311894  0.08908423  0.06311894
+  0.          0.06311894  0.06311894  0.          0.08908423  0.06311894
+  0.06311894  0.06311894  0.06311894  0.06311894  0.          0.08908423
+  0.          0.06311894  0.06311894  0.10888526  0.08908423  0.
+  0.06311894  0.06311894  0.06311894  0.06311894  0.06311894  0.
+  0.08908423  0.          0.08908423  0.10888526  0.          0.06311894
+  0.          0.06311894  0.08908423  0.          0.          0.1254751   0.
+  0.06311894  0.08908423  0.06311894  0.08908423  0.          0.06311894
+  0.06311894  0.          0.10888526  0.08908423  0.06311894  0.08908423
+  0.10888526  0.10888526  0.06311894  0.1254751   0.10888526  0.1254751
+  0.06311894  0.1254751   0.06311894  0.10888526  0.          0.08908423
+  0.08908423  0.10888526  0.06311894  0.          0.06311894  0.06311894
+  0.10888526  0.06311894  0.06311894  0.10888526]
+words features
+{u'Directive (European Union)': 0.0460226, u'Toleration': 0.180374, u'Prosperidad, Agusan del Sur': 0.0206987, u'Diagnostic and Statistical Manual of Mental Disorders': 0.0168623, u'November 23': 0.81041, u'United Nations Charter': 0.816231, u'European Parliament': 1.516542, u'Food chain': 0.0297972, u'Modernization': 0.422715, u'Good (economics)': 0.423913, u'European Commission': 0.873313, u'Labour (economics)': 0.0370044, u'Circa': 0.0168623, u'Independence': 0.194121, u'Turkey (bird)': 0.0168623, u'1831': 0.378674, u'March': 0.458165, u'Safety': 0.710386, u'Article (publishing)': 0.0206987, u'Treaty of Rome': 1.468601, u'Value theory': 0.615743, u'Second Spanish Republic': 0.298854, u'Maastricht Treaty': 0.867658, u'Council of the European Union': 0.591533, u'Understanding': 0.141172, u'Matter': 0.0391252, u'Germany': 0.894351, u'History': 0.583977, u'Day': 0.582424, u'Solidarity': 0.745267, u'2012': 0.1977089, u'Evolution': 0.594013, u'World Trade Organization': 0.897973, u'September 29': 0.873318, u'Region': 0.124674, u'September 22': 0.856192, u'European Union': 1.669503, u'Commodity (Marxism)': 0.168449, u'August 7': 0.0168623, u'Multilateralism': 0.575452, u'March 9': 0.0168623, u'1411': 0.0297972, u'4th century': 0.295934, u'Veterinary medicine': 0.286142, u'Homo sapiens': 0.688496, u'22nd century': 0.0147415, u'Democracy': 0.689867, u'State (polity)': 0.645267, u'European Economic Community': 0.420028, u'Free software': 0.0147415, u'Liberty': 0.727056, u'Exhibition': 0.0279596, u'Cooperation': 0.260168, u'Indigenous peoples': 0.560835, u'Spanish Empire': 0.0339217, u'Risk': 0.21264, u'Mediterranean Sea': 0.650353, u'Audiovisual': 0.0147415, u'Worker': 0.182608, u'Vitamin': 0.0206987, u'Procedural law': 0.0337246, u'Village': 0.221605, u'Universal Declaration of Human Rights': 1.365752, u'Food industry': 0.139479, u'Politician': 0.519877, u'Rights': 0.153765, u'Economics': 0.7194, u'United States': 0.0333044, u'Classical element': 0.0147415, u'March 7': 0.363485, u'June 12': 0.742455, u'Common good': 0.168449, u'Concession (contract)': 0.146925, u'Diplomacy': 0.496252, u'September': 0.624832, u'Economic development': 0.795008, u'Trade': 0.80183, u'General officer': 0.251498, u'Will (philosophy)': 0.328414, u'Spanish transition to democracy': 0.312673, u'Respect': 0.137544, u'Technology': 0.636795, u'Investment': 0.52288, u'Canal': 0.0391252, u'Diplomat': 0.259055, u'Protestant Reformation': 0.395636, u'Republic of Ireland': 0.763874, u'Vault (architecture)': 0.0168623, u'Health': 0.531224, u'Animal': 0.338129, u'Europe': 0.748635, u'Eating': 0.137544, u'Finance': 0.404062, u'European Economic Area': 0.0377168, u'Sodium': 0.0152478, u'June': 0.518886, u'1989': 0.764998, u'November': 0.485244, u'Near East': 0.834549, u'Chemical substance': 0.0147415, u'August 23': 0.0168623, u'February 7': 0.0168623, u'Denmark': 0.858736, u'English language': 0.0168623, u'Antena 3 (Spain)': 0.0147415, u'User (computing)': 0.0147415, u'Time': 0.023857, u'Consumer': 0.12131, u'Software': 0.0337246, u'1994': 0.622203, u'1999': 0.779335, u'Lebanon': 0.867827, u'Mediterranean Basin': 0.755535, u'3rd century': 0.40052699999999997, u'2010': 0.211066, u'Culture': 0.672208, u'Voluntary association': 0.366619, u'Spain': 0.402379, u'FIFA World Cup': 0.0543148, u'May 26': 0.81041, u'Interest': 0.39817, u'Peace': 0.496252, u'Arrangement': 0.0168623, u'Regulation': 0.0446865, u'Domestic pig': 0.293497, u'Analogy': 0.0147415, u'Liberism': 0.75744, u'Musical ensemble': 0.0206987, u'General Agreement on Tariffs and Trade': 0.851558, u'United Nations': 0.831245, u'Development': 0.163785, u'United Kingdom': 0.865747, u'Dialogue': 0.0532781, u'Parliament': 1.526939, u'May': 0.396419, u'UN Peacemaker': 0.0168623, u'Natural environment': 0.659617, u'Continent': 0.685964, u'1443': 0.253934, u'President': 0.10409, u'Industry': 0.621664, u'Society': 0.7194, u'United Nations Industrial Development Organization': 0.0297972, u'Chemical element': 0.0300804, u'Climate': 0.624547, u'Windows Vista': 0.0168623, u'Officer (armed forces)': 0.23264, u'1970s': 0.50794, u'Periodization': 0.131801, u'Regulares': 0.0168623, u'Capital city': 0.529725, u'Presidency of the Council of the European Union': 0.0656404, u'Conformity': 0.0147415, u'Tertiary sector of the economy': 0.387952, u'Human rights': 0.799696, u'1041': 0.0297972, u'Border': 0.0206987, u'Enzyme': 0.0168623, u'1970': 0.775493, u'2002': 0.779335, u'2003': 0.761062, u'Member state of the European Union': 0.841785, u'2006': 0.7936298, u'Interdependence': 0.282633, u'2005': 0.8057314, u'Politics': 0.783879, u'Chicken': 0.214795, u'Liberalization': 0.575428, u'Orient': 0.331648}
+169
+<type 'dict'>
+Array Features
+[u'Directive (European Union)', u'Toleration', u'Prosperidad, Agusan del Sur', u'Diagnostic and Statistical Manual of Mental Disorders', u'November 23', u'United Nations Charter', u'European Parliament', u'Food chain', u'Modernization', u'Good (economics)', u'European Commission', u'Labour (economics)', u'Circa', u'Independence', u'Turkey (bird)', u'1831', u'March', u'Safety', u'Article (publishing)', u'Treaty of Rome', u'Value theory', u'Second Spanish Republic', u'Maastricht Treaty', u'Council of the European Union', u'Understanding', u'Matter', u'Germany', u'History', u'Day', u'Solidarity', u'2012', u'Evolution', u'World Trade Organization', u'September 29', u'Region', u'September 22', u'European Union', u'Commodity (Marxism)', u'August 7', u'Multilateralism', u'March 9', u'1411', u'4th century', u'Veterinary medicine', u'Homo sapiens', u'22nd century', u'Democracy', u'State (polity)', u'European Economic Community', u'Free software', u'Liberty', u'Exhibition', u'Cooperation', u'Indigenous peoples', u'Spanish Empire', u'Risk', u'Mediterranean Sea', u'Audiovisual', u'Worker', u'Vitamin', u'Procedural law', u'Village', u'Universal Declaration of Human Rights', u'Food industry', u'Politician', u'Rights', u'Economics', u'United States', u'Classical element', u'March 7', u'June 12', u'Common good', u'Concession (contract)', u'Diplomacy', u'September', u'Economic development', u'Trade', u'General officer', u'Will (philosophy)', u'Spanish transition to democracy', u'Respect', u'Technology', u'Investment', u'Canal', u'Diplomat', u'Protestant Reformation', u'Republic of Ireland', u'Vault (architecture)', u'Health', u'Animal', u'Europe', u'Eating', u'Finance', u'European Economic Area', u'Sodium', u'June', u'1989', u'November', u'Near East', u'Chemical substance', u'August 23', u'February 7', u'Denmark', u'English language', u'Antena 3 (Spain)', u'User (computing)', u'Time', u'Consumer', u'Software', u'1994', u'1999', u'Lebanon', u'Mediterranean Basin', u'3rd century', u'2010', u'Culture', u'Voluntary association', u'Spain', u'FIFA World Cup', u'May 26', u'Interest', u'Peace', u'Arrangement', u'Regulation', u'Domestic pig', u'Analogy', u'Liberism', u'Musical ensemble', u'General Agreement on Tariffs and Trade', u'United Nations', u'Development', u'United Kingdom', u'Dialogue', u'Parliament', u'May', u'UN Peacemaker', u'Natural environment', u'Continent', u'1443', u'President', u'Industry', u'Society', u'United Nations Industrial Development Organization', u'Chemical element', u'Climate', u'Windows Vista', u'Officer (armed forces)', u'1970s', u'Periodization', u'Regulares', u'Capital city', u'Presidency of the Council of the European Union', u'Conformity', u'Tertiary sector of the economy', u'Human rights', u'1041', u'Border', u'Enzyme', u'1970', u'2002', u'2003', u'Member state of the European Union', u'2006', u'Interdependence', u'2005', u'Politics', u'Chicken', u'Liberalization', u'Orient']
+Indices
+[ 74  22  20  75 150 152 154  15  25  68 133   2  70 125  83  49 143  52
+  26  55 168 148 147 151 165 113   9 160  56  12 156  90  91  72  79  93
+  69  96  88  71  37  57  29   4   5   8  11  21  28  31  50  34 109  38
+  40  43  48 102   0 124 158 122 146 144 159 138 130 114 136  54  19 153
+ 129 155  61  18  17  51  62  16  64 149 135  24  39 141  32  33 140  36
+  27 137 127  41  42  44  45 145  47  66  13  89 116 164   3  95 112  97
+ 166  99 100   1 111 103 104 105 106 107 163  30 161 120   6   7  73 167
+ 118  82 117  80 119  78  77  10 157 142 162  23  14 110  35 126 101  98
+  94  92 115  87  86  85  81  76 121 123  67 139  65  63  60  59  58 128
+ 108  53 131 132 134  46  84]
+ExtraTreeClassifier(compute_importances=None, criterion='gini',
+          max_depth=None, max_features='auto', max_leaf_nodes=None,
+          min_density=None, min_samples_leaf=1, min_samples_split=2,
+          random_state=510278884, splitter='random')
+Feature ranking:
+1. feature 74 (0.020000) : September
+2. feature 22 (0.020000) : Maastricht Treaty
+3. feature 20 (0.020000) : Value theory
+4. feature 75 (0.016000) : Economic development
+5. feature 150 (0.016000) : Capital city
+6. feature 152 (0.016000) : Conformity
+7. feature 154 (0.016000) : Human rights
+8. feature 15 (0.016000) : 1831
+9. feature 25 (0.016000) : Matter
+10. feature 68 (0.016000) : Classical element
+11. feature 133 (0.016000) : Parliament
+12. feature 2 (0.016000) : Prosperidad, Agusan del Sur
+13. feature 70 (0.012000) : June 12
+14. feature 125 (0.012000) : Analogy
+15. feature 83 (0.012000) : Canal
+16. feature 49 (0.012000) : Free software
+17. feature 143 (0.012000) : Chemical element
+18. feature 52 (0.012000) : Cooperation
+19. feature 26 (0.012000) : Germany
+20. feature 55 (0.012000) : Risk
+21. feature 168 (0.012000) : Orient
+22. feature 148 (0.012000) : Periodization
+23. feature 147 (0.012000) : 1970s
+24. feature 151 (0.012000) : Presidency of the Council of the European Union
+25. feature 165 (0.012000) : Politics
+26. feature 113 (0.012000) : 3rd century
+27. feature 9 (0.012000) : Good (economics)
+28. feature 160 (0.012000) : 2003
+29. feature 56 (0.012000) : Mediterranean Sea
+30. feature 12 (0.012000) : Circa
+31. feature 156 (0.012000) : Border
+32. feature 90 (0.012000) : Europe
+33. feature 91 (0.008000) : Eating
+34. feature 72 (0.008000) : Concession (contract)
+35. feature 79 (0.008000) : Spanish transition to democracy
+36. feature 93 (0.008000) : European Economic Area
+37. feature 69 (0.008000) : March 7
+38. feature 96 (0.008000) : 1989
+39. feature 88 (0.008000) : Health
+40. feature 71 (0.008000) : Common good
+41. feature 37 (0.008000) : Commodity (Marxism)
+42. feature 57 (0.008000) : Audiovisual
+43. feature 29 (0.008000) : Solidarity
+44. feature 4 (0.008000) : November 23
+45. feature 5 (0.008000) : United Nations Charter
+46. feature 8 (0.008000) : Modernization
+47. feature 11 (0.008000) : Labour (economics)
+48. feature 21 (0.008000) : Second Spanish Republic
+49. feature 28 (0.008000) : Day
+50. feature 31 (0.008000) : Evolution
+51. feature 50 (0.008000) : Liberty
+52. feature 34 (0.008000) : Region
+53. feature 109 (0.008000) : 1994
+54. feature 38 (0.008000) : August 7
+55. feature 40 (0.008000) : March 9
+56. feature 43 (0.008000) : Veterinary medicine
+57. feature 48 (0.008000) : European Economic Community
+58. feature 102 (0.008000) : Denmark
+59. feature 0 (0.008000) : Directive (European Union)
+60. feature 124 (0.008000) : Domestic pig
+61. feature 158 (0.008000) : 1970
+62. feature 122 (0.008000) : Arrangement
+63. feature 146 (0.008000) : Officer (armed forces)
+64. feature 144 (0.008000) : Climate
+65. feature 159 (0.008000) : 2002
+66. feature 138 (0.008000) : 1443
+67. feature 130 (0.008000) : Development
+68. feature 114 (0.008000) : 2010
+69. feature 136 (0.008000) : Natural environment
+70. feature 54 (0.004000) : Spanish Empire
+71. feature 19 (0.004000) : Treaty of Rome
+72. feature 153 (0.004000) : Tertiary sector of the economy
+73. feature 129 (0.004000) : United Nations
+74. feature 155 (0.004000) : 1041
+75. feature 61 (0.004000) : Village
+76. feature 18 (0.004000) : Article (publishing)
+77. feature 17 (0.004000) : Safety
+78. feature 51 (0.004000) : Exhibition
+79. feature 62 (0.004000) : Universal Declaration of Human Rights
+80. feature 16 (0.004000) : March
+81. feature 64 (0.004000) : Politician
+82. feature 149 (0.004000) : Regulares
+83. feature 135 (0.004000) : UN Peacemaker
+84. feature 24 (0.004000) : Understanding
+85. feature 39 (0.004000) : Multilateralism
+86. feature 141 (0.004000) : Society
+87. feature 32 (0.004000) : World Trade Organization
+88. feature 33 (0.004000) : September 29
+89. feature 140 (0.004000) : Industry
+90. feature 36 (0.004000) : European Union
+91. feature 27 (0.004000) : History
+92. feature 137 (0.004000) : Continent
+93. feature 127 (0.004000) : Musical ensemble
+94. feature 41 (0.004000) : 1411
+95. feature 42 (0.004000) : 4th century
+96. feature 44 (0.004000) : Homo sapiens
+97. feature 45 (0.004000) : 22nd century
+98. feature 145 (0.004000) : Windows Vista
+99. feature 47 (0.004000) : State (polity)
+100. feature 66 (0.004000) : Economics
+101. feature 13 (0.004000) : Independence
+102. feature 89 (0.004000) : Animal
+103. feature 116 (0.004000) : Voluntary association
+104. feature 164 (0.004000) : 2005
+105. feature 3 (0.004000) : Diagnostic and Statistical Manual of Mental Disorders
+106. feature 95 (0.004000) : June
+107. feature 112 (0.004000) : Mediterranean Basin
+108. feature 97 (0.004000) : November
+109. feature 166 (0.004000) : Chicken
+110. feature 99 (0.004000) : Chemical substance
+111. feature 100 (0.004000) : August 23
+112. feature 1 (0.004000) : Toleration
+113. feature 111 (0.004000) : Lebanon
+114. feature 103 (0.004000) : English language
+115. feature 104 (0.004000) : Antena 3 (Spain)
+116. feature 105 (0.004000) : User (computing)
+117. feature 106 (0.004000) : Time
+118. feature 107 (0.004000) : Consumer
+119. feature 163 (0.004000) : Interdependence
+120. feature 30 (0.004000) : 2012
+121. feature 161 (0.004000) : Member state of the European Union
+122. feature 120 (0.004000) : Interest
+123. feature 6 (0.004000) : European Parliament
+124. feature 7 (0.004000) : Food chain
+125. feature 73 (0.004000) : Diplomacy
+126. feature 167 (0.004000) : Liberalization
+127. feature 118 (0.004000) : FIFA World Cup
+128. feature 82 (0.004000) : Investment
+129. feature 117 (0.004000) : Spain
+130. feature 80 (0.004000) : Respect
+131. feature 119 (0.004000) : May 26
+132. feature 78 (0.004000) : Will (philosophy)
+133. feature 77 (0.004000) : General officer
+134. feature 10 (0.004000) : European Commission
+135. feature 157 (0.000000) : Enzyme
+136. feature 142 (0.000000) : United Nations Industrial Development Organization
+137. feature 162 (0.000000) : 2006
+138. feature 23 (0.000000) : Council of the European Union
+139. feature 14 (0.000000) : Turkey (bird)
+140. feature 110 (0.000000) : 1999
+141. feature 35 (0.000000) : September 22
+142. feature 126 (0.000000) : Liberism
+143. feature 101 (0.000000) : February 7
+144. feature 98 (0.000000) : Near East
+145. feature 94 (0.000000) : Sodium
+146. feature 92 (0.000000) : Finance
+147. feature 115 (0.000000) : Culture
+148. feature 87 (0.000000) : Vault (architecture)
+149. feature 86 (0.000000) : Republic of Ireland
+150. feature 85 (0.000000) : Protestant Reformation
+151. feature 81 (0.000000) : Technology
+152. feature 76 (0.000000) : Trade
+153. feature 121 (0.000000) : Peace
+154. feature 123 (0.000000) : Regulation
+155. feature 67 (0.000000) : United States
+156. feature 139 (0.000000) : President
+157. feature 65 (0.000000) : Rights
+158. feature 63 (0.000000) : Food industry
+159. feature 60 (0.000000) : Procedural law
+160. feature 59 (0.000000) : Vitamin
+161. feature 58 (0.000000) : Worker
+162. feature 128 (0.000000) : General Agreement on Tariffs and Trade
+163. feature 108 (0.000000) : Software
+164. feature 53 (0.000000) : Indigenous peoples
+165. feature 131 (0.000000) : United Kingdom
+166. feature 132 (0.000000) : Dialogue
+167. feature 134 (0.000000) : May
+168. feature 46 (0.000000) : Democracy
+169. feature 84 (0.000000) : Diplomat
