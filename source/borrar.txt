@@ -1,0 +1,130 @@
+ 1) Travel document                0.005400 
+ 2) Individualism                  0.005200 
+ 3) Austria                        0.005200 
+ 4) United States                  0.005200 
+ 5) Chairman                       0.005100 
+ 6) Implementation                 0.004900 
+ 7) Helsinki                       0.004800 
+ 8) Idaho                          0.004800 
+ 9) British Overseas Territories   0.004800 
+10) Europe                         0.004700 
+11) Regulation                     0.004700 
+12) Information privacy            0.004600 
+13) Nudity                         0.004600 
+14) Old French                     0.004600 
+15) Conformity                     0.004600 
+16) Vienna                         0.004600 
+17) Spain                          0.004500 
+18) 1995 enlargement of the European Union 0.004500 
+19) Collective                     0.004500 
+20) Policy                         0.004500 
+21) State school                   0.004500 
+22) Manufacturing                  0.004500 
+23) European Convention on Human Rights 0.004500 
+24) Keep                           0.004500 
+25) Labour market flexibility      0.004400 
+26) Public transport               0.004400 
+27) Poland                         0.004400 
+28) Health                         0.004400 
+29) Phosphate                      0.004300 
+30) Jurisdiction                   0.004300 
+31) European Union                 0.004300 
+32) 1995                           0.004200 
+33) Column                         0.004200 
+34) Travel                         0.004200 
+35) Voting in the Council of the European Union 0.004200 
+36) Visa (document)                0.004200 
+37) Cover version                  0.004200 
+38) European Union law             0.004200 
+39) Enlargement of the European Union 0.004200 
+40) Regulatory compliance          0.004100 
+41) Coming into force              0.004100 
+42) Area                           0.004100 
+43) Statute of limitations         0.004100 
+44) Data                           0.004100 
+45) Plant                          0.004100 
+46) Annexation                     0.004100 
+47) Direct effect                  0.004100 
+48) Laser                          0.004100 
+49) Active ingredient              0.004000 
+50) Ethnic groups in Europe        0.004000 
+51) Committee                      0.004000 
+52) Scientific method              0.004000 
+53) Security                       0.004000 
+54) Forgery                        0.004000 
+55) Directive (European Union)     0.004000 
+56) United Nations Framework Convention on Climate Change 0.004000 
+57) European Communities           0.003900 
+58) Banknote                       0.003900 
+59) Counterfeit                    0.003900 
+60) 1991                           0.003900 
+61) Abortion in the United Kingdom 0.003800 
+62) Finland                        0.003800 
+63) Article 8 of the European Convention on Human Rights 0.003800 
+64) Phase (waves)                  0.003800 
+65) Rapporteur                     0.003800 
+66) Legislation                    0.003800 
+67) Hungarian Academy of Sciences  0.003800 
+68) Physical exercise              0.003800 
+69) Constitution of Ireland        0.003700 
+70) Saving                         0.003700 
+71) 1992                           0.003700 
+72) Printing                       0.003700 
+73) Prejudice                      0.003700 
+74) Product (business)             0.003700 
+75) Provinces and territories of Canada 0.003700 
+76) Visa policy of the Schengen Area 0.003700 
+77) North Atlantic Treaty          0.003700 
+78) Internal market                0.003700 
+79) Time limit                     0.003700 
+80) Authorization (computer access control) 0.003700 
+81) Human eye                      0.003600 
+82) Solna Municipality             0.003600 
+83) 1994                           0.003600 
+84) Standardization                0.003600 
+85) Social movement                0.003600 
+86) Gross tonnage                  0.003600 
+87) Test (assessment)              0.003500 
+88) Civil Rights Act of 1964       0.003500 
+89) Sweden                         0.003400 
+90) Social integration             0.003400 
+91) Chemical substance             0.003400 
+92) Government                     0.003400 
+93) Precedent                      0.003400 
+94) Official Journal of the European Union 0.003400 
+95) Vienna Convention on the Law of Treaties 0.003400 
+96) Record producer                0.003400 
+97) Declaration of war             0.003300 
+98) Specification (technical standard) 0.003300 
+99) Majority                       0.003300 
+100) Machine                        0.003300 
+101) Bear                           0.003300 
+102) Legal case                     0.003200 
+103) Conscription                   0.003200 
+104) Theatre                        0.003200 
+105) Universal Declaration of Human Rights 0.003200 
+106) Parliament of the United Kingdom 0.003200 
+107) Personally identifiable information 0.003200 
+108) Market (economics)             0.003100 
+109) Treaty of Rome                 0.003100 
+110) Freedom of movement            0.003100 
+111) Criminal justice               0.003100 
+112) Member state of the European Union 0.003100 
+113) European Economic Community    0.003100 
+114) Airport                        0.003100 
+115) Communication                  0.003000 
+116) Label                          0.003000 
+117) Battle of Vienna               0.003000 
+118) Uniform                        0.003000 
+119) Evaluation                     0.003000 
+120) Machine-readable passport      0.002800 
+121) European Parliament            0.002700 
+122) Decision-making                0.002700 
+123) Presentation                   0.002600 
+124) Maastricht Treaty              0.002600 
+125) Corporation                    0.002500 
+126) Document                       0.002500 
+127) Adoption                       0.002400 
+128) Information                    0.000000 
+129) Member of parliament           0.000000 
+130) Community                      0.000000 

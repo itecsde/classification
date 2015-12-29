@@ -1,7 +1,7 @@
 ---- EXPERIMENT DETAILS ----
 CORPUS TRAINING: jrc_acquis_english
 CORPUS TEST: jrc_acquis_spanish_to_english
-REPRESENTATION: BoC
+REPRESENTATION: BoW
 THRESHOLD: 0.01
 CLASSIFY METHOD: multilabel_cross_language_linear_SVM
 METRIC: cosine
@@ -13,12 +13,14 @@ WEIGHTING: milne
 #TEST: 1
 
 Getting train and test documents...
---- Method: get_documents_from_cross_language_database_boc() ---
-Obtaining training documents from a part of corpus  boc_jrc_acquis_english
-Obtaining test documents from a part of corpus boc_jrc_acquis_spanish_to_english
---- METHOD: get_unique_words_boc() ---
+bow, Hybrid?
+--- METHOD: get_documents_from_cross_language_database_bow() ---
+Obtaining training documents from a part of the corpus bow_jrc_acquis_english
+Obtaining test documents from a part of the corpus bow_jrc_acquis_spanish_to_english
+--- METHOD: get_unique_words_bow() ---
 multi
 ----- Multilabel Algorithm------
 Creating Training Vectors...
 Creating Training Feature Vectors...
-boc_jrc_acquis_english
+bow_jrc_acquis_english
+Training multilabel classifier...

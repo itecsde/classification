@@ -2,11 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8408e2f-6012-4dd0-b687-7dd6520791d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/feature_selection_random_forest.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/Wikipedia_Human_Medicine_Corpus(version final y correcta)/train_wikipedia_human_medicine_english_test_wikipedia_human_medicine_spanish_translated_to_english_google_translate_469_test_bow_hybrid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/boc_jrc_acquis_english_boc_jrc_acquis_spanish_to_english_th_01_10_5_multilabel_cross_language_linear_SVM_10_neighbors1445269232.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/boc_jrc_acquis_english_boc_jrc_acquis_spanish_to_english_th_01_20_2000_multilabel_cross_language_linear_SVM_10_neighbors1445326387.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/boc_jrc_acquis_english_boc_jrc_acquis_spanish_to_english_th_01_20_2000_multilabel_cross_language_linear_SVM_10_neighbors1445326795.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/boc_wikipedia_human_medicine_english_boc_wikipedia_human_medicine_spanish_th_01_2143_469_cross_language_linear_SVM_10_neighbors1432636810.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/boc_wikipedia_human_medicine_english_boc_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_200_469_cross_language_linear_SVM_10_neighbors1444732802.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/boc_wikipedia_human_medicine_english_boc_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_20_469_cross_language_linear_SVM_10_neighbors1444732769.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_english_bow_jrc_acquis_spanish_to_english_th_01_10_5_multilabel_cross_language_linear_SVM_10_neighbors1445269129.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_english_bow_jrc_acquis_spanish_to_english_th_01_5_5_multilabel_cross_language_linear_SVM_10_neighbors1445268957.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_spanish_to_english_bow_jrc_acquis_spanish_to_english_th_01_1_10_multilabel_cross_language_linear_SVM_10_neighbors1445255147.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_spanish_to_english_bow_jrc_acquis_spanish_to_english_th_01_1_5_multilabel_cross_language_linear_SVM_10_neighbors1445255130.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_spanish_to_english_bow_jrc_acquis_spanish_to_english_th_01_500_500_cross_language_linear_SVM_10_neighbors1445251785.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_spanish_to_english_bow_jrc_acquis_spanish_to_english_th_01_500_5_multilabel_cross_language_linear_SVM_10_neighbors1445255114.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_spanish_to_english_bow_jrc_acquis_spanish_to_english_th_01_50_50_cross_language_linear_SVM_10_neighbors1445251751.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_spanish_to_english_bow_jrc_acquis_spanish_to_english_th_01_50_5_multilabel_cross_language_linear_SVM_10_neighbors1445255088.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_jrc_acquis_spanish_to_english_bow_jrc_acquis_spanish_to_english_th_01_5_5_multilabel_cross_language_linear_SVM_10_neighbors1445255052.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_wikipedia_english_bow_wikipedia_spanish_th_01_500_621_cross_language_linear_SVM_10_neighbors1432837584.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_2143_469_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_100_469_cross_language_linear_SVM_10_neighbors1444732674.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_10_469_cross_language_linear_SVM_10_neighbors1444732651.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_200_469_cross_language_linear_SVM_10_neighbors1444732697.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_200_469_cross_language_linear_SVM_10_neighbors1444732725.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_20_469_cross_language_linear_SVM_10_neighbors1444732741.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_10_469_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_10_5_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_1_10_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_1_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_1_5_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_200_469_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_20_2000_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_5000_5_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_500_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_500_5_multilabel_cross_language_linear_SVM.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_500_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_50_50_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_50_5_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_50_5_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_5_5_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/boc_jrc_acquis_english_boc_jrc_acquis_spanish_to_english_th_01_3_3_multilabel_cross_language_linear_SVM_10_neighbors1445442458.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/boc_wikipedia_human_medicine_english_boc_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_500_469_cross_language_linear_SVM_10_neighbors1444403430.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/boc_wikipedia_human_medicine_english_boc_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_5_469_cross_language_linear_SVM_10_neighbors1444403172.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_jrc_acquis_english_bow_jrc_acquis_spanish_to_english_th_01_2_2_multilabel_cross_language_linear_SVM_10_neighbors1445423993.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_jrc_acquis_english_bow_jrc_acquis_spanish_to_english_th_01_5_5_multilabel_cross_language_linear_SVM_10_neighbors1445415211.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_2398_621_cross_language_linear_SVM_10_neighbors1434368015.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_2398_621_cross_language_linear_SVM_10_neighbors1434374922.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_2398_621_cross_language_linear_SVM_10_neighbors1434381466.json" afterPath="" />
@@ -21,14 +58,45 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_500_500_cross_language_linear_SVM_10_neighbors1434121658.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_500_500_cross_language_linear_SVM_10_neighbors1434122375.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_english_th_01_500_621_cross_language_linear_SVM_10_neighbors1432911280.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_10_621_cross_language_linear_SVM_10_neighbors1444386095.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_20_621_cross_language_linear_SVM_10_neighbors1444386045.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_3000_621_cross_language_linear_SVM_10_neighbors1434636552.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_500_621_cross_language_linear_SVM_10_neighbors1444385658.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_500_621_cross_language_linear_SVM_10_neighbors1444389591.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_5_621_cross_language_linear_SVM_10_neighbors1444385186.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_5_621_cross_language_linear_SVM_10_neighbors1444385833.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_5_621_cross_language_linear_SVM_10_neighbors1444387415.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_english_bow_wikipedia_spanish_translated_to_english_google_translate_th_01_5_621_cross_language_linear_SVM_10_neighbors1444388714.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_500_469_cross_language_linear_SVM_10_neighbors1444403339.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_50_469_cross_language_linear_SVM_10_neighbors1444403302.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_5_469_cross_language_linear_SVM_10_neighbors1444403284.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_1000_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_100_100_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_100_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_10_10_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_10_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_10_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_1998_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_1_1_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_2000_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_20_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_20_621_cross_language_linear_SVM.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_2398_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_2_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_2_2_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_3000_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_3_3_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5000_1_multilabel_cross_language_linear_SVM.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5000_500_cross_language_linear_SVM.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5000_621_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_500_469_cross_language_linear_SVM.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_500_500_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_500_621_cross_language_linear_SVM.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_500_832_cross_language_linear_SVM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5_5_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_50_469_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5_469_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5_5_multilabel_cross_language_linear_SVM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5_621_cross_language_linear_SVM.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_1000_621_cross_language_linear_SVM_10_neighbors1432801661.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_100_621_cross_language_linear_SVM_10_neighbors1432801177.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_english_test_wikipedia_spanish_621_test_boc/boc_wikipedia_english_boc_wikipedia_spanish_th_01_10_621_cross_language_linear_SVM_10_neighbors1432801118.json" afterPath="" />
@@ -71,6 +139,34 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_human_medicine_en_test_wikipedia_human_medicine_es_469_test_our_approach_vs_MT/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_50_469_cross_language_linear_SVM_10_neighbors1432635079.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/results/cross_language_SVM/train_wikipedia_human_medicine_en_test_wikipedia_human_medicine_es_469_test_our_approach_vs_MT/bow_wikipedia_human_medicine_english_bow_wikipedia_human_medicine_spanish_to_english_google_translate_th_01_5_469_cross_language_linear_SVM_10_neighbors1432635070.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/source/MERLOT_polynomial_2_legend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/MERLOT_polynomial_2_legend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/cnx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/cnx_poly_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/cnx_polynomial_2_legend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/cnx_quality_inverval_0_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/cnx_quality_inverval_0_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/linear_regression_cnx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/linear_regression_merlot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/linear_regression_oercommons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/log2_oercommons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/log_cnx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/log_merlot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/log_oercommons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/merged_linear_regression.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/merged_poly_regression.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/merlot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/merlot_poly_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/merlot_quality_inverval_0_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/merlot_quality_inverval_0_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/oercommons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/oercommons_poly_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/oercommons_poly_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/oercommons_poly_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/oercommons_poly_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/oercommons_polynomial_2_legend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/oercommons_quality_inverval_0_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/oercommons_quality_inverval_0_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/Regression_CROERA/total_polynomial_2_legend.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/source/cnx.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/source/cnx.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/source/cnx_poly_2.png" afterPath="" />
@@ -108,9 +204,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/source/total_polynomial_2_legend.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/classify.py" afterPath="$PROJECT_DIR$/source/classify.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/classify_methods.py" afterPath="$PROJECT_DIR$/source/classify_methods.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_10_10_multilabel_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_10_10_multilabel_cross_language_linear_SVM.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_100_469_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_100_469_cross_language_linear_SVM.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_1_1_multilabel_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_1_1_multilabel_cross_language_linear_SVM.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_2_2_multilabel_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_2_2_multilabel_cross_language_linear_SVM.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_2143_469_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_2143_469_cross_language_linear_SVM.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5_5_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/prueba/cross_language_th_01_5_5_cross_language_linear_SVM.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_5_5_multilabel_cross_language_linear_SVM.txt" afterPath="$PROJECT_DIR$/results/cross_language_SVM/borrar/cross_language_th_01_5_5_multilabel_cross_language_linear_SVM.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_MT_vs_hybrid.py" afterPath="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_MT_vs_hybrid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_jrc_acquis_english_test_jrc_acquis_spanish_randomized_single_label_2000_test_CLCM_vs_MT_vs_hybrid.sh" afterPath="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_jrc_acquis_english_test_jrc_acquis_spanish_randomized_single_label_2000_test_CLCM_vs_MT_vs_hybrid.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/feature_selection_random_forest.py" afterPath="$PROJECT_DIR$/source/feature_selection_random_forest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/util_classify.py" afterPath="$PROJECT_DIR$/source/util_classify.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -139,9 +240,33 @@
       <file leaf-file-name="classify.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.75" vertical-offset="3988" max-vertical-offset="5151">
-              <caret line="264" column="123" selection-start-line="264" selection-start-column="123" selection-end-line="264" selection-end-column="123" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3537" max-vertical-offset="5372">
+              <caret line="286" column="147" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="147" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiment_linear_SVM_cross_language_train_wikipedia_human_medicine_english_test_wikipedia_human_medicine_spanish_randomized_single_label_469_test_our_approach_vs_MT.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_human_medicine_english_test_wikipedia_human_medicine_spanish_randomized_single_label_469_test_our_approach_vs_MT.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="714">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="335" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display_graphic_SVM_cross_language.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="884">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="80" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,8 +274,8 @@
       <file leaf-file-name="classify_methods.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.805555" vertical-offset="7123" max-vertical-offset="16983">
-              <caret line="444" column="19" selection-start-line="444" selection-start-column="19" selection-end-line="444" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="12624" max-vertical-offset="17816">
+              <caret line="759" column="0" selection-start-line="759" selection-start-column="0" selection-end-line="759" selection-end-column="0" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -158,44 +283,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feature_selection_random_forest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/feature_selection_random_forest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5" vertical-offset="0" max-vertical-offset="340">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="features_2000_train.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/features_2000_train.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7222223" vertical-offset="0" max-vertical-offset="205173">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feature_selection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/feature_selection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1003">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="util_classify.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/util_classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66861314" vertical-offset="6512" max-vertical-offset="19414">
-              <caret line="418" column="86" selection-start-line="418" selection-start-column="86" selection-end-line="418" selection-end-column="86" />
-              <folding />
+            <state vertical-scroll-proportion="1.4169986" vertical-offset="8793" max-vertical-offset="21182">
+              <caret line="580" column="62" selection-start-line="580" selection-start-column="62" selection-end-line="580" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,7 +311,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_metadata_500_test.sh" />
         <option value="$PROJECT_DIR$/experiments/multilabel_oer_classification/experiment_multilabel_linear_SVC_cnx_bow_without_metadata_500_test.sh" />
         <option value="$PROJECT_DIR$/print_graphics/JBI/display_graphic_SVM_OHSUMED_single_label_bow_boc.py" />
         <option value="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language.py" />
@@ -258,23 +352,24 @@
         <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_human_medicine_english_test_wikipedia_human_medicine_spanish_randomized_single_label_469_test_our_approach_vs_MT.sh" />
         <option value="$PROJECT_DIR$/source/db_simplified_declarative.py" />
         <option value="$PROJECT_DIR$/source/convert_db_sde_in_simplified.py" />
-        <option value="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_MT_vs_hybrid.py" />
-        <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_jrc_acquis_english_test_jrc_acquis_spanish_randomized_single_label_2000_test_CLCM_vs_MT_vs_hybrid.sh" />
         <option value="$PROJECT_DIR$/source/feature_selection.py" />
         <option value="$PROJECT_DIR$/source/features.txt" />
         <option value="$PROJECT_DIR$/source/features_2000_train.txt" />
-        <option value="$PROJECT_DIR$/source/classify.py" />
+        <option value="$PROJECT_DIR$/source/features_2000_train_RandonForestClassifier" />
         <option value="$PROJECT_DIR$/source/feature_selection_random_forest.py" />
+        <option value="$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_jrc_acquis_english_test_jrc_acquis_spanish_randomized_single_label_2000_test_CLCM_vs_MT_vs_hybrid.sh" />
         <option value="$PROJECT_DIR$/source/classify_methods.py" />
+        <option value="$PROJECT_DIR$/source/classify.py" />
+        <option value="$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_MT_vs_hybrid.py" />
         <option value="$PROJECT_DIR$/source/util_classify.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="116" />
-    <option name="width" value="1863" />
-    <option name="height" value="1085" />
+    <option name="x" value="-3781" />
+    <option name="y" value="172" />
+    <option name="width" value="1861" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -356,6 +451,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print_graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print_graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cross_language_SVM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitopics_classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cross_language_SVM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -410,7 +569,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.feature_selection">
+  <component name="RunManager" selected="Python.BoW wikipedia human medicine">
     <configuration default="false" name="experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -659,6 +818,25 @@
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="BoW wikipedia human medicine" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="wikitopics_classifier" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/classify.py" />
+      <option name="PARAMETERS" value="-corpus_training bow_wikipedia_human_medicine_english -corpus_test bow_wikipedia_human_medicine_spanish_to_english_google_translate -method cross_language_linear_SVM -train 100 -test 469 -metric cosine -destination_folder borrar" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="classify hybrid approach jdjd" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -672,7 +850,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="wikitopics_classifier" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/classify.py" />
-      <option name="PARAMETERS" value="-corpus_training bow_wikipedia_english -corpus_test bow_wikipedia_spanish_translated_to_english_google_translate -method cross_language_linear_SVM  -hybrid yes -train 5 -test 5 -metric cosine -destination_folder prueba" />
+      <option name="PARAMETERS" value="-corpus_training bow_wikipedia_english -corpus_test bow_wikipedia_spanish_translated_to_english_google_translate -method cross_language_linear_SVM  -hybrid no -train 1 -test 5 -metric cosine -destination_folder prueba" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -699,7 +877,7 @@
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="hybrid_multilabel_jrc_acquis" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="false" name="hybrid_multilabel_jrc_acquis" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -712,7 +890,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="wikitopics_classifier" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/classify.py" />
-      <option name="PARAMETERS" value="-corpus_training boc_jrc_acquis_english -corpus_test boc_jrc_acquis_spanish_to_english -method multilabel_cross_language_linear_SVM -train 1 -test 1 -metric cosine -destination_folder prueba" />
+      <option name="PARAMETERS" value="-corpus_training bow_jrc_acquis_english -corpus_test bow_jrc_acquis_spanish_to_english -method multilabel_cross_language_linear_SVM -train 2 -test 10 -metric cosine -destination_folder prueba" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -758,19 +936,20 @@
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
-    <list size="12">
-      <item index="0" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
-      <item index="1" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
-      <item index="2" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
-      <item index="3" class="java.lang.String" itemvalue="Python.classify hybrid approach" />
-      <item index="4" class="java.lang.String" itemvalue="Python.classify hybrid approach bow_wikipedia_english" />
-      <item index="5" class="java.lang.String" itemvalue="Python.classify hybrid approach jdjd" />
-      <item index="6" class="java.lang.String" itemvalue="Python.classify hybrid approach jdjd (1)" />
-      <item index="7" class="java.lang.String" itemvalue="Python.hybrid_multilabel_jrc_acquis" />
-      <item index="8" class="java.lang.String" itemvalue="Python.feature_selection" />
-      <item index="9" class="java.lang.String" itemvalue="Python.multilabel " />
-      <item index="10" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
-      <item index="11" class="java.lang.String" itemvalue="Python.classify" />
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="Python.classify hybrid approach" />
+      <item index="1" class="java.lang.String" itemvalue="Python.classify hybrid approach bow_wikipedia_english" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BoW wikipedia human medicine" />
+      <item index="3" class="java.lang.String" itemvalue="Python.classify hybrid approach jdjd" />
+      <item index="4" class="java.lang.String" itemvalue="Python.classify hybrid approach jdjd (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.hybrid_multilabel_jrc_acquis" />
+      <item index="6" class="java.lang.String" itemvalue="Python.feature_selection" />
+      <item index="7" class="java.lang.String" itemvalue="Python.multilabel " />
+      <item index="8" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_boc_3000.sh" />
+      <item index="9" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_rcv1_test_rcv1_randomized_single_label_bow_500.sh" />
+      <item index="10" class="java.lang.String" itemvalue="Bash.experiment_linear_SVM_cross_language_train_wikipedia_english_test_wikipedia_spanish_randomized_single_label_boc_621_test.sh" />
+      <item index="11" class="java.lang.String" itemvalue="Python.display_graphic_SVM_cross_language" />
+      <item index="12" class="java.lang.String" itemvalue="Python.classify" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -979,29 +1158,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="116" width="1863" height="1085" extended-state="6" />
-    <editor active="true" />
+    <frame x="-3781" y="172" width="1861" height="1028" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17640918" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20250522" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35281837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14408602" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20402612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19519833" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.054406963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26931107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1044,33 +1223,48 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>687</line>
+          <line>736</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>701</line>
+          <line>750</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>710</line>
+          <line>759</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>723</line>
+          <line>772</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>447</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/source/Regression_CROERA/linear_regression_example.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/Regression_CROERA/linear_regresion_CROERA.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
-          <line>411</line>
-          <option name="timeStamp" value="48" />
+          <line>228</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/source/classify_methods.py</url>
+          <line>311</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1083,54 +1277,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.dropbox">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.pydevproject">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print_graphics/DKE/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/classify_oer_agreggator_linear_SVC_bow_metadata_500_test_each_corpus.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiments/oer_agreggator/experiment_cross_corpora.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
@@ -1275,7 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="493">
           <caret line="3" column="318" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="318" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,23 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1521739" vertical-offset="0" max-vertical-offset="782">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_human_medicine_english_test_wikipedia_human_medicine_spanish_randomized_single_label_469_test_our_approach_vs_MT.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6081301" vertical-offset="0" max-vertical-offset="714">
-          <caret line="22" column="239" selection-start-line="22" selection-start-column="239" selection-end-line="22" selection-end-column="239" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/db_simplified_declarative.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
-          <caret line="76" column="102" selection-start-line="76" selection-start-column="102" selection-end-line="76" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,15 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07931571" vertical-offset="0" max-vertical-offset="643">
           <caret line="3" column="205" selection-start-line="3" selection-start-column="184" selection-end-line="3" selection-end-column="205" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_MT_vs_hybrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23323171" vertical-offset="0" max-vertical-offset="986">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36573312" vertical-offset="1682" max-vertical-offset="2346">
           <caret line="118" column="51" selection-start-line="118" selection-start-column="51" selection-end-line="118" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,7 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31726283" vertical-offset="0" max-vertical-offset="643">
           <caret line="12" column="340" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="340" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,41 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3437014" vertical-offset="0" max-vertical-offset="643">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_jrc_acquis_english_test_jrc_acquis_spanish_randomized_single_label_2000_test_CLCM_vs_MT_vs_hybrid.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29082426" vertical-offset="0" max-vertical-offset="714">
-          <caret line="11" column="115" selection-start-line="11" selection-start-column="115" selection-end-line="11" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/feature_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1003">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/feature_selection_random_forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5" vertical-offset="0" max-vertical-offset="340">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.75" vertical-offset="3988" max-vertical-offset="5151">
-          <caret line="264" column="123" selection-start-line="264" selection-start-column="123" selection-end-line="264" selection-end-column="123" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,22 +1468,180 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.034483" vertical-offset="2482" max-vertical-offset="2975">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/features_2000_train.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7222223" vertical-offset="0" max-vertical-offset="205173">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="205173">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/features_2000_train_RandonForestClassifier">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/feature_selection/univariate_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6634214" vertical-offset="6323" max-vertical-offset="9860">
+          <caret line="410" column="50" selection-start-line="410" selection-start-column="50" selection-end-line="410" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/features_2000_test_used_to_train_RandonForestClassifier.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="130526" max-vertical-offset="132141">
+          <caret line="7678" column="44" selection-start-line="7678" selection-start-column="44" selection-end-line="7678" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/features_2000_train_RandonForestClassifier.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="201130" max-vertical-offset="205173">
+          <caret line="11854" column="46" selection-start-line="11854" selection-start-column="46" selection-end-line="11854" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_jrc_acquis_english_test_jrc_acquis_spanish_randomized_single_label_2000_test_CLCM_vs_MT_vs_hybrid.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="867">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/feature_selection_random_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/feature_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1003">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/features_200_training_RandonForestClassifier.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="60350">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Regression_CROERA/intervals.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Regression_CROERA/cnx.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Regression_CROERA/merged.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Regression_CROERA/polynomial_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Regression_CROERA/linear_regresion_CROERA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Regression_CROERA/polynomial_regression_statsmodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Regression_CROERA/linear_regression_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17302799" vertical-offset="0" max-vertical-offset="833">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#46#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Regression_CROERA/intervals2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/db_simplified_declarative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28625953" vertical-offset="591" max-vertical-offset="1377">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_MT_vs_hybrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66547406" vertical-offset="223" max-vertical-offset="1037">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print_graphics/cross_language_SVM/display_graphic_SVM_cross_language.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/cross_language_SVM/experiment_linear_SVM_cross_language_train_wikipedia_human_medicine_english_test_wikipedia_human_medicine_spanish_randomized_single_label_469_test_our_approach_vs_MT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="714">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="335" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4608" max-vertical-offset="5372">
+          <caret line="286" column="147" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="147" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/classify_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.805555" vertical-offset="7123" max-vertical-offset="16983">
-          <caret line="444" column="19" selection-start-line="444" selection-start-column="19" selection-end-line="444" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="12624" max-vertical-offset="17816">
+          <caret line="759" column="0" selection-start-line="759" selection-start-column="0" selection-end-line="759" selection-end-column="0" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -1405,9 +1650,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/util_classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66861314" vertical-offset="6512" max-vertical-offset="19414">
-          <caret line="418" column="86" selection-start-line="418" selection-start-column="86" selection-end-line="418" selection-end-column="86" />
-          <folding />
+        <state vertical-scroll-proportion="1.4169986" vertical-offset="8793" max-vertical-offset="21182">
+          <caret line="580" column="62" selection-start-line="580" selection-start-column="62" selection-end-line="580" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

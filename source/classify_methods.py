@@ -12,11 +12,13 @@ import numpy as np
 from sklearn import linear_model
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.ensemble import ExtraTreesClassifier
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.datasets import load_boston
+from sklearn.ensemble import RandomForestClassifier
 
 import util_classify
+import time
 from db_simplified_declarative import Document
 
 
@@ -146,7 +148,7 @@ def multinomial_bayes_nltk_wrapper(corpus, documents_training, documents_test, w
     categories = util_classify.get_categories(corpus)
     estimated_categories = []
     original_categories = []               
-    
+
     for (id, cat_original, annotations) in documents_test:
         cat_estimated = classifier.classify((util_classify.transform_document_in_dict(annotations, words_features, corpus)))
         estimated_categories.append(categories.index(cat_estimated))
@@ -239,7 +241,6 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
 
         original_categories = [x.strip() for x in original_category.split(',')]
 
-
         # OERCOMMONS corpus -> 21 categories
         # MERLOT corpus -> 9 categories
         # OHSUMED corpus -> 23 categories
@@ -254,6 +255,7 @@ def multilabel(corpus, documents_training, documents_test, words_features, smoot
             first_time_categories = 1
         else:
             array_vector_categories = np.vstack((array_vector_categories, vector_categories))
+
 
     print "Training multilabel classifier..."
     if algorithm == "SVC":
@@ -359,12 +361,19 @@ def multilabel_feature_selection(corpus, documents_training, documents_test, wor
     util_classify.set_database_session(corpus)
 
 
+    print type(words_features)
+    print words_features
+    print len(words_features)
+
     ids_documents_test = []
     array_features = []
 
     first_time = 0
     first_time_categories = 0
     for (id, original_category, annotations) in documents_training:
+        print annotations
+        print type(annotations[0])
+        print type(annotations)
         vector = util_classify.transform_document_in_vector(annotations, words_features, corpus)
         vector = np.array(vector)
         if first_time == 0:
@@ -403,6 +412,9 @@ def multilabel_feature_selection(corpus, documents_training, documents_test, wor
                  reverse=True)
     '''
 
+
+
+    '''
     # Build a forest and compute the feature importances
     forest = ExtraTreesClassifier(n_estimators=250,
                               random_state=0)
@@ -429,9 +441,6 @@ def multilabel_feature_selection(corpus, documents_training, documents_test, wor
     print "Indices"
     print indices
 
-    print tree
-
-
 
     # Print the feature ranking
     print("Feature ranking:")
@@ -455,25 +464,65 @@ def multilabel_feature_selection(corpus, documents_training, documents_test, wor
     plt.xlim([-1, 10])
     plt.show()
 
-    print "Training multilabel classifier..."
-    if algorithm == "SVC":
-        classifier = OneVsRestClassifier(SVC(kernel='linear'))
-    elif algorithm == "SVC_rbf":
-        classifier = OneVsRestClassifier(SVC(kernel='rbf', gamma=10.0))
-    elif algorithm == "SVC_poly":
-        classifier = OneVsRestClassifier(SVC(kernel='poly'))
-    elif algorithm == "SVC_sigmoid":
-        classifier = OneVsRestClassifier(SVC(kernel='sigmoid'))
-    elif algorithm == "linear_SVC":
-        classifier = OneVsRestClassifier(LinearSVC())
-    elif algorithm == "Bayes":
-        classifier = OneVsRestClassifier(MultinomialNB())
-    elif algorithm == "KNN":
-        classifier = OneVsRestClassifier(KNeighborsClassifier())
-    elif algorithm == "SGD":
-        classifier = OneVsRestClassifier(linear_model.SGDClassifier())
+    '''
 
-    classifier.fit(array_vector_training, array_vector_categories)
+    #Random Forest Classifier
+
+    print "array vector training"
+    print array_vector_training
+    print
+
+    print "array vector training shape"
+    print array_vector_training.shape
+
+    print
+    print "array_vector_training type"
+    print type(array_vector_training)
+
+
+    for key, value in words_features.iteritems():
+        array_features.append(key)
+    print "Array Features"
+    print array_features
+
+
+
+    forest = RandomForestClassifier(n_estimators=10000,
+                               random_state=0,
+                                n_jobs=-1)
+
+    forest.fit(array_vector_training, array_vector_categories)
+    importances = forest.feature_importances_
+    indices = np.argsort(importances)[::-1]
+
+    outfile = open('borrar.txt', 'w') # Indicamos el valor 'w'.
+
+    for f in range(array_vector_training.shape[1]):
+        print("%2d) %-*s %f" % (f + 1, 30,  array_features[indices[f]].encode('utf-8'), importances[indices[f]]))
+        outfile.write("%2d) %-*s %f \n" % (f + 1, 30,  array_features[indices[f]].encode('utf-8'), importances[indices[f]]))
+
+
+    print array_vector_training.shape
+    print array_vector_categories.shape
+
+    print "sleeping"
+
+    time.sleep(1000)
+
+    print "Training multilabel classifier with feature selection first..."
+
+    clf = Pipeline([
+        ('feature_selection', RandomForestClassifier(n_estimators=10000,random_state=0,n_jobs=-1)),
+        ('classification', LinearSVC())
+        ])
+
+    multiclf = OneVsRestClassifier(clf)
+
+    multiclf.fit(array_vector_training, array_vector_categories)
+
+    #classifier = OneVsRestClassifier(LinearSVC())
+
+    #classifier.fit(array_vector_training, array_vector_categories)
 
     print "Classifying test documents (Prediction)"
     first_time = 0
@@ -507,7 +556,7 @@ def multilabel_feature_selection(corpus, documents_training, documents_test, wor
             ground_truth_vector_categories = np.vstack((ground_truth_vector_categories, vector_categories))
 
 
-    prediction = classifier.predict(array_vector_test)
+    prediction = multiclf.predict(array_vector_test)
 
     # Storage process predicted categories in DB
     '''

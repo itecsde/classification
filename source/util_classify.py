@@ -7,6 +7,7 @@ from numpy.linalg import pinv
 from nltk.stem.porter import *
 from nltk.tokenize import RegexpTokenizer
 from db_simplified_declarative import Base, Document
+import time
 
 EngineDB = None
 DBSession = sessionmaker()
@@ -273,6 +274,38 @@ def get_document_annotations(annotations, weighting, threshold, expansion_thresh
     return aux_document_annotations
 
 
+def get_document_best_n_2_annotations(annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting):
+    """
+    Returns the annotations of a document and its weight.
+    :param annotations:
+    :param weighting:
+    :param threshold:
+    :param expansion_threshold:
+    :param expansion_relatedness:
+    :param expanded_weighting:
+    :return:
+    """
+    if expansion_threshold < 1:
+        expansion = True
+    else:
+        expansion = False
+
+    aux_document_annotations = []
+    for annotation in annotations:
+        if annotation.expanded_from == 0:
+            if annotation.weight >= threshold:
+                if weighting == "milne":
+                    aux_weighting = annotation.weight
+                elif weighting == "binary":
+                    aux_weighting = 1
+                aux_document_annotations.append((annotation.name,aux_weighting))
+                if expansion == True and annotation.weight >= expansion_threshold:
+                    for annotation_expanded in annotations:
+                        if annotation_expanded.expanded == True and annotation_expanded.expanded_from == annotation.old_id and annotation_expanded.relatedness >= expansion_relatedness:
+                            aux_document_annotations.append((annotation_expanded.name,expanded_weighting))
+    return aux_document_annotations
+
+
 def annotations_to_words (annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting):
     """
     Returns the annotations of a document and its weight.
@@ -416,8 +449,10 @@ def get_documents_from_cross_language_database_boc(corpus_training, corpus_test,
         random.shuffle(documents_train)
     else:
         print "Obtaining training documents from a part of corpus  " + corpus_training
-        for document in Session.query(Document).filter(Document.cgisplit == "train"):#.filter(Document.id < 100):
-            documents_train.append((document.id, document.original_category, get_document_annotations(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting)))                                
+        for document in Session.query(Document).filter(Document.cgisplit == "train"):
+            #documents_train.append((document.id, document.original_category, get_document_annotations(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting)))
+            documents_train.append((document.id, document.original_category, get_document_annotations(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting)))
+
         random.seed("www.itec-sde.net")
         random.shuffle(documents_train)
         documents_train = documents_train[0:num_documents_for_training]
@@ -435,13 +470,13 @@ def get_documents_from_cross_language_database_boc(corpus_training, corpus_test,
         random.shuffle(documents_test)
     else:
         print "Obtaining test documents from a part of corpus " + corpus_test
-        for document in Session.query(Document).filter(Document.cgisplit == "test").filter(Document.id < 100):
-            if weighting == "milne":                                                      
+        for document in Session.query(Document).filter(Document.cgisplit == "test"):
+            if weighting == "milne":
                 documents_test.append((document.id, document.original_category, [(annotation.name,annotation.weight) for annotation in document.annotations if annotation.weight >= threshold]))
             elif weighting == "binary":
                 documents_test.append((document.id, document.original_category, [(annotation.name,1) for annotation in document.annotations if annotation.weight >= threshold]))
         random.seed("www.itec-sde.net")
-        random.shuffle(documents_test)   
+        random.shuffle(documents_test)
         documents_test = documents_test[0:num_documents_for_test]
         #print documents_test[0]
                    
@@ -476,6 +511,50 @@ def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,
     documents_training = []
     documents_test = []
 
+    stop_words = frozenset([
+    "a", "about", "above", "across", "after", "afterwards", "again", "against",
+    "all", "almost", "alone", "along", "already", "also", "although", "always",
+    "am", "among", "amongst", "amoungst", "amount", "an", "and", "another",
+    "any", "anyhow", "anyone", "anything", "anyway", "anywhere", "are",
+    "around", "as", "at", "back", "be", "became", "because", "become",
+    "becomes", "becoming", "been", "before", "beforehand", "behind", "being",
+    "below", "beside", "besides", "between", "beyond", "bill", "both",
+    "bottom", "but", "by", "call", "can", "cannot", "cant", "co", "con",
+    "could", "couldnt", "cry", "de", "describe", "detail", "do", "done",
+    "down", "due", "during", "each", "eg", "eight", "either", "eleven", "else",
+    "elsewhere", "empty", "enough", "etc", "even", "ever", "every", "everyone",
+    "everything", "everywhere", "except", "few", "fifteen", "fifty", "fill",
+    "find", "fire", "first", "five", "for", "former", "formerly", "forty",
+    "found", "four", "from", "front", "full", "further", "get", "give", "go",
+    "had", "has", "hasnt", "have", "he", "hence", "her", "here", "hereafter",
+    "hereby", "herein", "hereupon", "hers", "herself", "him", "himself", "his",
+    "how", "however", "hundred", "i", "ie", "if", "in", "inc", "indeed",
+    "interest", "into", "is", "it", "its", "itself", "keep", "last", "latter",
+    "latterly", "least", "less", "ltd", "made", "many", "may", "me",
+    "meanwhile", "might", "mill", "mine", "more", "moreover", "most", "mostly",
+    "move", "much", "must", "my", "myself", "name", "namely", "neither",
+    "never", "nevertheless", "next", "nine", "no", "nobody", "none", "noone",
+    "nor", "not", "nothing", "now", "nowhere", "of", "off", "often", "on",
+    "once", "one", "only", "onto", "or", "other", "others", "otherwise", "our",
+    "ours", "ourselves", "out", "over", "own", "part", "per", "perhaps",
+    "please", "put", "rather", "re", "same", "see", "seem", "seemed",
+    "seeming", "seems", "serious", "several", "she", "should", "show", "side",
+    "since", "sincere", "six", "sixty", "so", "some", "somehow", "someone",
+    "something", "sometime", "sometimes", "somewhere", "still", "such",
+    "system", "take", "ten", "than", "that", "the", "their", "them",
+    "themselves", "then", "thence", "there", "thereafter", "thereby",
+    "therefore", "therein", "thereupon", "these", "they", "thick", "thin",
+    "third", "this", "those", "though", "three", "through", "throughout",
+    "thru", "thus", "to", "together", "too", "top", "toward", "towards",
+    "twelve", "twenty", "two", "un", "under", "until", "up", "upon", "us",
+    "very", "via", "was", "we", "well", "were", "what", "whatever", "when",
+    "whence", "whenever", "where", "whereafter", "whereas", "whereby",
+    "wherein", "whereupon", "wherever", "whether", "which", "while", "whither",
+    "who", "whoever", "whole", "whom", "whose", "why", "will", "with",
+    "within", "without", "would", "yet", "you", "your", "yours", "yourself",
+    "yourselves"])
+
+
     # Training
     set_database_session(corpus_training)   
     if num_documents_for_training == 0:
@@ -486,11 +565,20 @@ def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,
         random.shuffle(documents_training)
     else:
         print "Obtaining training documents from a part of the corpus " + corpus_training
-        for document in Session.query(Document).filter(Document.cgisplit == "train"):                    
+        for document in Session.query(Document).filter(Document.cgisplit == "train"):
+            list_1 = []
             if hybrid == "yes":
-                documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] + annotations_to_words(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
+                #documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] + annotations_to_words(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
+                for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1")):
+                    if word_stem.lower() not in stop_words:
+                        list_1.append(stemmer.stem(word_stem).lower())
+                documents_training.append((document.id, document.original_category, list_1 + annotations_to_words(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
             elif hybrid == "no":
-                documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
+                #documents_training.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
+                for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1")):
+                    if word_stem.lower() not in stop_words:
+                        list_1.append(stemmer.stem(word_stem).lower())
+                documents_training.append((document.id, document.original_category, list_1))
         random.seed("www.itec-sde.net")
         random.shuffle(documents_training)
         documents_training = documents_training[0:num_documents_for_training]
@@ -506,10 +594,19 @@ def get_documents_from_cross_language_database_bow(corpus_training, corpus_test,
     else:
         print "Obtaining test documents from a part of the corpus " + corpus_test
         for document in Session.query(Document).filter(Document.cgisplit == "test"):
+            list_1 = []
             if hybrid == "yes":
-                documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] + annotations_to_words(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
+                #documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))] + annotations_to_words(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting) ))
+                for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1")):
+                    if word_stem.lower() not in stop_words:
+                        list_1.append(stemmer.stem(word_stem).lower())
+                documents_test.append((document.id, document.original_category, list_1 + annotations_to_words(document.annotations, weighting, threshold, expansion_threshold, expansion_relatedness, expanded_weighting)))
             elif hybrid == "no":
-                documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
+                #documents_test.append((document.id, document.original_category, [stemmer.stem(word_stem) for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1"))]))
+                for word_stem in tokenizer.tokenize(document.description.decode(encoding="ISO-8859-1")):
+                    if word_stem.lower() not in stop_words:
+                        list_1.append(stemmer.stem(word_stem).lower())
+                documents_test.append((document.id, document.original_category, list_1))
         random.seed("www.itec-sde.net")
         random.shuffle(documents_test)   
         documents_test = documents_test[0:num_documents_for_test]
@@ -834,7 +931,6 @@ def get_unique_words_boc(documents):
                         # le pongo uno para ver si asi influye el boc
                         #words_features[word] = 1
                         words_features[word] = annotation_weight
-
     return words_features
 
 def get_unique_words_bow(documents):

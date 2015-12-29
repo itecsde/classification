@@ -1,0 +1,117 @@
+ 1) Uniform                        0.006100 
+ 2) Data                           0.005800 
+ 3) European Communities           0.005800 
+ 4) Flour                          0.005700 
+ 5) Switzerland                    0.005600 
+ 6) Ship transport                 0.005400 
+ 7) Market (place)                 0.005400 
+ 8) Liechtenstein                  0.005400 
+ 9) Forest                         0.005300 
+10) Tax                            0.005300 
+11) Cereal                         0.005200 
+12) Action film                    0.005200 
+13) Freight forwarder              0.005200 
+14) Product (business)             0.005200 
+15) Test (assessment)              0.005100 
+16) Customs                        0.005000 
+17) Export                         0.005000 
+18) Ecosystem                      0.005000 
+19) Meteorology                    0.004900 
+20) Marketing                      0.004900 
+21) Riot                           0.004900 
+22) Act of Parliament              0.004900 
+23) Cheque                         0.004900 
+24) Transport                      0.004800 
+25) Political party                0.004800 
+26) Computer network               0.004800 
+27) Asset forfeiture               0.004800 
+28) Jurisdiction                   0.004700 
+29) Information                    0.004700 
+30) Meal                           0.004700 
+31) World economy                  0.004700 
+32) Implementation                 0.004700 
+33) Causality                      0.004700 
+34) Manufacturing                  0.004700 
+35) Site of Special Scientific Interest 0.004600 
+36) Procurement                    0.004600 
+37) Analysis                       0.004600 
+38) Application software           0.004600 
+39) Sweden                         0.004500 
+40) Direct effect                  0.004500 
+41) Austria                        0.004500 
+42) Measurement                    0.004500 
+43) Country music                  0.004500 
+44) Surveillance                   0.004500 
+45) Obligation                     0.004500 
+46) Data transmission              0.004500 
+47) United Nations Framework Convention on Climate Change 0.004500 
+48) Sea                            0.004500 
+49) Atmosphere                     0.004400 
+50) Elizabeth II                   0.004400 
+51) Inventory                      0.004400 
+52) Tax refund                     0.004400 
+53) Observation                    0.004400 
+54) Pollution                      0.004400 
+55) Soil                           0.004400 
+56) Egalitarianism                 0.004400 
+57) Visa policy of the Schengen Area 0.004400 
+58) Repeal                         0.004400 
+59) Treaty of Rome                 0.004400 
+60) Bearing (mechanical)           0.004300 
+61) Cover version                  0.004300 
+62) Shilling                       0.004300 
+63) Air pollution                  0.004300 
+64) Contract                       0.004300 
+65) Listed building                0.004300 
+66) Forest ecology                 0.004300 
+67) Management                     0.004200 
+68) Security                       0.004200 
+69) Deposition (geology)           0.004200 
+70) Call for bids                  0.004200 
+71) By-product                     0.004200 
+72) The Crown                      0.004100 
+73) Business administration        0.004100 
+74) Therapy                        0.004100 
+75) Mind                           0.004100 
+76) Light                          0.004100 
+77) British Overseas Territories   0.004100 
+78) Regulation (European Union)    0.004100 
+79) Market (economics)             0.004100 
+80) Standardization                0.004000 
+81) Certification                  0.004000 
+82) 1992 Summer Olympics           0.004000 
+83) Fraxinus                       0.004000 
+84) Fly ash                        0.004000 
+85) Short film                     0.003900 
+86) Order (biology)                0.003900 
+87) European Economic Community    0.003900 
+88) Organization                   0.003900 
+89) Coming into force              0.003900 
+90) Malt                           0.003900 
+91) Official Journal of the European Union 0.003900 
+92) Forestry                       0.003800 
+93) Member state of the European Union 0.003800 
+94) Force                          0.003800 
+95) Capital punishment             0.003700 
+96) Methodology                    0.003700 
+97) Product differentiation        0.003700 
+98) Ship                           0.003600 
+99) Leaf                           0.003500 
+100) Parameter                      0.003500 
+101) Economy                        0.003500 
+102) Tariff                         0.003500 
+103) European Convention on Human Rights 0.003400 
+104) License                        0.003300 
+105) Customs territory              0.003300 
+106) Sovereign state                0.003200 
+107) Agriculture                    0.003100 
+108) Decision-making                0.003000 
+109) Member of parliament           0.002900 
+110) Finland                        0.002900 
+111) Port                           0.002500 
+112) Annexation                     0.002200 
+113) Hungarian Academy of Sciences  0.000000 
+114) Regulation                     0.000000 
+115) Old French                     0.000000 
+116) Community                      0.000000 
+117) Ethnic groups in Europe        0.000000 

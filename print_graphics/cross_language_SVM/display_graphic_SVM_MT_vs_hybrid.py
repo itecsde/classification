@@ -36,7 +36,6 @@ bow = sorted(bow.iteritems(), key=operator.itemgetter(0))
 cl = sorted(cl.iteritems(), key=operator.itemgetter(0))
 hybrid = sorted(hybrid.iteritems(), key=operator.itemgetter(0))
 
-
 print bow
 print cl
 print hybrid
